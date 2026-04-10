@@ -1,0 +1,143 @@
+{
+  "company_name": "Ashapur Gold Ornament Limited",
+  "documents_scanned": "3",
+  "time_range": "Q1 FY26 to Q3 FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Years of Presence", "unit": "Years", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "States Present In", "unit": "states", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Employees & Artisans", "unit": "Employees & Artisans", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Corporate Clients", "unit": "Clients", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Retail Outlets Present In", "unit": "Retail Outlets", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Designs", "unit": "Designs", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Manufacturing Facility Size", "unit": "Sq Ft", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Total Capacity", "unit": "Kgs", "metric_type": "periodic", "periods_available": ["FY25", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Capacity Utilization", "unit": "%", "metric_type": "periodic", "periods_available": ["FY25", "Q3 FY26"]},
+        {"metric": "Combined Promoters Experience", "unit": "Years", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Jewellery Awards", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Years of Presence",
+          "unit": "Years",
+          "metric_type": "static_descriptor",
+          "value": "28+",
+          "ref": "28+ Years of Presence",
+          "src": "Feb-2026_68ad56d2-5310-4537-ab01-793d9caa6909_IP.pdf",
+          "pg": "7",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "States Present In",
+          "unit": "states",
+          "metric_type": "static_descriptor",
+          "value": "11+",
+          "ref": "11+ Presence in states",
+          "src": "Feb-2026_68ad56d2-5310-4537-ab01-793d9caa6909_IP.pdf",
+          "pg": "7",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Employees & Artisans",
+          "unit": "Employees & Artisans",
+          "metric_type": "static_descriptor",
+          "value": "300+",
+          "ref": "300+ Employees & Artisans",
+          "src": "Feb-2026_68ad56d2-5310-4537-ab01-793d9caa6909_IP.pdf",
+          "pg": "7",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Corporate Clients",
+          "unit": "Clients",
+          "metric_type": "static_descriptor",
+          "value": "30+",
+          "ref": "30+ Corporate Clients",
+          "src": "Nov-2025_f7a799ac-4e9d-4b50-9eee-67e1dda6907b_IP.pdf",
+          "pg": "7",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Retail Outlets Present In",
+          "unit": "Retail Outlets",
+          "metric_type": "static_descriptor",
+          "value": "2300+",
+          "ref": "2300+ Present In Retail Outlets",
+          "src": "Nov-2025_f7a799ac-4e9d-4b50-9eee-67e1dda6907b_IP.pdf",
+          "pg": "7",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Designs",
+          "unit": "Designs",
+          "metric_type": "static_descriptor",
+          "value": "18,000+",
+          "ref": "18,000+ Designs",
+          "src": "Aug-2025_d20be96a-915a-46ba-ac41-a1e9329df14c_IP.pdf",
+          "pg": "7",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Manufacturing Facility Size",
+          "unit": "Sq Ft",
+          "metric_type": "static_descriptor",
+          "value": "14,000+",
+          "ref": "14,000+ Sq Ft Manufacturing facility",
+          "src": "Aug-2025_d20be96a-915a-46ba-ac41-a1e9329df14c_IP.pdf",
+          "pg": "7",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Total Capacity",
+          "unit": "Kgs",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "500", "ref": "500 Kgs Total Capacity", "src": "Aug-2025_d20be96a-915a-46ba-ac41-a1e9329df14c_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "Q2 FY26": {"v": "500", "ref": "500 Kgs Total Capacity", "src": "Nov-2025_f7a799ac-4e9d-4b50-9eee-67e1dda6907b_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "Q3 FY26": {"v": "750", "ref": "750 Kgs Total Capacity", "src": "Feb-2026_68ad56d2-5310-4537-ab01-793d9caa6909_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Capacity Utilization",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "93", "ref": "93% Capacity Utilization", "src": "Aug-2025_d20be96a-915a-46ba-ac41-a1e9329df14c_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "Q3 FY26": {"v": "52", "ref": "52% Capacity Utilization", "src": "Feb-2026_68ad56d2-5310-4537-ab01-793d9caa6909_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Combined Promoters Experience",
+          "unit": "Years",
+          "metric_type": "static_descriptor",
+          "value": "70+",
+          "ref": "Total Combined Promoters Experience is More than 70 years",
+          "src": "Feb-2026_68ad56d2-5310-4537-ab01-793d9caa6909_IP.pdf",
+          "pg": "36",
+          "conf": "HIGH"
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Jewellery Awards",
+      "unit": "count",
+      "metric_type": "static_descriptor",
+      "value": "present",
+      "ref": "JEWELLERY AWARDS",
+      "src": "Aug-2025_d20be96a-915a-46ba-ac41-a1e9329df14c_IP.pdf",
+      "pg": "15",
+      "conf": "HIGH"
+    }
+  ]
+}

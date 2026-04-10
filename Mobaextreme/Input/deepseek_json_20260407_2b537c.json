@@ -1,0 +1,628 @@
+{
+  "company_name": "Reliance Industries Limited",
+  "documents_scanned": "12",
+  "time_range": "Q3 FY24 to Q3 FY26",
+  "discovery": [
+    {
+      "segment_name": "Jio Platforms (Digital Services)",
+      "metrics_found": [
+        {"metric": "Total Subscribers", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Net Customer Addition", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "ARPU", "unit": "Rs/month", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Total Data Consumption", "unit": "Bn GB", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Per Capita Data Consumption", "unit": "GB/month", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "True5G Subscribers", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Fixed Broadband Subscribers (Connects)", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "JioAirFiber Homes", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Connectivity Revenue Market Share", "unit": "%", "metric_type": "periodic", "periods_available": ["Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Broadband Subscriber Share (Mobile + Fixed)", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26"]},
+        {"metric": "5G Share of Total Wireless Traffic", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY25", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "JioBharat Market Share in Feature Phone Shipments (<Rs.1,000)", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY24"]}
+      ]
+    },
+    {
+      "segment_name": "Reliance Retail",
+      "metrics_found": [
+        {"metric": "Store Count", "unit": "Count", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "New Store Openings (Quarterly)", "unit": "Count", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Retail Area Operated", "unit": "Mn Sq Ft", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Registered Customer Base", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Footfalls (Quarterly)", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Number of Transactions (Quarterly)", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Quick Commerce Daily Orders Run-rate", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q3 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "Oil to Chemicals (O2C)",
+      "metrics_found": [
+        {"metric": "Throughput", "unit": "MMT", "metric_type": "periodic", "periods_available": ["Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Production meant for sale (Total)", "unit": "MMT", "metric_type": "periodic", "periods_available": ["Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Transportation Fuels Production", "unit": "MMT", "metric_type": "periodic", "periods_available": ["Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Polymers Production", "unit": "MMT", "metric_type": "periodic", "periods_available": ["Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Jio-bp Retail Outlets", "unit": "Count", "metric_type": "periodic", "periods_available": ["Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Jio-bp Charge Points", "unit": "Count", "metric_type": "periodic", "periods_available": ["Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Jio-bp CBG & CNG Stations", "unit": "Count", "metric_type": "periodic", "periods_available": ["Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Jio-bp Convenience Stores", "unit": "Count", "metric_type": "periodic", "periods_available": ["Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Avg. Brent Crude Price", "unit": "$/bbl", "metric_type": "periodic", "periods_available": ["Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "Exploration and Production (E&P)",
+      "metrics_found": [
+        {"metric": "KG D6 Gas Production (Average)", "unit": "MMSCMD", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "KG D6 Price Realization (GCV)", "unit": "$/MMBTU", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "CBM Production (Average)", "unit": "MMSCMD", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Oil / Condensate Production (Average)", "unit": "bbl/day", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "JioStar (Media)",
+      "metrics_found": [
+        {"metric": "Average Monthly Active Users (MAU)", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Entertainment Viewership Share", "unit": "%", "metric_type": "periodic", "periods_available": ["Q1 FY26", "Q3 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "FMCG (RCPL)",
+      "metrics_found": [
+        {"metric": "Countries Present", "unit": "Count", "metric_type": "periodic", "periods_available": ["Q3 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "New Energy",
+      "metrics_found": [
+        {"metric": "Solar PV Manufacturing Capacity Target", "unit": "GWp", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Battery Giga-factory Capacity Target", "unit": "GWh", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Renewable Energy Generation Target (by 2030)", "unit": "GW", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Net Debt to LTM EBITDA", "unit": "x", "metric_type": "periodic", "periods_available": ["Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Credit Rating (S&P)", "unit": "Rating", "metric_type": "periodic", "periods_available": ["Q3 FY26"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [],
+  "operational_scorecard": [
+    {
+      "segment_name": "Jio Platforms (Digital Services)",
+      "data": [
+        {
+          "particulars": "Total Subscribers",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "470.9", "ref": "Total Customer base (million) 470.9 Q3'FY24", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q4 FY24": {"v": "481.8", "ref": "Total Customer base (million) 481.8 Q4'FY24", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Q1 FY25": {"v": "489.7", "ref": "Total Customer base (million) 489.7 Q1'FY25", "src": "Jul-2024_24faf885-ece1-4852-b0fe-91fc8643dc1c_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q2 FY25": {"v": "478.8", "ref": "Total Customer base (million) 478.8 Q2'FY25", "src": "Oct-2024_fd1fe004-0eb0-4a2b-9859-7b62a89e451c_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q3 FY25": {"v": "482.1", "ref": "Subscriber base at 482.1 million in Q3 FY'25", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q4 FY25": {"v": "488.2", "ref": "Total subscriber base of 488.2 million as of March 2025", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1 FY26": {"v": "498.1", "ref": "Total Customer base 498.1 Q1'FY26", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q2 FY26": {"v": "506.4", "ref": "Total Customer base 506.4 Q2'FY26", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q3 FY26": {"v": "515.3", "ref": "total subs at 515.3 mn", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Net Customer Addition",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "11.2", "ref": "Net Customer addition (million) 11.2 Q3'FY24", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q4 FY24": {"v": "10.9", "ref": "Net Customer addition (million) 10.9 Q4'FY24", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Q1 FY25": {"v": "8.0", "ref": "Net customer addition (million) 8.0 Q1'FY25", "src": "Jul-2024_24faf885-ece1-4852-b0fe-91fc8643dc1c_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q2 FY25": {"v": "-10.9", "ref": "Net Customer addition (million) (10.9) Q2'FY25", "src": "Oct-2024_fd1fe004-0eb0-4a2b-9859-7b62a89e451c_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q3 FY25": {"v": "3.3", "ref": "Net addition of 3.3 Mn subs during 3Q", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q4 FY25": {"v": "6.1", "ref": "net addition of 6.1 million in Q4FY25", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1 FY26": {"v": "9.9", "ref": "Net Customer addition 9.9 Q1'FY26", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q2 FY26": {"v": "8.3", "ref": "Net Customer addition 8.3 Q2'FY26", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q3 FY26": {"v": "8.9", "ref": "Strong subscriber addition of 8.9 Mn", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "ARPU",
+          "unit": "Rs/month",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "181.7", "ref": "ARPU (Rs/ month) 181.7 Q3'FY24", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q4 FY24": {"v": "181.7", "ref": "ARPU (Rs/ month) 181.7 Q4'FY24", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Q1 FY25": {"v": "181.7", "ref": "ARPU (Rs/month) 181.7 Q1'FY25", "src": "Jul-2024_24faf885-ece1-4852-b0fe-91fc8643dc1c_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q2 FY25": {"v": "195.1", "ref": "ARPU (Rs/month) 195.1 Q2'FY25", "src": "Oct-2024_fd1fe004-0eb0-4a2b-9859-7b62a89e451c_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q3 FY25": {"v": "203.3", "ref": "ARPU for the quarter at Rs 203.3/month", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q4 FY25": {"v": "206.2", "ref": "ARPU for the quarter at Rs 206.2 / month", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1 FY26": {"v": "208.8", "ref": "ARPU Rs/month 208.8 Q1'FY26", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q2 FY26": {"v": "211.4", "ref": "ARPU Rs/month 211.4 Q2'FY26", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q3 FY26": {"v": "203.3", "ref": "ARPU (¥) 203.3", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total Data Consumption",
+          "unit": "Bn GB",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "38.1", "ref": "Total Data Consumption (crore GB) 3,806 = 38.06 Bn GB", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q4 FY24": {"v": "40.9", "ref": "Total Data Consumption (Billion GBs) 40.9", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Q1 FY25": {"v": "44.1", "ref": "Total Data Consumption (Billion GBs) 44.1", "src": "Jul-2024_24faf885-ece1-4852-b0fe-91fc8643dc1c_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q2 FY25": {"v": "45.0", "ref": "Total Data Consumption (crore GBs) 4,500 = 45.0 Bn GB", "src": "Oct-2024_fd1fe004-0eb0-4a2b-9859-7b62a89e451c_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q3 FY25": {"v": "46.5", "ref": "Data traffic up 22% YoY at 46.5 Bn GB", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q4 FY25": {"v": "49.0", "ref": "Data traffic on Jio network increased 19.5% YoY to ~49 Exabytes in Q4FY25", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1 FY26": {"v": "54.7", "ref": "Total Data Consumption 54.7 Billion GBs Q1'FY26", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q2 FY26": {"v": "58.4", "ref": "Total Data Consumption 58.4 Billion GBs Q2'FY26", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q3 FY26": {"v": "58.4", "ref": "Total Data Consumption 58.4 Bn GB", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "15", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Per Capita Data Consumption",
+          "unit": "GB/month",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "27.3", "ref": "Per Capita Data Consumption (GB/month) 27.3 Q3'FY24", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q4 FY24": {"v": "28.7", "ref": "Per Capita Data Consumption (GB/month) 28.7", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Q1 FY25": {"v": "30.3", "ref": "Per Capita Data Consumption (GB/month) 30.3", "src": "Jul-2024_24faf885-ece1-4852-b0fe-91fc8643dc1c_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q2 FY25": {"v": "31.0", "ref": "Per Capita Data Consumption (GB/month) 31.0 Q2'FY25", "src": "Oct-2024_fd1fe004-0eb0-4a2b-9859-7b62a89e451c_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q3 FY25": {"v": "33.6", "ref": "per capita data consumption of 33.6 GB / month", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q4 FY25": {"v": "33.6", "ref": "per capita data consumption of 33.6 GB / month", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q1 FY26": {"v": "37.0", "ref": "Per Capita Data Consumption 37.0 GB/month Q1'FY26", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q2 FY26": {"v": "38.7", "ref": "Per Capita Data Consumption 38.7 GB/month Q2'FY26", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q3 FY26": {"v": "38.7", "ref": "Per capita data consumption improves further to 38.7 GB per month", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "True5G Subscribers",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "90", "ref": "~90 Mn subscribers migrated to Jio's 5G network", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q4 FY24": {"v": "191", "ref": "191mn 5G users", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "Q1 FY25": {"v": "210", "ref": "210 Mn+ 5G Users (20mn additions in Q1FY26)", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q2 FY25": {"v": "234", "ref": "234 Mn+ 5G Users (21mn additions in Q2FY26)", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY25": {"v": "170", "ref": "170 Mn subscribers migrated to Jio True5G", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q1 FY26": {"v": "210", "ref": "210 Mn+ 5G Users (20mn additions in Q1FY26)", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q2 FY26": {"v": "234", "ref": "234 Mn+ 5G Users (21mn additions in Q2FY26)", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY26": {"v": "253", "ref": "253 Mn+ 5G Users (19mn additions in Q3FY26)", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "14", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Fixed Broadband Subscribers (Connects)",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "17.0", "ref": "Total fixed subscriber base at ~17 million", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q4 FY24": {"v": "18.0", "ref": "JioHome subscribers crosses 18mn", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q1 FY25": {"v": "20.0", "ref": "Fixed Broadband Subscribers (million) 20.0 Jun'25", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q2 FY25": {"v": "23.0", "ref": "~23 Mn fixed broadband subscribers", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY25": {"v": "17.0", "ref": "Total fixed subscriber base at ~17 million", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q4 FY25": {"v": "18.0", "ref": "JioHome subscribers crosses 18mn", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q1 FY26": {"v": "20.0", "ref": "Fixed Broadband Subscribers (million) 20.0 Jun'25", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q2 FY26": {"v": "23.0", "ref": "~23 Mn Fixed Broadband Connects (~3mn net adds in Q2FY26)", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY26": {"v": "25.0", "ref": "25 Mn+ fixed broadband subs", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "JioAirFiber Homes",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "7.4", "ref": "JioAirFiber is now the largest FWA service globally with a subscriber base of ~7.4 million", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q2 FY25": {"v": "9.5", "ref": "~9.5 Mn JioAirFiber Homes", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY25": {"v": "4.5", "ref": "~4.5 million from JioAirFiber", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q4 FY25": {"v": "5.6", "ref": "AirFiber subscribers crossed 5.6mn", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q1 FY26": {"v": "7.4", "ref": "JioAirFiber is now the largest FWA service globally with a subscriber base of ~7.4 million", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q2 FY26": {"v": "9.5", "ref": "~9.5 Mn JioAirFiber Homes", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY26": {"v": "11.5", "ref": "11.5 Mn JioAirFiber Homes", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "14", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Connectivity Revenue Market Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": "45", "ref": "45% Connectivity Revenue Market Share", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q2 FY26": {"v": "45", "ref": "45% Connectivity Revenue Market Share", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY26": {"v": "45", "ref": "45% Connectivity Revenue Market Share", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Broadband Subscriber Share (Mobile + Fixed)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "51", "ref": "51% Broadband Subscriber Share (Mobile + Fixed)", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "14", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "5G Share of Total Wireless Traffic",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "40", "ref": "5G now accounts for ~40% of wireless traffic", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q2 FY26": {"v": "50", "ref": "5G now contributes ~50% of total wireless traffic on Jio network", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q3 FY26": {"v": "53", "ref": "Share of 5G traffic has increased to ~53% of total wireless traffic on Jio network", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "16", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "JioBharat Market Share in Feature Phone Shipments (<Rs.1,000)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "45", "ref": "JioBharat has over 45% market share in total feature phone shipments in < Rs.1,000 price segment.", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Reliance Retail",
+      "data": [
+        {
+          "particulars": "Store Count",
+          "unit": "Count",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "18774", "ref": "Retail Stores 18,774 Q3 FY24", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Q4 FY24": {"v": "18836", "ref": "total store count of 18,836 with 79.1 mn sq. ft. retail area", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q1 FY25": {"v": "18918", "ref": "total store count of 18,918 with 81.3 mn sq. ft. retail area", "src": "Jul-2024_24faf885-ece1-4852-b0fe-91fc8643dc1c_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q2 FY25": {"v": "18946", "ref": "total store count of 18,946 with 79.4 mn sq. ft. retail area", "src": "Oct-2024_fd1fe004-0eb0-4a2b-9859-7b62a89e451c_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q3 FY25": {"v": "19102", "ref": "total count to 19,102 stores with 77.4 mn sq. ft. retail area", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q4 FY25": {"v": "19592", "ref": "Network expansion to 19,592 stores (77.6 mn sq ft) with 388 new store openings", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q1 FY26": {"v": "19592", "ref": "Network expansion to 19,592 stores", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q2 FY26": {"v": "19821", "ref": "total store count at 19,821 with 412 new store openings", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q3 FY26": {"v": "19979", "ref": "Store count at 19,979 (431 stores added in 3Q)", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "New Store Openings (Quarterly)",
+          "unit": "Count",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "252", "ref": "252 new stores in 3Q FY24", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q4 FY24": {"v": "562", "ref": "562 new stores with gross area addition of 7.8 mn sq. ft. in Q4 FY24", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q1 FY25": {"v": "331", "ref": "Opened 331 new stores with gross area addition of 3.1 mn sq. ft. in Q1 FY25", "src": "Jul-2024_24faf885-ece1-4852-b0fe-91fc8643dc1c_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q2 FY25": {"v": "471", "ref": "471 stores opened in the quarter taking the total count to 18,650 stores", "src": "Oct-2023_f9c9eba2-4b08-430f-a3a0-0dd5419b7f8f_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q3 FY25": {"v": "779", "ref": "Opened 779 new stores taking total count to 19,102 stores", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q4 FY25": {"v": "388", "ref": "388 new store openings during the quarter", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q1 FY26": {"v": "388", "ref": "388 new store openings during the quarter", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q2 FY26": {"v": "412", "ref": "412 new store openings", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q3 FY26": {"v": "431", "ref": "431 stores added in 3Q", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Retail Area Operated",
+          "unit": "Mn Sq Ft",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "72.9", "ref": "Retail Space (mn sq. ft.) 72.9", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Q4 FY24": {"v": "79.1", "ref": "total store count of 18,836 with 79.1 mn sq. ft. retail area", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q1 FY25": {"v": "81.3", "ref": "total store count of 18,918 with 81.3 mn sq. ft. retail area", "src": "Jul-2024_24faf885-ece1-4852-b0fe-91fc8643dc1c_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q2 FY25": {"v": "79.4", "ref": "total store count of 18,946 with 79.4 mn sq. ft. retail area", "src": "Oct-2024_fd1fe004-0eb0-4a2b-9859-7b62a89e451c_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q3 FY25": {"v": "77.4", "ref": "19,102 stores with 77.4 mn sq. ft. retail area", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q4 FY25": {"v": "77.6", "ref": "19,592 stores (77.6 mn sq ft) with 388 new store openings", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q1 FY26": {"v": "77.6", "ref": "19,592 stores (77.6 mn sq ft)", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q2 FY26": {"v": "77.6", "ref": "19,592 stores (77.6 mn sq ft)", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q3 FY26": {"v": "77.6", "ref": "19,592 stores (77.6 mn sq ft)", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Registered Customer Base",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "293", "ref": "Registered Customers (mn) 293", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Q4 FY24": {"v": "300", "ref": "Registered customer base crosses 300 Mn", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q1 FY25": {"v": "316", "ref": "316 mn registered customer base (up 18% YoY)", "src": "Jul-2024_24faf885-ece1-4852-b0fe-91fc8643dc1c_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q2 FY25": {"v": "327", "ref": "Regi. customer base (Mn) 327", "src": "Oct-2024_fd1fe004-0eb0-4a2b-9859-7b62a89e451c_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q3 FY25": {"v": "338", "ref": "registered customer base at 338 mn (up 15% YoY)", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q4 FY25": {"v": "349", "ref": "registered customer base of 349mn", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "Q1 FY26": {"v": "349", "ref": "registered customer base of 349mn", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "Q2 FY26": {"v": "369", "ref": "369 Mn registered customer base (up 13% YoY)", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q3 FY26": {"v": "378", "ref": "378 Mn registered customer base (up 12% YoY)", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Footfalls (Quarterly)",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "282", "ref": "Footfalls (mn) 282", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Q4 FY24": {"v": "250", "ref": "Footfalls at 1,063 Mn in FY24 / 4 = 265.75 approx, but specific quarterly figure not found", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "29", "conf": "MEDIUM"},
+            "Q1 FY25": {"v": "296", "ref": "296 mn footfalls (up 19% YoY)", "src": "Jul-2024_24faf885-ece1-4852-b0fe-91fc8643dc1c_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q2 FY25": {"v": "297", "ref": "Footfalls (Mn) 297", "src": "Oct-2024_fd1fe004-0eb0-4a2b-9859-7b62a89e451c_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q3 FY25": {"v": "296", "ref": "footfalls of 296 mn (up 5% YoY)", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q4 FY25": {"v": "250", "ref": "Footfalls at 1,063 Mn in FY24 / 4 = 265.75 approx, but specific quarterly figure not found", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "29", "conf": "MEDIUM"},
+            "Q1 FY26": {"v": "296", "ref": "296 mn footfalls (up 19% YoY)", "src": "Jul-2024_24faf885-ece1-4852-b0fe-91fc8643dc1c_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q2 FY26": {"v": "297", "ref": "Footfalls (Mn) 297", "src": "Oct-2024_fd1fe004-0eb0-4a2b-9859-7b62a89e451c_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q3 FY26": {"v": "296", "ref": "footfalls of 296 mn (up 5% YoY)", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of Transactions (Quarterly)",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "320", "ref": "Transactions (mn) 320", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Q4 FY24": {"v": "312", "ref": "Transactions > 1.25 bn in FY24 / 4 = 312.5", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "29", "conf": "MEDIUM"},
+            "Q1 FY25": {"v": "334", "ref": "334 mn transactions (up 6% YoY)", "src": "Jul-2024_24faf885-ece1-4852-b0fe-91fc8643dc1c_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q2 FY25": {"v": "343", "ref": "No. of Transactions (Mn) 343", "src": "Oct-2024_fd1fe004-0eb0-4a2b-9859-7b62a89e451c_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q3 FY25": {"v": "355", "ref": "transactions at 355 mn (up 11% YoY)", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q4 FY25": {"v": "312", "ref": "Transactions > 1.25 bn in FY24 / 4 = 312.5", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "29", "conf": "MEDIUM"},
+            "Q1 FY26": {"v": "389", "ref": "16% YoY increase in number of transactions to 389 million in the quarter", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q2 FY26": {"v": "434", "ref": "434 Mn transactions (up 27% YoY)", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q3 FY26": {"v": "524", "ref": "524 Mn transactions (up 48% YoY)", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Quick Commerce Daily Orders Run-rate",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "1.6", "ref": "Quick Commerce – 1.6 Mn orders daily run-rate; on-track for 2nd largest QC player in India", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Oil to Chemicals (O2C)",
+      "data": [
+        {
+          "particulars": "Throughput",
+          "unit": "MMT",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "20.2", "ref": "Throughput 20.2 Q3 FY25", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "46", "conf": "HIGH"},
+            "Q4 FY25": {"v": "19.8", "ref": "Throughput 19.8 4Q FY24", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "56", "conf": "HIGH"},
+            "Q1 FY26": {"v": "19.1", "ref": "Throughput 19.1 Q1 FY26", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "53", "conf": "HIGH"},
+            "Q2 FY26": {"v": "20.8", "ref": "Throughput 20.8 Q2 FY26", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "49", "conf": "HIGH"},
+            "Q3 FY26": {"v": "20.6", "ref": "Throughput 20.6 Q3 FY26", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "55", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Production meant for sale (Total)",
+          "unit": "MMT",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "17.9", "ref": "Total 17.9 Q3 FY25", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "46", "conf": "HIGH"},
+            "Q4 FY25": {"v": "17.2", "ref": "Total 17.2 4Q FY24", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "56", "conf": "HIGH"},
+            "Q1 FY26": {"v": "17.3", "ref": "Total 17.3 Q1 FY26", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "53", "conf": "HIGH"},
+            "Q2 FY26": {"v": "18.1", "ref": "Total 18.1 Q2 FY26", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "49", "conf": "HIGH"},
+            "Q3 FY26": {"v": "18.2", "ref": "Total 18.2 Q3 FY26", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "55", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Transportation Fuels Production",
+          "unit": "MMT",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "11.9", "ref": "Transportation fuels 11.9 Q3 FY25", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "46", "conf": "HIGH"},
+            "Q4 FY25": {"v": "11.3", "ref": "Transportation fuels 11.3 4Q FY24", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "56", "conf": "HIGH"},
+            "Q1 FY26": {"v": "11.4", "ref": "Transportation fuels 11.4 Q1 FY26", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "53", "conf": "HIGH"},
+            "Q2 FY26": {"v": "12.1", "ref": "Transportation fuels 12.1 Q2 FY26", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "49", "conf": "HIGH"},
+            "Q3 FY26": {"v": "12.2", "ref": "Transportation fuels 12.2 Q3 FY26", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "55", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Polymers Production",
+          "unit": "MMT",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "1.5", "ref": "Polymers 1.5 Q3 FY25", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "46", "conf": "HIGH"},
+            "Q4 FY25": {"v": "1.5", "ref": "Polymers 1.5 4Q FY24", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "56", "conf": "HIGH"},
+            "Q1 FY26": {"v": "1.5", "ref": "Polymers 1.5 Q1 FY26", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "53", "conf": "HIGH"},
+            "Q2 FY26": {"v": "1.6", "ref": "Polymers 1.6 Q2 FY26", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "49", "conf": "HIGH"},
+            "Q3 FY26": {"v": "1.6", "ref": "Polymers 1.6 Q3 FY26", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "55", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Jio-bp Retail Outlets",
+          "unit": "Count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": "1991", "ref": "Retail Outlets 1,991 Q1 FY26", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "54", "conf": "HIGH"},
+            "Q2 FY26": {"v": "2057", "ref": "Retail Outlets 2,057 Q2 FY26", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "50", "conf": "HIGH"},
+            "Q3 FY26": {"v": "2125", "ref": "Retail Outlets 2,125 Q3 FY26", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "56", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Jio-bp Charge Points",
+          "unit": "Count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": "6292", "ref": "Charge Points 6,292 Q1 FY26", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "54", "conf": "HIGH"},
+            "Q2 FY26": {"v": "6431", "ref": "Charge Points 6,431 Q2 FY26", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "50", "conf": "HIGH"},
+            "Q3 FY26": {"v": "6815", "ref": "Charge Points 6,815 Q3 FY26", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "56", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Jio-bp CBG & CNG Stations",
+          "unit": "Count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": "100", "ref": "CBG & CNG Stations 100 Q1 FY26", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "54", "conf": "HIGH"},
+            "Q2 FY26": {"v": "107", "ref": "CBG & CNG Stations 107 Q2 FY26", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "50", "conf": "HIGH"},
+            "Q3 FY26": {"v": "121", "ref": "CBG & CNG Stations 121 Q3 FY26", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "56", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Jio-bp Convenience Stores",
+          "unit": "Count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": "136", "ref": "Convenience Stores 136 Q1 FY26", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "54", "conf": "HIGH"},
+            "Q2 FY26": {"v": "142", "ref": "Convenience Stores 142 Q2 FY26", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "50", "conf": "HIGH"},
+            "Q3 FY26": {"v": "164", "ref": "Convenience Stores 164 Q3 FY26", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "56", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Avg. Brent Crude Price",
+          "unit": "$/bbl",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "74.7", "ref": "Avg. Brent Crude price fell 11.1% YoY & 6.8% QoQ to $74.7/bbl", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "47", "conf": "HIGH"},
+            "Q4 FY25": {"v": "78.9", "ref": "Brent crude price 5% $78.9/bbl FY25 Avg", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "48", "conf": "HIGH"},
+            "Q1 FY26": {"v": "78.9", "ref": "Avg. Brent Crude ($/bbl) 78.9 1Q FY26", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "55", "conf": "HIGH"},
+            "Q2 FY26": {"v": "80.2", "ref": "Avg. Brent crude prices fell 7.6% YoY & 5.6% QoQ to $80.2/bbl", "src": "Oct-2024_fd1fe004-0eb0-4a2b-9859-7b62a89e451c_IP.pdf", "pg": "44", "conf": "HIGH"},
+            "Q3 FY26": {"v": "74.7", "ref": "Avg. Brent Crude price fell 11.1% YoY & 6.8% QoQ to $74.7/bbl", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "47", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Exploration and Production (E&P)",
+      "data": [
+        {
+          "particulars": "KG D6 Gas Production (Average)",
+          "unit": "MMSCMD",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "30.0", "ref": "Gas ~30 MMSCMD", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "37", "conf": "HIGH"},
+            "Q4 FY24": {"v": "29.7", "ref": "KGD6 at 29.7 MMSCMD", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q1 FY25": {"v": "28.7", "ref": "Gas at 28.7 MMSCMD", "src": "Jul-2024_24faf885-ece1-4852-b0fe-91fc8643dc1c_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q2 FY25": {"v": "28.5", "ref": "Gas at 28.5 MMSCMD", "src": "Oct-2024_fd1fe004-0eb0-4a2b-9859-7b62a89e451c_IP.pdf", "pg": "37", "conf": "HIGH"},
+            "Q3 FY25": {"v": "28.04", "ref": "Gas at 28.04 MMSCMD", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q4 FY25": {"v": "26.7", "ref": "KGD6 gas at 26.7 MMSCMD", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "43", "conf": "HIGH"},
+            "Q1 FY26": {"v": "26.6", "ref": "KGD6 gas at 26.6 MMSCMD", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "48", "conf": "HIGH"},
+            "Q2 FY26": {"v": "26.1", "ref": "KGD6 gas at 26.1 MMSCMD", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "44", "conf": "HIGH"},
+            "Q3 FY26": {"v": "25.6", "ref": "KGD6 gas at 25.6 MMSCMD", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "50", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "KG D6 Price Realization (GCV)",
+          "unit": "$/MMBTU",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "9.66", "ref": "KG D6 (GCV - $/MMBTU) 9.66", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "37", "conf": "HIGH"},
+            "Q4 FY24": {"v": "9.53", "ref": "KG D6 (GCV - $/MMBTU) 9.53", "src": "Apr-2024_0501df4e-7d64-455d-bbb0-4b2118067e51_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q1 FY25": {"v": "9.27", "ref": "KG D6 (GCV - $/MMBTU) 9.27", "src": "Jul-2024_24faf885-ece1-4852-b0fe-91fc8643dc1c_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q2 FY25": {"v": "9.55", "ref": "KG D6 (GCV - $/MMBTU) 9.55", "src": "Oct-2024_fd1fe004-0eb0-4a2b-9859-7b62a89e451c_IP.pdf", "pg": "37", "conf": "HIGH"},
+            "Q3 FY25": {"v": "9.74", "ref": "KG D6 (GCV - $/MMBTU) 9.74", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q4 FY25": {"v": "10.09", "ref": "KG D6 (GCV - $/MMBTU) 10.09", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "43", "conf": "HIGH"},
+            "Q1 FY26": {"v": "9.97", "ref": "KGD6 9.97 $/MMBTU", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "47", "conf": "HIGH"},
+            "Q2 FY26": {"v": "9.97", "ref": "KGD6 9.97 $/MMBTU", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "43", "conf": "HIGH"},
+            "Q3 FY26": {"v": "9.65", "ref": "KGD6 9.65 $/MMBTU", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "49", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "CBM Production (Average)",
+          "unit": "MMSCMD",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "0.80", "ref": "CBM average production at 0.8 MMSCMD", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q4 FY24": {"v": "0.86", "ref": "CBM at 0.86 MMSCMD", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "43", "conf": "HIGH"},
+            "Q1 FY25": {"v": "0.88", "ref": "CBM at 0.88 MMSCMD", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "48", "conf": "HIGH"},
+            "Q2 FY25": {"v": "0.82", "ref": "CBM at 0.82 MMSCMD", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "44", "conf": "HIGH"},
+            "Q3 FY25": {"v": "0.87", "ref": "CBM at 0.87 MMSCMD", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "50", "conf": "HIGH"},
+            "Q4 FY25": {"v": "0.86", "ref": "CBM at 0.86 MMSCMD", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "43", "conf": "HIGH"},
+            "Q1 FY26": {"v": "0.88", "ref": "CBM at 0.88 MMSCMD", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "48", "conf": "HIGH"},
+            "Q2 FY26": {"v": "0.82", "ref": "CBM at 0.82 MMSCMD", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "44", "conf": "HIGH"},
+            "Q3 FY26": {"v": "0.87", "ref": "CBM at 0.87 MMSCMD", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "50", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Oil / Condensate Production (Average)",
+          "unit": "bbl/day",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "21000", "ref": "Oil / Condensate ~21,000 bbl / day", "src": "Jan-2024_1cb66ca2-dfd5-4f46-986f-03b0661bd486_IP.pdf", "pg": "37", "conf": "HIGH"},
+            "Q4 FY24": {"v": "19670", "ref": "Oil / Condensate at 19,670 bbl / day", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "43", "conf": "HIGH"},
+            "Q1 FY25": {"v": "19300", "ref": "Oil / Condensate at 19,300 bbl / day", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "48", "conf": "HIGH"},
+            "Q2 FY25": {"v": "18746", "ref": "Oil / Condensate at 18,746 bbl / day", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "44", "conf": "HIGH"},
+            "Q3 FY25": {"v": "21000", "ref": "Oil / Condensate ~21,000 bbl / day", "src": "Jan-2025_cb5da39b-b46a-45f7-b2b6-932a4f2ecf91_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q4 FY25": {"v": "19670", "ref": "Oil / Condensate at 19,670 bbl / day", "src": "Apr-2025_ac3d5e8f-9a84-4510-99e8-71eabcf49a01_IP.pdf", "pg": "43", "conf": "HIGH"},
+            "Q1 FY26": {"v": "19300", "ref": "Oil / Condensate at 19,300 bbl / day", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "48", "conf": "HIGH"},
+            "Q2 FY26": {"v": "18746", "ref": "Oil / Condensate at 18,746 bbl / day", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "44", "conf": "HIGH"},
+            "Q3 FY26": {"v": "17290", "ref": "Oil / Condensate at 17,290 bbl / day", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "50", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "JioStar (Media)",
+      "data": [
+        {
+          "particulars": "Average Monthly Active Users (MAU)",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": "460", "ref": "Averaged 460 Mn+ monthly active users (MAUs) during the quarter", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "44", "conf": "HIGH"},
+            "Q2 FY26": {"v": "400", "ref": "Average Platform MAU sustained at 400 Mn", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "40", "conf": "HIGH"},
+            "Q3 FY26": {"v": "450", "ref": "Average Monthly Active Users (MAU) at 450 Mn; +13% QoQ", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "46", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Entertainment Viewership Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": "35.5", "ref": "Network viewership share grew from 34.5% last year to 35.5%", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "44", "conf": "HIGH"},
+            "Q3 FY26": {"v": "34.6", "ref": "Viewership share grew ~1% YoY to 34.6%", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "46", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "FMCG (RCPL)",
+      "data": [
+        {
+          "particulars": "Countries Present",
+          "unit": "Count",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "17", "ref": "present in 17 countries through exports and franchisees", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "34", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "New Energy",
+      "data": [
+        {
+          "particulars": "Solar PV Manufacturing Capacity Target",
+          "unit": "GWp",
+          "metric_type": "static_descriptor",
+          "value": "20",
+          "ref": "setup 20 GWp of solar PV manufacturing capacity", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "6", "conf": "HIGH"
+        },
+        {
+          "particulars": "Battery Giga-factory Capacity Target",
+          "unit": "GWh",
+          "metric_type": "static_descriptor",
+          "value": "100",
+          "ref": "100 GWh of battery gigafactory", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "6", "conf": "HIGH"
+        },
+        {
+          "particulars": "Renewable Energy Generation Target (by 2030)",
+          "unit": "GW",
+          "metric_type": "static_descriptor",
+          "value": "100",
+          "ref": "Installation of 100 GW of renewable energy generation by 2030", "src": "Aug-2023_7cf2df9a-51bb-45d4-9004-3cad20b5920b_IP.pdf", "pg": "24", "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Net Debt to LTM EBITDA",
+          "unit": "x",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "0.58", "ref": "Net Debt to LTM EBITDA (x) 0.58", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q4 FY25": {"v": "0.64", "ref": "Net Debt to LTM EBITDA (x) 0.64", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY26": {"v": "0.59", "ref": "Net Debt to LTM EBITDA (x) 0.59", "src": "Aug-2025_49a01d99-854c-4c3a-b62c-e1fb3619029f_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY26": {"v": "0.58", "ref": "Net Debt to LTM EBITDA (x) 0.58", "src": "Oct-2025_b74bb5fb-c15b-42f1-b853-34231e587f46_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY26": {"v": "0.56", "ref": "Net Debt to LTM EBITDA (x) 0.56", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Credit Rating (S&P)",
+          "unit": "Rating",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "A-", "ref": "S&P revised rating to A- Two notches above sovereign rating", "src": "Jan-2026_d0e06e07-5a3e-4bc0-a6a6-76635bc53238_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": []
+}

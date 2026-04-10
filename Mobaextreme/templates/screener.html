@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Screener — ZOLT.AI</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#05080e;--surface:#0c1018;--surface2:#121a25;--surface3:#182030;--border:#1a2435;--border2:#243045;--text:#dde3ed;--dim:#6b7a8d;--muted:#3d4a5c;--accent:#0fa;--accent2:#06d6a0;--accent-dim:rgba(0,255,170,.06);--up:#34d399;--down:#f87171;--gold:#fbbf24;--blue:#60a5fa;--purple:#a78bfa;--row-hover:rgba(0,255,170,.03);--font-body:'DM Sans',sans-serif;--font-mono:'Space Mono',monospace;--font-display:'Newsreader',serif}
+body.light{--bg:#f5f7fa;--surface:#fff;--surface2:#f0f2f5;--surface3:#e4e8ee;--border:#dce0e8;--border2:#c8cdd5;--text:#1a1f2e;--dim:#6b7585;--muted:#b0b8c4;--accent:#0d9668;--accent2:#06b57a;--accent-dim:rgba(13,150,104,.06);--up:#0d9668;--down:#dc3545;--gold:#b8860b;--blue:#3b82f6;--purple:#7c3aed;--row-hover:rgba(13,150,104,.04)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);height:100vh;display:flex;flex-direction:column;overflow:hidden;transition:background .3s,color .3s}
+a{text-decoration:none;color:inherit}
+.topbar{display:flex;align-items:center;gap:.8rem;padding:.6rem 1.5rem;border-bottom:1px solid var(--border);background:var(--surface);flex-shrink:0}
+.back{font-size:.72rem;color:var(--dim)}.back:hover{color:var(--accent)}
+.logo{font-family:var(--font-mono);font-size:.85rem;color:var(--accent);font-weight:700;letter-spacing:.5px}.logo span{color:var(--dim)}
+.scr-badge{font-size:.58rem;color:var(--gold);padding:2px 8px;border:1px solid rgba(251,191,36,.3);border-radius:4px;background:rgba(251,191,36,.06);font-weight:700;letter-spacing:1px;text-transform:uppercase}
+.top-right{margin-left:auto;display:flex;gap:.5rem;align-items:center}
+.ts{display:flex;flex-direction:column;align-items:flex-end}
+.ts-val{font-family:var(--font-mono);font-size:.8rem;color:var(--accent)}.ts-label{font-size:.42rem;color:var(--dim);text-transform:uppercase;letter-spacing:.5px}
+.top-btn{background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:4px 10px;cursor:pointer;font-size:.66rem;color:var(--dim);font-family:var(--font-body);transition:.2s;white-space:nowrap}
+.top-btn:hover{color:var(--accent);border-color:var(--accent)}
+.top-btn.active{color:var(--accent);border-color:var(--accent);background:var(--accent-dim)}
+.top-btn.export{display:none}.top-btn.export.show{display:inline}
+/* Power-on animation */
+.power-overlay{position:fixed;top:0;left:0;right:0;bottom:0;z-index:260;pointer-events:none;display:none;align-items:center;justify-content:center;flex-direction:column;background:rgba(5,8,14,.7);backdrop-filter:blur(3px)}
+.power-overlay.fire{display:flex;animation:overlayFade 2s ease forwards}
+@keyframes overlayFade{0%{opacity:0}8%{opacity:1}75%{opacity:1}100%{opacity:0}}
+.power-zolt{font-family:var(--font-mono);font-size:3.5rem;font-weight:700;letter-spacing:8px;opacity:0;position:relative}
+.power-overlay.fire .power-zolt{animation:zoltIn .5s ease .1s forwards,zoltOut .4s ease .85s forwards}
+.power-overlay.ref-anim .power-zolt{color:#60a5fa;text-shadow:0 0 30px rgba(96,165,250,.6),0 0 60px rgba(96,165,250,.3),0 0 100px rgba(96,165,250,.15)}
+.power-overlay.src-anim .power-zolt{color:#a78bfa;text-shadow:0 0 30px rgba(167,139,250,.6),0 0 60px rgba(167,139,250,.3),0 0 100px rgba(167,139,250,.15)}
+@keyframes zoltIn{0%{opacity:0;transform:scale(.5);filter:blur(10px)}50%{opacity:1;transform:scale(1.05);filter:blur(0)}100%{opacity:1;transform:scale(1)}}
+@keyframes zoltOut{0%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.3);filter:blur(6px)}}
+.power-sub{font-family:var(--font-body);font-size:.85rem;color:var(--dim);opacity:0;margin-top:.5rem;letter-spacing:2px}
+.power-overlay.fire .power-sub{animation:subIn .4s ease .4s forwards,subOut .3s ease .8s forwards}
+@keyframes subIn{0%{opacity:0;transform:translateY(8px)}100%{opacity:.7;transform:translateY(0)}}
+@keyframes subOut{0%{opacity:.7}100%{opacity:0}}
+.power-bolt{font-size:5rem;opacity:0;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+.power-overlay.fire .power-bolt{animation:boltSequence 1s ease .9s forwards}
+@keyframes boltSequence{0%{opacity:0;transform:translate(-50%,-50%) scale(.3)}15%{opacity:1;transform:translate(-50%,-50%) scale(1.3)}30%{transform:translate(-50%,-50%) scale(1)}60%{opacity:1;transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-200%) scale(.4)}}
+.power-pulse{position:fixed;top:50%;left:50%;width:0;height:0;border-radius:50%;pointer-events:none;z-index:255;opacity:0}
+.power-pulse.ref-pulse{background:radial-gradient(circle,rgba(96,165,250,.2) 0%,rgba(96,165,250,.06) 40%,transparent 70%)}
+.power-pulse.src-pulse{background:radial-gradient(circle,rgba(167,139,250,.2) 0%,rgba(167,139,250,.06) 40%,transparent 70%)}
+.power-pulse.fire{animation:powerBlast .8s ease-out forwards}
+@keyframes powerBlast{0%{width:0;height:0;opacity:1;transform:translate(-50%,-50%)}60%{opacity:.8}100%{width:250vmax;height:250vmax;opacity:0;transform:translate(-50%,-50%)}}
+.power-line{position:fixed;height:2px;pointer-events:none;z-index:256;opacity:0;transform-origin:left center}
+.power-line.fire{animation:lineFire .5s ease-out forwards}
+@keyframes lineFire{0%{width:0;opacity:1}40%{width:30vw;opacity:.8}100%{width:50vw;opacity:0}}
+@keyframes cellGlow{0%{box-shadow:none}30%{box-shadow:inset 0 0 12px var(--glow-color)}100%{box-shadow:none}}
+body.ref-mode td.has-ref{animation:cellGlow .6s ease-out 1.6s;--glow-color:rgba(96,165,250,.3)}
+body.src-mode td.has-src{animation:cellGlow .6s ease-out 1.6s;--glow-color:rgba(167,139,250,.3)}
+.power-scanline{position:fixed;left:0;width:100%;height:3px;pointer-events:none;z-index:256;opacity:0}
+.power-scanline.ref-scan{background:linear-gradient(90deg,transparent,rgba(96,165,250,.6),transparent)}
+.power-scanline.src-scan{background:linear-gradient(90deg,transparent,rgba(167,139,250,.6),transparent)}
+.power-scanline.fire{animation:scanDown .6s ease-out forwards}
+@keyframes scanDown{0%{top:0;opacity:.9}100%{top:100%;opacity:0}}
+.main{display:flex;flex:1;overflow:hidden}
+.sidebar{width:290px;flex-shrink:0;border-right:1px solid var(--border);background:var(--surface);display:flex;flex-direction:column;overflow:hidden}
+.sb-mode{display:flex;border-bottom:1px solid var(--border)}
+.sb-mode-btn{flex:1;padding:.55rem;font-size:.66rem;font-weight:600;color:var(--dim);background:none;border:none;cursor:pointer;text-align:center;border-bottom:2px solid transparent;font-family:var(--font-body)}.sb-mode-btn:hover{color:var(--text);background:var(--surface2)}.sb-mode-btn.active{color:var(--accent);border-bottom-color:var(--accent)}.sb-mode-btn .mb-count{font-family:var(--font-mono);font-size:.52rem;opacity:.6;margin-left:3px}
+.sb-toolbar{padding:.4rem .6rem;border-bottom:1px solid var(--border);display:flex;gap:.4rem;align-items:center}
+.sb-toolbar input{flex:1;padding:.35rem .6rem;background:var(--surface2);border:1px solid var(--border);border-radius:5px;color:var(--text);font-size:.7rem;outline:none;font-family:var(--font-body)}.sb-toolbar input:focus{border-color:var(--accent)}.sb-toolbar input::placeholder{color:var(--muted)}
+.sb-sel-badge{font-family:var(--font-mono);font-size:.58rem;color:var(--accent);padding:2px 6px;background:var(--accent-dim);border-radius:4px;display:none;flex-shrink:0}.sb-sel-badge.show{display:inline}
+.sb-clear{font-size:.6rem;color:var(--dim);cursor:pointer;padding:2px 6px;border:1px solid var(--border);border-radius:4px;background:none;font-family:var(--font-body);display:none;flex-shrink:0}.sb-clear.show{display:inline}.sb-clear:hover{color:var(--down);border-color:var(--down)}
+.sb-list{flex:1;overflow-y:auto;padding:.2rem 0}.sb-list::-webkit-scrollbar{width:4px}.sb-list::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+.sb-item{padding:.4rem .7rem;font-size:.7rem;cursor:pointer;display:flex;align-items:center;gap:.4rem;border-left:3px solid transparent}.sb-item:hover{background:var(--surface2)}
+.sb-item.selected{background:var(--accent-dim);color:var(--accent);border-left-color:var(--accent);font-weight:600}
+.sb-item-check{width:14px;height:14px;border:1.5px solid var(--border);border-radius:3px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:.55rem;color:transparent}.sb-item.selected .sb-item-check{border-color:var(--accent);background:var(--accent);color:var(--bg)}
+.sb-item-name{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sb-item-count{font-family:var(--font-mono);font-size:.52rem;color:var(--dim);flex-shrink:0}.sb-item.selected .sb-item-count{color:var(--accent)}
+.content{flex:1;display:flex;flex-direction:column;overflow:hidden}
+.ct-header{padding:.7rem 1.5rem;border-bottom:1px solid var(--border);background:var(--surface);flex-shrink:0}
+.ct-title{font-family:var(--font-display);font-size:1.1rem;font-weight:600;margin-bottom:.2rem}.ct-subtitle{font-size:.62rem;color:var(--dim)}
+.ct-filters{padding:.4rem 1.5rem;border-bottom:1px solid var(--border);background:var(--surface);display:flex;align-items:center;gap:1rem;flex-shrink:0;flex-wrap:wrap}
+.filter-group{display:flex;align-items:center;gap:.4rem}
+.filter-label{font-size:.52rem;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;flex-shrink:0}
+.pf-bar{display:flex;gap:0;border:1px solid var(--border);border-radius:5px;overflow:hidden}
+.pf-btn{padding:.3rem .7rem;font-size:.6rem;font-weight:600;color:var(--dim);background:var(--surface);border:none;cursor:pointer;font-family:var(--font-body);border-right:1px solid var(--border)}.pf-btn:last-child{border-right:none}.pf-btn:hover{color:var(--text);background:var(--surface2)}.pf-btn.active{color:var(--bg);background:var(--accent)}
+.unit-select{padding:.3rem .5rem;font-size:.62rem;background:var(--surface2);border:1px solid var(--border);border-radius:5px;color:var(--text);font-family:var(--font-body);outline:none;cursor:pointer}.unit-select:focus{border-color:var(--accent)}
+.ct-body{flex:1;overflow:auto;padding:0}.ct-body::-webkit-scrollbar{width:6px;height:6px}.ct-body::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+.ct-empty{display:flex;align-items:center;justify-content:center;height:100%;color:var(--dim);font-size:.82rem;flex-direction:column;gap:.5rem}.ct-empty-icon{font-size:2rem;opacity:.3}
+table{width:100%;border-collapse:collapse;min-width:max-content}
+thead th{padding:.5rem .7rem;font-size:.52rem;color:var(--dim);text-transform:uppercase;letter-spacing:.4px;font-weight:600;text-align:right;white-space:nowrap;border-bottom:1.5px solid var(--border);background:var(--surface);position:sticky;top:0;z-index:2}
+thead th.col-left{text-align:left}
+tbody td{padding:.45rem .7rem;font-family:var(--font-mono);font-size:.73rem;text-align:right;white-space:nowrap;border-bottom:1px solid rgba(26,36,53,.3);vertical-align:middle}
+tbody td.td-left{text-align:left;font-family:var(--font-body);font-weight:500;font-size:.73rem}
+tbody td.td-link{text-align:left;font-family:var(--font-body);font-weight:500;font-size:.73rem;position:sticky;left:0;background:var(--surface);z-index:1;border-left:3px solid var(--accent-dim);padding-left:.7rem;min-width:180px}
+tbody td.td-link a{color:var(--accent)}.td-link a:hover{text-decoration:underline}
+tbody td.td-dim{font-size:.65rem;color:var(--dim);font-family:var(--font-body)}
+tbody td.empty{color:var(--muted)}
+tbody tr:hover td{background:var(--row-hover)}tbody tr:hover td.td-link{background:var(--row-hover);border-left-color:var(--accent)}
+th.col-hidden,td.col-hidden{display:none}
+tr.unit-hidden{display:none}
+/* Data cells with provenance */
+td.has-ref{cursor:help}
+td.has-src{cursor:pointer}
+body.ref-mode td.has-ref{border-bottom:1px dashed var(--blue)}
+body.src-mode td.has-src{border-bottom:1px dashed var(--purple)}
+/* Ref tooltip */
+.ref-tooltip{position:fixed;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.6rem .8rem;max-width:400px;font-size:.7rem;color:var(--text);z-index:300;box-shadow:0 8px 30px rgba(0,0,0,.3);line-height:1.5;display:none;pointer-events:none}
+.ref-tooltip .rt-label{font-size:.5rem;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.3rem}
+.ref-tooltip .rt-text{font-family:var(--font-body);color:var(--text)}
+.ref-tooltip .rt-meta{font-size:.55rem;color:var(--dim);margin-top:.3rem;font-family:var(--font-mono)}
+/* Flashcard */
+.flash-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(5,8,14,.85);z-index:400;display:none;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+.flash-overlay.show{display:flex}
+.flash-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:2rem 2.5rem;max-width:420px;width:90%;text-align:center;animation:flashIn .3s ease}
+@keyframes flashIn{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}
+.flash-icon{font-size:2rem;margin-bottom:.5rem}
+.flash-title{font-family:var(--font-display);font-size:1.1rem;font-weight:600;margin-bottom:.3rem}
+.flash-text{font-size:.78rem;color:var(--dim);margin-bottom:1rem;line-height:1.5}
+.flash-ok{background:var(--accent);color:var(--bg);border:none;padding:.5rem 1.5rem;border-radius:6px;font-size:.75rem;font-weight:600;cursor:pointer;font-family:var(--font-body)}
+/* Onboard */
+.onboard-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(5,8,14,.92);z-index:500;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(6px)}
+.onboard-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:2.5rem 3rem;max-width:520px;width:90%;text-align:center;animation:flashIn .4s ease}
+.ob-icon{font-size:2.5rem;margin-bottom:.8rem}.ob-title{font-family:var(--font-display);font-size:1.4rem;font-weight:600;margin-bottom:.4rem}
+.ob-text{font-size:.82rem;color:var(--dim);line-height:1.6;margin-bottom:1.2rem}
+.ob-dots{display:flex;justify-content:center;gap:.4rem;margin-bottom:1rem}
+.ob-dot{width:8px;height:8px;border-radius:50%;background:var(--border);transition:.2s}.ob-dot.active{background:var(--accent)}
+.ob-next{background:var(--accent);color:var(--bg);border:none;padding:.6rem 2rem;border-radius:8px;font-size:.8rem;font-weight:600;cursor:pointer;font-family:var(--font-body)}.ob-next:hover{opacity:.85}
+.ob-skip{font-size:.65rem;color:var(--dim);cursor:pointer;margin-top:.8rem;display:inline-block}.ob-skip:hover{color:var(--accent)}
+/* Select All / Keyboard Mode buttons */
+.sb-actions{display:flex;gap:.3rem;padding:.3rem .6rem;border-bottom:1px solid var(--border);align-items:center}
+.sb-act-btn{font-size:.58rem;color:var(--dim);padding:3px 8px;border:1px solid var(--border);border-radius:4px;background:none;cursor:pointer;font-family:var(--font-body);transition:.2s;white-space:nowrap;display:flex;align-items:center;gap:3px}
+.sb-act-btn:hover{color:var(--accent);border-color:var(--accent)}
+.sb-act-btn.active{color:var(--bg);background:var(--accent);border-color:var(--accent)}
+.sb-act-btn .kbd-icon{font-family:var(--font-mono);font-size:.5rem;padding:1px 4px;border:1px solid currentColor;border-radius:3px;line-height:1.2}
+/* Keyboard focus ring */
+.sb-item.kb-focus{outline:1.5px solid var(--accent);outline-offset:-1.5px;background:var(--surface2)}
+/* Drag-select highlight */
+.sb-item.drag-over{background:var(--accent-dim);border-left-color:var(--accent)}
+.sb-list.dragging{cursor:crosshair;user-select:none}
+/* ZOLT.AI Floating Avatar */
+.zolt-float{position:fixed;bottom:1.5rem;right:1.5rem;z-index:200;cursor:pointer;transition:.3s;text-decoration:none}
+.zolt-float:hover{transform:scale(1.15)}
+.zolt-float svg{width:60px;height:60px}
+.zolt-float-pulse{position:absolute;top:50%;left:50%;width:60px;height:60px;border-radius:50%;background:rgba(251,191,36,.15);transform:translate(-50%,-50%);animation:floatPulse 2s ease-in-out infinite;pointer-events:none}
+@keyframes floatPulse{0%,100%{transform:translate(-50%,-50%) scale(1);opacity:.5}50%{transform:translate(-50%,-50%) scale(1.6);opacity:0}}
+@media(max-width:900px){.sidebar{width:220px}}
+</style>
+</head>
+<body>
+
+<!-- Onboarding -->
+<div class="onboard-overlay" id="onboard" style="display:none">
+  <div class="onboard-card">
+    <div class="ob-icon" id="obIcon">⚡</div>
+    <div class="ob-title" id="obTitle"></div>
+    <div class="ob-text" id="obText"></div>
+    <div class="ob-dots" id="obDots"></div>
+    <button class="ob-next" id="obNext" onclick="nextSlide()">Next</button>
+    <div class="ob-skip" onclick="closeOnboard()">Skip intro</div>
+  </div>
+</div>
+
+<!-- Flash card (mutual exclusion warning) -->
+<div class="flash-overlay" id="flashOverlay">
+  <div class="flash-card">
+    <div class="flash-icon">⚠️</div>
+    <div class="flash-title" id="flashTitle">Not Possible</div>
+    <div class="flash-text" id="flashText">Only one mode can be active at a time. Turn off the current mode first, then enable the other.</div>
+    <button class="flash-ok" onclick="document.getElementById('flashOverlay').classList.remove('show')">Got it</button>
+  </div>
+</div>
+
+<!-- Ref tooltip -->
+<div class="ref-tooltip" id="refTooltip">
+  <div class="rt-label">Reference</div>
+  <div class="rt-text" id="rtText"></div>
+  <div class="rt-meta" id="rtMeta"></div>
+</div>
+
+<div class="power-overlay" id="powerOverlay">
+  <div class="power-zolt">ZOLT</div>
+  <div class="power-sub" id="powerSub">Activating...</div>
+  <div class="power-bolt">⚡</div>
+</div>
+<div class="power-pulse" id="powerPulse"></div>
+<div class="power-scanline" id="powerScan"></div>
+<div class="topbar">
+  <a href="/" class="back">&larr; Home</a>
+  <div class="logo">ZOLT<span>.AI</span></div>
+  <div class="scr-badge">⚡ Screener</div>
+  <div class="top-right">
+    <div class="ts"><span class="ts-val">{{ sd.seg_count }}</span><span class="ts-label">Segments</span></div>
+    <div class="ts"><span class="ts-val">{{ sd.metric_count }}</span><span class="ts-label">Metrics</span></div>
+    <button class="top-btn" id="refBtn" onclick="toggleRef()">🔒 REF</button>
+    <button class="top-btn" id="srcBtn" onclick="toggleSrc()">🔒 SRC</button>
+    <button class="top-btn export" id="exportBtn" onclick="exportExcel()">📥 Export</button>
+    <button class="top-btn" id="themeBtn" onclick="toggleTheme()">☀ Light</button>
+  </div>
+</div>
+
+<div class="main">
+  <div class="sidebar">
+    <div class="sb-mode">
+      <button class="sb-mode-btn active" data-mode="segments">Segments <span class="mb-count">{{ sd.seg_count }}</span></button>
+      <button class="sb-mode-btn" data-mode="metrics">Metrics <span class="mb-count">{{ sd.metric_count }}</span></button>
+      <button class="sb-mode-btn" data-mode="companies">Companies <span class="mb-count">{{ sd.company_count }}</span></button>
+    </div>
+    <div class="sb-toolbar">
+      <input type="text" id="sbSearch" placeholder="Filter…" autocomplete="off">
+      <span class="sb-sel-badge" id="selBadge">0</span>
+      <button class="sb-clear" id="selClear" onclick="clearSelection()">Clear</button>
+    </div>
+    <div class="sb-actions">
+      <button class="sb-act-btn" id="selAllBtn" onclick="toggleSelectAll()">☑ Select All</button>
+      <button class="sb-act-btn" id="kbModeBtn" onclick="toggleKbMode()"><span class="kbd-icon">⌨</span> Keyboard</button>
+    </div>
+    <div class="sb-list" id="sbSegList">
+      {% for seg_name in sd.seg_names %}<div class="sb-item" data-key="{{ seg_name }}" data-search="{{ seg_name|lower }}" data-mode="segments"><span class="sb-item-check">✓</span><span class="sb-item-name">{{ seg_name }}</span><span class="sb-item-count">{{ sd.seg_index[seg_name]|length }}</span></div>{% endfor %}
+    </div>
+    <div class="sb-list" id="sbMetricList" style="display:none">
+      {% for mname in sd.metric_names %}<div class="sb-item" data-key="{{ mname }}" data-search="{{ mname|lower }}" data-mode="metrics"><span class="sb-item-check">✓</span><span class="sb-item-name">{{ mname }}</span><span class="sb-item-count">{{ sd.metric_index[mname]|length }}</span></div>{% endfor %}
+    </div>
+    <div class="sb-list" id="sbCompanyList" style="display:none">
+      {% for cname in sd.company_names %}<div class="sb-item" data-key="{{ cname }}" data-search="{{ cname|lower }}" data-mode="companies"><span class="sb-item-check">✓</span><span class="sb-item-name">{{ cname }}</span><span class="sb-item-count">{{ sd.company_index[cname].metrics|length }}</span></div>{% endfor %}
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="ct-header"><div class="ct-title" id="ctTitle">Select segments or metrics</div><div class="ct-subtitle" id="ctSubtitle">Click items in the sidebar — select multiple to compare</div></div>
+    <div class="ct-filters" id="ctFilters" style="display:none">
+      <div class="filter-group"><span class="filter-label">Period</span><div class="pf-bar" id="pfBar"></div></div>
+      <div class="filter-group"><span class="filter-label">Unit</span><select class="unit-select" id="unitSelect"><option value="all">All Units</option></select></div>
+    </div>
+    <div class="ct-body" id="ctBody">
+      <div class="ct-empty"><div class="ct-empty-icon">◈</div><div>Click one or more items from the left panel</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ZOLT.AI Avatar — opens full chat page -->
+<a href="/chat" class="zolt-float" title="ZOLT.AI Chat">
+  <div class="zolt-float-pulse"></div>
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="50" cy="42" r="30" fill="none" stroke="#fbbf24" stroke-width=".6" opacity=".25">
+      <animate attributeName="r" values="28;33;28" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".15;.35;.15" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <polygon points="55,8 35,45 48,45 40,72 42,72 65,38 52,38 62,8" fill="#fbbf24">
+      <animate attributeName="opacity" values="1;.85;1" dur="1.5s" repeatCount="indefinite"/>
+    </polygon>
+    <circle cx="45" cy="33" r="2" fill="#05080e"/>
+    <circle cx="53" cy="33" r="2" fill="#05080e"/>
+    <path d="M46.5,37 Q49,40 51.5,37" fill="none" stroke="#05080e" stroke-width="1.2" stroke-linecap="round"/>
+    <rect x="44" y="72" width="3" height="11" rx="1.5" fill="#fbbf24" opacity=".8">
+      <animateTransform attributeName="transform" type="rotate" values="-6,45.5,72;6,45.5,72;-6,45.5,72" dur=".8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="52" y="70" width="3" height="11" rx="1.5" fill="#fbbf24" opacity=".8">
+      <animateTransform attributeName="transform" type="rotate" values="6,53.5,70;-6,53.5,70;6,53.5,70" dur=".8s" repeatCount="indefinite"/>
+    </rect>
+    <defs><filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  </svg>
+</a>
+
+<script>
+const SEG_DATA={{ sd.seg_index | tojson }};
+const METRIC_DATA={{ sd.metric_index | tojson }};
+const COMPANY_DATA={{ sd.company_index | tojson }};
+const PG_MAP={
+  {% for seg_name, entries in sd.seg_index.items() %}{% for entry in entries %}{% for m in entry.metrics %}{% for p in m['values'].keys() %}"{{ p }}":"{{ sd.period_group(p) }}",{% endfor %}{% endfor %}{% endfor %}{% endfor %}
+};
+
+function psk(p){if(p==='Static')return[5,0,0];const m1=p.match(/^Q([1-4])\s*FY\s*(\d{2,4})/i);if(m1)return[0,+m1[2]+(+m1[2]<100?2000:0),+m1[1]];const m2=p.match(/^H([12])\s*FY\s*(\d{2,4})/i);if(m2)return[1,+m2[2]+(+m2[2]<100?2000:0),+m2[1]];const m3=p.match(/^9M\s*FY\s*(\d{2,4})/i);if(m3)return[2,+m3[1]+(+m3[1]<100?2000:0),0];const m4=p.match(/^FY\s*(\d{2,4})$/i);if(m4)return[3,+m4[1]+(+m4[1]<100?2000:0),0];const m5=p.match(/(\d{4})/);if(m5)return[4,+m5[1],0];return[4,9999,0]}
+function sortP(a){return[...a].sort((x,y)=>{const ka=psk(x),kb=psk(y);return ka[0]-kb[0]||ka[1]-kb[1]||ka[2]-kb[2]})}
+function gPG(p){if(p==='Static')return'Static';return PG_MAP[p]||(/^Q[1-4]\s*FY/i.test(p)?'Quarterly':/^H[12]\s*FY/i.test(p)?'Half Year':/^9M\s*FY/i.test(p)?'9 Month':/^FY\s*\d/i.test(p)?'Annual':'Other')}
+
+let mode='segments',pFilter='all',uFilter='all',sel=new Set(),lastRows=[];
+let refMode=false,srcMode=false;
+
+// ── Theme ──
+function toggleTheme(){document.body.classList.toggle('light');const l=document.body.classList.contains('light');document.getElementById('themeBtn').innerHTML=l?'🌙 Dark':'☀ Light';try{localStorage.setItem('zolt-theme',l?'light':'dark')}catch(e){}}
+try{if(localStorage.getItem('zolt-theme')==='light'){document.body.classList.add('light');document.getElementById('themeBtn').innerHTML='🌙 Dark'}}catch(e){}
+
+// ── REF / SRC Toggles ──
+function firePower(type){
+  const overlay=document.getElementById('powerOverlay');
+  const pulse=document.getElementById('powerPulse');
+  const scan=document.getElementById('powerScan');
+  document.getElementById('powerSub').textContent=type==='ref'?'Activating REF Mode...':'Activating SRC Mode...';
+  overlay.className='power-overlay '+(type==='ref'?'ref-anim':'src-anim');
+  void overlay.offsetWidth;
+  overlay.classList.add('fire');
+  setTimeout(()=>{
+    pulse.className='power-pulse '+(type==='ref'?'ref-pulse':'src-pulse');
+    scan.className='power-scanline '+(type==='ref'?'ref-scan':'src-scan');
+    void pulse.offsetWidth;void scan.offsetWidth;
+    pulse.classList.add('fire');scan.classList.add('fire');
+    for(let i=0;i<6;i++){
+      const line=document.createElement('div');line.className='power-line';
+      line.style.top=(Math.random()*80+10)+'%';line.style.left=(Math.random()*60+20)+'%';
+      line.style.transform='rotate('+(Math.random()*360)+'deg)';
+      line.style.background=type==='ref'?'rgba(96,165,250,.5)':'rgba(167,139,250,.5)';
+      line.style.height=(1+Math.random()*2)+'px';
+      document.body.appendChild(line);void line.offsetWidth;line.classList.add('fire');
+      setTimeout(()=>line.remove(),600);
+    }
+  },1300);
+  setTimeout(()=>{overlay.className='power-overlay';pulse.className='power-pulse';scan.className='power-scanline'},2200);
+}
+function toggleRef(){
+  if(srcMode){showFlash('REF & SRC Cannot Be On Together','Turn off SRC mode first before enabling REF mode. Only one can be active at a time.');return}
+  refMode=!refMode;
+  document.getElementById('refBtn').innerHTML=refMode?'🔓 REF':'🔒 REF';
+  document.getElementById('refBtn').classList.toggle('active',refMode);
+  document.body.classList.toggle('ref-mode',refMode);
+  if(refMode)firePower('ref');
+}
+function toggleSrc(){
+  if(refMode){showFlash('REF & SRC Cannot Be On Together','Turn off REF mode first before enabling SRC mode. Only one can be active at a time.');return}
+  srcMode=!srcMode;
+  document.getElementById('srcBtn').innerHTML=srcMode?'🔓 SRC':'🔒 SRC';
+  document.getElementById('srcBtn').classList.toggle('active',srcMode);
+  document.body.classList.toggle('src-mode',srcMode);
+  if(srcMode)firePower('src');
+}
+function showFlash(title,text){
+  document.getElementById('flashTitle').textContent=title;
+  document.getElementById('flashText').textContent=text;
+  document.getElementById('flashOverlay').classList.add('show');
+}
+
+// ── Ref tooltip ──
+const tooltip=document.getElementById('refTooltip');
+document.addEventListener('click',function(e){
+  const cell=e.target.closest('td[data-ref],td[data-src]');
+  if(!cell){tooltip.style.display='none';return}
+
+  if(refMode&&cell.dataset.ref){
+    const r=cell.getBoundingClientRect();
+    document.getElementById('rtText').textContent=cell.dataset.ref;
+    const meta=[];
+    if(cell.dataset.conf)meta.push('Conf: '+cell.dataset.conf);
+    if(cell.dataset.src)meta.push('Src: '+cell.dataset.src.substring(0,40));
+    if(cell.dataset.pgNum)meta.push('Pg: '+cell.dataset.pgNum);
+    document.getElementById('rtMeta').textContent=meta.join(' · ');
+    tooltip.style.display='block';
+    tooltip.style.left=Math.min(r.left,window.innerWidth-420)+'px';
+    tooltip.style.top=(r.bottom+6)+'px';
+    return;
+  }
+
+  if(srcMode&&cell.dataset.src){
+    const src=cell.dataset.src;
+    const pg=cell.dataset.pgNum||'1';
+    window.open('/pdf/'+encodeURIComponent(src)+'#page='+pg,'_blank');
+    return;
+  }
+  tooltip.style.display='none';
+});
+
+// ── Onboarding ──
+const slides=[
+  {icon:'⚡',title:'Welcome to ZOLT.AI Screener',text:'Explore operational KPIs across 40+ companies, 180+ segments, and 900+ metrics — all from quarterly investor presentations.'},
+  {icon:'📋',title:'Multi-Select & Compare',text:'Click multiple items, use Select All for bulk selection, drag your mouse across items for range select, or toggle Keyboard mode and use ↑↓ + Spacebar to select.'},
+  {icon:'🏢',title:'Company Mode',text:'Switch to the Companies tab to select entire companies. All their segments and metrics load together — perfect for cross-company comparisons within a sector.'},
+  {icon:'🔍',title:'Filter by Period & Unit',text:'Use Period filters (QnQ, HY, FY, Static) and Unit dropdown to narrow the data.'},
+  {icon:'🔓',title:'REF & SRC Modes',text:'Toggle REF to see reference text when clicking any data cell. Toggle SRC to open the source PDF at the exact page. Only one can be active at a time.'},
+  {icon:'📥',title:'Export to Excel',text:'Hit Export to download the visible table as a CSV file.'},
+];
+let slideIdx=0;
+function showOnboard(){document.getElementById('onboard').style.display='flex';renderSlide()}
+function renderSlide(){const s=slides[slideIdx];document.getElementById('obIcon').textContent=s.icon;document.getElementById('obTitle').textContent=s.title;document.getElementById('obText').textContent=s.text;document.getElementById('obNext').textContent=slideIdx===slides.length-1?'Get Started':'Next';const dots=document.getElementById('obDots');dots.innerHTML='';slides.forEach((_,i)=>{const d=document.createElement('div');d.className='ob-dot'+(i===slideIdx?' active':'');dots.appendChild(d)})}
+function nextSlide(){slideIdx++;if(slideIdx>=slides.length){closeOnboard();return}renderSlide()}
+function closeOnboard(){document.getElementById('onboard').style.display='none';try{localStorage.setItem('zolt-onboard','done')}catch(e){}}
+try{if(!localStorage.getItem('zolt-onboard'))showOnboard()}catch(e){showOnboard()}
+
+// ── Mode / Search / Select ──
+const LIST_IDS={segments:'sbSegList',metrics:'sbMetricList',companies:'sbCompanyList'};
+document.querySelectorAll('.sb-mode-btn').forEach(btn=>{btn.addEventListener('click',()=>{document.querySelectorAll('.sb-mode-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');mode=btn.dataset.mode;Object.entries(LIST_IDS).forEach(([m,id])=>{document.getElementById(id).style.display=m===mode?'':'none'});document.getElementById('sbSearch').value='';filterSB('');clearSelection();kbIdx=-1;clearKbFocus()})});
+document.getElementById('sbSearch').addEventListener('input',function(){filterSB(this.value.toLowerCase());kbIdx=-1;clearKbFocus()});
+function filterSB(q){const id=LIST_IDS[mode];document.querySelectorAll('#'+id+' .sb-item').forEach(i=>{i.style.display=i.dataset.search.includes(q)?'':'none'})}
+function getVisibleItems(){const id=LIST_IDS[mode];return[...document.querySelectorAll('#'+id+' .sb-item')].filter(i=>i.style.display!=='none'&&i.dataset.mode===mode)}
+function toggleItem(el){const k=el.dataset.key;if(sel.has(k)){sel.delete(k);el.classList.remove('selected')}else{sel.add(k);el.classList.add('selected')}updateUI();render()}
+
+// Click to select
+document.querySelectorAll('.sb-item').forEach(item=>{item.addEventListener('click',function(e){if(isDragging)return;if(this.dataset.mode!==mode)return;toggleItem(this)})});
+
+function updateUI(){const n=sel.size;document.getElementById('selBadge').textContent=n;document.getElementById('selBadge').classList.toggle('show',n>0);document.getElementById('selClear').classList.toggle('show',n>0);document.getElementById('exportBtn').classList.toggle('show',n>0);
+  // Update Select All button label
+  const vis=getVisibleItems();const allSelected=vis.length>0&&vis.every(i=>sel.has(i.dataset.key));
+  document.getElementById('selAllBtn').innerHTML=allSelected?'☐ Deselect All':'☑ Select All'}
+function clearSelection(){sel.clear();document.querySelectorAll('.sb-item').forEach(i=>i.classList.remove('selected'));updateUI();document.getElementById('ctTitle').textContent='Select segments or metrics';document.getElementById('ctSubtitle').textContent='Click items in the sidebar — select multiple to compare';document.getElementById('ctFilters').style.display='none';document.getElementById('ctBody').innerHTML='<div class="ct-empty"><div class="ct-empty-icon">◈</div><div>Click one or more items from the left panel</div></div>';lastRows=[]}
+
+// ── Select All / Deselect All ──
+function toggleSelectAll(){
+  const vis=getVisibleItems();
+  const allSelected=vis.length>0&&vis.every(i=>sel.has(i.dataset.key));
+  if(allSelected){vis.forEach(i=>{sel.delete(i.dataset.key);i.classList.remove('selected')})}
+  else{vis.forEach(i=>{sel.add(i.dataset.key);i.classList.add('selected')})}
+  updateUI();render();
+}
+
+// ── Keyboard Mode ──
+let kbMode=false,kbIdx=-1;
+function toggleKbMode(){
+  kbMode=!kbMode;
+  document.getElementById('kbModeBtn').classList.toggle('active',kbMode);
+  if(kbMode){kbIdx=0;showKbFocus()}else{kbIdx=-1;clearKbFocus()}
+}
+function clearKbFocus(){document.querySelectorAll('.sb-item.kb-focus').forEach(i=>i.classList.remove('kb-focus'))}
+function showKbFocus(){
+  clearKbFocus();
+  const items=getVisibleItems();
+  if(kbIdx<0||kbIdx>=items.length)return;
+  items[kbIdx].classList.add('kb-focus');
+  items[kbIdx].scrollIntoView({block:'nearest',behavior:'smooth'});
+}
+document.addEventListener('keydown',function(e){
+  if(!kbMode)return;
+  // Don't capture if user is typing in search box
+  if(document.activeElement===document.getElementById('sbSearch'))return;
+  const items=getVisibleItems();
+  if(!items.length)return;
+  if(e.key==='ArrowDown'||e.key==='j'){e.preventDefault();kbIdx=Math.min(kbIdx+1,items.length-1);showKbFocus()}
+  else if(e.key==='ArrowUp'||e.key==='k'){e.preventDefault();kbIdx=Math.max(kbIdx-1,0);showKbFocus()}
+  else if(e.key===' '||e.key==='Spacebar'){e.preventDefault();if(kbIdx>=0&&kbIdx<items.length)toggleItem(items[kbIdx])}
+  else if(e.key==='Escape'){toggleKbMode()}
+});
+
+// ── Mouse Drag Select ──
+let isDragging=false,dragStartIdx=-1,dragEndIdx=-1,dragScrollRAF=null;
+function getItemIdx(el){return getVisibleItems().indexOf(el)}
+
+function getActiveList(){return document.getElementById(LIST_IDS[mode])}
+
+document.querySelectorAll('.sb-list').forEach(list=>{
+  list.addEventListener('mousedown',function(e){
+    const item=e.target.closest('.sb-item');
+    if(!item||item.dataset.mode!==mode)return;
+    isDragging=true;dragStartIdx=getItemIdx(item);dragEndIdx=dragStartIdx;
+    list.classList.add('dragging');
+    e.preventDefault();// prevent text selection
+  });
+});
+
+function dragAutoScroll(e){
+  if(!isDragging)return;
+  const list=getActiveList();
+  const rect=list.getBoundingClientRect();
+  const edgeZone=40;// pixels from edge to trigger scroll
+  const maxSpeed=12;// pixels per frame
+
+  let speed=0;
+  if(e.clientY>rect.bottom-edgeZone){
+    // Near bottom edge — scroll down
+    const dist=e.clientY-(rect.bottom-edgeZone);
+    speed=Math.min(maxSpeed,Math.max(2,dist/edgeZone*maxSpeed));
+  }else if(e.clientY<rect.top+edgeZone){
+    // Near top edge — scroll up
+    const dist=(rect.top+edgeZone)-e.clientY;
+    speed=-Math.min(maxSpeed,Math.max(2,dist/edgeZone*maxSpeed));
+  }
+
+  if(speed!==0){
+    list.scrollTop+=speed;
+    // After scrolling, find the item now under cursor (or nearest edge item)
+    updateDragHighlight(e);
+    dragScrollRAF=requestAnimationFrame(()=>dragAutoScroll(e));
+  }else{
+    dragScrollRAF=null;
+  }
+}
+
+function updateDragHighlight(e){
+  const items=getVisibleItems();
+  items.forEach(i=>i.classList.remove('drag-over'));
+  const el=document.elementFromPoint(e.clientX,e.clientY);
+  const item=el?el.closest('.sb-item'):null;
+  if(item&&item.dataset.mode===mode){
+    dragEndIdx=getItemIdx(item);
+  }
+  // If mouse is below/above the list, extend to last/first visible item
+  const list=getActiveList();
+  const rect=list.getBoundingClientRect();
+  if(e.clientY>rect.bottom&&items.length>0)dragEndIdx=items.length-1;
+  if(e.clientY<rect.top&&items.length>0)dragEndIdx=0;
+
+  if(dragEndIdx<0)return;
+  const lo=Math.min(dragStartIdx,dragEndIdx),hi=Math.max(dragStartIdx,dragEndIdx);
+  for(let i=lo;i<=hi;i++){items[i].classList.add('drag-over')}
+}
+
+document.addEventListener('mousemove',function(e){
+  if(!isDragging)return;
+  updateDragHighlight(e);
+  // Start auto-scroll loop if not already running
+  if(!dragScrollRAF)dragScrollRAF=requestAnimationFrame(()=>dragAutoScroll(e));
+});
+
+// Keep last mouse event for scroll loop to re-check position
+let lastDragEvent=null;
+document.addEventListener('mousemove',function(e){if(isDragging)lastDragEvent=e});
+
+document.addEventListener('mouseup',function(e){
+  if(!isDragging)return;
+  isDragging=false;
+  if(dragScrollRAF){cancelAnimationFrame(dragScrollRAF);dragScrollRAF=null}
+  const list=getActiveList();
+  list.classList.remove('dragging');
+  const items=getVisibleItems();
+  // Use tracked dragEndIdx (works even when mouse is outside list due to scroll)
+  const el=document.elementFromPoint(e.clientX,e.clientY);
+  const item=el?el.closest('.sb-item'):null;
+  if(item&&item.dataset.mode===mode){dragEndIdx=getItemIdx(item)}
+  const lo=Math.min(dragStartIdx,dragEndIdx),hi=Math.max(dragStartIdx,dragEndIdx);
+  if(lo===hi){
+    // Single click — handled by click handler
+    items.forEach(i=>i.classList.remove('drag-over'));
+    return;
+  }
+  for(let i=lo;i<=hi;i++){
+    const k=items[i].dataset.key;
+    if(!sel.has(k)){sel.add(k);items[i].classList.add('selected')}
+  }
+  items.forEach(i=>i.classList.remove('drag-over'));
+  updateUI();render();
+});
+
+// ── Render ──
+function render(){
+  if(sel.size===0){clearSelection();return}
+  pFilter='all';uFilter='all';
+  const keys=[...sel];
+  const periodSet=new Set(),unitSet=new Set();
+  lastRows=[];
+  if(mode==='segments'){
+    keys.forEach(seg=>{(SEG_DATA[seg]||[]).forEach(e=>{e.metrics.forEach(m=>{Object.keys(m.values).forEach(p=>periodSet.add(p));if(m.unit)unitSet.add(m.unit);lastRows.push({company:e.company,filename:e.filename,segment:seg,metric:m.name,unit:m.unit||'',values:m.values,enriched:m.enriched||{}})})})});
+  }else if(mode==='metrics'){
+    keys.forEach(met=>{(METRIC_DATA[met]||[]).forEach(e=>{Object.keys(e.values).forEach(p=>periodSet.add(p));if(e.unit)unitSet.add(e.unit);lastRows.push({company:e.company,filename:e.filename,segment:e.segment,metric:met,unit:e.unit||'',values:e.values,enriched:e.enriched||{}})})});
+  }else if(mode==='companies'){
+    keys.forEach(comp=>{const cd=COMPANY_DATA[comp];if(!cd)return;cd.metrics.forEach(m=>{Object.keys(m.values).forEach(p=>periodSet.add(p));if(m.unit)unitSet.add(m.unit);lastRows.push({company:comp,filename:cd.filename,segment:m.segment,metric:m.name,unit:m.unit||'',values:m.values,enriched:m.enriched||{}})})});
+  }
+  const allP=sortP([...periodSet]);
+  const grps={};allP.forEach(p=>{const g=gPG(p);grps[g]=(grps[g]||0)+1});
+  document.getElementById('ctTitle').textContent=keys.length===1?keys[0]:keys.length+' '+(mode==='segments'?'segments':mode==='metrics'?'metrics':'companies')+' selected';
+  document.getElementById('ctSubtitle').textContent=lastRows.length+' rows · '+allP.length+' periods';
+  buildFilters(grps,allP.length,[...unitSet].sort());
+  buildTable(lastRows,allP);
+}
+
+function buildFilters(grps,total,units){
+  const bar=document.getElementById('pfBar');bar.innerHTML='';
+  const mk=(f,l,n)=>{const b=document.createElement('button');b.className='pf-btn'+(f==='all'?' active':'');b.dataset.filter=f;b.innerHTML=l+' <span style="font-family:var(--font-mono);font-size:.5rem;opacity:.7;margin-left:2px">'+n+'</span>';return b};
+  bar.appendChild(mk('all','All',total));
+  [['Quarterly','QnQ'],['Half Year','HY'],['9 Month','9M'],['Annual','FY'],['Other','Other'],['Static','Static']].forEach(([k,l])=>{if(grps[k])bar.appendChild(mk(k,l,grps[k]))});
+  bar.querySelectorAll('.pf-btn').forEach(btn=>{btn.addEventListener('click',()=>{bar.querySelectorAll('.pf-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');pFilter=btn.dataset.filter;applyFilters()})});
+  const uSel=document.getElementById('unitSelect');uSel.innerHTML='<option value="all">All Units ('+units.length+')</option>';
+  units.forEach(u=>{const o=document.createElement('option');o.value=u;o.textContent=u;uSel.appendChild(o)});
+  uSel.value='all';uSel.onchange=()=>{uFilter=uSel.value;applyFilters()};
+  document.getElementById('ctFilters').style.display='';
+}
+function applyFilters(){
+  document.querySelectorAll('#ctBody th[data-pg],#ctBody td[data-pg]').forEach(c=>{c.classList.toggle('col-hidden',pFilter!=='all'&&c.dataset.pg!==pFilter)});
+  document.querySelectorAll('#ctBody tr[data-unit]').forEach(r=>{r.classList.toggle('unit-hidden',uFilter!=='all'&&r.dataset.unit!==uFilter)});
+}
+
+function buildTable(rows,allP){
+  let h='<table><thead><tr><th class="col-left" style="position:sticky;left:0;z-index:3;background:var(--surface);min-width:180px">Company</th><th class="col-left" style="min-width:150px">Segment</th><th class="col-left" style="min-width:160px">Metric</th><th style="text-align:center;min-width:70px">Unit</th>';
+  allP.forEach(p=>{h+='<th data-pg="'+gPG(p)+'">'+p+'</th>'});
+  h+='</tr></thead><tbody>';
+  rows.forEach(r=>{
+    h+='<tr data-unit="'+r.unit+'">';
+    h+='<td class="td-link"><a href="/company/'+r.filename+'">'+r.company+'</a></td>';
+    h+='<td class="td-left td-dim">'+r.segment+'</td>';
+    h+='<td class="td-left" style="font-weight:600;font-size:.73rem">'+r.metric+'</td>';
+    h+='<td style="text-align:center;font-size:.62rem;color:var(--dim)">'+r.unit+'</td>';
+    allP.forEach(p=>{
+      const v=r.values[p]||'';
+      const en=r.enriched[p]||{};
+      const ref=en.ref||'';
+      const src=en.src||'';
+      const pg=en.pg||'';
+      const conf=en.conf||'';
+      const cls=[];
+      if(!v)cls.push('empty');
+      if(ref)cls.push('has-ref');
+      if(src)cls.push('has-src');
+      h+='<td data-pg="'+gPG(p)+'"';
+      if(cls.length)h+=' class="'+cls.join(' ')+'"';
+      if(ref)h+=' data-ref="'+ref.replace(/"/g,'&quot;')+'"';
+      if(src)h+=' data-src="'+src.replace(/"/g,'&quot;')+'"';
+      if(pg)h+=' data-pg-num="'+pg+'"';
+      if(conf)h+=' data-conf="'+conf+'"';
+      h+='>'+(v||'—')+'</td>';
+    });
+    h+='</tr>';
+  });
+  h+='</tbody></table>';
+  document.getElementById('ctBody').innerHTML=h;
+}
+
+// ── Excel Export ──
+function exportExcel(){
+  if(!lastRows.length)return;
+  const tbl=document.querySelector('#ctBody table');if(!tbl)return;
+  let csv='';
+  const ths=tbl.querySelectorAll('thead th');
+  const hdr=[];ths.forEach(th=>{if(!th.classList.contains('col-hidden'))hdr.push('"'+th.textContent.trim().replace(/"/g,'""')+'"')});
+  csv+=hdr.join(',')+'\n';
+  tbl.querySelectorAll('tbody tr').forEach(tr=>{
+    if(tr.classList.contains('unit-hidden'))return;
+    const cells=[];tr.querySelectorAll('td').forEach(td=>{if(!td.classList.contains('col-hidden'))cells.push('"'+td.textContent.trim().replace(/"/g,'""')+'"')});
+    csv+=cells.join(',')+'\n';
+  });
+  const blob=new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8;'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='ZOLT_Screener_Export.csv';a.click();
+}
+</script>
+
+</body>
+</html>

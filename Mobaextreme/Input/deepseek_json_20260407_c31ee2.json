@@ -1,0 +1,772 @@
+{
+  "company_name": "Sanghvi Movers Limited",
+  "documents_scanned": "8",
+  "time_range": "FY 2023-24 to 9M FY 2025-26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Average Capacity Utilization", "unit": "%", "metric_type": "periodic", "periods_available": ["FY 2019-20", "FY 2020-21", "FY 2021-22", "FY 2022-23", "FY 2023-24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "H1 FY25", "9M FY25", "FY 2024-25", "Q1 FY26", "Q2 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "Average Blended Yield per month", "unit": "%", "metric_type": "periodic", "periods_available": ["FY 2019-20", "FY 2020-21", "FY 2021-22", "FY 2022-23", "FY 2023-24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "H1 FY25", "9M FY25", "FY 2024-25", "Q1 FY26", "Q2 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "Order Book at beginning of year", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["FY 2024-25", "FY 2025-26"]},
+        {"metric": "Order Book Position (absolute)", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["14-Apr-2024", "04-May-2023", "30-Jul-2024", "30-Oct-2024", "31-Oct-2024", "15-Jan-2025", "15-Apr-2025", "28-Jul-2025", "30-Sep-2025"]},
+        {"metric": "Order Book (billable in current financial year)", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["FY 2024-25", "FY 2025-26"]},
+        {"metric": "Total Order Book (including spillover)", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["31-Oct-2024", "15-Jan-2025", "28-Jul-2025", "30-Sep-2025"]},
+        {"metric": "Capex - Cranes", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["FY 2023-24", "FY 2024-25", "Q1 FY25", "Q2 FY25", "H1 FY25", "H2 FY25 (planned)", "FY 2025-26 (planned)", "9M FY26"]},
+        {"metric": "Capex - Other Fixed Assets", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["FY 2023-24", "FY 2024-25", "Q1 FY25", "FY 2025-26 (planned)"]},
+        {"metric": "Total Capex", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["FY 2019-20", "FY 2020-21", "FY 2021-22", "FY 2022-23", "FY 2023-24", "FY 2024-25", "H1 FY25", "H2 FY25 (planned)", "FY 2025-26 (planned)", "9M FY26"]},
+        {"metric": "Total Borrowings", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["31-Mar-2024", "30-Jun-2024", "30-Sep-2024", "31-Dec-2024", "31-Mar-2025", "30-Sep-2025"]},
+        {"metric": "Net Borrowings / Net Debt", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["31-Mar-2024", "30-Jun-2024", "30-Sep-2024", "31-Dec-2024", "31-Mar-2025", "30-Sep-2025", "31-Dec-2025"]},
+        {"metric": "Debt to Equity Ratio", "unit": "ratio", "metric_type": "periodic", "periods_available": ["31-Mar-2020", "31-Mar-2021", "31-Mar-2022", "31-Mar-2023", "31-Mar-2024", "30-Jun-2024", "30-Sep-2024", "31-Dec-2024", "31-Mar-2025", "30-Sep-2025", "31-Dec-2025"]},
+        {"metric": "Average Borrowing Cost", "unit": "% p.a", "metric_type": "periodic", "periods_available": ["FY 2023-24", "Q1 FY25", "H1 FY25", "FY 2024-25", "Q1 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "Average Gross Yield (period)", "unit": "%", "metric_type": "periodic", "periods_available": ["Q1 FY24", "Q2 FY24", "Q3 FY24", "Q4 FY24", "FY 2023-24", "Q1 FY25", "Q2 FY25", "H1 FY25", "9M FY25", "FY 2024-25", "Q1 FY26", "Q2 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "Net Worth", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["31-Mar-2024", "30-Jun-2024", "30-Sep-2024", "31-Dec-2024", "31-Mar-2025", "30-Sep-2025", "31-Dec-2025"]},
+        {"metric": "Gross Block", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["31-Mar-2024", "30-Jun-2024", "31-Mar-2025", "31-Dec-2025"]},
+        {"metric": "Crane Fleet Count", "unit": "number", "metric_type": "periodic", "periods_available": ["30-Jun-2024", "30-Sep-2025", "31-Dec-2025"]},
+        {"metric": "Crane Fleet (capacity >100 MT) - Count", "unit": "number", "metric_type": "periodic", "periods_available": ["30-Jun-2024", "31-Mar-2025"]},
+        {"metric": "Crane Fleet (capacity >100 MT) - % of Gross Block", "unit": "%", "metric_type": "periodic", "periods_available": ["31-Mar-2024", "30-Jun-2024", "31-Mar-2025"]},
+        {"metric": "Debtors less than 90 days", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["31-Mar-2024", "30-Jun-2024", "30-Sep-2024", "31-Mar-2025", "30-Sep-2025"]},
+        {"metric": "Debtors between 91-180 days", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["31-Mar-2024", "30-Jun-2024", "30-Sep-2024", "31-Mar-2025", "30-Sep-2025"]},
+        {"metric": "Debtors between 181-360 days", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["31-Mar-2024", "30-Jun-2024", "30-Sep-2024", "31-Mar-2025", "30-Sep-2025"]},
+        {"metric": "Debtors 361 days and above", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["31-Mar-2024", "31-Mar-2025", "30-Sep-2025"]},
+        {"metric": "Average Receivable Days", "unit": "days", "metric_type": "periodic", "periods_available": ["31-Mar-2024", "30-Jun-2024", "30-Sep-2024", "31-Mar-2025", "30-Sep-2025", "31-Dec-2025"]},
+        {"metric": "Total Sundry Debtors (before provision)", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["31-Mar-2024", "31-Mar-2025", "30-Sep-2025"]},
+        {"metric": "Total Sundry Debtors (after provision)", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["30-Jun-2024", "30-Sep-2024", "31-Mar-2025", "30-Sep-2025"]},
+        {"metric": "Investments in MF Schemes / Debt Schemes", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["30-Jun-2024", "30-Sep-2024", "31-Dec-2024", "31-Mar-2025", "30-Sep-2025"]},
+        {"metric": "Total Recordable Incident Rate (TRIR)", "unit": "rate", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Depots", "unit": "number", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Clients Served", "unit": "number", "metric_type": "periodic", "periods_available": ["31-Dec-2025"]},
+        {"metric": "Employee Strength", "unit": "number", "metric_type": "periodic", "periods_available": ["31-Dec-2025"]}
+      ]
+    },
+    {
+      "segment_name": "Crane Rental Business",
+      "metrics_found": [
+        {"metric": "Capex - Cranes (Crane Rental)", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["FY 2023-24", "FY 2024-25", "Q1 FY25", "H1 FY25", "FY 2025-26 (planned)", "9M FY26"]},
+        {"metric": "Crane Rental Revenue (segment)", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["Q1 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "FY 2024-25", "Q1 FY26", "Q2 FY26", "H1 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "Wind EPC Business",
+      "metrics_found": [
+        {"metric": "Revenue from Wind EPC", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["FY 2023-24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "FY 2024-25", "Q1 FY26", "Q2 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "Projects Delivered (Group level expertise)", "unit": "number", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Group level expertise of Installation of WTGs", "unit": "GW", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Access to Crane Fleet (Wind EPC)", "unit": "number", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Access to Trailers (Wind EPC)", "unit": "number", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Customers (Wind EPC)", "unit": "number", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Project EPC Business",
+      "metrics_found": [
+        {"metric": "Revenue from Project EPC", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["FY 2023-24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "FY 2024-25", "Q1 FY26", "Q2 FY26", "H1 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "KSA Operations (SMME)",
+      "metrics_found": [
+        {"metric": "SMME Revenue", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["Q1 FY26", "Q2 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "SMME Net Worth", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["30-Sep-2025"]},
+        {"metric": "SMME Net Bank Borrowings", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["30-Sep-2025"]},
+        {"metric": "SMME Average Borrowing Cost", "unit": "% p.a", "metric_type": "periodic", "periods_available": ["H1 FY26", "9M FY26"]},
+        {"metric": "SMME Average Capacity Utilization", "unit": "%", "metric_type": "periodic", "periods_available": ["H1 FY26", "9M FY26", "Q3 FY26"]},
+        {"metric": "SMME Average Yield per month", "unit": "%", "metric_type": "periodic", "periods_available": ["9M FY26", "Q3 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "Order Book Splits",
+      "metrics_found": [
+        {"metric": "Order Book - Wind Mill Sector", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["15-Apr-2025"]},
+        {"metric": "Order Book - Power Sector", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["15-Apr-2025"]},
+        {"metric": "Order Book - Refinery & Gas", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["15-Apr-2025"]},
+        {"metric": "Order Book - Steel & Metal", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["15-Apr-2025"]},
+        {"metric": "Order Book - Cement", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["15-Apr-2025"]},
+        {"metric": "Order Book - Other Industries", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["15-Apr-2025"]},
+        {"metric": "Order Book - Project EPC", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["15-Apr-2025"]},
+        {"metric": "Order Book - Renewable Business (SFRPL)", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["15-Apr-2025", "28-Jul-2025"]}
+      ]
+    },
+    {
+      "segment_name": "KSA Market Data",
+      "metrics_found": [
+        {"metric": "KSA Annual Crane Rental Market Size", "unit": "$", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "KSA Expected Order Pipeline (Confirmed & Mobilizing)", "unit": "$ Million", "metric_type": "periodic", "periods_available": ["30-Sep-2025"]},
+        {"metric": "KSA Total Visible Pipeline Value (12-24 months)", "unit": "$ Million", "metric_type": "periodic", "periods_available": ["30-Sep-2025"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Credit Rating", "unit": "rating", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Global Ranking - Crane Rental", "unit": "rank", "metric_type": "periodic", "periods_available": ["30-Sep-2025"]},
+    {"metric": "Regional Ranking - Crane Rental", "unit": "rank", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Years of Legacy", "unit": "years", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "ISO Certifications", "unit": "certification", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "GWO Certification", "unit": "certification", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Listed since", "unit": "year", "metric_type": "static_descriptor", "periods_available": ["static"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Average Capacity Utilization",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2019-20": {"v": "72%", "ref": "Year on Year Average Capacity Utilisation of Crane Fleet 72% FY 2019-20", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "FY 2020-21": {"v": "56%", "ref": "Year on Year Average Capacity Utilisation of Crane Fleet 56% FY 2020-21", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "FY 2021-22": {"v": "76%", "ref": "Year on Year Average Capacity Utilisation of Crane Fleet 76% FY 2021-22", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "FY 2022-23": {"v": "82%", "ref": "Year on Year Average Capacity Utilisation of Crane Fleet 82% FY 2022-23", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "FY 2023-24": {"v": "84%", "ref": "Year on Year Average Capacity Utilisation of Crane Fleet 84% FY 2023-24", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q1 FY25": {"v": "77%", "ref": "Average Capacity Utilisation 77% Q1FY25", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "H1 FY25": {"v": "73%", "ref": "Average CU 73% H1 FY25", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q2 FY25": {"v": "68%", "ref": "Average CU 68% Q2 FY25", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q3 FY25": {"v": "70%", "ref": "Average CU 70% Q3 FY25", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "Q4 FY25": {"v": "79%", "ref": "Average CU 79% Q4 FY25", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY 2024-25": {"v": "73%", "ref": "Average CU 73% FY 2024-25", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "Q1 FY26": {"v": "75%", "ref": "Avg. Capacity Utilization 75%", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "H1 FY26": {"v": "75%", "ref": "Avg. Capacity Utilization 75%", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "9M FY26": {"v": "76.1%", "ref": "Avg. Capacity Utilization 76.1% 9M FY26", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Average Blended Yield per month",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2019-20": {"v": "1.70%", "ref": "Year on Year Average Blended Yield 1.70% FY 2019-20", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY 2020-21": {"v": "1.50%", "ref": "Year on Year Average Blended Yield 1.50% FY 2020-21", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY 2021-22": {"v": "1.71%", "ref": "Year on Year Average Blended Yield 1.71% FY 2021-22", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY 2022-23": {"v": "1.97%", "ref": "Year on Year Average Blended Yield 1.97% FY 2022-23", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY 2023-24": {"v": "2.20%", "ref": "Year on Year Average Blended Yield 2.20% FY 2023-24", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Q1 FY25": {"v": "2.04%", "ref": "Avg. Gross Yield for the period 2.04% Q1FY25", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "H1 FY25": {"v": "2.09%", "ref": "Average Gross Yield 2.09% H1 FY25", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q2 FY25": {"v": "2.15%", "ref": "Average Gross Yield 2.15% Q2 FY25", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q3 FY25": {"v": "1.97%", "ref": "Average Gross Yield 1.97% Q3 FY25", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "Q4 FY25": {"v": "2.03%", "ref": "Average Gross Yield 2.03% Q4 FY25", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY 2024-25": {"v": "2.05%", "ref": "Average Gross Yield 2.05% FY 2024-25", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "Q1 FY26": {"v": "2.04%", "ref": "Avg. Yield per month 2.04%", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "H1 FY26": {"v": "2.08%", "ref": "Avg. Yield per month 2.08%", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "9M FY26": {"v": "2.1%", "ref": "Avg. Yield per month 2.1% 9M FY26", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order Book at beginning of year",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2024-25": {"v": "426", "ref": "Order Book at the beginning of the Year Rs. 426 Crores FY 2024-25", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "FY 2025-26": {"v": "600", "ref": "Order Book at the beginning of the Year Rs. 600 Crores FY 2025-26", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order Book Position (absolute)",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "04-May-2023": {"v": "299", "ref": "Order Book as on 4th May 2023 to be executed during the period of 1 April 2023 To 31st March 2024 299.00", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "14-Apr-2024": {"v": "426", "ref": "Order Book as on 14th April 2024 to be executed during the period of 1 April 2024 To 31st March 2025 426.00", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "30-Jul-2024": {"v": "744", "ref": "Order Book Position as on 30th July 744 FY 2024-25", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "30-Oct-2024": {"v": "898", "ref": "Order Book as on 31.10.2024 898", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "31-Oct-2024": {"v": "898", "ref": "Order Book as on 31.10.2024 898", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "15-Jan-2025": {"v": "995", "ref": "Order Book as on 15.01.2025 995", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "15-Apr-2025": {"v": "600", "ref": "Order Book Position of Rs. 600 Crores as on 15.04.2025", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "28-Jul-2025": {"v": "767", "ref": "Total Order Book 767.26", "src": "Aug-2025_d8eaa246-f37d-4446-aafe-39d95444160a_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "1239", "ref": "Total Order: 1,239 Cr Billable in this financial year", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "27", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order Book (billable in current financial year)",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2024-25": {"v": "644", "ref": "Order Book for Financial Year 2024-25 644", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "FY 2025-26": {"v": "767", "ref": "Order Book for the Financial Year 2025-26 767", "src": "Aug-2025_d8eaa246-f37d-4446-aafe-39d95444160a_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total Order Book (including spillover)",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "31-Oct-2024": {"v": "898", "ref": "Order Book as on 31.10.2024 898", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "15-Jan-2025": {"v": "995", "ref": "Order Book as on 15.01.2025 995", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "28-Jul-2025": {"v": "767", "ref": "Total Order Book 767.26", "src": "Aug-2025_d8eaa246-f37d-4446-aafe-39d95444160a_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "1239", "ref": "Total Order: 1,239 Cr Billable in this financial year", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "27", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Capex - Cranes",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2023-24": {"v": "300", "ref": "Capex for Cranes 300 Amount in Crores", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "4", "conf": "HIGH"},
+            "Q1 FY25": {"v": "63.03", "ref": "118 No. Cranes purchased as under 63.03 Rs. In Crores", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "H1 FY25": {"v": "89.30", "ref": "H1 FY25: Rs. 89.30 Cr", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY 2024-25": {"v": "203", "ref": "Cranes Capitalized during the year 46 203 Rs. in Crores", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "FY 2025-26 (planned)": {"v": "215", "ref": "56 Nos. Cranes + allied equipment 215 Rs. in Crores", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY26": {"v": "76", "ref": "Crane Planned 98 Crane Deployed 76", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "22", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Capex - Other Fixed Assets",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2023-24": {"v": "34", "ref": "Capex for Other fixed Assets 34 Total 334", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "4", "conf": "HIGH"},
+            "Q1 FY25": {"v": "5.96", "ref": "Other Fixed Assets 5.96 Total 80.70", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "FY 2024-25": {"v": "33", "ref": "Total Capex for Other Fixed Assets 33 Total (A)+(B) 235", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "FY 2025-26 (planned)": {"v": "6", "ref": "Other Fixed Assets 6 Total 246", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "32", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total Capex",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2019-20": {"v": "2", "ref": "Year wise Capex by the Company 2 Amount In Crores FY20", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "FY 2020-21": {"v": "1", "ref": "Year wise Capex by the Company 1 Amount In Crores FY21", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "FY 2021-22": {"v": "111", "ref": "Year wise Capex by the Company 111 Amount In Crores FY22", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "FY 2022-23": {"v": "162", "ref": "Year wise Capex by the Company 162 Amount In Crores FY23", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "FY 2023-24": {"v": "334", "ref": "Year wise Capex by the Company 334 Amount In Crores FY24", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "H1 FY25": {"v": "89.30", "ref": "H1 FY25: Rs. 89.30 Cr", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY 2024-25": {"v": "235", "ref": "Total (A)+(B) 235", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "FY 2025-26 (planned)": {"v": "246", "ref": "Total 246 Rs. in Crores", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY26": {"v": "284", "ref": "Total CapEx Incurred till 9M FY26 ₹ 284 Cr", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "22", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total Borrowings",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "31-Mar-2024": {"v": "301.08", "ref": "Term Loans from various Banks 301.08 Total Borrowings 301.08", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "30-Jun-2024": {"v": "360.01", "ref": "Total Borrowings 360.01 30.06.24", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "30-Sep-2024": {"v": "346.97", "ref": "Total Borrowings 46.97 30.09.24", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "13", "conf": "MEDIUM"},
+            "31-Dec-2024": {"v": "365.07", "ref": "Total Borrowings 365.07 31.12.2024", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "451.02", "ref": "Total Borrowings 451.02 31.03.25", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "440", "ref": "Net Debt 440 Cr", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Net Borrowings / Net Debt",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "31-Mar-2024": {"v": "286.95", "ref": "Net Debt / Loans 286.95 31.03.24", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "30-Jun-2024": {"v": "317.38", "ref": "Net Debt / Loans 317.38 30.06.24", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "30-Sep-2024": {"v": "309.40", "ref": "Net Debt / Loans 309.40 30.09.24", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "31-Dec-2024": {"v": "324.75", "ref": "Net Debt / Loans 324.75 31.12.2024", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "376.26", "ref": "Net Debt / Loans 376.26 31.03.25", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "440", "ref": "Net Debt 440 Cr", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "31-Dec-2025": {"v": "596", "ref": "Net Debt 596 Cr", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Debt to Equity Ratio",
+          "unit": "ratio",
+          "metric_type": "periodic",
+          "values": {
+            "31-Mar-2020": {"v": "0.43", "ref": "Debt : Equity Ratio 0.43 31.03.2020", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "31-Mar-2021": {"v": "0.28", "ref": "Debt : Equity Ratio 0.28 31.03.2021", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "31-Mar-2022": {"v": "0.23", "ref": "Debt : Equity Ratio 0.23 31.03.2022", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "31-Mar-2023": {"v": "0.19", "ref": "Debt : Equity Ratio 0.19 31.03.2023", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "31-Mar-2024": {"v": "0.28", "ref": "Debt : Equity Ratio 0.28 31.03.2024", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "30-Jun-2024": {"v": "0.30", "ref": "Debt : Equity Ratio 0.30 30.06.2024", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "30-Sep-2024": {"v": "0.29", "ref": "Debt : Equity Ratio 0.29 30.09.2024", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "31-Dec-2024": {"v": "0.30", "ref": "Debt: Equity Ratio 0.30 31.12.2024", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "0.33", "ref": "Debt: Equity Ratio 0.33 31.03.2025", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "0.36", "ref": "D/E Ratio 0.36:1", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "31-Dec-2025": {"v": "0.48", "ref": "Net D/E Ratio 0.48", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Average Borrowing Cost",
+          "unit": "% p.a",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2023-24": {"v": "9.17%", "ref": "Avg. Borrowing Cost ₹ 9.17% p.a", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Q1 FY25": {"v": "9.06%", "ref": "Avg. Cost of Borrowing 9.06%", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "H1 FY25": {"v": "8.93%", "ref": "Avg. Cost of Borrowing 8.93% p.a.", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "FY 2024-25": {"v": "8.95%", "ref": "Avg. Cost of Borrowing 8.95% p.a.", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Q1 FY26": {"v": "8.48%", "ref": "Avg Borrowing cost P.A 8.48%", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "H1 FY26": {"v": "8.48%", "ref": "Avg Borrowing cost P.A 8.48%", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "9M FY26": {"v": "8.20%", "ref": "Avg Borrowing cost P.A 8.20%", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Net Worth",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "31-Mar-2024": {"v": "1012.14", "ref": "Net Worth 1,012.14", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "30-Jun-2024": {"v": "1052.74", "ref": "Net Worth 1,052.74", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "30-Sep-2024": {"v": "1056.04", "ref": "Net Worth 1,056.04", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "31-Dec-2024": {"v": "1088", "ref": "Net worth 1088 Cr", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "1142.53", "ref": "Net Worth 1,142.53", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "1212", "ref": "Net worth 1212 Cr", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "31-Dec-2025": {"v": "1240", "ref": "Net Worth 1,240 Cr", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Gross Block",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "31-Mar-2024": {"v": "2490", "ref": "SML has Gross Block of Rs. 2490 Crores As on 31.03.2024", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "30-Jun-2024": {"v": "2560", "ref": "Amount of Gross block of Cranes Rs. 2560 Crores", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "2680", "ref": "SML has Gross Block of Rs. 2680 Crores As on 31.03.2025", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "31-Dec-2025": {"v": "3067", "ref": "Gross Block 3,067 Cr (As on 31st December 2025)", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Crane Fleet Count",
+          "unit": "number",
+          "metric_type": "periodic",
+          "values": {
+            "30-Jun-2024": {"v": "361", "ref": "Count of SML Crane fleet 361", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "400+", "ref": "fleet of 400+ cranes across 40-1600 MT capacities", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "6", "conf": "MEDIUM"},
+            "31-Dec-2025": {"v": "485+", "ref": "485+ Cranes Across Multiple Capacities", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Crane Fleet (capacity >100 MT) - Count",
+          "unit": "number",
+          "metric_type": "periodic",
+          "values": {
+            "30-Jun-2024": {"v": "264", "ref": "Count of SML Crane Fleet having capacity more than 100MT 264", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "260", "ref": "Number of cranes 260 (from chart image inference)", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "26", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Crane Fleet (capacity >100 MT) - % of Gross Block",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "31-Mar-2024": {"v": "95%", "ref": "95% of the Gross Block consists of cranes having more than 100 MT capacity.", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "30-Jun-2024": {"v": "95%", "ref": "% of Gross Block of Crane Fleet having capacity more than 100MT 95%", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "96%", "ref": "96% of the Gross Block consists of cranes having more than 100 MT capacity.", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "27", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Debtors less than 90 days",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "31-Mar-2024": {"v": "165.73", "ref": "Debtors Less than 90 days 165.73", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "30-Jun-2024": {"v": "126.44", "ref": "Debtors Less than 90 Days 126.44", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "30-Sep-2024": {"v": "148", "ref": "S. Debtors - Rs. in Cr 148 (<90 days)", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "290.61", "ref": "S. Debtors Less than 90 days 290.61", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "325", "ref": "S. Debtors* 325 (<90 days)", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "26", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Debtors between 91-180 days",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "31-Mar-2024": {"v": "10.05", "ref": "Debtors between 91 days to 180 days 10.05", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "30-Jun-2024": {"v": "12.94", "ref": "Debtors between 91 Days to 180 Days 12.94", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "30-Sep-2024": {"v": "16", "ref": "S. Debtors - Rs. in Cr 16 (91-180 days)", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "8.37", "ref": "S. Debtors between 91 days to 180 days 8.37", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "17", "ref": "S. Debtors* 17 (91-180 days)", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "26", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Debtors between 181-360 days",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "31-Mar-2024": {"v": "3.38", "ref": "Debtors between 181 days to 360 days 3.38", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "30-Jun-2024": {"v": "4.26", "ref": "Debtors between 181 Days to 360 Days (Net of Provision for Doubtful debts) 4.26", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "30-Sep-2024": {"v": "7", "ref": "S. Debtors - Rs. in Cr 7 (181-360 days)", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "12.87", "ref": "S. Debtors between 181 days to 360 days 12.87", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "11", "ref": "S. Debtors* 11 (181-360 days)", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "26", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Debtors 361 days and above",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "31-Mar-2024": {"v": "Nil", "ref": "Debtors 361 days and above Nil", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "6.57", "ref": "S. Debtors 361 days and above 6.57", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "3", "ref": "S. Debtors* 3 (361+ days)", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "26", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Average Receivable Days",
+          "unit": "days",
+          "metric_type": "periodic",
+          "values": {
+            "31-Mar-2024": {"v": "95", "ref": "Average Receivable Days (Net of GST amount included in Debtors) 95 Days", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "30-Jun-2024": {"v": "101", "ref": "Average receivable Days (Net of GST Amount included in Debtors) 101 Days", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "30-Sep-2024": {"v": "111", "ref": "Average receivable Days – 111 days", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "123", "ref": "Average Receivable Days 123 Days", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "120", "ref": "Average receivable days - 120 days", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "26", "conf": "HIGH"},
+            "31-Dec-2025": {"v": "100", "ref": "DSO improved from 123 days in Sept 25 to 100 days in Dec 25", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total Sundry Debtors (before provision)",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "31-Mar-2024": {"v": "179.16", "ref": "Total sundry Debtors as on 31/03/2024 179.16", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "318.42", "ref": "Total S. Debtors as on 31/03/2025 318.42", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "356", "ref": "Total S. Debtors* 356", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "26", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total Sundry Debtors (after provision)",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "30-Jun-2024": {"v": "143.65", "ref": "Reported Sundry debtors as per Financials 143.65", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "30-Sep-2024": {"v": "171", "ref": "Reported Debtors 171", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "307.55", "ref": "Reported S. Debtors as per financials 307.55", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "356", "ref": "Total S. Debtors* 356 (net of provision)", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "26", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Investments in MF Schemes / Debt Schemes",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "30-Jun-2024": {"v": "176", "ref": "invested a sum of Rs. 176 Crores in Fixed Deposits with the Banks, Debt Schemes of various MF", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "30-Sep-2024": {"v": "153", "ref": "invested a sum of Rs. 153 Crores in Debt Schemes of various MF", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "31-Dec-2024": {"v": "179", "ref": "invested a sum of Rs. 179 Crores in Debt Schemes of various MF", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "31-Mar-2025": {"v": "150", "ref": "Invested sum of INR 150 crores in Debt Schemes of various MF", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "30-Sep-2025": {"v": "192+", "ref": "Total investments in MF Schemes 192+ Crores", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "25", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of Clients Served",
+          "unit": "number",
+          "metric_type": "periodic",
+          "values": {
+            "31-Dec-2025": {"v": "500+", "ref": "500+ Asset Base Clients Served", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "6", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Employee Strength",
+          "unit": "number",
+          "metric_type": "periodic",
+          "values": {
+            "31-Dec-2025": {"v": "650+", "ref": "650+ Employee Strength", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "6", "conf": "MEDIUM"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Crane Rental Business",
+      "data": [
+        {
+          "particulars": "Capex - Cranes (Crane Rental)",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2023-24": {"v": "300", "ref": "Capex for Cranes 300 Amount in Crores", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "4", "conf": "HIGH"},
+            "Q1 FY25": {"v": "63.03", "ref": "118 No. Cranes purchased as under 63.03 Rs. In Crores", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "H1 FY25": {"v": "89.30", "ref": "H1 FY25: Rs. 89.30 Cr", "src": "Nov-2024_b55e109f-12f3-4af7-9adf-6e3c1af7e8a2_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY 2024-25": {"v": "203", "ref": "Cranes Capitalized during the year 46 203 Rs. in Crores", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "FY 2025-26 (planned)": {"v": "215", "ref": "56 Nos. Cranes + allied equipment 215 Rs. in Crores", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY26": {"v": "76", "ref": "Crane Deployed 76", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "22", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Crane Rental Revenue (segment)",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY24": {"v": "142.01", "ref": "Income 142.01 Crane Q1 - FY 2024", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY25": {"v": "129.85", "ref": "Income 129.85 Crane Q1 - FY 2025", "src": "Aug-2024_b9f0312f-dd35-4866-8332-cc1705ae69b3_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY25": {"v": "126.30", "ref": "Revenue from Crane 126.30 Q2 FY25", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY25": {"v": "114.21", "ref": "Revenue from Crane 114.21 Q3 FY25", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY25": {"v": "145.03", "ref": "Revenue from Crane 145.03 Q4 FY25", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "FY 2024-25": {"v": "515.38", "ref": "Revenue from Crane 515.38 FY 2024-25", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1 FY26": {"v": "159.66", "ref": "Revenue from Operations 159.66 Crane Renting Q1 FY26", "src": "Aug-2025_d8eaa246-f37d-4446-aafe-39d95444160a_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2 FY26": {"v": "143.36", "ref": "Crane Rental Revenue Q2 FY26 143 (inferred from H1 - Q1)", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "19", "conf": "MEDIUM"},
+            "H1 FY26": {"v": "303", "ref": "Revenue from Operations 210 (Q2) + 273 (Q1) = 483 total, minus Wind EPC 180 = 303", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "16", "conf": "MEDIUM"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Wind EPC Business",
+      "data": [
+        {
+          "particulars": "Revenue from Wind EPC",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2023-24": {"v": "20.04", "ref": "Income for Wind EPC Business 20.04", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY25": {"v": "19.68", "ref": "Revenue 19.68 Wind EPC Q1 FY25", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY25": {"v": "27.48", "ref": "Revenue 27.48 Wind EPC Q2 FY25", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY25": {"v": "82.14", "ref": "Revenue 82.14 Wind EPC Q3 FY25", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY25": {"v": "99.64", "ref": "Revenue 99.64 Wind EPC Q4 FY25", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "FY 2024-25": {"v": "228.94", "ref": "Revenue 228.94 Wind EPC FY 2024-25", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1 FY26": {"v": "106.19", "ref": "Revenue from Operations 106.19 Wind EPC Q1 FY26", "src": "Aug-2025_d8eaa246-f37d-4446-aafe-39d95444160a_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2 FY26": {"v": "70.56", "ref": "Wind EPC Revenue Q2 FY26 70.56 (from H1 total 176.75 - Q1 106.19)", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "16", "conf": "MEDIUM"},
+            "H1 FY26": {"v": "176.75", "ref": "Revenue from Operations 176.75 Wind EPC H1 FY26", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "9M FY26": {"v": "236", "ref": "Turnover 236 Cr (9M FY26 Wind EPC from segment chart)", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "21", "conf": "MEDIUM"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Project EPC Business",
+      "data": [
+        {
+          "particulars": "Revenue from Project EPC",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2023-24": {"v": "5.43", "ref": "Income for Project EPC Business 5.43 Total 25.47", "src": "May-2024_d17fe740-4c34-406a-94fa-ba1b87697452_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY25": {"v": "1.08", "ref": "Revenue 1.08 Project EPC Q1 FY25", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY25": {"v": "2.35", "ref": "Revenue 2.35 Project EPC Q2 FY25", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY25": {"v": "11.61", "ref": "Revenue 11.61 Project EPC Q3 FY25", "src": "Feb-2025_b1de2bd7-c8e2-4df4-a817-053918b3d132_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY25": {"v": "22.75", "ref": "Revenue 22.75 Project EPC Q4 FY25", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "FY 2024-25": {"v": "37.79", "ref": "Revenue 37.79 Project EPC FY 2024-25", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1 FY26": {"v": "7.50", "ref": "Revenue from Operations 7.50 Project EPC Q1 FY26", "src": "Aug-2025_d8eaa246-f37d-4446-aafe-39d95444160a_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2 FY26": {"v": "1.98", "ref": "Project EPC Revenue Q2 FY26 1.98 (from H1 total 9.48 - Q1 7.50)", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "16", "conf": "MEDIUM"},
+            "H1 FY26": {"v": "9.48", "ref": "Revenue from Operations 9.48 Project EPC H1 FY26", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "KSA Operations (SMME)",
+      "data": [
+        {
+          "particulars": "SMME Revenue",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": "0", "ref": "Income from Operations - Q1 FY 26", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q2 FY26": {"v": "1.43", "ref": "Income from Operations 1.43 Q2 FY 26", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "H1 FY26": {"v": "1.43", "ref": "Turnover 1.43 Cr H1 FY26", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY26": {"v": "9.10", "ref": "Turnover ₹ 9.10 Cr 9M FY26", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "34", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "SMME Net Worth",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "30-Sep-2025": {"v": "(5)", "ref": "Net worth (5) Cr", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "32", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "SMME Net Bank Borrowings",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "30-Sep-2025": {"v": "32.05", "ref": "Net Bank Borrowings 32.05 Cr", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "32", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "SMME Average Borrowing Cost",
+          "unit": "% p.a",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY26": {"v": "6.17%", "ref": "Avg Borrowing Cost P.A 6.17%", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY26": {"v": "5.72%", "ref": "SMME Avg Borrowing cost P.A 5.72%", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "SMME Average Capacity Utilization",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY26": {"v": "85%", "ref": "Avg. Capacity Utilization 85%", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY26": {"v": "81%", "ref": "Avg. Capacity Utilization 81% 9M FY26", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q3 FY26": {"v": "83%", "ref": "Avg. Capacity Utilization 83% Q3 FY26", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "34", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "SMME Average Yield per month",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY26": {"v": "3.4%", "ref": "Avg. Yield per month 3.4% 9M FY26", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q3 FY26": {"v": "3.5%", "ref": "Avg. Yield per month 3.5% Q3 FY26", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "34", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Order Book Splits",
+      "data": [
+        {
+          "particulars": "Order Book - Wind Mill Sector",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "15-Apr-2025": {"v": "124.79", "ref": "Wind Mill Sector 124.79", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order Book - Power Sector",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "15-Apr-2025": {"v": "21.87", "ref": "Power Sector 21.87", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order Book - Refinery & Gas",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "15-Apr-2025": {"v": "27.74", "ref": "Refinery & Gas 27.74", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order Book - Steel & Metal",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "15-Apr-2025": {"v": "5.76", "ref": "Steel & Metal 5.76", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order Book - Cement",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "15-Apr-2025": {"v": "2.15", "ref": "Cement 2.15", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order Book - Other Industries",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "15-Apr-2025": {"v": "25.98", "ref": "Other Industries 25.98", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order Book - Project EPC",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "15-Apr-2025": {"v": "14.78", "ref": "Project EPC 14.78", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order Book - Renewable Business (SFRPL)",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "15-Apr-2025": {"v": "376.37", "ref": "Renewable Business 376.37", "src": "May-2025_e7f79ac4-3654-4e77-a0fb-7f0c689a5dad_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "28-Jul-2025": {"v": "413.23", "ref": "SFRPL & SLPL Order Value 413.23", "src": "Aug-2025_d8eaa246-f37d-4446-aafe-39d95444160a_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "KSA Market Data",
+      "data": [
+        {
+          "particulars": "KSA Annual Crane Rental Market Size",
+          "unit": "$",
+          "metric_type": "static_descriptor",
+          "value": "$800M-$1B",
+          "ref": "Annual Crane Rental Market Size: $800M-$1B",
+          "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf",
+          "pg": "33",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "KSA Expected Order Pipeline (Confirmed & Mobilizing)",
+          "unit": "$ Million",
+          "metric_type": "periodic",
+          "values": {
+            "30-Sep-2025": {"v": "$5.1 - $8.4 Million", "ref": "Subtotal: Confirmed & Mobilizing $5.1 - $8.4 Million", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "33", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "KSA Total Visible Pipeline Value (12-24 months)",
+          "unit": "$ Million",
+          "metric_type": "periodic",
+          "values": {
+            "30-Sep-2025": {"v": "$32 - $49 Million", "ref": "Total Visible Pipeline Value: $32 - 49 Million", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "33", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Credit Rating",
+      "unit": "rating",
+      "metric_type": "static_descriptor",
+      "value": "ICRA A+ (Stable)",
+      "ref": "ICRA A+ (Stable) credit rating",
+      "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf",
+      "pg": "6",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Global Ranking - Crane Rental",
+      "unit": "rank",
+      "metric_type": "periodic",
+      "values": {
+        "30-Sep-2025": {"v": "5th", "ref": "World's 5th Largest Crane Rental Company (IC Index 2025)", "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf", "pg": "13", "conf": "HIGH"},
+        "31-Dec-2025": {"v": "5th", "ref": "5th Largest Crane Rental Company of", "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf", "pg": "6", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Regional Ranking - Crane Rental",
+      "unit": "rank",
+      "metric_type": "static_descriptor",
+      "value": "Asia's Largest",
+      "ref": "Asia's Largest Crane Rental Company (IC Index 2025)",
+      "src": "Nov-2025_97761261-93f4-4eb1-a036-5471701b002d_IP.pdf",
+      "pg": "13",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Years of Legacy",
+      "unit": "years",
+      "metric_type": "static_descriptor",
+      "value": "36 Years",
+      "ref": "36 Years of Legacy",
+      "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf",
+      "pg": "6",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "ISO Certifications",
+      "unit": "certification",
+      "metric_type": "static_descriptor",
+      "value": "ISO 9001:2015, ISO 14001:2015, ISO 45001:2018",
+      "ref": "ISO 9001:2015 ISO 14001:2015 ISO 45001:2018",
+      "src": "Aug-2025_d8eaa246-f37d-4446-aafe-39d95444160a_IP.pdf",
+      "pg": "12",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "GWO Certification",
+      "unit": "certification",
+      "metric_type": "static_descriptor",
+      "value": "Certified Training Provider",
+      "ref": "SML is Certified Training Provider GLOBAL WIND ORGANISATION",
+      "src": "Aug-2025_d8eaa246-f37d-4446-aafe-39d95444160a_IP.pdf",
+      "pg": "12",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Listed since",
+      "unit": "year",
+      "metric_type": "static_descriptor",
+      "value": "1995",
+      "ref": "Listed since 1995 on NSE & BSE",
+      "src": "Feb-2026_f2373a60-330c-44c8-991b-d88e0e6a1c11_IP.pdf",
+      "pg": "6",
+      "conf": "HIGH"
+    }
+  ]
+}

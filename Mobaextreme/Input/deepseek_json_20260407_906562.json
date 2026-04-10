@@ -1,0 +1,321 @@
+{
+  "company_name": "Allied Blenders and Distillers Limited",
+  "documents_scanned": "7",
+  "time_range": "FY24 to Q3FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Number of Millionaire Brands", "unit": "count", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "International Markets Presence", "unit": "count", "metric_type": "periodic", "periods_available": ["Q3FY26", "Q2FY26", "H1FY26", "Q1FY26", "FY25", "FY24", "Q3FY25"]},
+        {"metric": "Retail Reach", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Bottling Units", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Own Bottling Units", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Third Party Exclusive Bottling Units", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Third Party Non-Exclusive Bottling Units", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Royalty Bottling Units", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Distilleries", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Annual Distillation Capacity", "unit": "MLPA", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Sales Support Offices", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "States and UTs Presence", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "IMFL Brands", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Bottling Capacity", "unit": "Mn cases", "metric_type": "periodic", "periods_available": ["FY24", "9MFY25"]},
+        {"metric": "Export Net Revenue", "unit": "₹ Cr", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "Officer's Choice Global Rank by Volume", "unit": "rank", "metric_type": "periodic", "periods_available": ["CY2024", "CY2023", "CY2021"]},
+        {"metric": "ICONIQ White Global Rank by Volume", "unit": "rank", "metric_type": "periodic", "periods_available": ["CY2024"]},
+        {"metric": "Sterling Reserve Global Rank by Volume", "unit": "rank", "metric_type": "periodic", "periods_available": ["CY2024", "CY2023"]}
+      ]
+    },
+    {
+      "segment_name": "Mass Premium",
+      "metrics_found": [
+        {"metric": "Officer's Choice Market Share", "unit": "%", "metric_type": "periodic", "periods_available": ["FY25", "FY24"]},
+        {"metric": "Officer's Choice Sales Volume", "unit": "Mn cases", "metric_type": "periodic", "periods_available": ["FY25", "FY24"]},
+        {"metric": "Officer's Choice Gross Margin", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Officer's Choice Global Rank by Value", "unit": "rank", "metric_type": "periodic", "periods_available": ["CY2024"]}
+      ]
+    },
+    {
+      "segment_name": "Prestige and Above",
+      "metrics_found": [
+        {"metric": "ICONIQ White Sales Volume", "unit": "Mn cases", "metric_type": "periodic", "periods_available": ["9MFY26", "FY25", "FY24", "H1FY26"]},
+        {"metric": "Officer's Choice Blue Sales Volume", "unit": "Mn cases", "metric_type": "periodic", "periods_available": ["FY24"]},
+        {"metric": "Sterling Reserve B7 Sales Volume", "unit": "Mn cases", "metric_type": "periodic", "periods_available": ["FY22"]},
+        {"metric": "Super-Premium to Luxury Addressable Markets Coverage", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3FY26", "H1FY26"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Credit Rating", "unit": "rating", "metric_type": "periodic", "periods_available": ["Jul-25", "Oct-24"]},
+    {"metric": "Awards Received", "unit": "count", "metric_type": "periodic", "periods_available": ["FY26 YTD", "15 months"]},
+    {"metric": "ICONIQ White - Fastest Growing Millionaire Spirits Brand", "unit": "text", "metric_type": "periodic", "periods_available": ["CY2024", "CY2023"]},
+    {"metric": "Officer's Choice - World's Largest Selling Whisky", "unit": "text", "metric_type": "static_descriptor", "periods_available": ["static"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Number of Millionaire Brands",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "3", "ref": "4 Millionaire Brands", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "4", "conf": "HIGH"},
+            "FY25": {"v": "4", "ref": "4 Millionaire Brands", "src": "Nov-2025_d10f1098-1a4d-425b-830b-4f5dbfa804e5_IP.pdf", "pg": "4", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "International Markets Presence",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "14", "ref": "Expanded reach by ~2x in 18 months to 31 countries in Q3FY26", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "FY25": {"v": "23", "ref": "ABD's expansion from 14 to 23 international markets", "src": "May-2025_8788d908-42a5-4adc-a24e-b60847e3d1e0_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1FY26": {"v": "27", "ref": "Expanded reach by ~2x in 15 months to 27 countries in Q1FY26", "src": "Aug-2025_019a3073-dbb2-4d5a-89b3-9bd4a191d83d_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "H1FY26": {"v": "30", "ref": "Expanded reach by ~2x in 18 months to 30 countries in Q2FY26", "src": "Nov-2025_9b2eb07c-f153-4efa-ac2a-e21f8e487e0e_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q2FY26": {"v": "30", "ref": "Expanded reach by ~2x in 18 months to 30 countries in Q2FY26", "src": "Nov-2025_9b2eb07c-f153-4efa-ac2a-e21f8e487e0e_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3FY26": {"v": "31", "ref": "Expanded reach by over ~2x in 18 months to 31 countries in Q3FY26", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Retail Reach",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "80,000+",
+          "ref": "80,000+ Retail Reach", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "26", "conf": "HIGH"
+        },
+        {
+          "particulars": "Bottling Units",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "35",
+          "ref": "Bottling Units (35)", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "25", "conf": "HIGH"
+        },
+        {
+          "particulars": "Own Bottling Units",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "9",
+          "ref": "Own Units (9)", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "25", "conf": "HIGH"
+        },
+        {
+          "particulars": "Third Party Exclusive Bottling Units",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "4",
+          "ref": "Third Party Exclusive (4)", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "25", "conf": "HIGH"
+        },
+        {
+          "particulars": "Third Party Non-Exclusive Bottling Units",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "21",
+          "ref": "Third Party Non- Exclusive (21)", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "25", "conf": "HIGH"
+        },
+        {
+          "particulars": "Royalty Bottling Units",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "1",
+          "ref": "Royalty (1)", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "25", "conf": "HIGH"
+        },
+        {
+          "particulars": "Distilleries",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "2",
+          "ref": "2 Distilleries", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "20", "conf": "HIGH"
+        },
+        {
+          "particulars": "Annual Distillation Capacity",
+          "unit": "MLPA",
+          "metric_type": "static_descriptor",
+          "value": "~71",
+          "ref": "~71 MLPA Annual Distillation Capacity", "src": "Jul-2025_21da606d-5dfd-4cea-af44-5cc13a00a90d_IP.pdf", "pg": "20", "conf": "HIGH"
+        },
+        {
+          "particulars": "Sales Support Offices",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "12",
+          "ref": "12 Sales Support Office", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "26", "conf": "HIGH"
+        },
+        {
+          "particulars": "States and UTs Presence",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "30+",
+          "ref": "30+ States and UTs", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "26", "conf": "HIGH"
+        },
+        {
+          "particulars": "IMFL Brands",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "25",
+          "ref": "25 Brands", "src": "Nov-2025_9b2eb07c-f153-4efa-ac2a-e21f8e487e0e_IP.pdf", "pg": "4", "conf": "HIGH"
+        },
+        {
+          "particulars": "Bottling Capacity",
+          "unit": "Mn cases",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "25.8", "ref": "Capacity (Mn cases) of Own Bottling Units for the period 25.8", "src": "Jan-2025_3437e15a-8b41-4d2e-898a-7c3f09c94e63_IP.pdf", "pg": "45", "conf": "HIGH"},
+            "9MFY25": {"v": "18.9", "ref": "Capacity (Mn cases) of Own Bottling Units for the period 18.9", "src": "Jan-2025_3437e15a-8b41-4d2e-898a-7c3f09c94e63_IP.pdf", "pg": "45", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Export Net Revenue",
+          "unit": "₹ Cr",
+          "metric_type": "periodic",
+          "values": {
+            "FY23": {"v": "128", "ref": "128 178 FY 23 FY 24 Net Revenue From Exports (₹ Cr )", "src": "Jan-2025_3437e15a-8b41-4d2e-898a-7c3f09c94e63_IP.pdf", "pg": "32", "conf": "MEDIUM"},
+            "FY24": {"v": "178", "ref": "128 178 FY 23 FY 24 Net Revenue From Exports (₹ Cr )", "src": "Jan-2025_3437e15a-8b41-4d2e-898a-7c3f09c94e63_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "FY25": {"v": "206", "ref": "Net Revenue From Exports (₹ Cr) 178 206 FY24 FY25 +15.7%", "src": "Nov-2025_9b2eb07c-f153-4efa-ac2a-e21f8e487e0e_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Officer's Choice Global Rank by Volume",
+          "unit": "rank",
+          "metric_type": "periodic",
+          "values": {
+            "CY2021": {"v": "3", "ref": "Officer's Choice Whisky ranked 3rd among the largest selling whisky brands globally in CY2021", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "CY2023": {"v": "3", "ref": "3rd Largest Selling Whisky Brand", "src": "May-2025_8788d908-42a5-4adc-a24e-b60847e3d1e0_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "CY2024": {"v": "5", "ref": "5th largest whisky brand in the world", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "32", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "ICONIQ White Global Rank by Volume",
+          "unit": "rank",
+          "metric_type": "periodic",
+          "values": {
+            "CY2024": {"v": "20", "ref": "among the top 20 global whisky brands as listed by Drinks International", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "33", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Sterling Reserve Global Rank by Volume",
+          "unit": "rank",
+          "metric_type": "periodic",
+          "values": {
+            "CY2023": {"v": "14", "ref": "14th largest whisky brand in the world", "src": "Jan-2025_3437e15a-8b41-4d2e-898a-7c3f09c94e63_IP.pdf", "pg": "37", "conf": "HIGH"},
+            "CY2024": {"v": "20", "ref": "Among top 20 global whisky brands in the world (CY2024)", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "33", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Mass Premium",
+      "data": [
+        {
+          "particulars": "Officer's Choice Market Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "35", "ref": "35%+ Market Share", "src": "May-2025_8788d908-42a5-4adc-a24e-b60847e3d1e0_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "FY25": {"v": "35", "ref": "35%+ Market Share", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "32", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Officer's Choice Sales Volume",
+          "unit": "Mn cases",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "18.7", "ref": "Sales: 18.7 Mn cases in FY24", "src": "Jan-2025_3437e15a-8b41-4d2e-898a-7c3f09c94e63_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY25": {"v": "18.3", "ref": "Sales: 18.3 Mn cases in FY25", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "32", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Officer's Choice Gross Margin",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "40+",
+          "ref": "40%+ Gross Margins", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "5", "conf": "HIGH"
+        },
+        {
+          "particulars": "Officer's Choice Global Rank by Value",
+          "unit": "rank",
+          "metric_type": "periodic",
+          "values": {
+            "CY2024": {"v": "10", "ref": "Among top 10 global spirits brands", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "32", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Prestige and Above",
+      "data": [
+        {
+          "particulars": "ICONIQ White Sales Volume",
+          "unit": "Mn cases",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "2.3", "ref": "2.3 Mn cases milestone in 1st full year of launch (FY24)", "src": "May-2025_8788d908-42a5-4adc-a24e-b60847e3d1e0_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "FY25": {"v": "5.7", "ref": "5.7 Mn cases milestone in FY25", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "H1FY26": {"v": "4.9", "ref": "ICONiQ White growing exponentially to 4.9 Mn cases in H1FY26", "src": "Nov-2025_9b2eb07c-f153-4efa-ac2a-e21f8e487e0e_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "9MFY26": {"v": "7.7", "ref": "ICONIQ White growing exponentially to 7.7 Mn cases in 9MFY26", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Officer's Choice Blue Sales Volume",
+          "unit": "Mn cases",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "4.3", "ref": "Sales: 4.3 Mn cases in FY24", "src": "Jan-2025_3437e15a-8b41-4d2e-898a-7c3f09c94e63_IP.pdf", "pg": "39", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Sterling Reserve B7 Sales Volume",
+          "unit": "Mn cases",
+          "metric_type": "periodic",
+          "values": {
+            "FY22": {"v": "3", "ref": "3rd largest selling brand in the Semi- Premium whisky segment in India in FY22", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "29", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Super-Premium to Luxury Addressable Markets Coverage",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "H1FY26": {"v": "80", "ref": "Super Premium to Luxury portfolio expands presence in ~80% addressable markets", "src": "Nov-2025_9b2eb07c-f153-4efa-ac2a-e21f8e487e0e_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q3FY26": {"v": "85", "ref": "Super Premium to Luxury portfolio expands presence in ~85% addressable markets", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "10", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Credit Rating",
+      "unit": "rating",
+      "metric_type": "periodic",
+      "values": {
+        "Oct-24": {"v": "IND A-", "ref": "Credit rating upgrade from BBB+ to IND A- positive outlook in Oct-24", "src": "May-2025_8788d908-42a5-4adc-a24e-b60847e3d1e0_IP.pdf", "pg": "6", "conf": "HIGH"},
+        "Jul-25": {"v": "IND A", "ref": "Second credit rating upgrade within 9 months from 'IND A-' to 'IND A', with a positive outlook (Jul-25)", "src": "Jul-2025_21da606d-5dfd-4cea-af44-5cc13a00a90d_IP.pdf", "pg": "6", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Awards Received",
+      "unit": "count",
+      "metric_type": "periodic",
+      "values": {
+        "15 months": {"v": "30+", "ref": "30+ Awards in 15 Months", "src": "Aug-2025_019a3073-dbb2-4d5a-89b3-9bd4a191d83d_IP.pdf", "pg": "17", "conf": "HIGH"},
+        "FY26 YTD": {"v": "30+", "ref": "30+ Awards - A Testament to Excellence", "src": "Nov-2025_d10f1098-1a4d-425b-830b-4f5dbfa804e5_IP.pdf", "pg": "17", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "ICONIQ White - Fastest Growing Millionaire Spirits Brand",
+      "unit": "text",
+      "metric_type": "periodic",
+      "values": {
+        "CY2023": {"v": "Fastest growing millionaire spirits brand in the world", "ref": "World's fastest growing spirits brand in CY2023 as per Drinks International Magazine", "src": "May-2025_8788d908-42a5-4adc-a24e-b60847e3d1e0_IP.pdf", "pg": "33", "conf": "HIGH"},
+        "CY2024": {"v": "Fastest growing millionaire spirits brand in the world for the 2nd year in a row in CY2024", "ref": "The Fastest Growing Millionaire Spirits Brand in the world for the 2nd year in a row in CY2024", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "33", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Officer's Choice - World's Largest Selling Whisky",
+      "unit": "text",
+      "metric_type": "static_descriptor",
+      "value": "World's Largest Selling whisky",
+      "ref": "Officer's Choice Whisky received the Wines Beers and Drinks award in 2018 for World's Largest Selling whisky", "src": "Feb-2026_520246fa-8ad7-43a2-818e-e2eb0ad4075d_IP.pdf", "pg": "29", "conf": "HIGH"
+    }
+  ]
+}

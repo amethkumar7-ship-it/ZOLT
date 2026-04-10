@@ -1,0 +1,600 @@
+{
+  "company_name": "ABB India Limited",
+  "documents_scanned": "9",
+  "time_range": "Q1 CY2022 to Q1 CY2025",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Manufacturing locations", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Shop floors", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Sales offices", "unit": "count", "metric_type": "periodic", "periods_available": ["static", "Q1 2025"]},
+        {"metric": "Partners", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Exporting to", "unit": "countries", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Base orders share", "unit": "%", "metric_type": "periodic", "periods_available": ["Q1 2025"]},
+        {"metric": "Base orders growth (comparable)", "unit": "%", "metric_type": "periodic", "periods_available": ["Q1 2025"]},
+        {"metric": "Export orders growth (comparable)", "unit": "%", "metric_type": "periodic", "periods_available": ["Q1 2025"]},
+        {"metric": "Order backlog growth (comparable)", "unit": "%", "metric_type": "periodic", "periods_available": ["Q1 2025"]},
+        {"metric": "Order backlog", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["Q4 2022", "CY 2022", "Q3 2022", "Q3 2023", "Q4 2023", "CY 2023", "Q1 2024", "Q2 2024", "Q3 2024", "Q4 2024", "Q1 2025"]},
+        {"metric": "Orders Received (Total)", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["Q4 2021", "CY 2021", "Q3 2022", "Q4 2022", "CY 2022", "Q1 2023", "Q2 2023", "Q3 2023", "Q4 2023", "CY 2023", "Q1 2024", "Q2 2024", "Q3 2024", "Q4 2024", "Q1 2025"]},
+        {"metric": "Large Orders Received", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["Q1 2025"]},
+        {"metric": "Base Orders Received", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["Q1 2025"]},
+        {"metric": "CO2 Scope 1 & 2 GHG Emissions reduction (vs 2019 baseline)", "unit": "%", "metric_type": "periodic", "periods_available": ["Q1 2025", "2025 plan", "Q3 2024", "Q2 2023", "Q1 2023"]},
+        {"metric": "Zero Waste to Landfill certified units", "unit": "count", "metric_type": "periodic", "periods_available": ["Q1 2025"]},
+        {"metric": "Supplier engagement (awareness/assessment)", "unit": "%", "metric_type": "periodic", "periods_available": ["Q1 2025"]},
+        {"metric": "Green Certified Units (IGBC Green factory)", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Water Positive Units", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Zero Waste to landfill Certified Units", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Safety Hazard Resolution", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 2024"]},
+        {"metric": "Waste recyclability", "unit": "%", "metric_type": "periodic", "periods_available": ["Q2 2023", "Q1 2023"]},
+        {"metric": "Water recyclability", "unit": "%", "metric_type": "periodic", "periods_available": ["Q1 2023"]},
+        {"metric": "Green power utilization", "unit": "%", "metric_type": "periodic", "periods_available": ["Q1 2023"]},
+        {"metric": "Customers engaged (in a period)", "unit": "count", "metric_type": "periodic", "periods_available": ["Q3 2023", "Q2 2023", "2023"]},
+        {"metric": "Tier II & III markets covered (in a period)", "unit": "count", "metric_type": "periodic", "periods_available": ["Q3 2023", "Q2 2023", "2023"]},
+        {"metric": "Years of manufacturing in India", "unit": "years", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Years of presence in India", "unit": "years", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "ABB Group employees worldwide", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Electrification",
+      "metrics_found": [
+        {"metric": "Orders Received", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["Q3 2022", "Q4 2022", "Q1 2023", "Q2 2023", "Q3 2023", "Q4 2023", "YTD CY2024", "Q1 2025"]},
+        {"metric": "Order backlog", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["Q4 2023", "YTD CY2024"]},
+        {"metric": "Revenues", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["Q3 2022", "Q4 2022", "Q1 2023", "Q2 2023", "Q3 2023", "Q4 2023", "YTD CY2024", "Q1 2025"]},
+        {"metric": "PBIT Margin", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 2022", "Q4 2022", "Q1 2023", "Q2 2023", "Q3 2023", "Q4 2023", "YTD CY2024", "Q1 2025"]}
+      ]
+    },
+    {
+      "segment_name": "Motion",
+      "metrics_found": [
+        {"metric": "Orders Received", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["YTD CY2024", "Q1 2025"]},
+        {"metric": "Order backlog", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["YTD CY2024"]},
+        {"metric": "Revenues", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["YTD CY2024", "Q1 2025"]},
+        {"metric": "PBIT Margin", "unit": "%", "metric_type": "periodic", "periods_available": ["YTD CY2024", "Q1 2025"]}
+      ]
+    },
+    {
+      "segment_name": "Process Automation",
+      "metrics_found": [
+        {"metric": "Orders Received", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["YTD CY2024", "Q1 2025"]},
+        {"metric": "Order backlog", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["YTD CY2024"]},
+        {"metric": "Revenues", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["YTD CY2024", "Q1 2025"]},
+        {"metric": "PBIT Margin", "unit": "%", "metric_type": "periodic", "periods_available": ["YTD CY2024", "Q1 2025"]}
+      ]
+    },
+    {
+      "segment_name": "Robotics and Discrete Automation",
+      "metrics_found": [
+        {"metric": "Orders Received", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["Q4 2022", "Q1 2023", "Q2 2023", "Q3 2023", "Q4 2023", "YTD CY2024", "Q1 2025"]},
+        {"metric": "Order backlog", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["Q4 2023", "YTD CY2024"]},
+        {"metric": "Revenues", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["Q4 2022", "Q1 2023", "Q2 2023", "Q3 2023", "Q4 2023", "YTD CY2024", "Q1 2025"]},
+        {"metric": "PBIT Margin", "unit": "%", "metric_type": "periodic", "periods_available": ["Q4 2022", "Q1 2023", "Q2 2023", "Q3 2023", "Q4 2023", "YTD CY2024", "Q1 2025"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Award for best sustainability and CSR practices", "unit": "", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Mission to Zero status - Nelamangala campus", "unit": "", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Awarded as 'Pioneer in large scale adoption of Green Factory Buildings in India' by IGBC", "unit": "", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Rated as 'Strong ESG Performer' by CRISIL", "unit": "", "metric_type": "static_descriptor", "periods_available": ["static"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Manufacturing locations",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "5",
+          "ref": "Manufacturing locations 5",
+          "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf",
+          "pg": "4",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Shop floors",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "25",
+          "ref": "Shop floors 25",
+          "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf",
+          "pg": "4",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Sales offices",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "28", "ref": "28 Sales offices", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "4", "conf": "HIGH"},
+            "static": {"v": "28", "ref": "28 Sales Offices", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "4", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Partners",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "750+",
+          "ref": "Partners 750+",
+          "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf",
+          "pg": "4",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Exporting to",
+          "unit": "countries",
+          "metric_type": "static_descriptor",
+          "value": "30+",
+          "ref": "Exporting to 30+countries",
+          "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf",
+          "pg": "4",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Base orders share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "94.2", "ref": "Base Orders Received 3,545 94.2% of total orders", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "16", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Base orders growth (comparable)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "10", "ref": "significant share of base orders +10%", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Export orders growth (comparable)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "40", "ref": "Export orders +40%1", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order backlog growth (comparable)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "11", "ref": "Order backlog +11%1 at INR 9,958 crore", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order backlog",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "9958", "ref": "Order backlog +11%1 at INR 9,958 crore", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "Q4 2024": {"v": "9380", "ref": "Order Backlog (end of period) 9,380", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q3 2024": {"v": "8935", "ref": "Order Backlog (end of period) 8,935", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q4 2023": {"v": "8404", "ref": "Order Backlog (end of period) 8,404", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 2023": {"v": "8008", "ref": "Order Backlog (end of period) 8,008", "src": "Nov-2023_fbcd201a-fa31-492b-ab28-cb847beb23c9_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "CY 2023": {"v": "8404", "ref": "Order Backlog (end of period) 8,404", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q4 2022": {"v": "6468", "ref": "Order Backlog (end of period) 6,468", "src": "Feb-2023_e5983e25-afcc-441a-82cf-7caf8843127e_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q3 2022": {"v": "6519", "ref": "Order Backlog (end of period) 6,519", "src": "Nov-2022_f1e19a4a-7d86-48b7-a6de-ba227800571b_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "CY 2022": {"v": "6468", "ref": "Order Backlog (end of period) 6,468", "src": "Feb-2023_e5983e25-afcc-441a-82cf-7caf8843127e_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Orders Received (Total)",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "3751", "ref": "Total Orders Received 3,751", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q4 2024": {"v": "2695", "ref": "Total Orders Received 2,695", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q3 2024": {"v": "2695", "ref": "Total Orders Received 2,695", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q4 2023": {"v": "3147", "ref": "Total Orders Received 3,147", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 2023": {"v": "3004", "ref": "Total Orders Received 3,004", "src": "Nov-2023_fbcd201a-fa31-492b-ab28-cb847beb23c9_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q2 2023": {"v": "3044", "ref": "Total Orders Received 3,044", "src": "Sep-2023_908fe00d-3599-4bb9-8977-3de5eb0be4fa_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q1 2023": {"v": "3125", "ref": "Total Orders Received 3,125", "src": "May-2023_2843c098-d093-4668-a44d-279a65258017_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q4 2022": {"v": "2335", "ref": "Total Orders Received 2,335", "src": "Feb-2023_e5983e25-afcc-441a-82cf-7caf8843127e_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q3 2022": {"v": "2634", "ref": "Total Orders Received 2,634", "src": "Nov-2022_f1e19a4a-7d86-48b7-a6de-ba227800571b_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q4 2021": {"v": "2243", "ref": "Total Orders Received 2,243", "src": "Feb-2023_e5983e25-afcc-441a-82cf-7caf8843127e_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "CY 2023": {"v": "12319", "ref": "Total Orders Received 12,319", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "CY 2022": {"v": "10028", "ref": "Total Orders Received 10,028", "src": "Feb-2023_e5983e25-afcc-441a-82cf-7caf8843127e_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "CY 2021": {"v": "7666", "ref": "Total Orders Received 7,666", "src": "Nov-2022_f1e19a4a-7d86-48b7-a6de-ba227800571b_IP.pdf", "pg": "13", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Large Orders Received",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "206", "ref": "Large Orders Received 206", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "16", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Base Orders Received",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "3545", "ref": "Base Orders Received 3,545", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "16", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "CO2 Scope 1 & 2 GHG Emissions reduction (vs 2019 baseline)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "87", "ref": "Reduction of ~87% in own GHG (Scope 1 & 2) emissions as compared to baseline in 2019", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "2025 plan": {"v": "87", "ref": "CO2 Scope 1&2 GHG Emissions* 87% 87%", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 2024": {"v": "83", "ref": "Reduction of own scope 1 and 2 GHG emissions* ~83%", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q2 2023": {"v": "85", "ref": "Reduction in own emissions ~85% CUMULATIVE TILL Q2 2023 COMPARED TO 2019 BASELINE", "src": "Sep-2023_908fe00d-3599-4bb9-8977-3de5eb0be4fa_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1 2023": {"v": "100", "ref": "Green power utilization Under RE-100 100% COMPARED TO 2021 BASELINE", "src": "May-2023_2843c098-d093-4668-a44d-279a65258017_IP.pdf", "pg": "11", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Zero Waste to Landfill certified units",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "4", "ref": "Zero Waste to Landfill unit (No.)* 4", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Supplier engagement (awareness/assessment)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "41", "ref": "Supplier engagement (awareness/assessment) 50% 41%", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Green Certified Units (IGBC Green factory)",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "100%",
+          "ref": "Green Certified Units (IGBC Green factory) 100%",
+          "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf",
+          "pg": "16",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Water Positive Units",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "50%",
+          "ref": "Water Positive Units 50%",
+          "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf",
+          "pg": "16",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Zero Waste to landfill Certified Units",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "33%",
+          "ref": "Zero Waste to landfill Certified Units 33%",
+          "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf",
+          "pg": "16",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Safety Hazard Resolution",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 2024": {"v": "98", "ref": "Safety Hazard Resolution (aiming for zero harm) 98%", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "16", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Waste recyclability",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 2023": {"v": "96", "ref": "Waste recyclability nearing zero waste to landfill ~96% CUMULATIVE TILL Q2 2023", "src": "Sep-2023_908fe00d-3599-4bb9-8977-3de5eb0be4fa_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1 2023": {"v": "97", "ref": "Waste recyclability 97% COMPARED TO 2021 BASELINE", "src": "May-2023_2843c098-d093-4668-a44d-279a65258017_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Water recyclability",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2023": {"v": "50", "ref": "Water recyclability 50% COMPARED TO 2021 BASELINE", "src": "May-2023_2843c098-d093-4668-a44d-279a65258017_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Green power utilization",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2023": {"v": "100", "ref": "Green power utilization Under RE-100 100% COMPARED TO 2021 BASELINE", "src": "May-2023_2843c098-d093-4668-a44d-279a65258017_IP.pdf", "pg": "11", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Customers engaged (in a period)",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 2023": {"v": "1700", "ref": "Engaged with ~1,700 customers across 12 tier II & tier III markets in Q3", "src": "Nov-2023_fbcd201a-fa31-492b-ab28-cb847beb23c9_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "Q2 2023": {"v": "3000", "ref": "Engaged with 3,000+ customers across 13 tier II & tier III markets in Q2", "src": "Sep-2023_908fe00d-3599-4bb9-8977-3de5eb0be4fa_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "2023": {"v": "7000", "ref": "Engaged with 7,000+ customers across 30+ tier II & tier III markets in 2023", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Tier II & III markets covered (in a period)",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 2023": {"v": "12", "ref": "Engaged with ~1,700 customers across 12 tier II & tier III markets in Q3", "src": "Nov-2023_fbcd201a-fa31-492b-ab28-cb847beb23c9_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "Q2 2023": {"v": "13", "ref": "Engaged with 3,000+ customers across 13 tier II & tier III markets in Q2", "src": "Sep-2023_908fe00d-3599-4bb9-8977-3de5eb0be4fa_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "2023": {"v": "30", "ref": "Engaged with 7,000+ customers across 30+ tier II & tier III markets in 2023", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Years of manufacturing in India",
+          "unit": "years",
+          "metric_type": "static_descriptor",
+          "value": "75",
+          "ref": "75 YEARS OF MANUFACTURING & INNOVATION IN INDIA",
+          "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf",
+          "pg": "2",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Years of presence in India",
+          "unit": "years",
+          "metric_type": "static_descriptor",
+          "value": "100",
+          "ref": "ABB is present in India for over a century",
+          "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf",
+          "pg": "4",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "ABB Group employees worldwide",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "110000",
+          "ref": "The company has over 140 years of history and around 110,000 employees worldwide",
+          "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf",
+          "pg": "4",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "Electrification",
+      "data": [
+        {
+          "particulars": "Orders Received",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "3562", "ref": "Orders Received 3,562", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "YTD CY2024": {"v": "4989", "ref": "Orders (YTD CY2024 INR 4,989 Cr.)", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q4 2023": {"v": "1037", "ref": "Orders Received 1,037 Q4/23", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q3 2023": {"v": "1032", "ref": "Orders Received 1,032 Q3/23", "src": "Nov-2023_fbcd201a-fa31-492b-ab28-cb847beb23c9_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q2 2023": {"v": "1335", "ref": "Orders Received 1,335 Q2/23", "src": "Sep-2023_908fe00d-3599-4bb9-8977-3de5eb0be4fa_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q1 2023": {"v": "1100", "ref": "Orders Received 1,100 Q1/23", "src": "May-2023_2843c098-d093-4668-a44d-279a65258017_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q4 2022": {"v": "860", "ref": "Orders Received 860 Q4/22", "src": "Feb-2023_e5983e25-afcc-441a-82cf-7caf8843127e_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q3 2022": {"v": "964", "ref": "Orders Received 964 Q3/22", "src": "Nov-2022_f1e19a4a-7d86-48b7-a6de-ba227800571b_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order backlog",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "YTD CY2024": {"v": "3426", "ref": "Order backlog at INR 3,426 Cr.", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q4 2023": {"v": "1959", "ref": "Order Backlog 1,959 Q4/23", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "21", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenues",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "3289", "ref": "Revenues 3,289", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "YTD CY2024": {"v": "3572", "ref": "Revenues (YTD CY2024 INR 3,572 Cr.)", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q4 2023": {"v": "1130", "ref": "Revenues 1,130 Q4/23", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q3 2023": {"v": "1042", "ref": "Revenues 1,042 Q3/23", "src": "Nov-2023_fbcd201a-fa31-492b-ab28-cb847beb23c9_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q2 2023": {"v": "1006", "ref": "Revenues 1,006 Q2/23", "src": "Sep-2023_908fe00d-3599-4bb9-8977-3de5eb0be4fa_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q1 2023": {"v": "999", "ref": "Revenues 999 Q1/23", "src": "May-2023_2843c098-d093-4668-a44d-279a65258017_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q4 2022": {"v": "950", "ref": "Revenues 950 Q4/22", "src": "Feb-2023_e5983e25-afcc-441a-82cf-7caf8843127e_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q3 2022": {"v": "881", "ref": "Revenues 881 Q3/22", "src": "Nov-2022_f1e19a4a-7d86-48b7-a6de-ba227800571b_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "PBIT Margin",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "20.1", "ref": "PBIT 20.1%", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "YTD CY2024": {"v": "22.6", "ref": "PBIT Margin (YTD CY2024 - 22.6%)", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q4 2023": {"v": "19.0", "ref": "PBIT % 19.0 Q4/23", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q3 2023": {"v": "19.3", "ref": "PBIT % 19.3 Q3/23", "src": "Nov-2023_fbcd201a-fa31-492b-ab28-cb847beb23c9_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q2 2023": {"v": "16.3", "ref": "PBIT % 16.3 Q2/23", "src": "Sep-2023_908fe00d-3599-4bb9-8977-3de5eb0be4fa_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q1 2023": {"v": "19.5", "ref": "PBIT % 19.5 Q1/23", "src": "May-2023_2843c098-d093-4668-a44d-279a65258017_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q4 2022": {"v": "15.3", "ref": "PBIT % 15.3 Q4/22", "src": "Feb-2023_e5983e25-afcc-441a-82cf-7caf8843127e_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q3 2022": {"v": "14.5", "ref": "PBIT % 14.5 Q3/22", "src": "Nov-2022_f1e19a4a-7d86-48b7-a6de-ba227800571b_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Motion",
+      "data": [
+        {
+          "particulars": "Orders Received",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "3581", "ref": "Orders Received 3,581", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "YTD CY2024": {"v": "3557", "ref": "Orders (YTD CY2024 INR 3,557 Cr.)", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "23", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order backlog",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "YTD CY2024": {"v": "3909", "ref": "Order backlog at INR 3,909 Cr.", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "23", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenues",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "3156", "ref": "Revenues 3,156", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "YTD CY2024": {"v": "3168", "ref": "Revenues (YTD CY2024 INR 3,168 Cr.)", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "23", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "PBIT Margin",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "16.5", "ref": "PBIT 16.5%", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "YTD CY2024": {"v": "22.6", "ref": "PBIT Margin (YTD CY2024 - 22.6%)", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "23", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Process Automation",
+      "data": [
+        {
+          "particulars": "Orders Received",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "1738", "ref": "Orders Received 1,738", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "YTD CY2024": {"v": "1573", "ref": "Orders (YTD CY2024 INR 1,573 Cr.)", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order backlog",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "YTD CY2024": {"v": "2456", "ref": "Order backlog at INR 2,456 Cr.", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenues",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "1460", "ref": "Revenues 1,460", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "YTD CY2024": {"v": "1955", "ref": "Revenues (YTD CY2024 INR 1,955 Cr.)", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "PBIT Margin",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "15.9", "ref": "PBIT 15.9%", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "YTD CY2024": {"v": "17.1", "ref": "PBIT Margin (YTD CY2024 -17.1%)", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Robotics and Discrete Automation",
+      "data": [
+        {
+          "particulars": "Orders Received",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "379", "ref": "Orders Received 379", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "YTD CY2024": {"v": "384", "ref": "Orders (YTD CY2024 INR 384 Cr.)", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q4 2023": {"v": "57", "ref": "Orders Received 57 Q4/23", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Q3 2023": {"v": "116", "ref": "Orders Received 116 Q3/23", "src": "Nov-2023_fbcd201a-fa31-492b-ab28-cb847beb23c9_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q2 2023": {"v": "61", "ref": "Orders Received 61 Q2/23", "src": "Sep-2023_908fe00d-3599-4bb9-8977-3de5eb0be4fa_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q1 2023": {"v": "156", "ref": "Orders Received 156 Q1/23", "src": "May-2023_2843c098-d093-4668-a44d-279a65258017_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q4 2022": {"v": "120", "ref": "Orders Received 120 Q4/22", "src": "Feb-2023_e5983e25-afcc-441a-82cf-7caf8843127e_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order backlog",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "YTD CY2024": {"v": "266", "ref": "Order backlog at INR 266 Cr.", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q4 2023": {"v": "187", "ref": "Order Backlog 187 Q4/23", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenues",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "354", "ref": "Revenues 354", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "YTD CY2024": {"v": "305", "ref": "Revenues (YTD CY2024 INR 305 Cr.)", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q4 2023": {"v": "108", "ref": "Revenues 108 Q4/23", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Q3 2023": {"v": "118", "ref": "Revenues 118 Q3/23", "src": "Nov-2023_fbcd201a-fa31-492b-ab28-cb847beb23c9_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q2 2023": {"v": "123", "ref": "Revenues 123 Q2/23", "src": "Sep-2023_908fe00d-3599-4bb9-8977-3de5eb0be4fa_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q1 2023": {"v": "68", "ref": "Revenues 68 Q1/23", "src": "May-2023_2843c098-d093-4668-a44d-279a65258017_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q4 2022": {"v": "63", "ref": "Revenues 63 Q4/22", "src": "Feb-2023_e5983e25-afcc-441a-82cf-7caf8843127e_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "PBIT Margin",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 2025": {"v": "9.8", "ref": "PBIT 9.8%", "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "YTD CY2024": {"v": "14.9", "ref": "PBIT Margin (YTD CY2024 - 14.9%)", "src": "Feb-2025_27600acf-563d-4525-a74e-f82e60ab3342_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q4 2023": {"v": "11.8", "ref": "PBIT % 11.8 Q4/23", "src": "Aug-2024_af179659-e83c-4875-9356-6b968b042eb6_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Q3 2023": {"v": "12.0", "ref": "PBIT % 12.0 Q3/23", "src": "Nov-2023_fbcd201a-fa31-492b-ab28-cb847beb23c9_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q2 2023": {"v": "12.6", "ref": "PBIT % 12.6 Q2/23", "src": "Sep-2023_908fe00d-3599-4bb9-8977-3de5eb0be4fa_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q1 2023": {"v": "15.8", "ref": "PBIT % 15.8 Q1/23", "src": "May-2023_2843c098-d093-4668-a44d-279a65258017_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q4 2022": {"v": "16.3", "ref": "PBIT % 16.3 Q4/22", "src": "Feb-2023_e5983e25-afcc-441a-82cf-7caf8843127e_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Award for best sustainability and CSR practices",
+      "unit": "",
+      "metric_type": "static_descriptor",
+      "value": "Awarded",
+      "ref": "Awarded for best sustainability and CSR practices by Asian Center for Corporate Governance and Sustainability",
+      "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf",
+      "pg": "6",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Mission to Zero status - Nelamangala campus",
+      "unit": "",
+      "metric_type": "static_descriptor",
+      "value": "Achieved",
+      "ref": "Nelamangala campus achieved Mission to Zero™ status",
+      "src": "Feb-2026_2cde09e4-ffa3-4f0f-a7c7-584e1cae637a_IP.pdf",
+      "pg": "6",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Awarded as 'Pioneer in large scale adoption of Green Factory Buildings in India' by IGBC",
+      "unit": "",
+      "metric_type": "static_descriptor",
+      "value": "Awarded",
+      "ref": "Awarded as 'Pioneer in large scale adoption of Green Factory Buildings in India' by IGBC",
+      "src": "Feb-2023_e5983e25-afcc-441a-82cf-7caf8843127e_IP.pdf",
+      "pg": "12",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Rated as 'Strong ESG Performer' by CRISIL",
+      "unit": "",
+      "metric_type": "static_descriptor",
+      "value": "Strong ESG Performer",
+      "ref": "Rated as \"Strong ESG Performer\" by CRISIL rating agency",
+      "src": "Feb-2023_e5983e25-afcc-441a-82cf-7caf8843127e_IP.pdf",
+      "pg": "12",
+      "conf": "HIGH"
+    }
+  ]
+}

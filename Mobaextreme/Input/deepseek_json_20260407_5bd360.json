@@ -1,0 +1,377 @@
+{
+  "company_name": "Aartech Solonics Limited",
+  "documents_scanned": "1",
+  "time_range": "FY 2019-20 to H1 FY 2024-25",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Years of Experience", "unit": "Years", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Installed Power Generation Capacity - India", "unit": "MW", "metric_type": "periodic", "periods_available": ["March 2014", "June 2024"]},
+        {"metric": "Coal-based Power Capacity - India", "unit": "MW", "metric_type": "periodic", "periods_available": ["March 2014", "June 2024"]},
+        {"metric": "Renewable Energy Capacity - India", "unit": "MW", "metric_type": "periodic", "periods_available": ["March 2014", "June 2024"]},
+        {"metric": "Electricity Generation Target (including renewable)", "unit": "BU", "metric_type": "periodic", "periods_available": ["FY 2024-25"]},
+        {"metric": "Actual Electricity Generation", "unit": "BU", "metric_type": "periodic", "periods_available": ["FY 2023-24", "FY 2022-23"]},
+        {"metric": "Indian Defence Production Value", "unit": "Crore", "metric_type": "periodic", "periods_available": ["FY 2023-24"]},
+        {"metric": "Indian Defence Budget Allocation", "unit": "Crore", "metric_type": "periodic", "periods_available": ["FY 2023-24"]},
+        {"metric": "India's Installed Power Capacity", "unit": "GW", "metric_type": "periodic", "periods_available": ["January 2024"]},
+        {"metric": "India's Global Rank - Electricity Producer & Consumer", "unit": "rank", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Indian Waste Management Market Value", "unit": "USD Billion", "metric_type": "periodic", "periods_available": ["2023", "2030"]},
+        {"metric": "India's Annual Waste Generation", "unit": "million tons", "metric_type": "periodic", "periods_available": ["annual"]},
+        {"metric": "Waste Generation Growth Rate per Year", "unit": "%", "metric_type": "periodic", "periods_available": ["annual"]},
+        {"metric": "Engineering Sector Share of Indian Factories", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Engineering Sector Share of Foreign Collaborations", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "India's Renewable Energy Target by 2030", "unit": "GW", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "India's Net Zero Carbon Target Year", "unit": "Year", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Renewable Energy Installed Capacity - including biomass/waste", "unit": "GW", "metric_type": "periodic", "periods_available": ["March 2024"]},
+        {"metric": "India's Global Military Strength Rank", "unit": "rank", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "India's Firepower Score", "unit": "score", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Government Defence Production Target by 2025", "unit": "USD Billion", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Government Fleet Modernization Spend Plan", "unit": "USD Billion", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Process Plant & Equipment Market Value - India", "unit": "USD Billion", "metric_type": "periodic", "periods_available": ["2024", "2029"]},
+        {"metric": "Process Plant & Equipment Market CAGR", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Crude Oil Refining Capacity Expansion Target", "unit": "million tonnes", "metric_type": "periodic", "periods_available": ["by fiscal 2030"]},
+        {"metric": "Total Refining Capacity Target", "unit": "million tonnes", "metric_type": "periodic", "periods_available": ["by fiscal 2030"]},
+        {"metric": "Refining Expansion Investment Required", "unit": "Crore", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Free Float", "unit": "%", "metric_type": "periodic", "periods_available": ["30th Sept 2024"]},
+        {"metric": "Shares Outstanding", "unit": "Lakhs", "metric_type": "periodic", "periods_available": ["30th Sept 2024"]},
+        {"metric": "Incorporation Year", "unit": "Year", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Mandideep Unit Operation Start Year", "unit": "Year", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Parwanoo Unit Operation Start Year", "unit": "Year", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Public Limited Company Conversion Year", "unit": "Year", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "IPO Year", "unit": "Year", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Main Board Listing Year", "unit": "Year", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Share Split Year", "unit": "Year", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Winner of Idex Awarded by Defence Ministry", "unit": "award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "NITI Aayog's Atal Innovation Mission Selection", "unit": "selection", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "DSIR Approved R&D Lab", "unit": "approval", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "AIC - Aartech Solonics Private Limited", "unit": "entity", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Faradigm Ultracapacitors Private Limited", "unit": "entity", "metric_type": "static_descriptor", "periods_available": ["static"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Years of Experience",
+          "unit": "Years",
+          "metric_type": "static_descriptor",
+          "value": "40",
+          "ref": "40+ Years of Experience on page 8 with a timeline showing 1982 incorporation to 2024",
+          "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf",
+          "pg": "8",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Installed Power Generation Capacity - India",
+          "unit": "MW",
+          "metric_type": "periodic",
+          "values": {
+            "March 2014": {"v": "248554", "ref": "India's installed power generation capacity has seen significant growth, increasing from 248,554 MW in March 2014 to 446,190 MW in June 2024.", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "June 2024": {"v": "446190", "ref": "India's installed power generation capacity has seen significant growth, increasing from 248,554 MW in March 2014 to 446,190 MW in June 2024.", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Coal-based Power Capacity - India",
+          "unit": "MW",
+          "metric_type": "periodic",
+          "values": {
+            "March 2014": {"v": "139663", "ref": "Coal-based power capacity rose from 139,663 MW in March 2014 to 210,969 MW by June 2024", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "June 2024": {"v": "210969", "ref": "Coal-based power capacity rose from 139,663 MW in March 2014 to 210,969 MW by June 2024", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Renewable Energy Capacity - India",
+          "unit": "MW",
+          "metric_type": "periodic",
+          "values": {
+            "March 2014": {"v": "75519", "ref": "renewable energy capacity surged from 75,519 MW to 19,513 MW during the same period.", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "June 2024": {"v": "19513", "ref": "renewable energy capacity surged from 75,519 MW to 19,513 MW during the same period.", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Electricity Generation Target (including renewable)",
+          "unit": "BU",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2024-25": {"v": "1900", "ref": "For the fiscal year 2024-25, the electricity generation target, including renewable energy, is set at 1,900 billion units (BU)", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Actual Electricity Generation",
+          "unit": "BU",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2023-24": {"v": "1738828", "ref": "actual generation of 1,738,828 BU in 2023-24", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY 2022-23": {"v": "1624465", "ref": "1,624,465 BU generated in 2022-23", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Indian Defence Production Value",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2023-24": {"v": "126887", "ref": "In FY 2023-24, the defence sector's production value stood at 1,26,887 Crore (US$ 15.3 billion)", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "16", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Indian Defence Budget Allocation",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2023-24": {"v": "621000", "ref": "budget allocation of US$ 74.8 billion (6.21 Lakh Crore)", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "16", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "India's Installed Power Capacity",
+          "unit": "GW",
+          "metric_type": "periodic",
+          "values": {
+            "January 2024": {"v": "429.96", "ref": "India, with an installed power capacity of 429.96 GW as of January 2024", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "India's Global Rank - Electricity Producer & Consumer",
+          "unit": "rank",
+          "metric_type": "static_descriptor",
+          "value": "3",
+          "ref": "ranks as the third-largest producer and consumer of electricity globally", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"
+        },
+        {
+          "particulars": "Indian Waste Management Market Value",
+          "unit": "USD Billion",
+          "metric_type": "periodic",
+          "values": {
+            "2023": {"v": "25.1", "ref": "In 2023, the Indian waste management market was valued at USD 25.1 billion", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "2030": {"v": "39.07", "ref": "it is projected to reach USD 39.07 billion by 2030", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "India's Annual Waste Generation",
+          "unit": "million tons",
+          "metric_type": "periodic",
+          "values": {
+            "annual": {"v": "62", "ref": "India generates 62 million tons of waste annually", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Waste Generation Growth Rate per Year",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "annual": {"v": "4", "ref": "with an average growth rate of 4% per year", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Engineering Sector Share of Indian Factories",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "27",
+          "ref": "accounting for 27% of all factories in the industry", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "18", "conf": "HIGH"
+        },
+        {
+          "particulars": "Engineering Sector Share of Foreign Collaborations",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "63",
+          "ref": "representing 63% of the total foreign collaborations", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "18", "conf": "HIGH"
+        },
+        {
+          "particulars": "India's Renewable Energy Target by 2030",
+          "unit": "GW",
+          "metric_type": "static_descriptor",
+          "value": "450",
+          "ref": "India aims to achieve 450 GW of renewable energy capacity by 2030", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "18", "conf": "HIGH"
+        },
+        {
+          "particulars": "India's Net Zero Carbon Target Year",
+          "unit": "Year",
+          "metric_type": "static_descriptor",
+          "value": "2070",
+          "ref": "aiming for net zero carbon emissions by 2070", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "18", "conf": "HIGH"
+        },
+        {
+          "particulars": "Renewable Energy Installed Capacity - including biomass/waste",
+          "unit": "GW",
+          "metric_type": "periodic",
+          "values": {
+            "March 2024": {"v": "143.64", "ref": "As of March 2024, renewable energy sources, including biomass, waste-to-power, and waste-to-energy, had a combined installed capacity of 143.64 GW", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "India's Global Military Strength Rank",
+          "unit": "rank",
+          "metric_type": "static_descriptor",
+          "value": "4",
+          "ref": "India ranks fourth globally in military strength", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "16", "conf": "HIGH"
+        },
+        {
+          "particulars": "India's Firepower Score",
+          "unit": "score",
+          "metric_type": "static_descriptor",
+          "value": "0.0979",
+          "ref": "with a firepower score of 0.0979 (0.0 being the highest)", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "16", "conf": "HIGH"
+        },
+        {
+          "particulars": "Government Defence Production Target by 2025",
+          "unit": "USD Billion",
+          "metric_type": "static_descriptor",
+          "value": "25",
+          "ref": "The government has set a target of US$ 25 billion in defence production by 2025, including US$ 5 billion in exports", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "16", "conf": "HIGH"
+        },
+        {
+          "particulars": "Government Fleet Modernization Spend Plan",
+          "unit": "USD Billion",
+          "metric_type": "static_descriptor",
+          "value": "130",
+          "ref": "the Government of India plans to spend US$ 130 billion for fleet modernization across all armed services", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "16", "conf": "HIGH"
+        },
+        {
+          "particulars": "Process Plant & Equipment Market Value - India",
+          "unit": "USD Billion",
+          "metric_type": "periodic",
+          "values": {
+            "2024": {"v": "14.7", "ref": "As of 2024, India's process plant and equipment market is valued at approximately USD 14.7 billion", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "2029": {"v": "22.3", "ref": "reaching around USD 22.3 billion by 2029", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Process Plant & Equipment Market CAGR",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "8.5",
+          "ref": "expected to grow at a compound annual growth rate (CAGR) of 8.5% over the next five years", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"
+        },
+        {
+          "particulars": "Crude Oil Refining Capacity Expansion Target",
+          "unit": "million tonnes",
+          "metric_type": "periodic",
+          "values": {
+            "by fiscal 2030": {"v": "40", "ref": "India's oil marketing companies plan to expand the nation's crude oil refining capacity by 35-40 million tonnes by fiscal 2030", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Total Refining Capacity Target",
+          "unit": "million tonnes",
+          "metric_type": "periodic",
+          "values": {
+            "by fiscal 2030": {"v": "295", "ref": "reaching a total capacity of 295 million tonnes", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Refining Expansion Investment Required",
+          "unit": "Crore",
+          "metric_type": "static_descriptor",
+          "value": "220000",
+          "ref": "will require an investment of 1.9-2.2 lakh crore", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "17", "conf": "MEDIUM"
+        },
+        {
+          "particulars": "Free Float",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "30th Sept 2024": {"v": "47", "ref": "Free Float 47%", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "27", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Shares Outstanding",
+          "unit": "Lakhs",
+          "metric_type": "periodic",
+          "values": {
+            "30th Sept 2024": {"v": "317.70", "ref": "Shares Outstanding 317.70 Lakhs", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "27", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Incorporation Year",
+          "unit": "Year",
+          "metric_type": "static_descriptor",
+          "value": "1982",
+          "ref": "1982 Incorporation on timeline page 9", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "9", "conf": "HIGH"
+        },
+        {
+          "particulars": "Mandideep Unit Operation Start Year",
+          "unit": "Year",
+          "metric_type": "static_descriptor",
+          "value": "1988",
+          "ref": "1988 Mandideep Unit Operation on timeline", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "9", "conf": "HIGH"
+        },
+        {
+          "particulars": "Parwanoo Unit Operation Start Year",
+          "unit": "Year",
+          "metric_type": "static_descriptor",
+          "value": "2005",
+          "ref": "2005 Parwanoo Unit Operation on timeline", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "9", "conf": "HIGH"
+        },
+        {
+          "particulars": "Public Limited Company Conversion Year",
+          "unit": "Year",
+          "metric_type": "static_descriptor",
+          "value": "1992",
+          "ref": "1992 Public Limited Company on timeline", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "9", "conf": "HIGH"
+        },
+        {
+          "particulars": "IPO Year",
+          "unit": "Year",
+          "metric_type": "static_descriptor",
+          "value": "2019",
+          "ref": "2019 Came up with Initial Public Offering (IPO) on timeline", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "9", "conf": "HIGH"
+        },
+        {
+          "particulars": "Main Board Listing Year",
+          "unit": "Year",
+          "metric_type": "static_descriptor",
+          "value": "2023",
+          "ref": "2023 Main board listing BSE and NSE on timeline", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "9", "conf": "HIGH"
+        },
+        {
+          "particulars": "Share Split Year",
+          "unit": "Year",
+          "metric_type": "static_descriptor",
+          "value": "2024",
+          "ref": "2024 Split of Shares 1:1 and Bonus issued 1:2 on timeline", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "9", "conf": "HIGH"
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Winner of Idex Awarded by Defence Ministry",
+      "unit": "award",
+      "metric_type": "static_descriptor",
+      "value": "2022",
+      "ref": "2022 Winner of Idex. Awarded by Defence Ministry on timeline", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "9", "conf": "HIGH"
+    },
+    {
+      "particulars": "NITI Aayog's Atal Innovation Mission Selection",
+      "unit": "selection",
+      "metric_type": "static_descriptor",
+      "value": "2016",
+      "ref": "2016 NITI Aayog's Atal Innovation mission Selects Aartech to host Startup incubation Center on timeline", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "9", "conf": "HIGH"
+    },
+    {
+      "particulars": "DSIR Approved R&D Lab",
+      "unit": "approval",
+      "metric_type": "static_descriptor",
+      "value": "2018",
+      "ref": "AAR Center for techno-preneubhip, DSIR approved R&D lab on timeline (2018 line)", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "9", "conf": "HIGH"
+    },
+    {
+      "particulars": "AIC - Aartech Solonics Private Limited",
+      "unit": "entity",
+      "metric_type": "static_descriptor",
+      "value": "2017",
+      "ref": "2017 AIC - Aartech Solonics Private Limited on timeline", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "9", "conf": "HIGH"
+    },
+    {
+      "particulars": "Faradigm Ultracapacitors Private Limited",
+      "unit": "entity",
+      "metric_type": "static_descriptor",
+      "value": "2017",
+      "ref": "Faradigm Ultracapacitors Private Limited on timeline (2017 line)", "src": "Nov-2024_f9b28f07-b2e5-4735-b4dd-059b9b7e3cd3_IP.pdf", "pg": "9", "conf": "HIGH"
+    }
+  ]
+}

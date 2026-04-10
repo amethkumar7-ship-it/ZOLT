@@ -1,0 +1,670 @@
+{
+  "company_name": "3B BlackBio Dx Ltd.",
+  "documents_scanned": "13",
+  "time_range": "Q2 FY 2023-24 to Q3 FY 2025-26",
+  "discovery": [
+    {
+      "segment_name": "Agrochemicals",
+      "metrics_found": [
+        {"metric": "Number of Insecticides Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Antibacterials Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Fungicides Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Herbicides Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Public Health Chemicals Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Microfertilizers Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Chelated Zinc Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Repellents Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Plant Growth Regulators Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Bio Pesticide Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Bio Fungicide Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Bio Fertilizers Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Bio Nematicides Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Public Health Biologicals Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Health & Hygiene Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Molecular Diagnostics (MDx)",
+      "metrics_found": [
+        {"metric": "Number of Molecular Diagnostic Assays Developed", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Parameters CE-IVD Marked", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Contracts under Reagent-Rental Model", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Projected Contribution from Reagent-Rental Model", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Countries with Presence", "unit": "count", "metric_type": "periodic", "periods_available": ["Q3 2024-25", "Q3 2025-26", "FY 2024-25", "H1 2025-26", "Aug 2025", "Nov 2024", "Aug 2024", "May 2024"]},
+        {"metric": "Number of Customers", "unit": "count", "metric_type": "periodic", "periods_available": ["H1 2025-26", "Aug 2025"]},
+        {"metric": "Market Share in India MDx Market", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "India MDx Total Addressable Market (TAM)", "unit": "INR Cr", "metric_type": "periodic", "periods_available": ["Q3 2025-26", "H1 2025-26", "May 2025", "Nov 2024"]},
+        {"metric": "India MDx Industry Projected CAGR", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Company Projected Growth Rate", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 2025-26", "H1 2025-26", "May 2025", "Nov 2024", "Aug 2024"]},
+        {"metric": "Export Sales Growth Projection", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 2025-26", "H1 2025-26", "May 2025"]},
+        {"metric": "Number of COVID-19 RT PCR Tests Supplied", "unit": "Million tests", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Labs Supplied with COVID-19 Tests", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Cities Supplied with COVID-19 Tests", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Installed Capacity Utilization", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Lean Season Capacity Utilization", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Raw Material Imports as % of Sales", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Shareholding of Vivid Global Technologies Proprietor", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Shareholding of 2B BlackBio SL, Spain", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Age of Molecular Diagnostics Division", "unit": "years", "metric_type": "periodic", "periods_available": ["Feb 2025", "Nov 2024", "Aug 2024", "May 2024"]},
+        {"metric": "Coris BioConcept SRL - Annual Revenue", "unit": "EUR Million", "metric_type": "periodic", "periods_available": ["FY 2024 (Jan-Dec)"]},
+        {"metric": "Coris BioConcept SRL - Gross Margin", "unit": "%", "metric_type": "periodic", "periods_available": ["FY 2024 (Jan-Dec)"]},
+        {"metric": "Coris BioConcept SRL - EBITDA", "unit": "EUR", "metric_type": "periodic", "periods_available": ["FY 2024 (Jan-Dec)", "FY 2025 (Jan-Dec)"]},
+        {"metric": "Coris BioConcept SRL - Net Assets", "unit": "EUR Million", "metric_type": "periodic", "periods_available": ["FY 2024 (Jan-Dec)"]},
+        {"metric": "Coris BioConcept SRL - HAT Sales", "unit": "EUR Million", "metric_type": "periodic", "periods_available": ["FY 2025 (Jan-Dec)", "FY 2024 (Jan-Dec)"]},
+        {"metric": "Coris BioConcept SRL - Expected HAT Sales", "unit": "EUR Million", "metric_type": "periodic", "periods_available": ["FY 2026"]},
+        {"metric": "Coris BioConcept SRL - AMR Segment Growth (ex-HAT)", "unit": "%", "metric_type": "periodic", "periods_available": ["12M ended Dec 2025"]},
+        {"metric": "Coris BioConcept SRL - Infectious Segment Decline (ex-HAT)", "unit": "%", "metric_type": "periodic", "periods_available": ["12M ended Dec 2025"]},
+        {"metric": "Coris BioConcept SRL - Total Sales Growth (ex-HAT)", "unit": "%", "metric_type": "periodic", "periods_available": ["12M ended Dec 2025"]},
+        {"metric": "Coris BioConcept SRL - Expected AMR Growth", "unit": "%", "metric_type": "periodic", "periods_available": ["FY 2026-27"]},
+        {"metric": "Coris BioConcept SRL - Expected Overall Sales Growth", "unit": "%", "metric_type": "periodic", "periods_available": ["FY 2026-27"]},
+        {"metric": "Coris BioConcept SRL - Employee Count", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Coris BioConcept SRL - Facility Size", "unit": "m²", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "TRUPCR Europe Limited - Projected Growth Rate", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 2025-26", "H1 2025-26", "Aug 2025", "May 2025", "Nov 2024", "Aug 2024"]}
+      ]
+    },
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Year of Establishment", "unit": "year", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Years in Operation", "unit": "years", "metric_type": "periodic", "periods_available": ["Feb 2025", "Feb 2024"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Forbes India DGEMS 2023 Selection", "unit": "select group", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "National MSME Award 2018", "unit": "award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Outstanding Achievement Award (FMPCCI)", "unit": "award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "ISO 13485:2016 Certification (India)", "unit": "certification", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "ISO 13485:2016 Certification (UK)", "unit": "certification", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "CDSCO License", "unit": "license", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "USFDA EUA for COVID-19 Test", "unit": "authorization", "metric_type": "static_descriptor", "periods_available": ["static"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Agrochemicals",
+      "data": [
+        {
+          "particulars": "Number of Insecticides Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "70",
+          "ref": "Chemicals No. of Products ·Insecticides 70",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Antibacterials Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "01",
+          "ref": "Chemicals No. of Products ·Antibacterials 01",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Fungicides Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "15",
+          "ref": "Chemicals No. of Products ·Fungicides 15",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Herbicides Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "11",
+          "ref": "Chemicals No. of Products ·Herbicides 11",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Public Health Chemicals Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "11",
+          "ref": "Chemicals No. of Products ·Public Health 11",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Microfertilizers Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "02",
+          "ref": "Chemicals No. of Products ·Microfertilizers 02",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Chelated Zinc Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "01",
+          "ref": "Chemicals No. of Products ·Chelated Zinc 01",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Repellents Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "03",
+          "ref": "Chemicals No. of Products ·Repellents 03",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Plant Growth Regulators Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "02",
+          "ref": "Chemicals No. of Products ·Plant Growth Regulators 02",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Bio Pesticide Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "07",
+          "ref": "Biologicals No. of Products ·Bio pesticide 07",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Bio Fungicide Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "01",
+          "ref": "Biologicals No. of Products ·Bio fungicide 01",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Bio Fertilizers Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "05",
+          "ref": "Biologicals No. of Products ·Bio fertilizers 05",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Bio Nematicides Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "01",
+          "ref": "Biologicals No. of Products ·Bio nematicides 01",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Public Health Biologicals Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "02",
+          "ref": "Biologicals No. of Products ·Public Health 02",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Health & Hygiene Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "06",
+          "ref": "Biologicals No. of Products ·Health & Hygiene 06",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "Molecular Diagnostics (MDx)",
+      "data": [
+        {
+          "particulars": "Number of Molecular Diagnostic Assays Developed",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "120",
+          "ref": "Product Portfolio: 120+ Molecular Diagnostic Assays Developed",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "9",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Parameters CE-IVD Marked",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "120",
+          "ref": "Over 120 Parameters are CE- IVD marked",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "31",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Contracts under Reagent-Rental Model",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "15",
+          "ref": "we have over 15 contracts already in place (under Reagent- Rental Model)",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "41",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Projected Contribution from Reagent-Rental Model",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "20-25",
+          "ref": "project a steady business of 20% - 25% of the total revenue",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "41",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Countries with Presence",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 2025-26": {"v": "70", "ref": "presence now in over 70 countries", "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "H1 2025-26": {"v": "70", "ref": "presence now in over 70 countries", "src": "Nov-2025_351b9755-ddaf-4a3c-967e-07f8f28e5338_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "FY 2024-25": {"v": "70", "ref": "presence now in over 70 countries", "src": "May-2025_ba4117d1-ce71-45de-af59-2295a2552e07_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Aug 2025": {"v": "70", "ref": "presence now in over 70 countries", "src": "Aug-2025_f759a690-33a5-43d6-b8f9-e931e53073fa_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Nov 2024": {"v": "60", "ref": "widespread acceptance in more than 60 countries", "src": "Nov-2024_6fa9eb9e-335b-4818-8cfe-893e3a0c2c9c_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Aug 2024": {"v": "55", "ref": "widespread acceptance in more than 55 countries", "src": "Aug-2024_fc7df726-c8be-4989-bc5f-f52b4953c905_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "May 2024": {"v": "45", "ref": "widespread acceptance in more than 45 countries", "src": "May-2024_bd6e776e-db48-41c6-9d17-bd83ba983325_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of Customers",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "H1 2025-26": {"v": "200", "ref": "200+ customers", "src": "Nov-2025_351b9755-ddaf-4a3c-967e-07f8f28e5338_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Aug 2025": {"v": "200", "ref": "200+ customers", "src": "Aug-2025_f759a690-33a5-43d6-b8f9-e931e53073fa_IP.pdf", "pg": "22", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Market Share in India MDx Market",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "12-15",
+          "ref": "We hold a 12% - 15% market share",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "15",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "India MDx Total Addressable Market (TAM)",
+          "unit": "INR Cr",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 2025-26": {"v": "400-500", "ref": "Total Addressable Market (TAM) for Molecular Diagnostics (MDx) in India is estimated at approx. 400- 500 Cr", "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "H1 2025-26": {"v": "350-450", "ref": "Total Addressable Market (TAM) for Molecular Diagnostics (MDx) in India is estimated at approx. 350- 450 Cr", "src": "Nov-2025_351b9755-ddaf-4a3c-967e-07f8f28e5338_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "May 2025": {"v": "350-450", "ref": "Total Addressable Market (TAM) for Molecular Diagnostics (MDx) in India is estimated at approx. 350- 450 Cr", "src": "May-2025_ba4117d1-ce71-45de-af59-2295a2552e07_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Nov 2024": {"v": "300-400", "ref": "Total Addressable Market (TAM) in India for Molecular Diagnostics (MDx) is between 300- 400 Crores", "src": "Feb-2025_cdaba50e-16b9-4fab-987a-00a6f5a300c8_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "India MDx Industry Projected CAGR",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "8-10",
+          "ref": "The MDx industry is projected to grow at 8% - 10% CAGR over the next few years in India",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "15",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Company Projected Growth Rate",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 2025-26": {"v": "10-15", "ref": "hoping to grow at 10% - 15% overall taking both domestic and export sales for FY 2025- 26", "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "H1 2025-26": {"v": "15-20", "ref": "hoping to grow at 15% - 20% for FY 2025- 26", "src": "Nov-2025_351b9755-ddaf-4a3c-967e-07f8f28e5338_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "May 2025": {"v": "15-20", "ref": "hoping to grow at 15% - 20% for FY 2025- 26", "src": "May-2025_ba4117d1-ce71-45de-af59-2295a2552e07_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Nov 2024": {"v": "20-25", "ref": "we will continue to grow at a rate of 20% - 25% for this year", "src": "Feb-2025_cdaba50e-16b9-4fab-987a-00a6f5a300c8_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Aug 2024": {"v": "15-20", "ref": "hoping to grow at 15% - 20% for FY 2025- 26", "src": "Aug-2025_f759a690-33a5-43d6-b8f9-e931e53073fa_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Export Sales Growth Projection",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 2025-26": {"v": "15-20", "ref": "we expect export growth of 15 - 20%", "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "H1 2025-26": {"v": "20-25", "ref": "we project export growth of 20 - 25%", "src": "Nov-2025_351b9755-ddaf-4a3c-967e-07f8f28e5338_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "May 2025": {"v": "20-25", "ref": "we are strategically positioned for a growth of 20 - 25% in the international business in the FY 2025- 26", "src": "May-2025_ba4117d1-ce71-45de-af59-2295a2552e07_IP.pdf", "pg": "21", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of COVID-19 RT PCR Tests Supplied",
+          "unit": "Million tests",
+          "metric_type": "static_descriptor",
+          "value": "16",
+          "ref": "supplied over 16 Million tests to more than 400 labs",
+          "src": "Nov-2024_6fa9eb9e-335b-4818-8cfe-893e3a0c2c9c_IP.pdf",
+          "pg": "21",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Labs Supplied with COVID-19 Tests",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "400",
+          "ref": "supplied over 16 Million tests to more than 400 labs across 80 cities",
+          "src": "Nov-2024_6fa9eb9e-335b-4818-8cfe-893e3a0c2c9c_IP.pdf",
+          "pg": "21",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Cities Supplied with COVID-19 Tests",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "80",
+          "ref": "supplied over 16 Million tests to more than 400 labs across 80 cities",
+          "src": "Nov-2024_6fa9eb9e-335b-4818-8cfe-893e3a0c2c9c_IP.pdf",
+          "pg": "21",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Installed Capacity Utilization",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "65",
+          "ref": "operating at ~65% of its installed capacity",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "42",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Lean Season Capacity Utilization",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "50",
+          "ref": "During lean season periods, capacity utilization remains around ~50%",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "42",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Raw Material Imports as % of Sales",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "5.5",
+          "ref": "We do import certain raw materials which are just 5.5% of the total sales",
+          "src": "Nov-2024_6fa9eb9e-335b-4818-8cfe-893e3a0c2c9c_IP.pdf",
+          "pg": "21",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Shareholding of Vivid Global Technologies Proprietor",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "5.20",
+          "ref": "He is a shareholder of our company holding 5.20% shares",
+          "src": "Nov-2024_6fa9eb9e-335b-4818-8cfe-893e3a0c2c9c_IP.pdf",
+          "pg": "19",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Shareholding of 2B BlackBio SL, Spain",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "2.81",
+          "ref": "One of the old promoters and previous JV partner - M/s 2B BlackBio SL, Spain which holds 2.81% shares",
+          "src": "Nov-2024_6fa9eb9e-335b-4818-8cfe-893e3a0c2c9c_IP.pdf",
+          "pg": "21",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Age of Molecular Diagnostics Division",
+          "unit": "years",
+          "metric_type": "periodic",
+          "values": {
+            "Feb 2025": {"v": "14", "ref": "3B BlackBio Dx Limited celebrated the completion of 13 years of our success and stepped into the 14th year", "src": "Feb-2025_cdaba50e-16b9-4fab-987a-00a6f5a300c8_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Nov 2024": {"v": "14", "ref": "stepped into the 14th year", "src": "Nov-2024_6fa9eb9e-335b-4818-8cfe-893e3a0c2c9c_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Aug 2024": {"v": "14", "ref": "stepped into the 14th year", "src": "Aug-2024_fc7df726-c8be-4989-bc5f-f52b4953c905_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "May 2024": {"v": "13", "ref": "celebrated the completion of 13 years of our success", "src": "May-2024_bd6e776e-db48-41c6-9d17-bd83ba983325_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Coris BioConcept SRL - Annual Revenue",
+          "unit": "EUR Million",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2024 (Jan-Dec)": {"v": "5.22", "ref": "unaudited revenue of £5.22 Million for the financial year ended 31st December 2024", "src": "Aug-2025_f759a690-33a5-43d6-b8f9-e931e53073fa_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Coris BioConcept SRL - Gross Margin",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2024 (Jan-Dec)": {"v": "58.7", "ref": "gross margin of approximately 58.7%", "src": "Aug-2025_f759a690-33a5-43d6-b8f9-e931e53073fa_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Coris BioConcept SRL - EBITDA",
+          "unit": "EUR",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2024 (Jan-Dec)": {"v": "-215,000", "ref": "recorded a negative EBITDA of £0.215 Million", "src": "Aug-2025_f759a690-33a5-43d6-b8f9-e931e53073fa_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "FY 2025 (Jan-Dec)": {"v": "-325,000", "ref": "full year ended with an EBITDA loss of EUR 325K", "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Coris BioConcept SRL - Net Assets",
+          "unit": "EUR Million",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2024 (Jan-Dec)": {"v": "4.14", "ref": "net assets stood at £4.14 Million", "src": "Aug-2025_f759a690-33a5-43d6-b8f9-e931e53073fa_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Coris BioConcept SRL - HAT Sales",
+          "unit": "EUR Million",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2025 (Jan-Dec)": {"v": "1.35", "ref": "The HAT sales was EUR 1.35M in FY'25", "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "FY 2024 (Jan-Dec)": {"v": "2.10", "ref": "EUR 2.10M in FY'24", "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Coris BioConcept SRL - Expected HAT Sales",
+          "unit": "EUR Million",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2026": {"v": "1.35-1.50", "ref": "In FY'26 we expect the HAT sales to be about EUR 1.35M - 1.50M", "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Coris BioConcept SRL - AMR Segment Growth (ex-HAT)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "12M ended Dec 2025": {"v": "32.7", "ref": "growth of 32.7% in AMR", "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf", "pg": "29", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Coris BioConcept SRL - Infectious Segment Decline (ex-HAT)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "12M ended Dec 2025": {"v": "14", "ref": "de-growth of 14% in Infectious", "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf", "pg": "29", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Coris BioConcept SRL - Total Sales Growth (ex-HAT)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "12M ended Dec 2025": {"v": "7.8", "ref": "Total sales growth if we exclude HAT is 7.8%", "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf", "pg": "29", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Coris BioConcept SRL - Expected AMR Growth",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2026-27": {"v": "15-20", "ref": "We expect AMR to grow at 15 - 20% for FY26-27", "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf", "pg": "29", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Coris BioConcept SRL - Expected Overall Sales Growth",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY 2026-27": {"v": "10-15", "ref": "we expect the sales to grow at 10 - 15%", "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf", "pg": "29", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Coris BioConcept SRL - Employee Count",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "33",
+          "ref": "Coris employs a dedicated team of 33 professionals",
+          "src": "Aug-2025_f759a690-33a5-43d6-b8f9-e931e53073fa_IP.pdf",
+          "pg": "32",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Coris BioConcept SRL - Facility Size",
+          "unit": "m²",
+          "metric_type": "static_descriptor",
+          "value": "2,000",
+          "ref": "2,000 m² facility in Gembloux, Belgium",
+          "src": "Aug-2025_f759a690-33a5-43d6-b8f9-e931e53073fa_IP.pdf",
+          "pg": "32",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "TRUPCR Europe Limited - Projected Growth Rate",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 2025-26": {"v": "15-20", "ref": "we expect TPE to grow at 15 - 20% for the full year", "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "H1 2025-26": {"v": "20-25", "ref": "we expect TPE to grow at 20 - 25% for the full year", "src": "Nov-2025_351b9755-ddaf-4a3c-967e-07f8f28e5338_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Aug 2025": {"v": "20-25", "ref": "We expect TPE to maintain 20–25% growth this year", "src": "Aug-2025_f759a690-33a5-43d6-b8f9-e931e53073fa_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "May 2025": {"v": "20-25", "ref": "project continued strong growth of 20–25% in the current fiscal year from TPE", "src": "May-2025_ba4117d1-ce71-45de-af59-2295a2552e07_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Nov 2024": {"v": "40-50", "ref": "the Manchester Site will continue to grow at a rate of 40% to 50% in this fiscal year", "src": "Nov-2024_6fa9eb9e-335b-4818-8cfe-893e3a0c2c9c_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Aug 2024": {"v": "40-50", "ref": "the Manchester Site is going to have a growth rate of 40% to 50% in this fiscal year as well", "src": "Aug-2024_fc7df726-c8be-4989-bc5f-f52b4953c905_IP.pdf", "pg": "23", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Year of Establishment",
+          "unit": "year",
+          "metric_type": "static_descriptor",
+          "value": "1972",
+          "ref": "Since 1972",
+          "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+          "pg": "2",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Years in Operation",
+          "unit": "years",
+          "metric_type": "periodic",
+          "values": {
+            "Feb 2025": {"v": "52", "ref": "Since 1972, 52 Years Strong", "src": "Feb-2025_cdaba50e-16b9-4fab-987a-00a6f5a300c8_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Feb 2024": {"v": "51", "ref": "Since 1972, 51 Years Strong", "src": "Feb-2024_66bc94da-8958-4ee1-9cae-59526fcdb8d9_IP.pdf", "pg": "2", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Forbes India DGEMS 2023 Selection",
+      "unit": "select group",
+      "metric_type": "static_descriptor",
+      "value": "200 Select Companies with Global Business Potential",
+      "ref": "selected as a part of \"Select 200 Companies\" with the global business potential at DGEMS2023",
+      "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+      "pg": "7",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "National MSME Award 2018",
+      "unit": "award",
+      "metric_type": "static_descriptor",
+      "value": "National MSME Award - 2018",
+      "ref": "Received the \"National MSME Award - 2018\" by Hon'ble President of India",
+      "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+      "pg": "47",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Outstanding Achievement Award (FMPCCI)",
+      "unit": "award",
+      "metric_type": "static_descriptor",
+      "value": "Outstanding Achievement Award",
+      "ref": "Received the \"Outstanding Achievement Award\" in recognition of excellence in R&D through technology by FMPCCI",
+      "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+      "pg": "47",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "ISO 13485:2016 Certification (India)",
+      "unit": "certification",
+      "metric_type": "static_descriptor",
+      "value": "ISO 13485:2016",
+      "ref": "ISO 13485:2016 & GMP Compliant manufacturing under the Medical Device QMS through BSI",
+      "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+      "pg": "31",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "ISO 13485:2016 Certification (UK)",
+      "unit": "certification",
+      "metric_type": "static_descriptor",
+      "value": "ISO 13485:2016",
+      "ref": "Both India and UK Sites are ISO 13485 certified by BSI, UK",
+      "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+      "pg": "32",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "CDSCO License",
+      "unit": "license",
+      "metric_type": "static_descriptor",
+      "value": "Licensed by CDSCO",
+      "ref": "Licensed by CDSCO, Govt. Of India; equivalent to FDA",
+      "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+      "pg": "31",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "USFDA EUA for COVID-19 Test",
+      "unit": "authorization",
+      "metric_type": "static_descriptor",
+      "value": "USFDA (EUA)",
+      "ref": "Only Indian company to get USFDA (EUA) for COVID in 2020",
+      "src": "Feb-2026_0a4a4f54-fda7-4347-a389-476078da79a2_IP.pdf",
+      "pg": "32",
+      "conf": "HIGH"
+    }
+  ]
+}

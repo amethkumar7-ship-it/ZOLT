@@ -1,0 +1,638 @@
+{
+  "company_name": "Tribhovandas Bhimji Zaveri Limited",
+  "documents_scanned": "12",
+  "time_range": "Q1 FY24 to Q3 FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Total Stores", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "Large Format Stores (> 2,000 sq. ft.)", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "Small Format Stores (<= 2,000 sq. ft.)", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "Total Area", "unit": "Sq Ft", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Cities with Stores", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q1 FY26"]},
+        {"metric": "States with Stores", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q1 FY26"]},
+        {"metric": "Gold Jewellery Manufacturing Vendors", "unit": "Number", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Vendor Annual Gold Processing Capacity", "unit": "Kg", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Customer Walk-ins", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q2 FY26", "Q3 FY26", "9M FY26"]},
+        {"metric": "New Customer Acquisition", "unit": "Percentage", "metric_type": "periodic", "periods_available": ["Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Active Customer Base", "unit": "Percentage", "metric_type": "periodic", "periods_available": ["Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Reactivated Lapsed Customers", "unit": "Percentage", "metric_type": "periodic", "periods_available": ["Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Instagram Followers", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Social Media Reach", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q3 FY25", "Q4 FY25", "Q1 FY26"]},
+        {"metric": "Social Media Impressions", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q3 FY25", "Q4 FY25", "Q1 FY26"]},
+        {"metric": "Social Media Engagements", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q4 FY25"]},
+        {"metric": "Social Media Link-clicks", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q4 FY25"]},
+        {"metric": "Video Views", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Gold Metal Loan Contract Period", "unit": "Days", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Bank Guarantee for Gold Lease", "unit": "Percentage", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Gold Jewellery Inventory Turns", "unit": "Times", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "CSR - Project Pankhi",
+      "metrics_found": [
+        {"metric": "Counselling Cases Registered", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY25", "H1 FY25", "Q1 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "Individual Counselling Sessions", "unit": "Number", "metric_type": "periodic", "periods_available": ["9M FY26"]},
+        {"metric": "Joint Counselling Sessions", "unit": "Number", "metric_type": "periodic", "periods_available": ["H1 FY25", "Q1 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "Awareness Sessions", "unit": "Number", "metric_type": "periodic", "periods_available": ["H1 FY25", "Q1 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "Individuals Reached (Awareness)", "unit": "Number", "metric_type": "periodic", "periods_available": ["H1 FY25", "Q1 FY26", "H1 FY26"]},
+        {"metric": "Legal Aid Support Cases", "unit": "Number", "metric_type": "periodic", "periods_available": ["FY25"]},
+        {"metric": "Awareness Sessions Conducted (Legal Rights)", "unit": "Number", "metric_type": "periodic", "periods_available": ["FY25"]}
+      ]
+    },
+    {
+      "segment_name": "CSR - Project Disha / EK Disha",
+      "metrics_found": [
+        {"metric": "Students Supported (Muskan Foundation)", "unit": "Number", "metric_type": "periodic", "periods_available": ["H1 FY25", "FY25", "H1 FY26", "9M FY26"]},
+        {"metric": "Sessions Conducted (Muskan Foundation)", "unit": "Number", "metric_type": "periodic", "periods_available": ["9M FY26"]},
+        {"metric": "Parent Training Sessions (Muskan Foundation)", "unit": "Number", "metric_type": "periodic", "periods_available": ["9M FY26"]},
+        {"metric": "Parents Engaged (Muskan Foundation)", "unit": "Number", "metric_type": "periodic", "periods_available": ["9M FY26"]},
+        {"metric": "Students Supported (Victoria Memorial School for the Blind)", "unit": "Number", "metric_type": "periodic", "periods_available": ["H1 FY25", "FY25", "H1 FY26", "9M FY26"]},
+        {"metric": "Children Supported (Pahley Akshar Foundation)", "unit": "Number", "metric_type": "periodic", "periods_available": ["H1 FY26", "9M FY26"]},
+        {"metric": "Schools Supported (Pahley Akshar Foundation)", "unit": "Number", "metric_type": "periodic", "periods_available": ["9M FY26"]},
+        {"metric": "Teachers Trained (Pahley Akshar Foundation)", "unit": "Number", "metric_type": "periodic", "periods_available": ["H1 FY26", "9M FY26"]},
+        {"metric": "Teacher Training Programs (Pahley Akshar Foundation)", "unit": "Number", "metric_type": "periodic", "periods_available": ["H1 FY26"]},
+        {"metric": "Therapy & Learning Sessions (Muskan Foundation)", "unit": "Number", "metric_type": "periodic", "periods_available": ["FY25"]},
+        {"metric": "Eco-friendly Cotton Bags Distributed", "unit": "Number", "metric_type": "periodic", "periods_available": ["9M FY26"]},
+        {"metric": "Students Supported (Vinay Mandir School - Uniforms)", "unit": "Number", "metric_type": "periodic", "periods_available": ["H1 FY26"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Exemplary Value creation for Shareholders 2025", "unit": "Award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Gems and Jewellery Industry Legend Award", "unit": "Award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "GJEPC 40 under 40", "unit": "Recognition", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Excellence in Leadership, Young Leader of the Year Award", "unit": "Award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Best Bracelet Design Award - 9th Edition", "unit": "Award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Contemporary Diamond Jewellery Award", "unit": "Award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Treasure of the Ocean Award", "unit": "Award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Diamond Vivah Jewellery of the Year", "unit": "Award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "India's Most Preferred Jewellery Brand", "unit": "Award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Best Ring Design Over Rs. 2,50,000", "unit": "Award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "TV Campaign of the Year", "unit": "Award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Diamond Jewellery of the Year", "unit": "Award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Best Necklace Design Award - 2016", "unit": "Award", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Asia's Most Popular Brands - 2014", "unit": "Award", "metric_type": "static_descriptor", "periods_available": ["static"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Total Stores",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "34", "ref": "Total Stores 34", "src": "Aug-2024_69ba8d8b-29b4-49dd-a7b6-e40efec02c1f_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q2 FY25": {"v": "36", "ref": "Total Stores 36", "src": "Nov-2024_018bddd4-8cb8-4c7d-b1f0-24b7b9fc159a_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY25": {"v": "36", "ref": "Total Stores 36", "src": "Feb-2025_72f6bc24-f152-4d32-adca-bcb962cc38f9_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q4 FY25": {"v": "37", "ref": "Total Stores 37", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q1 FY26": {"v": "37", "ref": "Total Stores 37", "src": "Aug-2025_e9c4b726-a643-492a-af7c-c55d0c1e8b84_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "H1 FY26": {"v": "37", "ref": "Total Stores 37", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "9M FY26": {"v": "37", "ref": "Total Stores 37", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Large Format Stores (> 2,000 sq. ft.)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "30", "ref": "Large Format (> 2,000 sq. ft.) 30", "src": "Aug-2024_69ba8d8b-29b4-49dd-a7b6-e40efec02c1f_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q2 FY25": {"v": "32", "ref": "Large Format (> 2,000 sq. ft.) 32", "src": "Nov-2024_018bddd4-8cb8-4c7d-b1f0-24b7b9fc159a_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY25": {"v": "32", "ref": "Large Format (> 2,000 sq. ft.) 32", "src": "Feb-2025_72f6bc24-f152-4d32-adca-bcb962cc38f9_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q4 FY25": {"v": "33", "ref": "Large Format (> 2,000 sq. ft.) 33", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q1 FY26": {"v": "33", "ref": "Large Format (> 2,000 sq. ft.) 33", "src": "Aug-2025_e9c4b726-a643-492a-af7c-c55d0c1e8b84_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "H1 FY26": {"v": "33", "ref": "Large Format (> 2,000 sq. ft.) 33", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "9M FY26": {"v": "33", "ref": "Large Format (> 2,000 sq. ft.) 33", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Small Format Stores (<= 2,000 sq. ft.)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "4", "ref": "Small Format (<= 2,000 sq. ft.) 4", "src": "Aug-2024_69ba8d8b-29b4-49dd-a7b6-e40efec02c1f_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q2 FY25": {"v": "4", "ref": "Small Format (<= 2,000 sq. ft.) 4", "src": "Nov-2024_018bddd4-8cb8-4c7d-b1f0-24b7b9fc159a_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY25": {"v": "4", "ref": "Small Format (<= 2,000 sq. ft.) 4", "src": "Feb-2025_72f6bc24-f152-4d32-adca-bcb962cc38f9_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q4 FY25": {"v": "4", "ref": "Small Format (<= 2,000 sq. ft.) 4", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q1 FY26": {"v": "4", "ref": "Small Format (<= 2,000 sq. ft.) 4", "src": "Aug-2025_e9c4b726-a643-492a-af7c-c55d0c1e8b84_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "H1 FY26": {"v": "4", "ref": "Small Format (<= 2,000 sq. ft.) 4", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "9M FY26": {"v": "4", "ref": "Small Format (<= 2,000 sq. ft.) 4", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total Area",
+          "unit": "Sq Ft",
+          "metric_type": "static_descriptor",
+          "value": "~1,00,000+",
+          "ref": "Total Area (sq. ft)~1,00,000+", 
+          "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+          "pg": "17",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Cities with Stores",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "26", "ref": "Spread across 26 Cities in 12 States", "src": "Aug-2024_69ba8d8b-29b4-49dd-a7b6-e40efec02c1f_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q1 FY26": {"v": "27", "ref": "37 stores across 27 cities in 13 states", "src": "Aug-2025_e9c4b726-a643-492a-af7c-c55d0c1e8b84_IP.pdf", "pg": "10", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "States with Stores",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "12", "ref": "Spread across 26 Cities in 12 States", "src": "Aug-2024_69ba8d8b-29b4-49dd-a7b6-e40efec02c1f_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q1 FY26": {"v": "13", "ref": "37 stores across 27 cities in 13 states", "src": "Aug-2025_e9c4b726-a643-492a-af7c-c55d0c1e8b84_IP.pdf", "pg": "10", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Gold Jewellery Manufacturing Vendors",
+          "unit": "Number",
+          "metric_type": "static_descriptor",
+          "value": "150+",
+          "ref": "Vast nation-wide network of 150+ vendors", 
+          "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+          "pg": "19",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Vendor Annual Gold Processing Capacity",
+          "unit": "Kg",
+          "metric_type": "static_descriptor",
+          "value": "100+",
+          "ref": "Each vendor has an annual gold processing capacity of more than 100 kg.", 
+          "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+          "pg": "19",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Customer Walk-ins",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "1,05,000+", "ref": "Over 1.05 lakh+ customer walk- ins in Q1 FY225", "src": "Aug-2024_69ba8d8b-29b4-49dd-a7b6-e40efec02c1f_IP.pdf", "pg": "10", "conf": "MEDIUM"},
+            "Q2 FY25": {"v": "1,20,000+", "ref": "Over 1.20 lakh+ customer walk-ins in Q2 FY25", "src": "Nov-2024_018bddd4-8cb8-4c7d-b1f0-24b7b9fc159a_IP.pdf", "pg": "12", "conf": "MEDIUM"},
+            "Q3 FY25": {"v": "70,000+", "ref": "Over 70,000 customers engaged with TBZ Ltd. during Q3 of 2023-24", "src": "Feb-2024_70d35890-50cb-4fb2-8e41-44d2ec2b6b53_IP.pdf", "pg": "11", "conf": "MEDIUM"},
+            "Q4 FY25": {"v": "49,000+", "ref": "49 K+ customer walk- ins in Q4 FY25", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "12", "conf": "MEDIUM"},
+            "Q2 FY26": {"v": "57,000+", "ref": "57,000+ walk-ins were recorded in Q2 FY26", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "11", "conf": "MEDIUM"},
+            "Q3 FY26": {"v": "57,000+", "ref": "Delivered 57K+ customer walk- ins in Q3 FY26", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "11", "conf": "MEDIUM"},
+            "9M FY26": {"v": "1,63,000+", "ref": "1.63 lakh+ walk- ins in 9M FY26 (Apr- Dec'25)", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "11", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "New Customer Acquisition",
+          "unit": "Percentage",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY25": {"v": "50%", "ref": "acquired close to 50% customers", "src": "Nov-2024_018bddd4-8cb8-4c7d-b1f0-24b7b9fc159a_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY25": {"v": "47%", "ref": "achieved a notable 47% acquisition of new customers", "src": "Feb-2024_70d35890-50cb-4fb2-8e41-44d2ec2b6b53_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q4 FY25": {"v": "41%", "ref": "Customer mix: 41 % were first- time buyers", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1 FY26": {"v": "50%", "ref": "growth in new customer acquisition", "src": "Aug-2025_e9c4b726-a643-492a-af7c-c55d0c1e8b84_IP.pdf", "pg": "10", "conf": "MEDIUM"},
+            "Q2 FY26": {"v": "40-45%", "ref": "40%-45% new customers", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY26": {"v": "40-45%", "ref": "40 - 45% new acquisitions", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Active Customer Base",
+          "unit": "Percentage",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY25": {"v": "50%", "ref": "45%-50% active customers", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "11", "conf": "MEDIUM"},
+            "Q3 FY25": {"v": "41%", "ref": "maintaining a 41% active customer base", "src": "Feb-2024_70d35890-50cb-4fb2-8e41-44d2ec2b6b53_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q4 FY25": {"v": "47%", "ref": "47 % repeat buyers from the active base", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1 FY26": {"v": "50%", "ref": "45%-50% active customers", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "11", "conf": "MEDIUM"},
+            "Q2 FY26": {"v": "45-50%", "ref": "45%-50% active customers", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY26": {"v": "45-50%", "ref": "45 - 50% active customer base", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Reactivated Lapsed Customers",
+          "unit": "Percentage",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY25": {"v": "10%", "ref": "reactivation of lapsed customers", "src": "Nov-2024_018bddd4-8cb8-4c7d-b1f0-24b7b9fc159a_IP.pdf", "pg": "12", "conf": "MEDIUM"},
+            "Q3 FY25": {"v": "12%", "ref": "brought back 12% of lapsed customers", "src": "Feb-2024_70d35890-50cb-4fb2-8e41-44d2ec2b6b53_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q4 FY25": {"v": "12%", "ref": "12 % lapsed customers re- engaged", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1 FY26": {"v": "10-15%", "ref": "10%-15% lapsed customers returned", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "11", "conf": "MEDIUM"},
+            "Q2 FY26": {"v": "10-15%", "ref": "10%-15% lapsed customers", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY26": {"v": "10-15%", "ref": "10 - 15% reactivated lapsed customers", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Instagram Followers",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": "160,000", "ref": "Instagram followers grew from 154K -> 160K", "src": "Aug-2025_e9c4b726-a643-492a-af7c-c55d0c1e8b84_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q2 FY26": {"v": "163,000", "ref": "Instagram followers rising from 161K -> 163K", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY26": {"v": "165,000+", "ref": "Instagram community expanded to 165K+ followers", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Social Media Reach",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "16,000,000", "ref": "reached 16M users across digital campaigns", "src": "Feb-2025_72f6bc24-f152-4d32-adca-bcb962cc38f9_IP.pdf", "pg": "12", "conf": "MEDIUM"},
+            "Q4 FY25": {"v": "31,000,000+", "ref": "Organic reach 31 mn+", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "12", "conf": "MEDIUM"},
+            "Q1 FY26": {"v": "7,700,000", "ref": "7.7M reach", "src": "Aug-2025_e9c4b726-a643-492a-af7c-c55d0c1e8b84_IP.pdf", "pg": "10", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Social Media Impressions",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "79,900,000", "ref": "Delivered near to 79.9M impressions", "src": "Feb-2025_72f6bc24-f152-4d32-adca-bcb962cc38f9_IP.pdf", "pg": "12", "conf": "MEDIUM"},
+            "Q4 FY25": {"v": "163,000,000+", "ref": "impressions 163 mn+", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "12", "conf": "MEDIUM"},
+            "Q1 FY26": {"v": "62,300,000", "ref": "achieved over 62.30 million impressions", "src": "Aug-2024_69ba8d8b-29b4-49dd-a7b6-e40efec02c1f_IP.pdf", "pg": "10", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Social Media Engagements",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q4 FY25": {"v": "440,000+", "ref": "engagements 440 K+", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Social Media Link-clicks",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q4 FY25": {"v": "203,000+", "ref": "link- clicks 203 K+", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Video Views",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": "12,000,000", "ref": "Over 12M video views", "src": "Aug-2025_e9c4b726-a643-492a-af7c-c55d0c1e8b84_IP.pdf", "pg": "10", "conf": "MEDIUM"},
+            "Q2 FY26": {"v": "20,000,000", "ref": "Video views surged to 20 million", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "12", "conf": "MEDIUM"},
+            "Q3 FY26": {"v": "13,000,000+", "ref": "video views exceeded 13 Mn+", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "11", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Gold Metal Loan Contract Period",
+          "unit": "Days",
+          "metric_type": "static_descriptor",
+          "value": "180",
+          "ref": "The contract for gold lease is 180 days.", 
+          "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+          "pg": "21",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Bank Guarantee for Gold Lease",
+          "unit": "Percentage",
+          "metric_type": "static_descriptor",
+          "value": "110%",
+          "ref": "TBZ provides a bank guarantee worth 110% of gold leased.", 
+          "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+          "pg": "21",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Gold Jewellery Inventory Turns",
+          "unit": "Times",
+          "metric_type": "static_descriptor",
+          "value": "2-3",
+          "ref": "Since TBZ's gold jewellery inventory turns 2-3 times", 
+          "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+          "pg": "21",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "CSR - Project Pankhi",
+      "data": [
+        {
+          "particulars": "Counselling Cases Registered",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "205", "ref": "205 counselling cases registered", "src": "Aug-2024_69ba8d8b-29b4-49dd-a7b6-e40efec02c1f_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "H1 FY25": {"v": "575", "ref": "575 cases handled in person from April to September 2024", "src": "Nov-2024_018bddd4-8cb8-4c7d-b1f0-24b7b9fc159a_IP.pdf", "pg": "28", "conf": "MEDIUM"},
+            "Q1 FY26": {"v": "500", "ref": "500 counselling cases registered", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "H1 FY26": {"v": "500", "ref": "500 counselling cases registered", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "9M FY26": {"v": "793", "ref": "793 counselling cases registered", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "27", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Individual Counselling Sessions",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY26": {"v": "1,712", "ref": "1,712 individual counselling sessions delivered", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "27", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Joint Counselling Sessions",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY25": {"v": "1,583", "ref": "1,583 joint and individual counseling sessions conducted", "src": "Nov-2024_018bddd4-8cb8-4c7d-b1f0-24b7b9fc159a_IP.pdf", "pg": "28", "conf": "MEDIUM"},
+            "Q1 FY26": {"v": "180", "ref": "Conducted 180 joint counselling sessions", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "H1 FY26": {"v": "180", "ref": "Conducted 180 joint counselling sessions", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "9M FY26": {"v": "224", "ref": "224 joint counselling sessions conducted", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "27", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Awareness Sessions",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY25": {"v": "21", "ref": "21 awareness sessions held", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q1 FY26": {"v": "21", "ref": "Facilitated 21 awareness sessions", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "H1 FY26": {"v": "56", "ref": "Facilitated 56 awareness sessions", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "9M FY26": {"v": "103", "ref": "103 awareness sessions conducted", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "27", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Individuals Reached (Awareness)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY25": {"v": "972", "ref": "reaching 972 women and adolescents", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q1 FY26": {"v": "972", "ref": "for 972 women and adolescents", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "H1 FY26": {"v": "2,313", "ref": "awareness sessions for 2313 women and adolescents", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Legal Aid Support Cases",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "755", "ref": "755 cases where Legal Aid support was provided", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Awareness Sessions Conducted (Legal Rights)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "922", "ref": "922 Awareness Sessions conducted to promote legal rights and safety", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "CSR - Project Disha / EK Disha",
+      "data": [
+        {
+          "particulars": "Students Supported (Muskan Foundation)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY25": {"v": "16", "ref": "16 children with multiple disabilities at Muskan Foundation", "src": "Nov-2024_018bddd4-8cb8-4c7d-b1f0-24b7b9fc159a_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "FY25": {"v": "16", "ref": "16 children with multiple disabilities at Muskan Foundation", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "H1 FY26": {"v": "16", "ref": "Support for Children with Multiple Disabilities 16 children", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "9M FY26": {"v": "16", "ref": "Support for Children with Multiple Disabilities", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Sessions Conducted (Muskan Foundation)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY26": {"v": "6,248", "ref": "6,248 sessions conducted with students across multiple learning and therapy topics", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Parent Training Sessions (Muskan Foundation)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY26": {"v": "7", "ref": "7 parent training sessions conducted for 49 parents", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Parents Engaged (Muskan Foundation)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY26": {"v": "49", "ref": "7 parent training sessions conducted for 49 parents", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Students Supported (Victoria Memorial School for the Blind)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY25": {"v": "15", "ref": "15 visually impaired students at Victoria School", "src": "Nov-2024_018bddd4-8cb8-4c7d-b1f0-24b7b9fc159a_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "FY25": {"v": "15", "ref": "15 visually impaired students at Victoria Memorial School for the Blind", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "H1 FY26": {"v": "15", "ref": "continued educational support for 15 visually impaired students", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "9M FY26": {"v": "15", "ref": "Continued education support for 15 students with visual impairment", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Children Supported (Pahley Akshar Foundation)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY26": {"v": "877", "ref": "877 students benefited", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "9M FY26": {"v": "877", "ref": "877 children supported through foundational English and learning outcomes interventions", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Schools Supported (Pahley Akshar Foundation)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY26": {"v": "3", "ref": "3 schools identified across Mumbai and Thane", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Teachers Trained (Pahley Akshar Foundation)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY26": {"v": "131", "ref": "13 teacher training programmes conducted for 131 teachers from 19 schools", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "9M FY26": {"v": "96", "ref": "Teacher training conducted covering 96 teachers across 16 schools", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Teacher Training Programs (Pahley Akshar Foundation)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY26": {"v": "13", "ref": "13 teacher training programmes conducted", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "29", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Therapy & Learning Sessions (Muskan Foundation)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "5,123", "ref": "5,123 therapy & learning sessions at Muskan Foundation", "src": "May-2025_54714b18-82e5-4054-a690-43186ab8ca53_IP.pdf", "pg": "29", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Eco-friendly Cotton Bags Distributed",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY26": {"v": "20,000", "ref": "20,000 eco- friendly cotton bags distributed", "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Students Supported (Vinay Mandir School - Uniforms)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY26": {"v": "46", "ref": "46 students at Vinay Mandir School received uniform support", "src": "Nov-2025_f3811c28-18ed-46ea-9677-79c38f494801_IP.pdf", "pg": "29", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Exemplary Value creation for Shareholders 2025",
+      "unit": "Award",
+      "metric_type": "static_descriptor",
+      "value": "Won",
+      "ref": "Exemplary Value creation for Shareholders 2025",
+      "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+      "pg": "25",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Gems and Jewellery Industry Legend Award",
+      "unit": "Award",
+      "metric_type": "static_descriptor",
+      "value": "Conferred",
+      "ref": "Gems and Jewellery Industry Legend Award",
+      "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+      "pg": "25",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "GJEPC 40 under 40",
+      "unit": "Recognition",
+      "metric_type": "static_descriptor",
+      "value": "Awarded",
+      "ref": "GJEPC 40 under 40",
+      "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+      "pg": "25",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Excellence in Leadership, Young Leader of the Year Award",
+      "unit": "Award",
+      "metric_type": "static_descriptor",
+      "value": "Awarded",
+      "ref": "Excellence in Leadership, Young Leader of the Year Award",
+      "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+      "pg": "25",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Best Bracelet Design Award - 9th Edition",
+      "unit": "Award",
+      "metric_type": "static_descriptor",
+      "value": "Won",
+      "ref": "BEST BRACELET DESIGN AWARD - 9TH EDITION",
+      "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+      "pg": "26",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Contemporary Diamond Jewellery Award",
+      "unit": "Award",
+      "metric_type": "static_descriptor",
+      "value": "Won",
+      "ref": "CONTEMPORARY DIAMOND JEWELLERY AWARD",
+      "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+      "pg": "26",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Treasure of the Ocean Award",
+      "unit": "Award",
+      "metric_type": "static_descriptor",
+      "value": "Won",
+      "ref": "TREASURE OF THE OCEAN",
+      "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+      "pg": "26",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Diamond Vivah Jewellery of the Year",
+      "unit": "Award",
+      "metric_type": "static_descriptor",
+      "value": "Won",
+      "ref": "DIAMOND VIVAH JEWELLERY OF THE YEAR",
+      "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+      "pg": "26",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "India's Most Preferred Jewellery Brand",
+      "unit": "Award",
+      "metric_type": "static_descriptor",
+      "value": "Won",
+      "ref": "INDIA'S MOST PREFERRED JEWELLERY BRAND",
+      "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+      "pg": "26",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Best Ring Design Over Rs. 2,50,000",
+      "unit": "Award",
+      "metric_type": "static_descriptor",
+      "value": "Won",
+      "ref": "BEST RING DESIGN OVER Rs. 2,50,000",
+      "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+      "pg": "26",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "TV Campaign of the Year",
+      "unit": "Award",
+      "metric_type": "static_descriptor",
+      "value": "Won",
+      "ref": "TV CAMPAIGN OF THE YEAR",
+      "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+      "pg": "26",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Diamond Jewellery of the Year",
+      "unit": "Award",
+      "metric_type": "static_descriptor",
+      "value": "Won",
+      "ref": "DIAMOND JEWELLERY OF THE YEAR",
+      "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+      "pg": "26",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Best Necklace Design Award - 2016",
+      "unit": "Award",
+      "metric_type": "static_descriptor",
+      "value": "Won",
+      "ref": "BEST NECKLACE DESIGN AWARD - 2016",
+      "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+      "pg": "26",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Asia's Most Popular Brands - 2014",
+      "unit": "Award",
+      "metric_type": "static_descriptor",
+      "value": "Won",
+      "ref": "ASIA'S MOST POPULAR BRANDS - 2014",
+      "src": "Jan-2026_2ffd92d7-08a1-45e4-8092-7a330c8dd5c4_IP.pdf",
+      "pg": "26",
+      "conf": "HIGH"
+    }
+  ]
+}

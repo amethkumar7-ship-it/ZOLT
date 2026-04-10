@@ -1,0 +1,577 @@
+{
+  "company_name": "Aditya Birla Capital Limited",
+  "documents_scanned": "5",
+  "time_range": "Q1 FY25 to Q3 FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Total lending portfolio", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025"]},
+        {"metric": "Total AUM", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q1 FY26"]},
+        {"metric": "Branches across businesses", "unit": "number", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025"]},
+        {"metric": "Customers", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Sep 30, 2025", "Mar 31, 2025"]},
+        {"metric": "VPAs Created", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Mar 31, 2025"]},
+        {"metric": "Product Categories", "unit": "number", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "NBFC",
+      "metrics_found": [
+        {"metric": "AUM - Unsecured business", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025", "Dec 31, 2024"]},
+        {"metric": "AUM - Secured business", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025", "Dec 31, 2024"]},
+        {"metric": "AUM - Total Business loans", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025", "Dec 31, 2024"]},
+        {"metric": "AUM - Personal & Consumer loans", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025", "Dec 31, 2024"]},
+        {"metric": "AUM - Corporate / Mid-market", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025", "Dec 31, 2024"]},
+        {"metric": "Disbursements - Unsecured business", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q1 FY26", "Q4 FY25", "Q3 FY25"]},
+        {"metric": "Disbursements - Secured business", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q1 FY26", "Q4 FY25", "Q3 FY25"]},
+        {"metric": "Disbursements - Total Business loans", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q1 FY26", "Q4 FY25", "Q3 FY25"]},
+        {"metric": "Disbursements - Personal & Consumer loans", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q1 FY26", "Q4 FY25", "Q3 FY25"]},
+        {"metric": "Disbursements - Corporate / Mid-market", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q1 FY26", "Q4 FY25", "Q3 FY25"]},
+        {"metric": "Total Loan book", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025", "Dec 31, 2024"]},
+        {"metric": "Stage 1 loans", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025", "Dec 31, 2024"]},
+        {"metric": "Stage 2 loans", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025", "Dec 31, 2024"]},
+        {"metric": "Stage 3 loans", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025", "Dec 31, 2024"]},
+        {"metric": "Stage 3 PCR", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025", "Dec 31, 2024"]}
+      ]
+    },
+    {
+      "segment_name": "Housing Finance",
+      "metrics_found": [
+        {"metric": "AUM", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025"]},
+        {"metric": "Disbursements", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q1 FY26", "Q4 FY25"]},
+        {"metric": "Branches", "unit": "number", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025"]},
+        {"metric": "Stage 2 and 3 loans", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025"]},
+        {"metric": "Stage 3 PCR", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025"]}
+      ]
+    },
+    {
+      "segment_name": "Life Insurance",
+      "metrics_found": [
+        {"metric": "Individual First year Premium", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["9M FY26", "H1 FY26", "Q1 FY26", "9M FY25", "H1 FY25"]},
+        {"metric": "Group First year Premium", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["9M FY26", "H1 FY26", "Q1 FY26", "9M FY25", "H1 FY25"]},
+        {"metric": "Total Gross Premium", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["9M FY26", "H1 FY26", "Q1 FY26"]},
+        {"metric": "Cities covered", "unit": "number", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "AUM", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025"]}
+      ]
+    },
+    {
+      "segment_name": "Health Insurance",
+      "metrics_found": [
+        {"metric": "Gross written premium (without 1/n)", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["9M FY26", "H1 FY26", "Q1 FY26", "9M FY25", "H1 FY25"]},
+        {"metric": "Gross written premium (with 1/n)", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["9M FY26", "H1 FY26", "Q1 FY26"]},
+        {"metric": "Net Promoter Score", "unit": "score", "metric_type": "periodic", "periods_available": ["9M FY26", "H1 FY25"]},
+        {"metric": "Activ Health App downloads", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY25", "Q1 FY26"]},
+        {"metric": "Play-store Rating", "unit": "stars", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "AMC",
+      "metrics_found": [
+        {"metric": "Mutual fund closing AUM", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q1 FY26", "Q4 FY25"]},
+        {"metric": "Equity MF mix", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q1 FY26", "Q4 FY25"]},
+        {"metric": "SIP Contribution", "unit": "₹ crore", "metric_type": "periodic", "periods_available": ["Dec 31, 2025", "Sep 30, 2025", "Jun 30, 2025", "Mar 31, 2025"]},
+        {"metric": "Locations", "unit": "number", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "MFDs empaneled", "unit": "number", "metric_type": "periodic", "periods_available": ["9M FY26", "H1 FY26", "Q1 FY26"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "CRISIL rating - NBFC long-term", "unit": "rating", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "CRISIL rating - NBFC short-term", "unit": "rating", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Best InsureTech Player of the Year", "unit": "award", "metric_type": "static_descriptor", "periods_available": ["static"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Total lending portfolio",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "190386", "ref": "Total lending³ portfolio of ₹ 1,90,386 crore (↑ 30% y-o-y & ↑ 7% q-o-q) at Dec 31, 2025", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "177855", "ref": "Total lending3 portfolio of 1,77,855 crore (↑ 29% y-o-y & ↑ 7 % q-o-q) at Sep 30, 2025", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total AUM",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "598166", "ref": "Total AUM⁴ of ₹ 5,98,166 Cr (↑ 19% y-o-y) in Q3 FY26", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Q2 FY26": {"v": "550240", "ref": "Total AUM4 of 5,50,240 Cr (↑ 10 % y-o-y) in Q2 FY26", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Branches across businesses",
+          "unit": "number",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "1742", "ref": "1,742 branches across businesses", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "1742", "ref": "1,742 branches across businesses", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "1690", "ref": "1,690 branches across businesses", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Customers",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Sep 30, 2025": {"v": "7.6", "ref": "7.6 Mn+ Customers\\*", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "5.5", "ref": "5.5 Mn Customers1", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "VPAs Created",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "3.6", "ref": "3.6 Mn+ VPAs Created\\*", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "3.0", "ref": "3.0 Mn VPAs Created\\*", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "2.3", "ref": "2.3 Mn VPAs Created1", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Product Categories",
+          "unit": "number",
+          "metric_type": "static_descriptor",
+          "value": "26",
+          "ref": "26+ Product Categories", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "13", "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "NBFC",
+      "data": [
+        {
+          "particulars": "AUM - Unsecured business",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "15278", "ref": "Unsecured business 11,196 13,663 15,278", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "13663", "ref": "Unsecured business 11,020 12,344 13,663", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "12344", "ref": "Unsecured business 10,546 12,066 12,344", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "12066", "ref": "Unsecured business 10,979 11,196 12,066", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Dec 31, 2024": {"v": "11196", "ref": "Unsecured business 11,196 13,663 15,278", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "AUM - Secured business",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "67528", "ref": "Secured business 54,402 63,869 67,528", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "63869", "ref": "Secured business 52,207 60,227 63,869", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "60227", "ref": "Secured business 47,557 57,992 60,227", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "57992", "ref": "Secured business 45,256 54,402 57,992", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Dec 31, 2024": {"v": "54402", "ref": "Secured business 54,402 63,869 67,528", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "AUM - Total Business loans",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "82809", "ref": "Total Business loans 65,598 77,532 82,809", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "77532", "ref": "Total Business loans 63,228 72,571 77,532", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "72571", "ref": "Total Business loans 58,104 70,058 72,571", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "70058", "ref": "Total Business loans 56,235 65,598 70,058", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Dec 31, 2024": {"v": "65598", "ref": "Total Business loans 65,598 77,532 82,809", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "AUM - Personal & Consumer loans",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "19921", "ref": "Personal & Consumer loans 15,520 18,218 19,921", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "18218", "ref": "Personal & Consumer loans 15,793 16,446 18,218", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "16446", "ref": "Personal & Consumer loans 16,130 15,532 16,446", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "15532", "ref": "Personal & Consumer loans 17,434 15,520 15,532", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Dec 31, 2024": {"v": "15520", "ref": "Personal & Consumer loans 15,520 18,218 19,921", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "AUM - Corporate / Mid-market",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "45455", "ref": "Corporate / Mid-market 38,319 43,834 45,455", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "43834", "ref": "Corporate / Mid-market 35,690 42,211 43,834", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "42211", "ref": "Corporate / Mid-market 33,071 40,760 42,211", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "40760", "ref": "Corporate / Mid-market 31,970 38,319 40,760", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Dec 31, 2024": {"v": "38319", "ref": "Corporate / Mid-market 38,319 43,834 45,455", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Disbursements - Unsecured business",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "1458", "ref": "Unsecured business 1,267 1,498 1,458", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q2 FY26": {"v": "1498", "ref": "Unsecured business 1,132 1,090 1,498", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q1 FY26": {"v": "1090", "ref": "Unsecured business 1,078 1,184 1,090", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q4 FY25": {"v": "1184", "ref": "Unsecured business 1,383 1,267 1,184", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY25": {"v": "1267", "ref": "Unsecured business 1,267 1,498 1,458", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Disbursements - Secured business",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "8445", "ref": "Secured business 5,501 7,968 8,445", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q2 FY26": {"v": "7968", "ref": "Secured business 7,381 6,002 7,968", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q1 FY26": {"v": "6002", "ref": "Secured business 5,461 8,287 6,002", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q4 FY25": {"v": "8287", "ref": "Secured business 8,460 5,501 8,287", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY25": {"v": "5501", "ref": "Secured business 5,501 7,968 8,445", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Disbursements - Total Business loans",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "9903", "ref": "Total Business loans 6,767 9,466 9,903", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q2 FY26": {"v": "9466", "ref": "Total Business loans 8,513 7,093 9,466", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q1 FY26": {"v": "7093", "ref": "Total Business loans 6,539 9,471 7,093", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q4 FY25": {"v": "9471", "ref": "Total Business loans 9,843 6,767 9,471", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY25": {"v": "6767", "ref": "Total Business loans 6,767 9,466 9,903", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Disbursements - Personal & Consumer loans",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "4906", "ref": "Personal & Consumer loans 2,967 4,970 4,906", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q2 FY26": {"v": "4970", "ref": "Personal & Consumer loans 3,262 3,947 4,970", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q1 FY26": {"v": "3947", "ref": "Personal & Consumer loans 2,395 3,071 3,947", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q4 FY25": {"v": "3071", "ref": "Personal & Consumer loans 2,445 2,967 3,071", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY25": {"v": "2967", "ref": "Personal & Consumer loans 2,967 4,970 4,906", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Disbursements - Corporate / Mid-market",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "6608", "ref": "Corporate / Mid-market 5,499 7,554 6,608", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q2 FY26": {"v": "7554", "ref": "Corporate / Mid-market 7,547 4,811 7,554", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q1 FY26": {"v": "4811", "ref": "Corporate / Mid-market 4,508 6,980 4,811", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q4 FY25": {"v": "6980", "ref": "Corporate / Mid-market 5,835 5,499 6,980", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY25": {"v": "5499", "ref": "Corporate / Mid-market 5,499 7,554 6,608", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total Loan book",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "141476", "ref": "Total Loan book 100% 117,700 100% 134,409 100% 141,476", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "134409", "ref": "Total Loan book 100% 1,14,205 100% 1,27,948 100% 1,34,409", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "127948", "ref": "Total Loan book 100% 1,07,292 100% 1,24,118 100% 1,27,948", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "124118", "ref": "Total Loan book 100% 1,05,686 100% 1,17,700 100% 1,24,118", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Dec 31, 2024": {"v": "117700", "ref": "Total Loan book 100% 117,700 100% 134,409 100% 141,476", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Stage 1 loans",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "97.20", "ref": "Stage 1 95.75% 112,697 96.97% 130,336 97.20% 137,517", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "96.97", "ref": "Stage 1 95.76% 1,09,365 96.30% 1,23,209 96.97% 1,30,336", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "96.30", "ref": "Stage 1 95.55% 1,02,517 96.22% 1,19,426 96.30% 1,23,209", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "96.22", "ref": "Stage 1 95.51% 1,00,942 95.75% 1,12,697 96.22% 1,19,426", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Dec 31, 2024": {"v": "95.75", "ref": "Stage 1 95.75% 112,697 96.97% 130,336 97.20% 137,517", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Stage 2 loans",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "1.29", "ref": "Stage 2 1.98% 2,329 1.35% 1,812 1.29% 1,819", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "1.35", "ref": "Stage 2 1.74% 1,989 1.43% 1,834 1.35% 1,812", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "1.43", "ref": "Stage 2 1.91% 2,051 1.54% 1,914 1.43% 1,834", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "1.54", "ref": "Stage 2 1.98% 2,094 1.98% 2,329 1.54% 1,914", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Dec 31, 2024": {"v": "1.98", "ref": "Stage 2 1.98% 2,329 1.35% 1,812 1.29% 1,819", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Stage 3 loans",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "1.51", "ref": "Stage 3 2.27% 2,674 1.68% 2,261 1.51% 2,140", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "1.68", "ref": "Stage 3 2.50% 2,851 2.27% 2,905 1.68% 2,261", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "2.27", "ref": "Stage 3 2.54% 2,725 2.24% 2,777 2.27% 2,905", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "2.24", "ref": "Stage 3 2.51% 2,649 2.27% 2,674 2.24% 2,777", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Dec 31, 2024": {"v": "2.27", "ref": "Stage 3 2.27% 2,674 1.68% 2,261 1.51% 2,140", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Stage 3 PCR",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "44.3", "ref": "Stage 3 PCR 45.6% 44.2% 44.3%", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "44.2", "ref": "Stage 3 PCR 46.0% 41.2% 44.2%", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "41.2", "ref": "Stage 3 PCR 49.5% 45.0% 41.2%", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "45.0", "ref": "Stage 3 PCR 49.9% 45.6% 45.0%", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Dec 31, 2024": {"v": "45.6", "ref": "Stage 3 PCR 45.6% 44.2% 44.3%", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Housing Finance",
+      "data": [
+        {
+          "particulars": "AUM",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "37976", "ref": "Growth in AUM (crore) 25,262 34,823 37,976", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "34823", "ref": "Growth in AUM (crore) 22,210 31,902 34,823", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "31902", "ref": "Growth in AUM (₹ crore) 19,702 29,186 31,902", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "29186", "ref": "Growth in AUM (₹ crore) 17,877 25,262 29,186", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Disbursements",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "5820", "ref": "Momentum in disbursement (crore) 3,068 5,820 5,404", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q2 FY26": {"v": "5404", "ref": "Momentum in disbursement (₹ crore) 3,068 5,820 5,404", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q1 FY26": {"v": "3068", "ref": "Momentum in disbursement (₹ crore) 3,068 5,820 5,404", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q4 FY25": {"v": "5404", "ref": "Momentum in disbursement (€ crore) 3,068 5,820 5,404", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Branches",
+          "unit": "number",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "168", "ref": "168 branches as of Dec 31, 2025, covering ~ 85% of TAM", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "167", "ref": "167 branches as of Sep 30, 2025, covering ~ 85% of TAM", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "173", "ref": "173 branches as of Jun 30, 2025, covering ~ 85% of TAM", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "175", "ref": "175 branches as of Mar 31, 2025, covering ~ 85% of TAM", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "32", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Stage 2 and 3 loans",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "0.95", "ref": "Stage 2 and 3 1.77% 447 1.10% 383 0.95% 362", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "30", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "1.10", "ref": "Stage 2 and 3 2.22% 493 1.34% 428 1.10% 383", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "1.34", "ref": "Stage 2 and 3 2.64% 519 1.39% 405 1.34% 428", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "1.39", "ref": "Stage 2 and 3 2.91% 519 1.77% 447 1.39% 405", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "29", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Stage 3 PCR",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "57.5", "ref": "Stage 3 PCR 40.4% 57.6% 57.5%", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "30", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "57.6", "ref": "Stage 3 PCR 40.9% 52.4% 57.6%", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "52.4", "ref": "Stage 3 PCR 34.6% 55.0% 52.4%", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "55.0", "ref": "Stage 3 PCR 33.0% 40.4% 55.0%", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "29", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Life Insurance",
+      "data": [
+        {
+          "particulars": "Individual First year Premium",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY26": {"v": "3076", "ref": "Individual FYP1 (Single Premium at 10%) 1,975 2,595 3,076", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "45", "conf": "HIGH"},
+            "H1 FY26": {"v": "1880", "ref": "Life insurance first year individual premium of 1,880 crore (↑ 19% y-o-y) in H1 FY26", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Q1 FY26": {"v": "880", "ref": "Individual First year Premium¹ 4,633 807 1,619 880", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "50", "conf": "HIGH"},
+            "9M FY25": {"v": "2595", "ref": "Individual FYP1 (Single Premium at 10%) 1,975 2,595 3,076", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "45", "conf": "HIGH"},
+            "H1 FY25": {"v": "1881", "ref": "Individual First year Premium¹ 4,633 1,074 880 1,173 1,881 2,053", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "50", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Group First year Premium",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY26": {"v": "4349", "ref": "Group FYP (Single Premium at 100%) 3,048 4,036 4,349", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "45", "conf": "HIGH"},
+            "H1 FY26": {"v": "2223", "ref": "Group First year Premium 5,587 1,336 736 1,488 2,834 2,223", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "50", "conf": "HIGH"},
+            "Q1 FY26": {"v": "736", "ref": "Group First year Premium 5,587 1,498 1,551 736", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "50", "conf": "HIGH"},
+            "9M FY25": {"v": "4036", "ref": "Group FYP (Single Premium at 100%) 3,048 4,036 4,349", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "45", "conf": "HIGH"},
+            "H1 FY25": {"v": "2834", "ref": "Group First year Premium 5,587 1,336 736 1,488 2,834 2,223", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "50", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total Gross Premium",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY26": {"v": "15471", "ref": "Total Gross Premium 20,639 4,948 5,347 6,530 13,605 15,471", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "51", "conf": "HIGH"},
+            "H1 FY26": {"v": "8941", "ref": "Total Gross Premium 20,639 4,671 3,594 5,347 8,657 8,941", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "50", "conf": "HIGH"},
+            "Q1 FY26": {"v": "3594", "ref": "Total Gross Premium 20,639 3,986 7,034 3,594", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "50", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Cities covered",
+          "unit": "number",
+          "metric_type": "static_descriptor",
+          "value": "4700",
+          "ref": "4,700+ Cities", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "46", "conf": "HIGH"
+        },
+        {
+          "particulars": "AUM",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "113445", "ref": "Asset Under Management (in € Cr) 70,051 86,161 99,496 1,03,817 1,13,445", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "50", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "103817", "ref": "Asset Under Management (in ` Cr) 70,051 86,161 99,496 1,03,817", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "49", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "99496", "ref": "Asset Under Management (in ` Cr) 70,051 86,161 99,496", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "49", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "99496", "ref": "Asset Under Management (in ` Cr) 70,051 86,161 99,496", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "50", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Health Insurance",
+      "data": [
+        {
+          "particulars": "Gross written premium (without 1/n)",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY26": {"v": "4651", "ref": "Health insurance gross written premium of ₹ 4,651 crore (↑ 39% y-o-y) in 9M FY26", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "H1 FY26": {"v": "3070", "ref": "Gross written premium (without 1/n) 5,252 1,130 1,461 1,610 2,171 3,070", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "64", "conf": "HIGH"},
+            "Q1 FY26": {"v": "1461", "ref": "Gross written premium (without 1/n) 5,252 1,041 1,747 1,461", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "65", "conf": "HIGH"},
+            "9M FY25": {"v": "3344", "ref": "Health insurance gross written premium of ₹ 3,344 crore (↑ 31% y-o-y) in 9M FY25", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "H1 FY25": {"v": "2171", "ref": "Gross written premium (without 1/n) 5,252 1,130 1,461 1,610 2,171 3,070", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "64", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Gross written premium (with 1/n)",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY26": {"v": "4651", "ref": "Health insurance gross written premium of ₹ 4,651 crore (↑ 39% y-o-y) in 9M FY26", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "H1 FY26": {"v": "2839", "ref": "Health insurance gross written premium of 2,839 crore (↑ 31% y-o-y) in H1 FY26", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Q1 FY26": {"v": "1357", "ref": "Gross written premium (with 1/n) 4,940 1,041 1,603 1,357", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "65", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Net Promoter Score",
+          "unit": "score",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY26": {"v": "64", "ref": "64 Net Promoter Score", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "54", "conf": "HIGH"},
+            "H1 FY25": {"v": "62", "ref": "62 Net Promoter Score", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "53", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Activ Health App downloads",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "4.7", "ref": "4.7 Mn+ Downloads till date", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "60", "conf": "HIGH"},
+            "Q2 FY25": {"v": "4.7", "ref": "4.7 Mn+ Downloads till date", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "59", "conf": "HIGH"},
+            "Q1 FY26": {"v": "4.1", "ref": "4.1 Mn+ Downloads till date", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "60", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Play-store Rating",
+          "unit": "stars",
+          "metric_type": "static_descriptor",
+          "value": "4.7",
+          "ref": "4.7 Star Play-store Rating", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "60", "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "AMC",
+      "data": [
+        {
+          "particulars": "Mutual fund closing AUM",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "425171", "ref": "Mutual fund closing assets under management1 3,83,309 4,03,479 4,25,171", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Q2 FY26": {"v": "403479", "ref": "Mutual fund closing assets under management1 3,52,542 3,81,724 4,03,479", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "35", "conf": "HIGH"},
+            "Q1 FY26": {"v": "381724", "ref": "Mutual fund closing assets under management1 3,52,542 3,81,724 4,03,479", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "35", "conf": "HIGH"},
+            "Q4 FY25": {"v": "381724", "ref": "Mutual fund AAUM 3,31,709 3,83,911 3,81,724", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "40", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Equity MF mix",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "46.4", "ref": "Equity MF mix of 46.4%", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Q2 FY26": {"v": "46.4", "ref": "Equity MF mix of 46.4%", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "35", "conf": "HIGH"},
+            "Q1 FY26": {"v": "44.7", "ref": "Equity MF mix of 44.7%", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "35", "conf": "HIGH"},
+            "Q4 FY25": {"v": "44.3", "ref": "Equity QAAUM1 ₹ 1,69,065 crore Mix 44.3%", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "34", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "SIP Contribution",
+          "unit": "₹ crore",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 31, 2025": {"v": "1145", "ref": "SIP1 Contribution in ₹ Crore 1,145 1,080", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "37", "conf": "HIGH"},
+            "Sep 30, 2025": {"v": "1212", "ref": "SIP1 Contribution in ₹ Crore 1,212 1,100", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Jun 30, 2025": {"v": "1100", "ref": "SIP1 Contribution in ₹ Crore 1,212 1,100", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Mar 31, 2025": {"v": "1316", "ref": "Monthly SIP3 flows ₹ 1,316 Crore for Mar-25", "src": "May-2025_98ef4583-84ee-4d83-81ad-069e88a75376_IP.pdf", "pg": "34", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Locations",
+          "unit": "number",
+          "metric_type": "static_descriptor",
+          "value": "310",
+          "ref": "310+ Locations", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "40", "conf": "HIGH"
+        },
+        {
+          "particulars": "MFDs empaneled",
+          "unit": "number",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY26": {"v": "7800", "ref": "Continue to expand distributor base and empaneled 7,800+ new MFDs in 9M FY26", "src": "Feb-2026_a059e0fa-fbc0-41e3-8b1a-0c5bac3130ff_IP.pdf", "pg": "40", "conf": "HIGH"},
+            "H1 FY26": {"v": "5300", "ref": "Continue to expand distributor base and empaneled 5,300 + new MFDs in H1 FY26", "src": "Nov-2025_69b2a3f3-6025-420e-aba0-87c0315cf794_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q1 FY26": {"v": "2200", "ref": "Continue to expand distributor base and empaneled 2,200 + new MFDs in Q1 FY26", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "39", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "CRISIL rating - NBFC long-term",
+      "unit": "rating",
+      "metric_type": "static_descriptor",
+      "value": "AAA",
+      "ref": "Long-term funding facilities rated AAA & Short-term funding facilities rated A1+ by CRISIL/ICRA / India Ratings", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "24", "conf": "HIGH"
+    },
+    {
+      "particulars": "CRISIL rating - NBFC short-term",
+      "unit": "rating",
+      "metric_type": "static_descriptor",
+      "value": "A1+",
+      "ref": "Long-term funding facilities rated AAA & Short-term funding facilities rated A1+ by CRISIL/ICRA / India Ratings", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "24", "conf": "HIGH"
+    },
+    {
+      "particulars": "Best InsureTech Player of the Year",
+      "unit": "award",
+      "metric_type": "static_descriptor",
+      "value": "Won",
+      "ref": "Best InsureTech Player of the Year' at India InsureTech Summit", "src": "Aug-2025_68cf76a9-d379-42d2-b2fc-9b9039dee939_IP.pdf", "pg": "12", "conf": "HIGH"
+    }
+  ]
+}

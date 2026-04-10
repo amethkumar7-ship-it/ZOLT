@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ company_name }} — ZOLT.AI</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#05080e;--surface:#0c1018;--surface2:#121a25;--surface3:#182030;--border:#1a2435;--border2:#243045;--text:#dde3ed;--dim:#6b7a8d;--muted:#3d4a5c;--accent:#0fa;--accent2:#06d6a0;--accent-dim:rgba(0,255,170,.06);--up:#34d399;--down:#f87171;--gold:#fbbf24;--blue:#60a5fa;--purple:#a78bfa;--row-hover:rgba(0,255,170,.03);--font-body:'DM Sans',sans-serif;--font-mono:'Space Mono',monospace;--font-display:'Newsreader',serif}
+body.light{--bg:#f5f7fa;--surface:#fff;--surface2:#f0f2f5;--surface3:#e4e8ee;--border:#dce0e8;--border2:#c8cdd5;--text:#1a1f2e;--dim:#6b7585;--muted:#b0b8c4;--accent:#0d9668;--accent2:#06b57a;--accent-dim:rgba(13,150,104,.06);--up:#0d9668;--down:#dc3545;--gold:#b8860b;--blue:#3b82f6;--purple:#7c3aed;--row-hover:rgba(13,150,104,.04)}
+*{margin:0;padding:0;box-sizing:border-box}body{background:var(--bg);color:var(--text);font-family:var(--font-body);line-height:1.5;transition:background .3s,color .3s}a{text-decoration:none;color:inherit}
+.topbar{display:flex;align-items:center;gap:1rem;padding:.7rem 2rem;border-bottom:1px solid var(--border);background:var(--surface);position:sticky;top:0;z-index:100}
+.back{font-size:.75rem;color:var(--dim)}.back:hover{color:var(--accent)}.brand{font-family:var(--font-mono);font-size:.68rem;color:var(--accent);letter-spacing:.5px;padding:3px 10px;border:1.5px solid var(--accent);border-radius:4px;font-weight:700}
+.top-right{margin-left:auto;display:flex;gap:.6rem;align-items:center}
+.theme-btn{background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:4px 10px;cursor:pointer;font-size:.68rem;color:var(--dim);font-family:var(--font-body)}.theme-btn:hover{color:var(--accent);border-color:var(--accent)}
+.company-hdr{padding:1.5rem 2rem 1.2rem;border-bottom:1px solid var(--border);background:var(--surface);display:flex;gap:2rem;align-items:flex-start}
+.hdr-left{flex:1}.company-name{font-family:var(--font-display);font-size:1.6rem;font-weight:600;margin-bottom:.3rem}
+.company-meta{display:flex;gap:.8rem;flex-wrap:wrap;margin-bottom:.8rem}
+.meta-chip{font-size:.65rem;color:var(--dim);font-family:var(--font-mono);padding:3px 10px;background:var(--surface2);border-radius:4px;border:1px solid var(--border)}.meta-chip b{color:var(--accent);font-weight:600}
+.stat-cards{display:flex;gap:.6rem;flex-wrap:wrap}
+.scard{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:.8rem 1.2rem;min-width:100px;position:relative;overflow:hidden}
+.scard::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;border-radius:3px 0 0 3px}
+.scard:nth-child(1)::before{background:var(--accent)}.scard:nth-child(2)::before{background:var(--blue)}.scard:nth-child(3)::before{background:var(--gold)}.scard:nth-child(4)::before{background:var(--purple)}
+.sc-val{font-family:var(--font-mono);font-size:1.4rem;color:var(--text);line-height:1.2}.sc-label{font-size:.55rem;color:var(--dim);text-transform:uppercase;letter-spacing:.8px;margin-top:2px}
+.hdr-right{flex-shrink:0;display:flex;flex-direction:column;align-items:center;gap:.5rem}
+.hdr-donut{position:relative;width:110px;height:110px}.hdr-donut canvas{width:110px;height:110px}
+.hdr-donut-center{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center}
+.hdr-donut-center .hdc-val{font-family:var(--font-mono);font-size:1.1rem;color:var(--accent)}.hdr-donut-center .hdc-label{font-size:.5rem;color:var(--dim);text-transform:uppercase;letter-spacing:.5px}
+.seg-legend{display:flex;flex-wrap:wrap;gap:4px;max-width:160px;justify-content:center}
+.leg-item{font-size:.5rem;color:var(--dim);display:flex;align-items:center;gap:3px}.leg-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.tabs{display:flex;gap:0;overflow-x:auto;border-bottom:1px solid var(--border);padding:0 2rem;background:var(--surface)}.tabs::-webkit-scrollbar{height:0}
+.tab{padding:.7rem 1.1rem;font-size:.7rem;color:var(--dim);cursor:pointer;white-space:nowrap;border-bottom:2.5px solid transparent;transition:.15s;font-weight:600;letter-spacing:.2px}
+.tab:hover{color:var(--text);background:var(--surface2)}.tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.tab .tbadge{font-family:var(--font-mono);font-size:.58rem;background:var(--surface2);padding:1px 5px;border-radius:3px;margin-left:4px;color:var(--dim)}
+.tab.active .tbadge{background:var(--accent-dim);color:var(--accent)}.tab-disc{color:var(--gold)!important}.tab-disc.active{border-bottom-color:var(--gold)!important}
+.seg-panel{display:none;padding:1.5rem 2rem 3rem}.seg-panel.active{display:block}
+.seg-title-row{display:flex;align-items:baseline;gap:1rem;margin-bottom:.5rem}.seg-name{font-family:var(--font-display);font-size:1.25rem;font-weight:600}.seg-meta{font-size:.7rem;color:var(--dim)}
+.seg-coverage{display:flex;align-items:center;gap:.6rem;margin-bottom:1rem;padding:.5rem .8rem;background:var(--surface);border:1px solid var(--border);border-radius:8px}
+.sc-cov-label{font-size:.55rem;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;white-space:nowrap}
+.sc-cov-bar{flex:1;height:6px;background:var(--surface3);border-radius:3px;overflow:hidden}.sc-cov-fill{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.sc-cov-pct{font-family:var(--font-mono);font-size:.7rem;color:var(--accent);min-width:35px;text-align:right}
+.period-filters{display:flex;gap:0;margin-bottom:1.2rem;border:1px solid var(--border);border-radius:6px;overflow:hidden;width:fit-content}
+.pf-btn{padding:.45rem 1rem;font-size:.68rem;font-weight:600;color:var(--dim);background:var(--surface);border:none;cursor:pointer;font-family:var(--font-body);transition:.15s;border-right:1px solid var(--border)}.pf-btn:last-child{border-right:none}
+.pf-btn:hover{color:var(--text);background:var(--surface2)}.pf-btn.active{color:var(--bg);background:var(--accent)}.pf-btn .pf-count{font-family:var(--font-mono);font-size:.58rem;opacity:.7;margin-left:3px}
+.tbl-wrap{background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.tbl-scroll{overflow-x:auto}.tbl-scroll::-webkit-scrollbar{height:5px}.tbl-scroll::-webkit-scrollbar-track{background:var(--surface2)}.tbl-scroll::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+table{width:100%;border-collapse:collapse;min-width:max-content}
+thead th{padding:.65rem .9rem;font-size:.6rem;color:var(--dim);text-transform:uppercase;letter-spacing:.4px;font-weight:600;text-align:right;white-space:nowrap;border-bottom:1.5px solid var(--border);background:var(--surface);position:sticky;top:0;z-index:2}
+thead th.col-name{text-align:left;position:sticky;left:0;z-index:3;background:var(--surface);min-width:220px}
+thead th.col-trend{text-align:center;min-width:110px}thead th.col-unit{text-align:center;min-width:80px}
+tbody td{padding:.6rem .9rem;font-family:var(--font-mono);font-size:.78rem;text-align:right;white-space:nowrap;border-bottom:1px solid rgba(26,36,53,.4);color:var(--text);vertical-align:middle}
+tbody td.td-name{text-align:left;font-family:var(--font-body);font-weight:500;font-size:.8rem;position:sticky;left:0;background:var(--surface);z-index:1;border-left:3px solid var(--accent-dim);padding-left:.9rem}
+tbody td.td-trend{text-align:center;padding:0 .4rem}tbody td.td-unit{text-align:center;font-size:.65rem;color:var(--dim);font-family:var(--font-body)}
+tbody td.empty{color:var(--muted)}tbody tr:hover td{background:var(--row-hover)}tbody tr:hover td.td-name{background:var(--row-hover);border-left-color:var(--accent)}
+th.col-hidden,td.col-hidden{display:none}
+.disc-section{margin-bottom:1.5rem}.disc-seg-name{font-size:.82rem;font-weight:700;color:var(--text);padding:.7rem 1rem;background:var(--surface2);border-radius:8px 8px 0 0;border:1px solid var(--border);border-bottom:none}
+.disc-table{width:100%;border-collapse:collapse;border:1px solid var(--border);border-radius:0 0 8px 8px;overflow:hidden}
+.disc-table th{padding:.5rem .8rem;font-size:.6rem;color:var(--dim);text-transform:uppercase;letter-spacing:.4px;font-weight:600;text-align:left;background:var(--surface);border-bottom:1px solid var(--border)}
+.disc-table td{padding:.5rem .8rem;font-size:.75rem;border-bottom:1px solid rgba(26,36,53,.4);vertical-align:top}
+.disc-table td.dm-name{font-weight:500;min-width:250px}.disc-table td.dm-unit{font-family:var(--font-mono);font-size:.68rem;color:var(--dim)}.disc-table td.dm-count{font-family:var(--font-mono);font-size:.75rem;color:var(--accent);text-align:center}
+.disc-table tr:hover td{background:var(--row-hover)}.period-pill{display:inline-block;padding:1px 5px;margin:1px;background:var(--accent-dim);border-radius:3px;font-size:.58rem;color:var(--accent)}
+td.has-ref{cursor:help}td.has-src{cursor:pointer}
+body.ref-mode td.has-ref{border-bottom:1px dashed var(--blue)}
+body.src-mode td.has-src{border-bottom:1px dashed var(--purple)}
+.ref-tooltip{position:fixed;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.6rem .8rem;max-width:400px;font-size:.7rem;color:var(--text);z-index:300;box-shadow:0 8px 30px rgba(0,0,0,.3);line-height:1.5;display:none;pointer-events:none}
+.ref-tooltip .rt-label{font-size:.5rem;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.3rem}
+.ref-tooltip .rt-text{font-family:var(--font-body);color:var(--text)}.ref-tooltip .rt-meta{font-size:.55rem;color:var(--dim);margin-top:.3rem;font-family:var(--font-mono)}
+.flash-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(5,8,14,.85);z-index:400;display:none;align-items:center;justify-content:center;backdrop-filter:blur(4px)}.flash-overlay.show{display:flex}
+.flash-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:2rem 2.5rem;max-width:420px;width:90%;text-align:center;animation:flashIn .3s ease}
+@keyframes flashIn{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}
+.flash-icon{font-size:2rem;margin-bottom:.5rem}.flash-title{font-family:var(--font-display);font-size:1.1rem;font-weight:600;margin-bottom:.3rem}
+.flash-text{font-size:.78rem;color:var(--dim);margin-bottom:1rem;line-height:1.5}
+.flash-ok{background:var(--accent);color:var(--bg);border:none;padding:.5rem 1.5rem;border-radius:6px;font-size:.75rem;font-weight:600;cursor:pointer;font-family:var(--font-body)}
+.top-btn{background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:4px 10px;cursor:pointer;font-size:.66rem;color:var(--dim);font-family:var(--font-body);transition:.2s;white-space:nowrap}
+.top-btn:hover{color:var(--accent);border-color:var(--accent)}.top-btn.active{color:var(--accent);border-color:var(--accent);background:var(--accent-dim)}
+/* Power-on animation */
+.power-overlay{position:fixed;top:0;left:0;right:0;bottom:0;z-index:260;pointer-events:none;display:none;align-items:center;justify-content:center;flex-direction:column;background:rgba(5,8,14,.7);backdrop-filter:blur(3px)}
+.power-overlay.fire{display:flex;animation:overlayFade 2s ease forwards}
+@keyframes overlayFade{0%{opacity:0}8%{opacity:1}75%{opacity:1}100%{opacity:0}}
+.power-zolt{font-family:var(--font-mono);font-size:3.5rem;font-weight:700;letter-spacing:8px;opacity:0;position:relative}
+.power-overlay.fire .power-zolt{animation:zoltIn .5s ease .1s forwards}
+.power-overlay.ref-anim .power-zolt{color:#60a5fa;text-shadow:0 0 30px rgba(96,165,250,.6),0 0 60px rgba(96,165,250,.3),0 0 100px rgba(96,165,250,.15)}
+.power-overlay.src-anim .power-zolt{color:#a78bfa;text-shadow:0 0 30px rgba(167,139,250,.6),0 0 60px rgba(167,139,250,.3),0 0 100px rgba(167,139,250,.15)}
+@keyframes zoltIn{0%{opacity:0;transform:scale(.5);filter:blur(10px)}50%{opacity:1;transform:scale(1.05);filter:blur(0)}100%{opacity:1;transform:scale(1)}}
+.power-sub{font-family:var(--font-body);font-size:.85rem;color:var(--dim);opacity:0;margin-top:.5rem;letter-spacing:2px}
+.power-overlay.fire .power-sub{animation:subIn .4s ease .4s forwards}
+@keyframes subIn{0%{opacity:0;transform:translateY(8px)}100%{opacity:.7;transform:translateY(0)}}
+.power-bolt{font-size:5rem;opacity:0;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+.power-overlay.fire .power-bolt{animation:boltSequence 1s ease .9s forwards}
+@keyframes boltSequence{0%{opacity:0;transform:translate(-50%,-50%) scale(.3)}15%{opacity:1;transform:translate(-50%,-50%) scale(1.3)}30%{transform:translate(-50%,-50%) scale(1)}60%{opacity:1;transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-200%) scale(.4)}}
+.power-overlay.fire .power-zolt{animation:zoltIn .5s ease .1s forwards,zoltOut .4s ease .85s forwards}
+@keyframes zoltOut{0%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.3);filter:blur(6px)}}
+.power-overlay.fire .power-sub{animation:subIn .4s ease .4s forwards,subOut .3s ease .8s forwards}
+@keyframes subOut{0%{opacity:.7}100%{opacity:0}}
+/* Radial pulse after sequence */
+.power-pulse{position:fixed;top:50%;left:50%;width:0;height:0;border-radius:50%;pointer-events:none;z-index:255;opacity:0}
+.power-pulse.ref-pulse{background:radial-gradient(circle,rgba(96,165,250,.2) 0%,rgba(96,165,250,.06) 40%,transparent 70%)}
+.power-pulse.src-pulse{background:radial-gradient(circle,rgba(167,139,250,.2) 0%,rgba(167,139,250,.06) 40%,transparent 70%)}
+.power-pulse.fire{animation:powerBlast .8s ease-out forwards}
+@keyframes powerBlast{0%{width:0;height:0;opacity:1;transform:translate(-50%,-50%)}60%{opacity:.8}100%{width:250vmax;height:250vmax;opacity:0;transform:translate(-50%,-50%)}}
+.power-line{position:fixed;height:2px;pointer-events:none;z-index:256;opacity:0;transform-origin:left center}
+.power-line.fire{animation:lineFire .5s ease-out forwards}
+@keyframes lineFire{0%{width:0;opacity:1}40%{width:30vw;opacity:.8}100%{width:50vw;opacity:0}}
+@keyframes cellGlow{0%{box-shadow:none}30%{box-shadow:inset 0 0 12px var(--glow-color)}100%{box-shadow:none}}
+body.ref-mode td.has-ref{animation:cellGlow .6s ease-out 1.6s;--glow-color:rgba(96,165,250,.3)}
+body.src-mode td.has-src{animation:cellGlow .6s ease-out 1.6s;--glow-color:rgba(167,139,250,.3)}
+.power-scanline{position:fixed;left:0;width:100%;height:3px;pointer-events:none;z-index:256;opacity:0}
+.power-scanline.ref-scan{background:linear-gradient(90deg,transparent,rgba(96,165,250,.6),transparent)}
+.power-scanline.src-scan{background:linear-gradient(90deg,transparent,rgba(167,139,250,.6),transparent)}
+.power-scanline.fire{animation:scanDown .6s ease-out forwards}
+@keyframes scanDown{0%{top:0;opacity:.9}100%{top:100%;opacity:0}}
+@media(max-width:768px){.topbar,.tabs,.seg-panel,.company-hdr{padding-left:1rem;padding-right:1rem}.company-hdr{flex-direction:column}thead th.col-name,tbody td.td-name{min-width:160px}}
+</style>
+</head>
+<body>
+<div class="power-overlay" id="powerOverlay">
+  <div class="power-zolt">ZOLT</div>
+  <div class="power-sub" id="powerSub">Activating...</div>
+  <div class="power-bolt">⚡</div>
+</div>
+<div class="power-pulse" id="powerPulse"></div>
+<div class="power-scanline" id="powerScan"></div>
+<div class="topbar">
+  <a href="/" class="back">&larr; All Companies</a>
+  <div class="top-right"><div class="brand">CORE COMPETENCY</div><button class="top-btn" id="refBtn" onclick="toggleRef()">🔒 REF</button><button class="top-btn" id="srcBtn" onclick="toggleSrc()">🔒 SRC</button><button class="theme-btn" id="themeBtn" onclick="toggleTheme()">☀ Light</button></div>
+</div>
+<div class="flash-overlay" id="flashOverlay"><div class="flash-card"><div class="flash-icon">⚠️</div><div class="flash-title">Not Possible</div><div class="flash-text">Only one mode can be active at a time. Turn off the current mode first, then enable the other.</div><button class="flash-ok" onclick="document.getElementById('flashOverlay').classList.remove('show')">Got it</button></div></div>
+<div class="ref-tooltip" id="refTooltip"><div class="rt-label">Reference</div><div class="rt-text" id="rtText"></div><div class="rt-meta" id="rtMeta"></div></div>
+<div class="company-hdr">
+  <div class="hdr-left">
+    <div class="company-name">{{ company_name }}</div>
+    <div class="company-meta">{% if data.time_range %}<div class="meta-chip"><b>{{ data.time_range }}</b></div>{% endif %}{% if data.documents_scanned %}<div class="meta-chip">{{ data.documents_scanned }} documents</div>{% endif %}</div>
+    {% set ns_total = namespace(metrics=0, dp=0) %}
+    {% for seg in data.operational_scorecard %}{% set ns_total.metrics = ns_total.metrics + seg.data|length %}{% for m in seg.data %}{% set ns_total.dp = ns_total.dp + m['values']|length %}{% endfor %}{% endfor %}
+    {% for a in data.accolades %}{% set ns_total.dp = ns_total.dp + a['values']|length %}{% endfor %}
+    <div class="stat-cards">
+      <div class="scard"><div class="sc-val">{{ data.operational_scorecard|length }}</div><div class="sc-label">Segments</div></div>
+      <div class="scard"><div class="sc-val">{{ ns_total.metrics }}</div><div class="sc-label">Metrics</div></div>
+      <div class="scard"><div class="sc-val">{{ '{:,}'.format(ns_total.dp) }}</div><div class="sc-label">Data Points</div></div>
+      <div class="scard"><div class="sc-val">{{ data.accolades|length }}</div><div class="sc-label">Accolades</div></div>
+    </div>
+  </div>
+  <div class="hdr-right">
+    <div class="hdr-donut"><canvas id="hdrDonut" width="220" height="220" data-labels='{{ data.operational_scorecard | map(attribute="segment_name") | list | tojson }}' data-values='{{ data.operational_scorecard | map(attribute="data") | map("length") | list | tojson }}'></canvas><div class="hdr-donut-center"><div class="hdc-val">{{ data.operational_scorecard|length }}</div><div class="hdc-label">Segments</div></div></div>
+    <div class="seg-legend" id="segLegend"></div>
+  </div>
+</div>
+<div class="tabs">
+  {% if data.discovery %}<div class="tab tab-disc active" data-seg="discovery">⚡ Discovery <span class="tbadge">{{ data.discovery|length }}</span></div>{% endif %}
+  {% for seg in data.operational_scorecard %}<div class="tab {% if not data.discovery and loop.first %}active{% endif %}" data-seg="{{ loop.index0 }}">{{ seg.segment_name[:35] }}{% if seg.segment_name|length > 35 %}&hellip;{% endif %} <span class="tbadge">{{ seg.data|length }}</span></div>{% endfor %}
+  {% if data.accolades %}<div class="tab" data-seg="accolades">Accolades <span class="tbadge">{{ data.accolades|length }}</span></div>{% endif %}
+</div>
+{% if data.discovery %}
+<div class="seg-panel active" data-panel="discovery">
+  <div class="seg-title-row"><div class="seg-name">Metric Discovery Inventory</div><div class="seg-meta">{% set dc = namespace(n=0) %}{% for s in data.discovery %}{% set dc.n = dc.n + s.metrics_found|length %}{% endfor %}{{ dc.n }} metrics · {{ data.discovery|length }} segments</div></div>
+  {% for seg in data.discovery %}<div class="disc-section"><div class="disc-seg-name">{{ seg.segment_name }}</div><table class="disc-table"><thead><tr><th>Metric</th><th>Unit</th><th style="text-align:center">Periods</th><th>Available Periods</th></tr></thead><tbody>{% for m in seg.metrics_found %}<tr><td class="dm-name">{{ m.metric }}</td><td class="dm-unit">{{ m.unit }}</td><td class="dm-count">{{ m.periods_available|length }}</td><td class="dm-periods">{% for p in m.periods_available|sort_periods %}{% if loop.index <= 20 %}<span class="period-pill">{{ p }}</span>{% endif %}{% endfor %}{% if m.periods_available|length > 20 %}<span class="period-pill">+{{ m.periods_available|length - 20 }}</span>{% endif %}</td></tr>{% endfor %}</tbody></table></div>{% endfor %}
+  {% if data.discovery_accolades %}<div class="disc-section"><div class="disc-seg-name">Accolades</div><table class="disc-table"><thead><tr><th>Metric</th><th>Unit</th><th style="text-align:center">Periods</th><th>Available Periods</th></tr></thead><tbody>{% for m in data.discovery_accolades %}<tr><td class="dm-name">{{ m.metric }}</td><td class="dm-unit">{{ m.unit }}</td><td class="dm-count">{{ m.periods_available|length }}</td><td class="dm-periods">{% for p in m.periods_available|sort_periods %}{% if loop.index <= 20 %}<span class="period-pill">{{ p }}</span>{% endif %}{% endfor %}{% if m.periods_available|length > 20 %}<span class="period-pill">+{{ m.periods_available|length - 20 }}</span>{% endif %}</td></tr>{% endfor %}</tbody></table></div>{% endif %}
+</div>
+{% endif %}
+{% for seg in data.operational_scorecard %}
+<div class="seg-panel {% if not data.discovery and loop.first %}active{% endif %}" data-panel="{{ loop.index0 }}">
+  {% set ns = namespace(all_periods=[], filled=0, total=0) %}
+  {% for m in seg.data %}{% for p in m['values'].keys() %}{% if p not in ns.all_periods %}{% set ns.all_periods = ns.all_periods + [p] %}{% endif %}{% endfor %}{% endfor %}
+  {% set sorted_p = ns.all_periods|sort_periods %}
+  {% for m in seg.data %}{% for p in sorted_p %}{% set ns.total = ns.total + 1 %}{% if m['values'].get(p, '') %}{% set ns.filled = ns.filled + 1 %}{% endif %}{% endfor %}{% endfor %}
+  {% set cov_pct = ((ns.filled / ns.total * 100) if ns.total else 0)|round|int %}
+  {% set grp_counts = namespace(q=0, h=0, n9=0, fy=0, st=0, oth=0) %}
+  {% for p in sorted_p %}{% set g = p|period_group %}{% if g == 'Quarterly' %}{% set grp_counts.q = grp_counts.q + 1 %}{% elif g == 'Half Year' %}{% set grp_counts.h = grp_counts.h + 1 %}{% elif g == '9 Month' %}{% set grp_counts.n9 = grp_counts.n9 + 1 %}{% elif g == 'Annual' %}{% set grp_counts.fy = grp_counts.fy + 1 %}{% elif g == 'Static' %}{% set grp_counts.st = grp_counts.st + 1 %}{% else %}{% set grp_counts.oth = grp_counts.oth + 1 %}{% endif %}{% endfor %}
+  <div class="seg-title-row"><div class="seg-name">{{ seg.segment_name }}</div><div class="seg-meta">{{ seg.data|length }} metrics · {{ sorted_p|length }} periods</div></div>
+  <div class="seg-coverage"><span class="sc-cov-label">Data Coverage</span><div class="sc-cov-bar"><div class="sc-cov-fill" style="width:{{ cov_pct }}%"></div></div><span class="sc-cov-pct">{{ cov_pct }}%</span></div>
+  <div class="period-filters" data-table-id="tbl-{{ loop.index0 }}">
+    <button class="pf-btn active" data-filter="all">All <span class="pf-count">{{ sorted_p|length }}</span></button>
+    {% if grp_counts.q %}<button class="pf-btn" data-filter="Quarterly">QnQ <span class="pf-count">{{ grp_counts.q }}</span></button>{% endif %}
+    {% if grp_counts.h %}<button class="pf-btn" data-filter="Half Year">HY <span class="pf-count">{{ grp_counts.h }}</span></button>{% endif %}
+    {% if grp_counts.n9 %}<button class="pf-btn" data-filter="9 Month">9M <span class="pf-count">{{ grp_counts.n9 }}</span></button>{% endif %}
+    {% if grp_counts.fy %}<button class="pf-btn" data-filter="Annual">FY <span class="pf-count">{{ grp_counts.fy }}</span></button>{% endif %}
+    {% if grp_counts.oth %}<button class="pf-btn" data-filter="Other">Other <span class="pf-count">{{ grp_counts.oth }}</span></button>{% endif %}
+    {% if grp_counts.st %}<button class="pf-btn" data-filter="Static">Static <span class="pf-count">{{ grp_counts.st }}</span></button>{% endif %}
+  </div>
+  <div class="tbl-wrap"><div class="tbl-scroll"><table id="tbl-{{ loop.index0 }}"><thead><tr><th class="col-name">Particulars</th><th class="col-trend">Trend</th><th class="col-unit">Unit</th>{% for p in sorted_p %}<th data-pgroup="{{ p|period_group }}">{{ p }}</th>{% endfor %}</tr></thead><tbody>
+    {% for m in seg.data %}<tr><td class="td-name">{{ m['particulars'] }}</td><td class="td-trend"><canvas class="spark" data-values="{% for p in sorted_p %}{{ m['values'].get(p, '') }}{% if not loop.last %}|||{% endif %}{% endfor %}" width="110" height="30"></canvas></td><td class="td-unit">{{ m['unit'] }}</td>{% for p in sorted_p %}{% set v = m['values'].get(p, '') %}{% set prov = m.get('_provenance', {}).get(p, {}) %}<td data-pgroup="{{ p|period_group }}" class="{% if not v %}empty{% endif %}{% if prov.get('ref') %} has-ref{% endif %}{% if prov.get('src') %} has-src{% endif %}"{% if prov.get('ref') %} data-ref="{{ prov.ref }}"{% endif %}{% if prov.get('src') %} data-src="{{ prov.src }}"{% endif %}{% if prov.get('pg') %} data-pg-num="{{ prov.pg }}"{% endif %}{% if prov.get('conf') %} data-conf="{{ prov.conf }}"{% endif %}>{{ v if v else '—' }}</td>{% endfor %}</tr>{% endfor %}
+  </tbody></table></div></div>
+</div>
+{% endfor %}
+{% if data.accolades %}
+<div class="seg-panel" data-panel="accolades">
+  {% set ns2 = namespace(all_periods=[]) %}{% for a in data.accolades %}{% for p in a['values'].keys() %}{% if p not in ns2.all_periods %}{% set ns2.all_periods = ns2.all_periods + [p] %}{% endif %}{% endfor %}{% endfor %}{% set sorted_p2 = ns2.all_periods|sort_periods %}
+  {% set grp2 = namespace(q=0, h=0, n9=0, fy=0, st=0, oth=0) %}{% for p in sorted_p2 %}{% set g = p|period_group %}{% if g == 'Quarterly' %}{% set grp2.q = grp2.q + 1 %}{% elif g == 'Half Year' %}{% set grp2.h = grp2.h + 1 %}{% elif g == '9 Month' %}{% set grp2.n9 = grp2.n9 + 1 %}{% elif g == 'Annual' %}{% set grp2.fy = grp2.fy + 1 %}{% elif g == 'Static' %}{% set grp2.st = grp2.st + 1 %}{% else %}{% set grp2.oth = grp2.oth + 1 %}{% endif %}{% endfor %}
+  <div class="seg-title-row"><div class="seg-name">Accolades &amp; Ratings</div><div class="seg-meta">{{ data.accolades|length }} metrics</div></div>
+  <div class="period-filters" data-table-id="tbl-acc"><button class="pf-btn active" data-filter="all">All <span class="pf-count">{{ sorted_p2|length }}</span></button>{% if grp2.q %}<button class="pf-btn" data-filter="Quarterly">QnQ <span class="pf-count">{{ grp2.q }}</span></button>{% endif %}{% if grp2.h %}<button class="pf-btn" data-filter="Half Year">HY <span class="pf-count">{{ grp2.h }}</span></button>{% endif %}{% if grp2.n9 %}<button class="pf-btn" data-filter="9 Month">9M <span class="pf-count">{{ grp2.n9 }}</span></button>{% endif %}{% if grp2.fy %}<button class="pf-btn" data-filter="Annual">FY <span class="pf-count">{{ grp2.fy }}</span></button>{% endif %}{% if grp2.oth %}<button class="pf-btn" data-filter="Other">Other <span class="pf-count">{{ grp2.oth }}</span></button>{% endif %}{% if grp2.st %}<button class="pf-btn" data-filter="Static">Static <span class="pf-count">{{ grp2.st }}</span></button>{% endif %}</div>
+  <div class="tbl-wrap"><div class="tbl-scroll"><table id="tbl-acc"><thead><tr><th class="col-name">Particulars</th><th class="col-trend">Trend</th><th class="col-unit">Unit</th>{% for p in sorted_p2 %}<th data-pgroup="{{ p|period_group }}">{{ p }}</th>{% endfor %}</tr></thead><tbody>
+    {% for a in data.accolades %}<tr><td class="td-name">{{ a['particulars'] }}</td><td class="td-trend"><canvas class="spark" data-values="{% for p in sorted_p2 %}{{ a['values'].get(p, '') }}{% if not loop.last %}|||{% endif %}{% endfor %}" width="110" height="30"></canvas></td><td class="td-unit">{{ a.get('unit', '') }}</td>{% for p in sorted_p2 %}{% set v = a['values'].get(p, '') %}{% set prov = a.get('_provenance', {}).get(p, {}) %}<td data-pgroup="{{ p|period_group }}" class="{% if not v %}empty{% endif %}{% if prov.get('ref') %} has-ref{% endif %}{% if prov.get('src') %} has-src{% endif %}"{% if prov.get('ref') %} data-ref="{{ prov.ref }}"{% endif %}{% if prov.get('src') %} data-src="{{ prov.src }}"{% endif %}{% if prov.get('pg') %} data-pg-num="{{ prov.pg }}"{% endif %}{% if prov.get('conf') %} data-conf="{{ prov.conf }}"{% endif %}>{{ v if v else '—' }}</td>{% endfor %}</tr>{% endfor %}
+  </tbody></table></div></div>
+</div>
+{% endif %}
+<div style="height:3rem"></div>
+<script>
+function toggleTheme(){document.body.classList.toggle('light');const l=document.body.classList.contains('light');document.getElementById('themeBtn').innerHTML=l?'🌙 Dark':'☀ Light';try{localStorage.setItem('zolt-theme',l?'light':'dark')}catch(e){}}
+try{if(localStorage.getItem('zolt-theme')==='light'){document.body.classList.add('light');document.getElementById('themeBtn').innerHTML='🌙 Dark'}}catch(e){}
+const COLORS=['#0fa','#06d6a0','#60a5fa','#a78bfa','#f472b6','#fbbf24','#fb923c','#34d399','#818cf8','#e879f9','#f97316','#22d3ee'];
+(function(){const c=document.getElementById('hdrDonut');if(!c)return;const labels=JSON.parse(c.dataset.labels||'[]'),values=JSON.parse(c.dataset.values||'[]'),ctx=c.getContext('2d'),cx=110,cy=110,r=85,total=values.reduce((a,b)=>a+b,0)||1;let angle=-Math.PI/2;const leg=document.getElementById('segLegend');labels.forEach((l,i)=>{const s=(values[i]/total)*Math.PI*2;ctx.beginPath();ctx.arc(cx,cy,r,angle,angle+s-0.04);ctx.strokeStyle=COLORS[i%COLORS.length];ctx.lineWidth=16;ctx.lineCap='round';ctx.stroke();angle+=s;if(leg&&i<6){const e=document.createElement('div');e.className='leg-item';e.innerHTML=`<span class="leg-dot" style="background:${COLORS[i%COLORS.length]}"></span>${l.substring(0,18)}${l.length>18?'…':''}`;leg.appendChild(e)}});if(leg&&labels.length>6){const e=document.createElement('div');e.className='leg-item';e.innerHTML=`<span class="leg-dot" style="background:var(--dim)"></span>+${labels.length-6} more`;leg.appendChild(e)}})();
+document.querySelectorAll('.tab').forEach(tab=>{tab.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));tab.classList.add('active');document.querySelectorAll('.seg-panel').forEach(p=>p.classList.remove('active'));const p=document.querySelector('[data-panel="'+tab.dataset.seg+'"]');if(p)p.classList.add('active')})});
+document.querySelectorAll('.period-filters').forEach(fb=>{const t=document.getElementById(fb.dataset.tableId);if(!t)return;fb.querySelectorAll('.pf-btn').forEach(btn=>{btn.addEventListener('click',()=>{fb.querySelectorAll('.pf-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');const f=btn.dataset.filter;t.querySelectorAll('th[data-pgroup],td[data-pgroup]').forEach(c=>{c.classList.toggle('col-hidden',f!=='all'&&c.dataset.pgroup!==f)})})})});
+document.querySelectorAll('.spark').forEach(canvas=>{const nums=canvas.dataset.values.split('|||').map(v=>{const n=parseFloat(String(v).replace(/[^0-9.\-]/g,''));return isNaN(n)?null:n}).filter(n=>n!==null);if(nums.length<2){canvas.style.opacity='0.15';return}const ctx=canvas.getContext('2d'),w=canvas.width,h=canvas.height,pad=4,mn=Math.min(...nums),mx=Math.max(...nums),range=mx-mn||1;const pts=nums.map((v,i)=>({x:pad+(i/(nums.length-1))*(w-pad*2),y:pad+(1-(v-mn)/range)*(h-pad*2)}));const clr=nums[nums.length-1]>=nums[0]?'#34d399':'#f87171';const grd=ctx.createLinearGradient(0,0,0,h);grd.addColorStop(0,clr==='#34d399'?'rgba(52,211,153,.18)':'rgba(248,113,113,.15)');grd.addColorStop(1,'rgba(0,0,0,0)');ctx.beginPath();ctx.moveTo(pts[0].x,h);pts.forEach(p=>ctx.lineTo(p.x,p.y));ctx.lineTo(pts[pts.length-1].x,h);ctx.closePath();ctx.fillStyle=grd;ctx.fill();ctx.beginPath();pts.forEach((p,i)=>i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y));ctx.strokeStyle=clr;ctx.lineWidth=1.8;ctx.lineJoin='round';ctx.lineCap='round';ctx.stroke();const last=pts[pts.length-1];ctx.beginPath();ctx.arc(last.x,last.y,2.5,0,Math.PI*2);ctx.fillStyle=clr;ctx.fill()});
+
+// REF / SRC toggles
+let refMode=false,srcMode=false;
+function firePower(type){
+  const overlay=document.getElementById('powerOverlay');
+  const pulse=document.getElementById('powerPulse');
+  const scan=document.getElementById('powerScan');
+  // Set subtitle
+  document.getElementById('powerSub').textContent=type==='ref'?'Activating REF Mode...':'Activating SRC Mode...';
+  // Reset and fire overlay
+  overlay.className='power-overlay '+(type==='ref'?'ref-anim':'src-anim');
+  void overlay.offsetWidth;
+  overlay.classList.add('fire');
+  // Fire pulse + scan + lines after ZOLT sequence (1.3s delay)
+  setTimeout(()=>{
+    pulse.className='power-pulse '+(type==='ref'?'ref-pulse':'src-pulse');
+    scan.className='power-scanline '+(type==='ref'?'ref-scan':'src-scan');
+    void pulse.offsetWidth;void scan.offsetWidth;
+    pulse.classList.add('fire');scan.classList.add('fire');
+    for(let i=0;i<6;i++){
+      const line=document.createElement('div');line.className='power-line';
+      line.style.top=(Math.random()*80+10)+'%';line.style.left=(Math.random()*60+20)+'%';
+      line.style.transform='rotate('+(Math.random()*360)+'deg)';
+      line.style.background=type==='ref'?'rgba(96,165,250,.5)':'rgba(167,139,250,.5)';
+      line.style.height=(1+Math.random()*2)+'px';
+      document.body.appendChild(line);void line.offsetWidth;line.classList.add('fire');
+      setTimeout(()=>line.remove(),600);
+    }
+  },1300);
+  // Cleanup
+  setTimeout(()=>{overlay.className='power-overlay';pulse.className='power-pulse';scan.className='power-scanline'},2200);
+}
+function toggleRef(){
+  if(srcMode){document.getElementById('flashOverlay').classList.add('show');return}
+  refMode=!refMode;document.getElementById('refBtn').innerHTML=refMode?'🔓 REF':'🔒 REF';
+  document.getElementById('refBtn').classList.toggle('active',refMode);document.body.classList.toggle('ref-mode',refMode);
+  if(refMode)firePower('ref');
+}
+function toggleSrc(){
+  if(refMode){document.getElementById('flashOverlay').classList.add('show');return}
+  srcMode=!srcMode;document.getElementById('srcBtn').innerHTML=srcMode?'🔓 SRC':'🔒 SRC';
+  document.getElementById('srcBtn').classList.toggle('active',srcMode);document.body.classList.toggle('src-mode',srcMode);
+  if(srcMode)firePower('src');
+}
+const tooltip=document.getElementById('refTooltip');
+document.addEventListener('click',function(e){
+  const cell=e.target.closest('td[data-ref],td[data-src]');
+  if(!cell){tooltip.style.display='none';return}
+  if(refMode&&cell.dataset.ref){
+    const r=cell.getBoundingClientRect();
+    document.getElementById('rtText').textContent=cell.dataset.ref;
+    const meta=[];
+    if(cell.dataset.conf)meta.push('Conf: '+cell.dataset.conf);
+    if(cell.dataset.src)meta.push('Src: '+cell.dataset.src.substring(0,40));
+    if(cell.dataset.pgNum)meta.push('Pg: '+cell.dataset.pgNum);
+    document.getElementById('rtMeta').textContent=meta.join(' · ');
+    tooltip.style.display='block';
+    tooltip.style.left=Math.min(r.left,window.innerWidth-420)+'px';
+    tooltip.style.top=(r.bottom+6)+'px';
+    return;
+  }
+  if(srcMode&&cell.dataset.src){
+    const src=cell.dataset.src;const pg=cell.dataset.pgNum||'1';
+    window.open('/pdf/'+encodeURIComponent(src)+'#page='+pg,'_blank');return;
+  }
+  tooltip.style.display='none';
+});
+</script>
+</body>
+</html>

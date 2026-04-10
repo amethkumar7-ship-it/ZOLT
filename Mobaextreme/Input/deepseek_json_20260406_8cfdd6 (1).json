@@ -1,0 +1,495 @@
+{
+  "company_name": "20 Microns Limited",
+  "documents_scanned": "10",
+  "time_range": "Q1 FY20 to Q3 FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Manufacturing Units", "unit": "Number", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Global Footprint - Countries", "unit": "Number", "metric_type": "periodic", "periods_available": ["FY19", "FY22", "FY23"]},
+        {"metric": "Export Share in Revenue", "unit": "%", "metric_type": "periodic", "periods_available": ["Q1 FY20", "FY22", "FY23", "FY24", "FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Client Count", "unit": "Number", "metric_type": "periodic", "periods_available": ["H1 FY20"]},
+        {"metric": "Mines Count", "unit": "Number", "metric_type": "periodic", "periods_available": ["H1 FY20", "FY22", "FY23"]},
+        {"metric": "Mines Total Reserves", "unit": "Lakh Tons", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Mines Total Value of Reserves", "unit": "Lakh Rupees", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "R&D Team Size", "unit": "Number", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Total Employees", "unit": "Number", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Mining - China Clay (Bhuj)",
+      "metrics_found": [
+        {"metric": "Reserves - China Clay (Bhuj)", "unit": "Lakh Tons", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Value of Reserves - China Clay (Bhuj)", "unit": "Lakh Rupees", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Mining - Dolomite (Chhota Udaipur)",
+      "metrics_found": [
+        {"metric": "Reserves - Dolomite (Chhota Udaipur)", "unit": "Lakh Tons", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Value of Reserves - Dolomite (Chhota Udaipur)", "unit": "Lakh Rupees", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Mining - Calcite (Sirohi)",
+      "metrics_found": [
+        {"metric": "Reserves - Calcite (Sirohi)", "unit": "Lakh Tons", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Value of Reserves - Calcite (Sirohi)", "unit": "Lakh Rupees", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Mining - Limestone (Tirunelveli)",
+      "metrics_found": [
+        {"metric": "Reserves - Limestone (Tirunelveli)", "unit": "Lakh Tons", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Value of Reserves - Limestone (Tirunelveli)", "unit": "Lakh Rupees", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Mining - Dolomite (Anantapur)",
+      "metrics_found": [
+        {"metric": "Reserves - Dolomite (Anantapur) - First Mine", "unit": "Lakh Tons", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Value of Reserves - Dolomite (Anantapur) - First Mine", "unit": "Lakh Rupees", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Reserves - Dolomite (Anantapur) - Second Mine", "unit": "Lakh Tons", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Value of Reserves - Dolomite (Anantapur) - Second Mine", "unit": "Lakh Rupees", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Mining - China Clay (Nadappa)",
+      "metrics_found": [
+        {"metric": "Reserves - China Clay (Nadappa)", "unit": "Lakh Tons", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Value of Reserves - China Clay (Nadappa)", "unit": "Lakh Rupees", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Mining - Total",
+      "metrics_found": [
+        {"metric": "Total Mines Reserves", "unit": "Lakh Tons", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Total Mines Value of Reserves", "unit": "Lakh Rupees", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Subsidiary - 20 Microns Nano Minerals Ltd",
+      "metrics_found": [
+        {"metric": "Total Income (FY22)", "unit": "MN INR", "metric_type": "periodic", "periods_available": ["FY22"]},
+        {"metric": "EBITDA (FY22)", "unit": "MN INR", "metric_type": "periodic", "periods_available": ["FY22"]},
+        {"metric": "EBITDA Margins (FY22)", "unit": "%", "metric_type": "periodic", "periods_available": ["FY22"]},
+        {"metric": "Net Profit (FY22)", "unit": "MN INR", "metric_type": "periodic", "periods_available": ["FY22"]},
+        {"metric": "NPAT Margins (FY22)", "unit": "%", "metric_type": "periodic", "periods_available": ["FY22"]},
+        {"metric": "Revenue from Operations (FY23)", "unit": "MN INR", "metric_type": "periodic", "periods_available": ["FY23"]},
+        {"metric": "EBITDA (FY23)", "unit": "MN INR", "metric_type": "periodic", "periods_available": ["FY23"]},
+        {"metric": "EBITDA Margins (FY23)", "unit": "%", "metric_type": "periodic", "periods_available": ["FY23"]},
+        {"metric": "PAT (FY23)", "unit": "MN INR", "metric_type": "periodic", "periods_available": ["FY23"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Ecovadis Medal", "unit": "Level", "metric_type": "periodic", "periods_available": ["FY23", "FY24"]},
+    {"metric": "R&D Centre Recognition", "unit": "Status", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "DSIR Recognition for Subsidiary", "unit": "Status", "metric_type": "periodic", "periods_available": ["FY25"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Manufacturing Units",
+          "unit": "Number",
+          "metric_type": "static_descriptor",
+          "value": "9",
+          "ref": "9 integrated manufacturing units located at 9 regions",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "16",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Global Footprint - Countries",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "FY19": {"v": "48", "ref": "Global footprint across ∼ 48 nations", "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "FY22": {"v": "65", "ref": "Exports to 65+ countries and further expanding global footprint", "src": "May-2022_583a0699-db66-42e0-9d39-7342dec11375_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "FY23": {"v": "65", "ref": "presence in over 65 countries", "src": "Nov-2025_91abdce9-14e5-482f-9d73-308b40266f2e_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Export Share in Revenue",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY20": {"v": "17", "ref": "Q1 FY20 - Total Exports Stood at ∼ 17%", "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY22": {"v": "15", "ref": "15- 18% Business comes from exports", "src": "May-2022_583a0699-db66-42e0-9d39-7342dec11375_IP.pdf", "pg": "7", "conf": "MEDIUM"},
+            "FY23": {"v": "15", "ref": "Export share in revenue (%) showing 15% in bar chart", "src": "Nov-2024_6aed8652-49cd-4403-91b9-caa814ad74bf_IP.pdf", "pg": "7", "conf": "MEDIUM"},
+            "FY24": {"v": "13", "ref": "Export revenues constituted 13% of our topline in 2024-25", "src": "May-2025_efe1993c-b21f-45f7-bbd5-0c7e4a50913f_IP.pdf", "pg": "8", "conf": "MEDIUM"},
+            "FY25": {"v": "13", "ref": "Export revenues constituted 13% of our topline in 2024-25", "src": "May-2025_efe1993c-b21f-45f7-bbd5-0c7e4a50913f_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "Q1 FY26": {"v": "13", "ref": "Export Share in Revenue (%) showing 13%", "src": "Aug-2025_c131c2c2-bf35-4801-8e83-d7227e42ece1_IP.pdf", "pg": "14", "conf": "MEDIUM"},
+            "Q2 FY26": {"v": "13", "ref": "Export Share in Revenue (%) showing 13%", "src": "Nov-2025_91abdce9-14e5-482f-9d73-308b40266f2e_IP.pdf", "pg": "15", "conf": "MEDIUM"},
+            "Q3 FY26": {"v": "13", "ref": "Export Share in Revenue (%) showing 13%", "src": "Jan-2026_a930262c-2261-4a0e-a500-9e7b05a64b29_IP.pdf", "pg": "15", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Client Count",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY20": {"v": "1000", "ref": "cater over 1,000 clients", "src": "Nov-2019_c22232b6-8c91-4166-859b-7a38e54ec17d_IP.pdf", "pg": "3", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Mines Count",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY20": {"v": "7", "ref": "The company has seven mines", "src": "Nov-2019_c22232b6-8c91-4166-859b-7a38e54ec17d_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "FY22": {"v": "7", "ref": "Captive Mines to source raw materials", "src": "May-2022_583a0699-db66-42e0-9d39-7342dec11375_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "FY23": {"v": "5", "ref": "5 Captive Mines to source raw materials", "src": "Oct-2023_334b55fe-3b47-4701-ab88-b70330a9b998_IP.pdf", "pg": "5", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Mines Total Reserves",
+          "unit": "Lakh Tons",
+          "metric_type": "static_descriptor",
+          "value": "73.228",
+          "ref": "TOTAL 73.228 (In Lakhs Tons) - First table total",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Mines Total Value of Reserves",
+          "unit": "Lakh Rupees",
+          "metric_type": "static_descriptor",
+          "value": "21664.36",
+          "ref": "TOTAL 21664.36 (In Lakhs) - First table total",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "R&D Team Size",
+          "unit": "Number",
+          "metric_type": "static_descriptor",
+          "value": "18",
+          "ref": "Highly experienced & innovative R & D team of ∼18 scientists",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "28",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Total Employees",
+          "unit": "Number",
+          "metric_type": "static_descriptor",
+          "value": "750",
+          "ref": "Human assets of the group ∼750, comprising of in-house R&D team",
+          "src": "Oct-2023_334b55fe-3b47-4701-ab88-b70330a9b998_IP.pdf",
+          "pg": "5",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "Mining - China Clay (Bhuj)",
+      "data": [
+        {
+          "particulars": "Reserves - China Clay (Bhuj)",
+          "unit": "Lakh Tons",
+          "metric_type": "static_descriptor",
+          "value": "17.756",
+          "ref": "China Clay – Mines, Bhuj, Dist. Kutchh, Gujarat. Area–11.89 Hector 17.756",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Value of Reserves - China Clay (Bhuj)",
+          "unit": "Lakh Rupees",
+          "metric_type": "static_descriptor",
+          "value": "2574.62",
+          "ref": "17.756 2574.62",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "Mining - Dolomite (Chhota Udaipur)",
+      "data": [
+        {
+          "particulars": "Reserves - Dolomite (Chhota Udaipur)",
+          "unit": "Lakh Tons",
+          "metric_type": "static_descriptor",
+          "value": "13.890",
+          "ref": "Dolomite Mine, Taluka – Chhota Udaipur, Dist. Vadodara, Gujarat, Area – 6.25 Hector 13.890",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Value of Reserves - Dolomite (Chhota Udaipur)",
+          "unit": "Lakh Rupees",
+          "metric_type": "static_descriptor",
+          "value": "4860.75",
+          "ref": "13.890 4860.75",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "Mining - Calcite (Sirohi)",
+      "data": [
+        {
+          "particulars": "Reserves - Calcite (Sirohi)",
+          "unit": "Lakh Tons",
+          "metric_type": "static_descriptor",
+          "value": "8.340",
+          "ref": "Calcite Mine, Dist. Sirohi, Rajasthan, Area – 49.25 Hector 8.340",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Value of Reserves - Calcite (Sirohi)",
+          "unit": "Lakh Rupees",
+          "metric_type": "static_descriptor",
+          "value": "5002.52",
+          "ref": "8.340 5002.52",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "Mining - Limestone (Tirunelveli)",
+      "data": [
+        {
+          "particulars": "Reserves - Limestone (Tirunelveli)",
+          "unit": "Lakh Tons",
+          "metric_type": "static_descriptor",
+          "value": "10.300",
+          "ref": "Limestone Mines, Dist. Tirunelveli, Tamil Nadu, Area – 4.43 Hector 10.300",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Value of Reserves - Limestone (Tirunelveli)",
+          "unit": "Lakh Rupees",
+          "metric_type": "static_descriptor",
+          "value": "4635.00",
+          "ref": "10.300 4635.00",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "Mining - Dolomite (Anantapur)",
+      "data": [
+        {
+          "particulars": "Reserves - Dolomite (Anantapur) - First Mine",
+          "unit": "Lakh Tons",
+          "metric_type": "static_descriptor",
+          "value": "22.942",
+          "ref": "Dolomite Mine, Anantapur, Andhra Pradesh Ares – 4.767 Hector 22.942",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Value of Reserves - Dolomite (Anantapur) - First Mine",
+          "unit": "Lakh Rupees",
+          "metric_type": "static_descriptor",
+          "value": "4591.47",
+          "ref": "22.942 4591.47",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Reserves - Dolomite (Anantapur) - Second Mine",
+          "unit": "Lakh Tons",
+          "metric_type": "static_descriptor",
+          "value": "16.692",
+          "ref": "Dolomite Mines, Anantapur, Andhra Pradesh, Area - 4.289 Hector 16.692",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Value of Reserves - Dolomite (Anantapur) - Second Mine",
+          "unit": "Lakh Rupees",
+          "metric_type": "static_descriptor",
+          "value": "3340.63",
+          "ref": "16.692 3340.63",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "Mining - China Clay (Nadappa)",
+      "data": [
+        {
+          "particulars": "Reserves - China Clay (Nadappa)",
+          "unit": "Lakh Tons",
+          "metric_type": "static_descriptor",
+          "value": "10.227",
+          "ref": "Nadappa China Clay Mine, Nr. Village Nadappa, Taluka Bhuj, Dist. Kutch, Gujarat. Area – 7.30 Hector 10.227",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Value of Reserves - China Clay (Nadappa)",
+          "unit": "Lakh Rupees",
+          "metric_type": "static_descriptor",
+          "value": "1482.91",
+          "ref": "10.227 1482.91",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "Mining - Total",
+      "data": [
+        {
+          "particulars": "Total Mines Reserves",
+          "unit": "Lakh Tons",
+          "metric_type": "static_descriptor",
+          "value": "100.147",
+          "ref": "TOTAL 73.228 + TOTAL 26.919 = 100.147",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Total Mines Value of Reserves",
+          "unit": "Lakh Rupees",
+          "metric_type": "static_descriptor",
+          "value": "26487.90",
+          "ref": "21664.36 + 4823.54 = 26487.90",
+          "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+          "pg": "25",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "Subsidiary - 20 Microns Nano Minerals Ltd",
+      "data": [
+        {
+          "particulars": "Total Income (FY22)",
+          "unit": "MN INR",
+          "metric_type": "periodic",
+          "values": {
+            "FY22": {"v": "885.17", "ref": "Total Income – INR 885.17 MN", "src": "May-2022_583a0699-db66-42e0-9d39-7342dec11375_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "EBITDA (FY22)",
+          "unit": "MN INR",
+          "metric_type": "periodic",
+          "values": {
+            "FY22": {"v": "107.72", "ref": "EBITDA – INR 107.72 MN", "src": "May-2022_583a0699-db66-42e0-9d39-7342dec11375_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "EBITDA Margins (FY22)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY22": {"v": "12.17", "ref": "EBITDA Margins – 12.17%", "src": "May-2022_583a0699-db66-42e0-9d39-7342dec11375_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Net Profit (FY22)",
+          "unit": "MN INR",
+          "metric_type": "periodic",
+          "values": {
+            "FY22": {"v": "51.57", "ref": "Net Profit – INR 51.57 M", "src": "May-2022_583a0699-db66-42e0-9d39-7342dec11375_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "NPAT Margins (FY22)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY22": {"v": "5.83", "ref": "NPAT Margins – 5.83%", "src": "May-2022_583a0699-db66-42e0-9d39-7342dec11375_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenue from Operations (FY23)",
+          "unit": "MN INR",
+          "metric_type": "periodic",
+          "values": {
+            "FY23": {"v": "88.1", "ref": "Rev. from Operations - 88.1 MN", "src": "Oct-2023_334b55fe-3b47-4701-ab88-b70330a9b998_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "EBITDA (FY23)",
+          "unit": "MN INR",
+          "metric_type": "periodic",
+          "values": {
+            "FY23": {"v": "9.1", "ref": "EBITDA - 9.1 MN", "src": "Oct-2023_334b55fe-3b47-4701-ab88-b70330a9b998_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "EBITDA Margins (FY23)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY23": {"v": "10.3", "ref": "EBITDA Margins - 10.3%", "src": "Oct-2023_334b55fe-3b47-4701-ab88-b70330a9b998_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "PAT (FY23)",
+          "unit": "MN INR",
+          "metric_type": "periodic",
+          "values": {
+            "FY23": {"v": "5.1", "ref": "PAT - 5.1 MN", "src": "Oct-2023_334b55fe-3b47-4701-ab88-b70330a9b998_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "R&D Centre Recognition",
+      "unit": "Status",
+      "metric_type": "static_descriptor",
+      "value": "Approved Research & Development centre by DSIR, Government of India",
+      "ref": "Approved Research & Development centre by DSIR, Government of India",
+      "src": "Aug-2019_5507bc0d-49db-4d70-94f6-4fd9838a69b0_IP.pdf",
+      "pg": "30",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Ecovadis Medal",
+      "unit": "Level",
+      "metric_type": "periodic",
+      "values": {
+        "FY23": {"v": "Silver", "ref": "RECEIVED PRESTIGIOUS ECOVADIS SILVER MEDAL FOR IT'S ALWAR LOCATION", "src": "Oct-2023_334b55fe-3b47-4701-ab88-b70330a9b998_IP.pdf", "pg": "27", "conf": "HIGH"},
+        "FY24": {"v": "Silver", "ref": "Received Prestigious Ecovadis Silver Medal For It's Alwar Location With Focus On Sustainability", "src": "Nov-2024_6aed8652-49cd-4403-91b9-caa814ad74bf_IP.pdf", "pg": "28", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "DSIR Recognition for Subsidiary",
+      "unit": "Status",
+      "metric_type": "periodic",
+      "values": {
+        "FY25": {"v": "Earned DSIR recognition for its in-house R&D unit", "ref": "In May 2025, 20 Microns Nano Minerals earned DSIR recognition for its in-house R&D unit, unlocking tax benefits, subsidies, and government research collaborations.",
+        "src": "May-2025_efe1993c-b21f-45f7-bbd5-0c7e4a50913f_IP.pdf",
+        "pg": "11",
+        "conf": "HIGH"}
+      }
+    }
+  ]
+}

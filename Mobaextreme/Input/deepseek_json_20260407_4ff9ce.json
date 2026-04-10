@@ -1,0 +1,577 @@
+{
+  "company_name": "LARSEN & TOUBRO LIMITED",
+  "documents_scanned": "7",
+  "time_range": "Q1 FY24 to Q3 FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Order Inflow", "unit": "₹ bn", "metric_type": "periodic", "periods_available": ["Q3 FY25", "Q3 FY26", "9M FY25", "9M FY26", "Q2 FY26", "H1 FY26", "Q1 FY26", "Q4 FY25", "FY25", "Q4 FY24", "FY24", "Q3 FY24", "9M FY24"]},
+        {"metric": "Order Book", "unit": "₹ bn", "metric_type": "periodic", "periods_available": ["31-Dec-25", "30-Sep-25", "30-Jun-25", "31-Mar-25", "31-Dec-24", "30-Sep-24", "30-Jun-24", "31-Mar-24", "31-Dec-23"]},
+        {"metric": "Net Working Capital/Revenue", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec-25", "Sep-25", "Jun-25", "Mar-25", "Dec-24", "Sep-24", "Mar-24", "Dec-23"]},
+        {"metric": "Return on Equity (TTM)", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec-25", "Sep-25", "Jun-25", "Mar-25", "Dec-24", "Sep-24", "Mar-24"]},
+        {"metric": "International Revenue", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26", "9M FY26", "Q2 FY26", "H1 FY26", "Q1 FY26", "Q4 FY25", "FY25", "Q3 FY25", "9M FY25", "Q2 FY25", "H1 FY25", "Q1 FY25", "FY24"]},
+        {"metric": "International orders constitute", "unit": "%", "metric_type": "periodic", "periods_available": ["31-Dec-25", "30-Sep-25", "30-Jun-25", "31-Mar-25", "31-Dec-24", "30-Sep-24", "30-Jun-24", "31-Mar-24"]},
+        {"metric": "Cash flow from Operations (excl Financial Services business)", "unit": "₹ bn", "metric_type": "periodic", "periods_available": ["Q3 FY26", "9M FY26", "Q2 FY26", "H1 FY26", "Q1 FY26"]},
+        {"metric": "Prospects pipeline", "unit": "₹ trn", "metric_type": "periodic", "periods_available": ["near term Dec-25", "near term Sep-25", "near term Jun-25", "near term Mar-25", "near term Dec-24", "near term Sep-24", "near term Jun-24", "near term Mar-24"]},
+        {"metric": "Gross Debt/Equity Ratio", "unit": "ratio", "metric_type": "periodic", "periods_available": ["31-Dec-25", "30-Sep-25", "30-Jun-25", "31-Mar-25", "31-Mar-24"]},
+        {"metric": "Net Debt/Equity Ratio", "unit": "ratio", "metric_type": "periodic", "periods_available": ["31-Dec-25", "30-Sep-25", "30-Jun-25", "31-Mar-25", "31-Mar-24"]}
+      ]
+    },
+    {
+      "segment_name": "Infrastructure Projects Segment",
+      "metrics_found": [
+        {"metric": "Order Inflow", "unit": "₹ bn", "metric_type": "periodic", "periods_available": ["Q3 FY26", "9M FY26", "Q2 FY26", "H1 FY26", "Q1 FY26", "Q4 FY25", "FY25", "Q3 FY25", "9M FY25", "Q2 FY25", "H1 FY25", "Q1 FY25", "FY24", "Q3 FY24", "9M FY24"]},
+        {"metric": "Order Book", "unit": "₹ bn", "metric_type": "periodic", "periods_available": ["31-Dec-25", "30-Sep-25", "30-Jun-25", "31-Mar-25", "31-Dec-24", "30-Sep-24", "30-Jun-24", "31-Mar-24", "31-Dec-23"]},
+        {"metric": "International order inflow", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26", "9M FY26", "Q2 FY26", "H1 FY26", "Q1 FY26", "Q4 FY25", "FY25", "Q3 FY25", "9M FY25", "Q2 FY25", "H1 FY25", "Q1 FY25"]}
+      ]
+    },
+    {
+      "segment_name": "Energy Projects Segment",
+      "metrics_found": [
+        {"metric": "Order Inflow", "unit": "₹ bn", "metric_type": "periodic", "periods_available": ["Q3 FY26", "9M FY26", "Q2 FY26", "H1 FY26", "Q1 FY26", "Q4 FY25", "FY25", "Q3 FY25", "9M FY25", "Q2 FY25", "H1 FY25", "Q1 FY25", "FY24", "Q3 FY24", "9M FY24"]},
+        {"metric": "Order Book", "unit": "₹ bn", "metric_type": "periodic", "periods_available": ["31-Dec-25", "30-Sep-25", "30-Jun-25", "31-Mar-25", "31-Dec-24", "30-Sep-24", "30-Jun-24", "31-Mar-24", "31-Dec-23"]},
+        {"metric": "International order inflow", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26", "9M FY26", "Q2 FY26", "H1 FY26", "Q1 FY26", "Q4 FY25", "FY25", "Q3 FY25", "9M FY25", "Q2 FY25", "H1 FY25", "Q1 FY25"]}
+      ]
+    },
+    {
+      "segment_name": "Hi-Tech Manufacturing Segment",
+      "metrics_found": [
+        {"metric": "Order Inflow", "unit": "₹ bn", "metric_type": "periodic", "periods_available": ["Q3 FY26", "9M FY26", "Q2 FY26", "H1 FY26", "Q1 FY26", "Q4 FY25", "FY25", "Q3 FY25", "9M FY25", "Q2 FY25", "H1 FY25", "Q1 FY25", "FY24", "Q3 FY24", "9M FY24"]},
+        {"metric": "Order Book", "unit": "₹ bn", "metric_type": "periodic", "periods_available": ["31-Dec-25", "30-Sep-25", "30-Jun-25", "31-Mar-25", "31-Dec-24", "30-Sep-24", "30-Jun-24", "31-Mar-24", "31-Dec-23"]},
+        {"metric": "International order inflow", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26", "9M FY26", "Q2 FY26", "H1 FY26", "Q1 FY26", "Q4 FY25", "FY25", "Q3 FY25", "9M FY25", "Q2 FY25", "H1 FY25", "Q1 FY25"]}
+      ]
+    },
+    {
+      "segment_name": "IT & Technology Services Segment",
+      "metrics_found": [
+        {"metric": "Order Inflow", "unit": "₹ bn", "metric_type": "periodic", "periods_available": ["Q3 FY26", "9M FY26", "Q2 FY26", "H1 FY26", "Q1 FY26", "Q4 FY25", "FY25", "Q3 FY25", "9M FY25", "Q2 FY25", "H1 FY25", "Q1 FY25", "FY24"]}
+      ]
+    },
+    {
+      "segment_name": "Financial Services Segment",
+      "metrics_found": [
+        {"metric": "Retail Book %", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec-25", "Sep-25", "Jun-25", "Mar-25", "Dec-24", "Sep-24", "Mar-24"]},
+        {"metric": "Provision Coverage Ratio (PCR)", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec-25", "Sep-25", "Jun-25", "Mar-25", "Dec-24", "Sep-24", "Mar-24"]},
+        {"metric": "CRAR", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec-25", "Sep-25", "Jun-25", "Mar-25", "Dec-24", "Sep-24", "Mar-24"]},
+        {"metric": "RoA", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q1 FY26", "Q3 FY25", "Q2 FY25", "Q1 FY25"]}
+      ]
+    },
+    {
+      "segment_name": "Development Projects Segment",
+      "metrics_found": [
+        {"metric": "Order Inflow", "unit": "₹ bn", "metric_type": "periodic", "periods_available": ["Q3 FY26", "9M FY26", "Q2 FY26", "H1 FY26", "Q1 FY26", "Q4 FY25", "FY25", "Q3 FY25", "9M FY25", "Q2 FY25", "H1 FY25", "Q1 FY25", "FY24", "Q3 FY24"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Credit Rating - L&T Finance (S&P)", "unit": "rating", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Credit Rating - L&T Finance (Fitch)", "unit": "rating", "metric_type": "static_descriptor", "periods_available": ["static"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Order Inflow",
+          "unit": "₹ bn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "1160", "ref": "1160 17% y-o-y Order Inflow", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Q3 FY26": {"v": "1356", "ref": "1356 bn Order Inflow 17% y-o-y", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "9M FY25": {"v": "2670", "ref": "2670 9M FY25 Order Inflow", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "9M FY26": {"v": "3458", "ref": "9M FY26 3458 Bn Order Inflow 30%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q2 FY25": {"v": "800", "ref": "800 1158 45% Order Inflow", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q2 FY26": {"v": "1158", "ref": "800 1158 45% Order Inflow", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "H1 FY25": {"v": "1510", "ref": "1510 2102 39% Order Inflow", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "H1 FY26": {"v": "2102", "ref": "1510 2102 39% Order Inflow", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q1 FY25": {"v": "709", "ref": "709 Order Inflow 945 33% y-o-y", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q1 FY26": {"v": "945", "ref": "709 Order Inflow 945 33% y-o-y", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q4 FY24": {"v": "721", "ref": "721 896 24% Order Inflow", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q4 FY25": {"v": "896", "ref": "721 896 24% Order Inflow", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "FY24": {"v": "3028", "ref": "3028 3566 18% Order Inflow", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "FY25": {"v": "3566", "ref": "3028 3566 18% Order Inflow", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q3 FY24": {"v": "760", "ref": "760 1160 53% Order Inflow", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "9M FY24": {"v": "2307", "ref": "2307 2670 16% Order Inflow", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order Book",
+          "unit": "₹ bn",
+          "metric_type": "periodic",
+          "values": {
+            "31-Dec-24": {"v": "5642", "ref": "Order Book 5642 bn 20% y-o-y", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "31-Dec-25": {"v": "7332", "ref": "7332 bn Order Book Record High", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "30-Sep-24": {"v": "5104", "ref": "5104 bn Order Book A new milestone", "src": "Oct-2024_427a80aa-8555-4320-ad42-19bcb4a20fca_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "30-Sep-25": {"v": "6670", "ref": "Order Book 5104 6670 31% y-o-y", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "30-Jun-24": {"v": "4909", "ref": "4909 Order Book 6128 25% y-o-y", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "30-Jun-25": {"v": "6128", "ref": "4909 Order Book 6128 25% y-o-y", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "31-Mar-24": {"v": "4758", "ref": "Order Book 4758 5791 22%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "31-Mar-25": {"v": "5791", "ref": "Order Book 4758 5791 22%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "31-Dec-23": {"v": "4698", "ref": "Order Book: 4698 Bn", "src": "Jan-2024_72feb753-e6fa-4751-ab8b-4f8114ece0b3_IP.pdf", "pg": "14", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Net Working Capital/Revenue",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec-24": {"v": "12.7", "ref": "Net Working Capital 12.7%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Dec-25": {"v": "8.2", "ref": "8.2% NWC/Revenue Down 450 bps y-o-y", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Sep-24": {"v": "12.2", "ref": "Net Working Capital 12.2%", "src": "Oct-2024_427a80aa-8555-4320-ad42-19bcb4a20fca_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Sep-25": {"v": "10.2", "ref": "Net Working Capital 10.2%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Jun-24": {"v": "13.9", "ref": "Net Working Capital 13.9%", "src": "Jul-2024_1cd0c030-882b-489c-a2cc-f24e33f110be_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Jun-25": {"v": "10.1", "ref": "10.1% Net Working Capital 380 bps y-o-y", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Mar-24": {"v": "12.0", "ref": "Net Working Capital 12.0%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Mar-25": {"v": "11.0", "ref": "Net Working Capital 11.0%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Dec-23": {"v": "16.6", "ref": "Net Working Capital 16.6%", "src": "Jan-2024_72feb753-e6fa-4751-ab8b-4f8114ece0b3_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Return on Equity (TTM)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec-24": {"v": "16.1", "ref": "ROE (TTM) (%) 16.1%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Dec-25": {"v": "16.5", "ref": "16.5%* Return on Equity Up 40 bps y-o-y", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Sep-24": {"v": "16.1", "ref": "ROE (TTM) (%) 16.1%", "src": "Oct-2024_427a80aa-8555-4320-ad42-19bcb4a20fca_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Sep-25": {"v": "17.2", "ref": "ROE (TTM) (%) 17.2%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Jun-24": {"v": "14.7", "ref": "ROE (TTM) (%) 14.7%", "src": "Jul-2024_1cd0c030-882b-489c-a2cc-f24e33f110be_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Jun-25": {"v": "17.0", "ref": "17% Return on Equity 230 bps y-o-y", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Mar-24": {"v": "14.9", "ref": "ROE (TTM) (%) 14.9%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Mar-25": {"v": "16.3", "ref": "ROE (TTM) (%) 16.3%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "International Revenue",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "51", "ref": "International Rev. 51% 54%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY26": {"v": "54", "ref": "International Rev. 51% 54%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "9M FY25": {"v": "50", "ref": "International Rev. 50% 54%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "9M FY26": {"v": "54", "ref": "International Rev. 50% 54%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY25": {"v": "52", "ref": "International Rev. 50% 54%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY26": {"v": "56", "ref": "International Rev. 52% 56%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "H1 FY25": {"v": "50", "ref": "International Rev. 50% 54%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "H1 FY26": {"v": "54", "ref": "International Rev. 50% 54%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY25": {"v": "48", "ref": "International Rev. 48% 52%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY26": {"v": "52", "ref": "International Rev. 48% 52%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY24": {"v": "44", "ref": "International Rev. 43% 50%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY25": {"v": "49", "ref": "International Rev. 43% 50%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "FY24": {"v": "43", "ref": "International Rev. 43% 50%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "FY25": {"v": "50", "ref": "International Rev. 43% 50%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "International orders constitute",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "31-Dec-24": {"v": "42", "ref": "International orders constitute 42% of the Dec'24 Order Book", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "31-Dec-25": {"v": "49", "ref": "International orders constitute 49% of the Order Book", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "30-Sep-24": {"v": "40", "ref": "International orders constitute 40% of the Sep'24 Order Book", "src": "Oct-2024_427a80aa-8555-4320-ad42-19bcb4a20fca_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "30-Sep-25": {"v": "49", "ref": "International orders constitute 49% of the Order Book", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "30-Jun-24": {"v": "38", "ref": "International orders constitute 38% of the Jun'24 Order Book", "src": "Jul-2024_1cd0c030-882b-489c-a2cc-f24e33f110be_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "30-Jun-25": {"v": "46", "ref": "International orders constitute 46% of the Order Book", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "31-Mar-24": {"v": "38", "ref": "International orders constitute 38% of the Mar'24 Order Book", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "31-Mar-25": {"v": "46", "ref": "International orders constitute 46% of the Mar'25 Order Book", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "8", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Cash flow from Operations (excl Financial Services business)",
+          "unit": "₹ bn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "83", "ref": "Cash flow from Operations (excl Financial Services business) 83 184", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q3 FY26": {"v": "184", "ref": "Cash flow from Operations (excl Financial Services business) 83 184", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "9M FY25": {"v": "83", "ref": "Cash flow from Operations (excl Financial Services business) 83 184", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "9M FY26": {"v": "184", "ref": "Cash flow from Operations (excl Financial Services business) 83 184", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q2 FY25": {"v": "79", "ref": "Cash flow from Operations (excl Financial Services business) 79 48", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q2 FY26": {"v": "48", "ref": "Cash flow from Operations (excl Financial Services business) 79 48", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "H1 FY25": {"v": "61", "ref": "Cash flow from Operations (excl Financial Services business) 61 106", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "H1 FY26": {"v": "106", "ref": "Cash flow from Operations (excl Financial Services business) 61 106", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q1 FY25": {"v": "-14", "ref": "Cash flow from Operations (excl Financial Services business) -14 62", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Q1 FY26": {"v": "62", "ref": "Cash flow from Operations (excl Financial Services business) -14 62", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Prospects pipeline",
+          "unit": "₹ trn",
+          "metric_type": "periodic",
+          "values": {
+            "near term Mar-24": {"v": "12.1", "ref": "prospects pipeline @ ₹ 12.1 trillion for FY25 (up 24% y-o-y)", "src": "May-2024_9a3eb418-5137-494b-bb0a-e8676c9a6b84_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "near term Jun-24": {"v": "9.1", "ref": "Order Prospects pipeline @ 9.1 trillion in the near term", "src": "Jul-2024_1cd0c030-882b-489c-a2cc-f24e33f110be_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "near term Sep-24": {"v": "8.1", "ref": "Order Prospects pipeline @ ¥ 8.1 trillion in the near term", "src": "Oct-2024_427a80aa-8555-4320-ad42-19bcb4a20fca_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "near term Dec-24": {"v": "5.5", "ref": "Order Prospects pipeline @ 5.5 trillion in the near term", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "near term Mar-25": {"v": "19", "ref": "Prospects pipeline of Rs 19 trn for FY26", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "near term Jun-25": {"v": "15", "ref": "prospect pipeline of - Rs 15 trn for remaining nine months", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "near term Sep-25": {"v": "10.4", "ref": "prospect pipeline of - Rs 10.4 trn for the near term", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "near term Dec-25": {"v": "5.9", "ref": "prospect pipeline of - Rs 5.9 trn for the near term", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "8", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Gross Debt/Equity Ratio",
+          "unit": "ratio",
+          "metric_type": "periodic",
+          "values": {
+            "31-Mar-24": {"v": "1.11", "ref": "Gross Debt / Equity Ratio 1.11", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "31-Mar-25": {"v": "1.12", "ref": "Gross Debt / Equity Ratio 1.12", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "30-Jun-25": {"v": "1.13", "ref": "Gross Debt / Equity Ratio 1.13", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "30-Sep-25": {"v": "1.09", "ref": "Gross Debt / Equity Ratio 1.09", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "31-Dec-25": {"v": "1.06", "ref": "Gross Debt / Equity Ratio 1.06", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "25", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Net Debt/Equity Ratio",
+          "unit": "ratio",
+          "metric_type": "periodic",
+          "values": {
+            "31-Mar-24": {"v": "0.64", "ref": "Net Debt / Equity Ratio 0.64", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "31-Mar-25": {"v": "0.60", "ref": "Net Debt / Equity Ratio 0.60", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "30-Jun-25": {"v": "0.64", "ref": "Net Debt / Equity Ratio 0.64", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "30-Sep-25": {"v": "0.59", "ref": "Net Debt / Equity Ratio 0.59", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "31-Dec-25": {"v": "0.54", "ref": "Net Debt / Equity Ratio 0.54", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "25", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Infrastructure Projects Segment",
+      "data": [
+        {
+          "particulars": "Order Inflow",
+          "unit": "₹ bn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "490.7", "ref": "Infrastructure Projects 490 70 74%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q3 FY26": {"v": "618.7", "ref": "Infrastructure Projects 618 76 55%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY25": {"v": "1386.46", "ref": "Infrastructure Projects 138646 63%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY26": {"v": "1555.87", "ref": "Infrastructure Projects 155587 56%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q2 FY25": {"v": "495.2", "ref": "Infrastructure Projects 4952 263% 5268 648%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q2 FY26": {"v": "526.8", "ref": "Infrastructure Projects 4952 263% 5268 648%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY25": {"v": "895.7", "ref": "Infrastructure Projects 8957 57% 9371 57%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY26": {"v": "937.1", "ref": "Infrastructure Projects 8957 57% 9371 57%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q1 FY25": {"v": "400.5", "ref": "Infrastructure Projects 4005 349% 4102 469%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q1 FY26": {"v": "410.2", "ref": "Infrastructure Projects 4005 349% 4102 469%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q4 FY24": {"v": "313.4", "ref": "Infrastructure Projects 31340 22% 34580 55%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q4 FY25": {"v": "345.8", "ref": "Infrastructure Projects 31340 22% 34580 55%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY24": {"v": "1425.89", "ref": "Infrastructure Projects 142589 38% 173226 61%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY25": {"v": "1732.26", "ref": "Infrastructure Projects 142589 38% 173226 61%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q3 FY24": {"v": "432.0", "ref": "Infrastructure Projects 4320 86% 4907 74%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "9M FY24": {"v": "1112.49", "ref": "Infrastructure Projects 111249 43% 138646 63%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order Book",
+          "unit": "₹ bn",
+          "metric_type": "periodic",
+          "values": {
+            "31-Dec-24": {"v": "3612.82", "ref": "Infrastructure Projects 361282 37%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "31-Dec-25": {"v": "4249.37", "ref": "Infrastructure Projects 424937 45%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "30-Sep-24": {"v": "3429.54", "ref": "Infrastructure Projects 342954 32% 394706 43%", "src": "Oct-2024_427a80aa-8555-4320-ad42-19bcb4a20fca_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "30-Sep-25": {"v": "3947.06", "ref": "Infrastructure Projects 342954 32% 394706 43%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "30-Jun-24": {"v": "3248.79", "ref": "Infrastructure Projects 324879 28% 370390 42%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "30-Jun-25": {"v": "3703.90", "ref": "Infrastructure Projects 324879 28% 370390 42%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "31-Mar-24": {"v": "3116.65", "ref": "Infrastructure Projects 311665 27% 357073 39%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "31-Mar-25": {"v": "3570.73", "ref": "Infrastructure Projects 311665 27% 357073 39%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "31-Dec-23": {"v": "3176.93", "ref": "Infrastructure Projects 317693 28%", "src": "Jan-2024_72feb753-e6fa-4751-ab8b-4f8114ece0b3_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "International order inflow",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "74", "ref": "Infrastructure Projects 490 70 74%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q3 FY26": {"v": "55", "ref": "Infrastructure Projects 618 76 55%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY25": {"v": "63", "ref": "Infrastructure Projects 138646 63%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY26": {"v": "56", "ref": "Infrastructure Projects 155587 56%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q2 FY25": {"v": "63", "ref": "Infrastructure Projects 4952 263% 5268 648%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q2 FY26": {"v": "48", "ref": "Infrastructure Projects 4952 263% 5268 648%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY25": {"v": "57", "ref": "Infrastructure Projects 8957 57% 9371 57%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY26": {"v": "57", "ref": "Infrastructure Projects 8957 57% 9371 57%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q1 FY25": {"v": "49", "ref": "Infrastructure Projects 4005 349% 4102 469%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q1 FY26": {"v": "69", "ref": "Infrastructure Projects 4005 349% 4102 469%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q4 FY24": {"v": "22", "ref": "Infrastructure Projects 31340 22% 34580 55%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q4 FY25": {"v": "55", "ref": "Infrastructure Projects 31340 22% 34580 55%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY24": {"v": "38", "ref": "Infrastructure Projects 142589 38% 173226 61%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY25": {"v": "61", "ref": "Infrastructure Projects 142589 38% 173226 61%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q3 FY24": {"v": "86", "ref": "Infrastructure Projects 4320 86% 4907 74%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "9M FY24": {"v": "43", "ref": "Infrastructure Projects 111249 43% 138646 63%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Energy Projects Segment",
+      "data": [
+        {
+          "particulars": "Order Inflow",
+          "unit": "₹ bn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "388.0", "ref": "Energy Projects 3880 43% 4604 94%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q3 FY26": {"v": "460.4", "ref": "Energy Projects 3880 43% 4604 94%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY25": {"v": "553.5", "ref": "Energy Projects 55353 38% 115626 56%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY26": {"v": "1156.26", "ref": "Energy Projects 55353 38% 115626 56%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q2 FY25": {"v": "775.7", "ref": "Energy Projects 77578 83% 38156 98%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q2 FY26": {"v": "381.5", "ref": "Energy Projects 77578 83% 38156 98%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY25": {"v": "165.4", "ref": "Energy Projects 16549 50% 69576 65%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY26": {"v": "695.7", "ref": "Energy Projects 16549 50% 69576 65%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q1 FY25": {"v": "87.9", "ref": "Energy Projects 8792 22% 31420 24%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q1 FY26": {"v": "314.2", "ref": "Energy Projects 8792 22% 31420 24%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q4 FY24": {"v": "131.2", "ref": "Energy Projects 13120 52% 32201 97%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q4 FY25": {"v": "322.0", "ref": "Energy Projects 13120 52% 32201 97%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY24": {"v": "737.8", "ref": "Energy Projects 73788 87% 87569 60%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY25": {"v": "875.6", "ref": "Energy Projects 73788 87% 87569 60%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q3 FY24": {"v": "132.8", "ref": "Energy Projects 13281 93% 38818 33%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "9M FY24": {"v": "606.6", "ref": "Energy Projects 60668 95% 55369 38%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order Book",
+          "unit": "₹ bn",
+          "metric_type": "periodic",
+          "values": {
+            "31-Dec-24": {"v": "1458.07", "ref": "Energy Projects 145808 66%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "31-Dec-25": {"v": "2478.61", "ref": "Energy Projects 247861 65%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "30-Sep-24": {"v": "1171.44", "ref": "Energy Projects 117144 77% 214496 71%", "src": "Oct-2024_427a80aa-8555-4320-ad42-19bcb4a20fca_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "30-Sep-25": {"v": "2144.96", "ref": "Energy Projects 117144 77% 214496 71%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "30-Jun-24": {"v": "1177.24", "ref": "Energy Projects 117724 76% 186401 65%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "30-Jun-25": {"v": "1864.01", "ref": "Energy Projects 117724 76% 186401 65%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "31-Mar-24": {"v": "1181.89", "ref": "Energy Projects 118189 80% 165754 73%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "31-Mar-25": {"v": "1657.54", "ref": "Energy Projects 118189 80% 165754 73%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "31-Dec-23": {"v": "1127.77", "ref": "Energy Projects 112777 81%", "src": "Jan-2024_72feb753-e6fa-4751-ab8b-4f8114ece0b3_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "International order inflow",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "43", "ref": "Energy Projects 3880 43% 4604 94%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q3 FY26": {"v": "94", "ref": "Energy Projects 3880 43% 4604 94%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY25": {"v": "38", "ref": "Energy Projects 55353 38% 115626 56%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY26": {"v": "56", "ref": "Energy Projects 55353 38% 115626 56%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q2 FY25": {"v": "83", "ref": "Energy Projects 77578 83% 38156 98%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q2 FY26": {"v": "98", "ref": "Energy Projects 77578 83% 38156 98%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY25": {"v": "50", "ref": "Energy Projects 16549 50% 69576 65%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY26": {"v": "65", "ref": "Energy Projects 16549 50% 69576 65%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q1 FY25": {"v": "22", "ref": "Energy Projects 8792 22% 31420 24%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q1 FY26": {"v": "24", "ref": "Energy Projects 8792 22% 31420 24%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q4 FY24": {"v": "52", "ref": "Energy Projects 13120 52% 32201 97%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q4 FY25": {"v": "97", "ref": "Energy Projects 13120 52% 32201 97%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY24": {"v": "87", "ref": "Energy Projects 73788 87% 87569 60%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY25": {"v": "60", "ref": "Energy Projects 73788 87% 87569 60%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q3 FY24": {"v": "93", "ref": "Energy Projects 13281 93% 38818 33%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "9M FY24": {"v": "95", "ref": "Energy Projects 60668 95% 55369 38%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Hi-Tech Manufacturing Segment",
+      "data": [
+        {
+          "particulars": "Order Inflow",
+          "unit": "₹ bn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "84.2", "ref": "Hi-Tech Manufacturing 8423 15% 2168 35%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q3 FY26": {"v": "216.8", "ref": "Hi-Tech Manufacturing 8423 15% 2168 35%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY25": {"v": "160.1", "ref": "Hi-Tech Manufacturing 16019 19% 6639 33%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY26": {"v": "66.39", "ref": "Hi-Tech Manufacturing 16019 19% 6639 33%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q2 FY25": {"v": "39.2", "ref": "Hi-Tech Manufacturing 3920 37% 2582 18%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q2 FY26": {"v": "25.8", "ref": "Hi-Tech Manufacturing 3920 37% 2582 18%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY25": {"v": "75.9", "ref": "Hi-Tech Manufacturing 7597 23% 4471 32%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY26": {"v": "44.71", "ref": "Hi-Tech Manufacturing 7597 23% 4471 32%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q1 FY25": {"v": "36.7", "ref": "Hi-Tech Manufacturing 3677 8% 1889 52%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q1 FY26": {"v": "18.89", "ref": "Hi-Tech Manufacturing 3677 8% 1889 52%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q4 FY24": {"v": "87.9", "ref": "Hi-Tech Manufacturing 8790 14% 2263 35%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q4 FY25": {"v": "22.6", "ref": "Hi-Tech Manufacturing 8790 14% 2263 35%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY24": {"v": "142.7", "ref": "Hi-Tech Manufacturing 14278 16% 18282 21%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY25": {"v": "182.8", "ref": "Hi-Tech Manufacturing 14278 16% 18282 21%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q3 FY24": {"v": "20.4", "ref": "Hi-Tech Manufacturing 2043 15% 8423 15%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "9M FY24": {"v": "54.8", "ref": "Hi-Tech Manufacturing 5488 19% 16019 19%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Order Book",
+          "unit": "₹ bn",
+          "metric_type": "periodic",
+          "values": {
+            "31-Dec-24": {"v": "417.69", "ref": "Hi-Tech Manufacturing 41769 11%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "31-Dec-25": {"v": "378.65", "ref": "Hi-Tech Manufacturing 37865 12%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "30-Sep-24": {"v": "356.11", "ref": "Hi-Tech Manufacturing 35611 10% 39064 11%", "src": "Oct-2024_427a80aa-8555-4320-ad42-19bcb4a20fca_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "30-Sep-25": {"v": "390.64", "ref": "Hi-Tech Manufacturing 35611 10% 39064 11%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "30-Jun-24": {"v": "337.65", "ref": "Hi-Tech Manufacturing 33765 7% 39162 12%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "30-Jun-25": {"v": "391.62", "ref": "Hi-Tech Manufacturing 33765 7% 39162 12%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "31-Mar-24": {"v": "319.75", "ref": "Hi-Tech Manufacturing 31975 8% 40388 11%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "31-Mar-25": {"v": "403.88", "ref": "Hi-Tech Manufacturing 31975 8% 40388 11%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "31-Dec-23": {"v": "257.58", "ref": "Hi-Tech Manufacturing 25758 8%", "src": "Jan-2024_72feb753-e6fa-4751-ab8b-4f8114ece0b3_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "International order inflow",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "15", "ref": "Hi-Tech Manufacturing 8423 15% 2168 35%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q3 FY26": {"v": "35", "ref": "Hi-Tech Manufacturing 8423 15% 2168 35%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY25": {"v": "19", "ref": "Hi-Tech Manufacturing 16019 19% 6639 33%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY26": {"v": "33", "ref": "Hi-Tech Manufacturing 16019 19% 6639 33%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q2 FY25": {"v": "37", "ref": "Hi-Tech Manufacturing 3920 37% 2582 18%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q2 FY26": {"v": "18", "ref": "Hi-Tech Manufacturing 3920 37% 2582 18%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY25": {"v": "23", "ref": "Hi-Tech Manufacturing 7597 23% 4471 32%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY26": {"v": "32", "ref": "Hi-Tech Manufacturing 7597 23% 4471 32%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q1 FY25": {"v": "8", "ref": "Hi-Tech Manufacturing 3677 8% 1889 52%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q1 FY26": {"v": "52", "ref": "Hi-Tech Manufacturing 3677 8% 1889 52%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q4 FY24": {"v": "14", "ref": "Hi-Tech Manufacturing 8790 14% 2263 35%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q4 FY25": {"v": "35", "ref": "Hi-Tech Manufacturing 8790 14% 2263 35%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY24": {"v": "16", "ref": "Hi-Tech Manufacturing 14278 16% 18282 21%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY25": {"v": "21", "ref": "Hi-Tech Manufacturing 14278 16% 18282 21%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q3 FY24": {"v": "15", "ref": "Hi-Tech Manufacturing 2043 15% 8423 15%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "9M FY24": {"v": "19", "ref": "Hi-Tech Manufacturing 5488 19% 16019 19%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "IT & Technology Services Segment",
+      "data": [
+        {
+          "particulars": "Order Inflow",
+          "unit": "₹ bn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "120.6", "ref": "IT & Technology Services 12061 93% 13526 92%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q3 FY26": {"v": "135.2", "ref": "IT & Technology Services 12061 93% 13526 92%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY25": {"v": "353.6", "ref": "IT & Technology Services 35364 92% 39419 92%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY26": {"v": "394.1", "ref": "IT & Technology Services 35364 92% 39419 92%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q2 FY25": {"v": "117.9", "ref": "IT & Technology Services 11798 93% 13274 92%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q2 FY26": {"v": "132.7", "ref": "IT & Technology Services 11798 93% 13274 92%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY25": {"v": "233.0", "ref": "IT & Technology Services 23303 92% 25893 92%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY26": {"v": "258.9", "ref": "IT & Technology Services 23303 92% 25893 92%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q1 FY25": {"v": "115.0", "ref": "IT & Technology Services 11505 92% 12619 92%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q1 FY26": {"v": "126.1", "ref": "IT & Technology Services 11505 92% 12619 92%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q4 FY24": {"v": "112.4", "ref": "IT & Technology Services 11244 91% 12481 91%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q4 FY25": {"v": "124.8", "ref": "IT & Technology Services 11244 91% 12481 91%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY24": {"v": "444.7", "ref": "IT & Technology Services 44473 92% 47845 92%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY25": {"v": "478.4", "ref": "IT & Technology Services 44473 92% 47845 92%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q3 FY24": {"v": "111.9", "ref": "IT & Technology Services 11196 93% 12061 93%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "9M FY24": {"v": "332.2", "ref": "IT & Technology Services 33229 92% 35364 92%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Financial Services Segment",
+      "data": [
+        {
+          "particulars": "Retail Book %",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec-24": {"v": "97", "ref": "Retail Book % 97%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Dec-25": {"v": "98", "ref": "Retail Book % 98%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Sep-24": {"v": "96", "ref": "Retail Book % 96%", "src": "Oct-2024_427a80aa-8555-4320-ad42-19bcb4a20fca_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Sep-25": {"v": "98", "ref": "Retail Book % 98%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Jun-25": {"v": "98", "ref": "Retail Book % 98%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Mar-24": {"v": "88", "ref": "Retail Book % 88%", "src": "May-2024_9a3eb418-5137-494b-bb0a-e8676c9a6b84_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Mar-25": {"v": "97", "ref": "Retail Book % 97%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Provision Coverage Ratio (PCR)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec-24": {"v": "70", "ref": "Provision Coverage Ratio (PCR) @ 70%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Dec-25": {"v": "72", "ref": "Provision Coverage Ratio (PCR) @ 72%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Sep-25": {"v": "70", "ref": "Provision Coverage Ratio (PCR) @ 70%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Jun-25": {"v": "71", "ref": "Provision Coverage Ratio (PCR) @ 71%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Mar-24": {"v": "70", "ref": "adequate Provision Coverage Ratio (PCR)", "src": "May-2024_9a3eb418-5137-494b-bb0a-e8676c9a6b84_IP.pdf", "pg": "21", "conf": "MEDIUM"},
+            "Mar-25": {"v": "70", "ref": "Provision Coverage Ratio (PCR) @ 70%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "CRAR",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec-24": {"v": "22.48", "ref": "CRAR @ 22.48%", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Dec-25": {"v": "19.10", "ref": "CRAR @ 19.10%", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Sep-24": {"v": "22.16", "ref": "CRAR @ 22.16%", "src": "Oct-2024_427a80aa-8555-4320-ad42-19bcb4a20fca_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Sep-25": {"v": "19.99", "ref": "CRAR @ 19.99%", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Jun-25": {"v": "20.68", "ref": "CRAR @ 20.68%", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Mar-24": {"v": "22.84", "ref": "CRAR @ 22.84%", "src": "May-2024_9a3eb418-5137-494b-bb0a-e8676c9a6b84_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Mar-25": {"v": "22.48", "ref": "CRAR @ 22.48%", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "20", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "RoA",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "2.27", "ref": "RoA @ 2.27% despite sectoral headwinds", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q3 FY26": {"v": "2.31", "ref": "RoA @ 2.31% for Q3 FY26", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q2 FY25": {"v": "2.60", "ref": "RoA remained steady at 2.60%", "src": "Oct-2024_427a80aa-8555-4320-ad42-19bcb4a20fca_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q2 FY26": {"v": "2.41", "ref": "RoA @ 2.41% for Q2 FY26", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q1 FY26": {"v": "2.37", "ref": "RoA @ 2.37% for Q1 FY26", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Development Projects Segment",
+      "data": [
+        {
+          "particulars": "Order Inflow",
+          "unit": "₹ bn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "14.4", "ref": "Development Projects 1448 - 1159 -", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q3 FY26": {"v": "11.5", "ref": "Development Projects 1448 - 1159 -", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY25": {"v": "41.5", "ref": "Development Projects 4159 - 3932 -", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "9M FY26": {"v": "39.3", "ref": "Development Projects 4159 - 3932 -", "src": "Jan-2026_d35018aa-6e52-4d2f-a36e-82205456c0de_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q2 FY25": {"v": "13.8", "ref": "Development Projects 1384 - 1531 -", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q2 FY26": {"v": "15.3", "ref": "Development Projects 1384 - 1531 -", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY25": {"v": "27.1", "ref": "Development Projects 2711 - 2773 -", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "H1 FY26": {"v": "27.7", "ref": "Development Projects 2711 - 2773 -", "src": "Oct-2025_79d47adc-e94d-4ae2-9f11-2053b053b389_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q1 FY25": {"v": "13.2", "ref": "Development Projects 1327 - 1242 -", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q1 FY26": {"v": "12.4", "ref": "Development Projects 1327 - 1242 -", "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q4 FY24": {"v": "12.5", "ref": "Development Projects 1258 - 1227 -", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q4 FY25": {"v": "12.2", "ref": "Development Projects 1258 - 1227 -", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY24": {"v": "56.2", "ref": "Development Projects 5620 - 5371 -", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "FY25": {"v": "53.7", "ref": "Development Projects 5620 - 5371 -", "src": "May-2025_d4a102eb-f822-40cd-b836-0590ea3f2229_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Q3 FY24": {"v": "12.2", "ref": "Development Projects 1220 - 1434 -", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "9M FY24": {"v": "43.6", "ref": "Development Projects 4362 - 4144 -", "src": "Jan-2025_a5fbd50b-3ef9-4665-a5f4-ac0325850446_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Credit Rating - L&T Finance (S&P)",
+      "unit": "rating",
+      "metric_type": "static_descriptor",
+      "value": "BBB-/ Positive / A-3",
+      "ref": "S&P Global Ratings (S&P) BBB-/ Positive / A-3",
+      "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf",
+      "pg": "20",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Credit Rating - L&T Finance (Fitch)",
+      "unit": "rating",
+      "metric_type": "static_descriptor",
+      "value": "BBB-/ Stable",
+      "ref": "Fitch Ratings (Fitch) BBB-/ Stable",
+      "src": "Jul-2025_ce24f0b7-3769-4f7f-ba0b-8b700d2de060_IP.pdf",
+      "pg": "20",
+      "conf": "HIGH"
+    }
+  ]
+}

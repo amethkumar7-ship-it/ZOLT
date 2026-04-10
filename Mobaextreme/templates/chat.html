@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZOLT.AI — Chat</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#05080e;--surface:#0c1018;--surface2:#121a25;--surface3:#182030;--border:#1a2435;--border2:#243045;--text:#dde3ed;--dim:#6b7a8d;--muted:#3d4a5c;--accent:#0fa;--accent2:#06d6a0;--accent-dim:rgba(0,255,170,.06);--gold:#fbbf24;--blue:#60a5fa;--purple:#a78bfa;--font-body:'DM Sans',sans-serif;--font-mono:'Space Mono',monospace;--font-display:'Newsreader',serif}
+body.light{--bg:#f5f7fa;--surface:#fff;--surface2:#f0f2f5;--surface3:#e4e8ee;--border:#dce0e8;--border2:#c8cdd5;--text:#1a1f2e;--dim:#6b7585;--muted:#b0b8c4;--accent:#0d9668;--accent2:#06b57a;--accent-dim:rgba(13,150,104,.06);--gold:#b8860b}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);height:100vh;display:flex;flex-direction:column;overflow:hidden}
+a{text-decoration:none;color:inherit}
+
+/* Top bar */
+.topbar{display:flex;align-items:center;gap:.8rem;padding:.5rem 1.5rem;border-bottom:1px solid var(--border);background:var(--surface);flex-shrink:0}
+.back{font-size:.72rem;color:var(--dim);transition:.2s}.back:hover{color:var(--accent)}
+.logo{font-family:var(--font-mono);font-size:.85rem;color:var(--accent);font-weight:700;letter-spacing:.5px}.logo span{color:var(--dim)}
+.chat-badge{font-size:.55rem;color:var(--gold);padding:2px 8px;border:1px solid rgba(251,191,36,.3);border-radius:4px;background:rgba(251,191,36,.06);font-weight:700;letter-spacing:1px;text-transform:uppercase}
+.top-right{margin-left:auto;display:flex;gap:.6rem;align-items:center}
+.model-label{font-size:.55rem;color:var(--muted);font-family:var(--font-mono);padding:3px 8px;border:1px solid var(--border);border-radius:4px}
+.top-btn{background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:4px 10px;cursor:pointer;font-size:.66rem;color:var(--dim);font-family:var(--font-body);transition:.2s}.top-btn:hover{color:var(--accent);border-color:var(--accent)}
+
+/* Main chat area */
+.chat-main{flex:1;display:flex;flex-direction:column;overflow:hidden;max-width:860px;width:100%;margin:0 auto}
+
+/* Company context bar */
+.ctx-bar{padding:.5rem 1.5rem;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:.5rem;flex-shrink:0;flex-wrap:wrap}
+.ctx-label{font-size:.48rem;color:var(--dim);text-transform:uppercase;letter-spacing:.5px}
+.ctx-pill{font-size:.58rem;color:var(--accent);padding:2px 8px;background:var(--accent-dim);border:1px solid rgba(0,255,170,.15);border-radius:4px;cursor:pointer;transition:.2s;display:flex;align-items:center;gap:3px}
+.ctx-pill:hover{background:rgba(0,255,170,.12)}
+.ctx-pill .x{font-size:.5rem;opacity:.5;margin-left:2px}.ctx-pill:hover .x{opacity:1}
+.ctx-add{font-size:.58rem;color:var(--dim);padding:2px 8px;border:1px dashed var(--border);border-radius:4px;cursor:pointer;transition:.2s}.ctx-add:hover{color:var(--accent);border-color:var(--accent)}
+.ctx-search{position:relative;display:none}
+.ctx-search.open{display:block}
+.ctx-search input{padding:.35rem .6rem;background:var(--surface2);border:1px solid var(--accent);border-radius:5px;color:var(--text);font-size:.65rem;outline:none;font-family:var(--font-body);width:220px}
+.ctx-dropdown{position:absolute;top:100%;left:0;background:var(--surface);border:1px solid var(--border);border-radius:6px;max-height:200px;overflow-y:auto;z-index:10;width:280px;margin-top:2px;display:none}
+.ctx-dropdown.open{display:block}
+.ctx-drop-item{padding:.4rem .7rem;font-size:.65rem;cursor:pointer;border-bottom:1px solid var(--border)}.ctx-drop-item:hover{background:var(--accent-dim);color:var(--accent)}.ctx-drop-item:last-child{border-bottom:none}
+
+/* Messages */
+.messages{flex:1;overflow-y:auto;padding:1.5rem;display:flex;flex-direction:column;gap:1rem}
+.messages::-webkit-scrollbar{width:5px}.messages::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+
+/* Welcome screen */
+.welcome{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.2rem;padding:2rem}
+.welcome-avatar{width:100px;height:100px;position:relative}
+.welcome-text{text-align:center;max-width:500px}
+.welcome-title{font-family:var(--font-display);font-size:1.6rem;font-weight:600;margin-bottom:.3rem}
+.welcome-sub{font-size:.8rem;color:var(--dim);line-height:1.6}
+.welcome-suggestions{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;margin-top:.5rem}
+.welcome-sug{font-size:.68rem;color:var(--dim);padding:.4rem .8rem;border:1px solid var(--border);border-radius:8px;cursor:pointer;transition:.2s;background:none;font-family:var(--font-body)}
+.welcome-sug:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-dim)}
+
+/* Message bubbles */
+.msg{max-width:90%;line-height:1.6;font-size:.82rem;animation:msgIn .3s ease}
+@keyframes msgIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.msg.user{align-self:flex-end;background:var(--accent);color:var(--bg);padding:.6rem 1rem;border-radius:16px 16px 4px 16px;font-weight:500;max-width:70%}
+.msg.ai{align-self:flex-start;color:var(--text);padding:.6rem 0}
+.msg.ai .msg-source{font-size:.55rem;color:var(--muted);margin-top:.4rem;font-style:italic}
+.msg.ai pre{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:.6rem .8rem;overflow-x:auto;font-size:.72rem;font-family:var(--font-mono);margin:.4rem 0;white-space:pre-wrap}
+.msg.ai code{font-family:var(--font-mono);font-size:.7rem;background:var(--surface2);padding:1px 5px;border-radius:3px}
+.msg.ai strong{color:var(--accent)}
+.msg.ai table{border-collapse:collapse;margin:.3rem 0;font-size:.72rem;font-family:var(--font-mono);width:auto;min-width:180px}
+.msg.ai th{padding:.2rem .5rem;border:1px solid var(--border);background:var(--surface2);color:var(--dim);text-align:left;font-size:.58rem;text-transform:uppercase;letter-spacing:.3px;white-space:nowrap}
+.msg.ai td{padding:.15rem .5rem;border:1px solid var(--border);text-align:right;white-space:nowrap;line-height:1.3}
+.msg.ai tr:hover td{background:var(--surface2)}
+.msg-chart{margin:.3rem 0 .1rem}
+.msg-chart svg{display:block}
+
+/* Input area */
+.input-area{padding:1rem 1.5rem;border-top:1px solid var(--border);flex-shrink:0;position:relative}
+.input-row{display:flex;gap:.5rem;align-items:flex-end}
+.chat-input{flex:1;padding:.7rem 1rem;background:var(--surface2);border:1px solid var(--border);border-radius:12px;color:var(--text);font-size:.82rem;font-family:var(--font-body);outline:none;resize:none;max-height:120px;line-height:1.5;transition:.2s}
+.chat-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,255,170,.08)}
+.chat-input::placeholder{color:var(--muted)}
+.send-btn{background:var(--accent);color:var(--bg);border:none;border-radius:12px;padding:.7rem 1.2rem;font-size:.78rem;font-weight:700;cursor:pointer;font-family:var(--font-body);transition:.2s;flex-shrink:0}
+.send-btn:hover{opacity:.85}.send-btn:disabled{opacity:.3;cursor:not-allowed}
+.input-hint{font-size:.48rem;color:var(--muted);margin-top:.3rem;text-align:center}
+
+/* Autocomplete dropdown */
+.ac-dropdown{position:absolute;bottom:100%;left:1.5rem;right:1.5rem;background:var(--surface);border:1px solid var(--border);border-radius:10px;max-height:200px;overflow-y:auto;display:none;margin-bottom:4px;box-shadow:0 -8px 30px rgba(0,0,0,.2)}
+.ac-dropdown.open{display:block}
+.ac-item{padding:.5rem .8rem;font-size:.72rem;cursor:pointer;display:flex;align-items:center;gap:.5rem;border-bottom:1px solid var(--border)}
+.ac-item:hover,.ac-item.active{background:var(--accent-dim);color:var(--accent)}
+.ac-item:last-child{border-bottom:none}
+.ac-icon{font-size:.6rem;flex-shrink:0}
+
+/* Lightning Avatar SVG */
+.zolt-avatar{width:100px;height:100px}
+.zolt-avatar .bolt{fill:#fbbf24;filter:drop-shadow(0 0 12px rgba(251,191,36,.5))}
+.zolt-avatar .eye-l,.zolt-avatar .eye-r{fill:var(--bg);animation:blink 3s infinite}
+.zolt-avatar .leg-l,.zolt-avatar .leg-r{fill:#fbbf24;opacity:.8}
+@keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+.zolt-avatar:hover .bolt{filter:drop-shadow(0 0 20px rgba(251,191,36,.8));transition:.3s}
+
+/* Floating avatar (for other pages) */
+.zolt-float{position:fixed;bottom:1.5rem;right:1.5rem;z-index:200;cursor:pointer;transition:.3s}
+.zolt-float:hover{transform:scale(1.15)}
+.zolt-float svg{width:60px;height:60px;filter:drop-shadow(0 4px 20px rgba(251,191,36,.4))}
+.zolt-float .bolt{fill:#fbbf24}
+.zolt-float .eye-l,.zolt-float .eye-r{fill:var(--bg)}
+.zolt-float-pulse{position:absolute;top:50%;left:50%;width:60px;height:60px;border-radius:50%;background:rgba(251,191,36,.15);transform:translate(-50%,-50%);animation:floatPulse 2s ease-in-out infinite}
+@keyframes floatPulse{0%,100%{transform:translate(-50%,-50%) scale(1);opacity:.5}50%{transform:translate(-50%,-50%) scale(1.6);opacity:0}}
+
+/* Idle animation */
+.zolt-avatar-wrap{animation:idleFloat 3s ease-in-out infinite}
+@keyframes idleFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+
+/* Onboarding flashcard */
+.onboard{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(5,8,14,.92);z-index:500;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(6px)}
+.ob-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:2rem 2.5rem;max-width:480px;width:90%;text-align:center;animation:obIn .3s ease}
+@keyframes obIn{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}
+.ob-icon{font-size:2.2rem;margin-bottom:.6rem}
+.ob-title{font-family:var(--font-display);font-size:1.3rem;font-weight:600;margin-bottom:.3rem}
+.ob-text{font-size:.78rem;color:var(--dim);line-height:1.6;margin-bottom:1rem;text-align:left}
+.ob-step{display:flex;align-items:flex-start;gap:.5rem;margin:.4rem 0;font-size:.72rem;color:var(--text);text-align:left}
+.ob-step-num{background:var(--accent);color:var(--bg);width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.55rem;font-weight:700;flex-shrink:0}
+.ob-step-text{flex:1;line-height:1.5}
+.ob-step-text kbd{font-family:var(--font-mono);font-size:.6rem;padding:1px 5px;border:1px solid var(--border);border-radius:3px;background:var(--surface2)}
+.ob-dots{display:flex;justify-content:center;gap:.4rem;margin-bottom:.8rem}
+.ob-dot{width:7px;height:7px;border-radius:50%;background:var(--border);transition:.2s}.ob-dot.active{background:var(--accent)}
+.ob-next{background:var(--accent);color:var(--bg);border:none;padding:.5rem 1.8rem;border-radius:8px;font-size:.78rem;font-weight:600;cursor:pointer;font-family:var(--font-body)}.ob-next:hover{opacity:.85}
+.ob-skip{font-size:.6rem;color:var(--dim);cursor:pointer;margin-top:.6rem;display:inline-block}.ob-skip:hover{color:var(--accent)}
+
+/* Chat sidebar */
+.chat-layout{display:flex;flex:1;overflow:hidden}
+.chat-sidebar{width:260px;flex-shrink:0;background:var(--surface);border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;transition:width .2s ease}
+.chat-sidebar.collapsed{width:50px}
+.chat-sidebar.collapsed .cs-new-text,.chat-sidebar.collapsed .cs-label,.chat-sidebar.collapsed .cs-list{display:none}
+.chat-sidebar.collapsed .cs-new-btn{padding:.5rem;justify-content:center}
+.cs-top{display:flex;align-items:center;padding:.5rem;gap:.3rem;border-bottom:1px solid var(--border)}
+.cs-toggle{background:none;border:1px solid var(--border);border-radius:6px;width:32px;height:32px;cursor:pointer;color:var(--dim);font-size:.8rem;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:.2s}
+.cs-toggle:hover{color:var(--accent);border-color:var(--accent)}
+.cs-top-title{font-family:var(--font-mono);font-size:.7rem;color:var(--dim);font-weight:600;letter-spacing:.5px}
+.chat-sidebar.collapsed .cs-top-title{display:none}
+.cs-bottom{padding:.5rem;border-top:1px solid var(--border);flex-shrink:0}
+.cs-new-btn{width:100%;padding:.45rem .6rem;background:var(--surface2);color:var(--text);border:1px dashed var(--border);border-radius:8px;font-size:.72rem;font-weight:500;cursor:pointer;font-family:var(--font-body);display:flex;align-items:center;justify-content:center;gap:.3rem;transition:.2s}
+.cs-new-btn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-dim)}
+.cs-new-icon{font-size:.9rem;flex-shrink:0}
+.chat-sidebar.collapsed .cs-bottom{padding:.3rem}
+.chat-sidebar.collapsed .cs-new-btn{padding:.45rem;border:none;background:var(--accent);color:var(--bg)}
+/* New chat power animation */
+.nc-overlay{position:fixed;top:0;left:0;right:0;bottom:0;z-index:260;pointer-events:none;display:none;align-items:center;justify-content:center;flex-direction:column;background:rgba(5,8,14,.7);backdrop-filter:blur(3px)}
+.nc-overlay.fire{display:flex;animation:ncFade 1.4s ease forwards}
+@keyframes ncFade{0%{opacity:0}8%{opacity:1}70%{opacity:1}100%{opacity:0}}
+.nc-zolt{font-family:var(--font-mono);font-size:3rem;font-weight:700;letter-spacing:8px;color:#fbbf24;opacity:0;text-shadow:0 0 30px rgba(251,191,36,.6),0 0 60px rgba(251,191,36,.3)}
+.nc-overlay.fire .nc-zolt{animation:ncIn .4s ease .1s forwards,ncOut .3s ease .7s forwards}
+@keyframes ncIn{0%{opacity:0;transform:scale(.5) rotate(-5deg);filter:blur(8px)}60%{opacity:1;transform:scale(1.05) rotate(0);filter:blur(0)}100%{opacity:1;transform:scale(1)}}
+@keyframes ncOut{to{opacity:0;transform:scale(.4);filter:blur(6px)}}
+.nc-sub{font-family:var(--font-body);font-size:.8rem;color:var(--dim);opacity:0;margin-top:.4rem;letter-spacing:2px}
+.nc-overlay.fire .nc-sub{animation:ncSubIn .3s ease .3s forwards,ncOut .3s ease .7s forwards}
+@keyframes ncSubIn{0%{opacity:0;transform:translateY(8px)}100%{opacity:.7;transform:translateY(0)}}
+.nc-bolt{font-size:4rem;opacity:0;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+.nc-overlay.fire .nc-bolt{animation:ncBolt .6s ease .6s forwards}
+@keyframes ncBolt{0%{opacity:0;transform:translate(-50%,-50%) scale(.3)}20%{opacity:1;transform:translate(-50%,-50%) scale(1.2)}50%{transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-200%) scale(.4)}}
+.cs-label{padding:.5rem .8rem .2rem;font-size:.48rem;color:var(--dim);text-transform:uppercase;letter-spacing:.5px}
+.cs-list{flex:1;overflow-y:auto;padding:0 .4rem}.cs-list::-webkit-scrollbar{width:3px}.cs-list::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+.cs-item{padding:.45rem .6rem;font-size:.68rem;color:var(--dim);cursor:pointer;border-radius:6px;margin:.15rem 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:.15s;display:flex;align-items:center;gap:.3rem}
+.cs-item:hover{background:var(--surface2);color:var(--text)}
+.cs-item.active{background:var(--accent-dim);color:var(--accent);font-weight:600}
+.cs-item-text{flex:1;overflow:hidden;text-overflow:ellipsis}
+.cs-item-del{opacity:0;font-size:.55rem;color:var(--dim);cursor:pointer;padding:2px 4px;border-radius:3px;flex-shrink:0}
+.cs-item:hover .cs-item-del{opacity:.6}
+.cs-item-del:hover{opacity:1;color:var(--down);background:rgba(248,113,113,.1)}
+@media(max-width:768px){.chat-sidebar{width:200px}.chat-main{max-width:100%}.msg{max-width:95%}}
+</style>
+</head>
+<body>
+
+<!-- Onboarding -->
+<div class="onboard" id="onboard" style="display:none">
+  <div class="ob-card">
+    <div class="ob-icon" id="obIcon">⚡</div>
+    <div class="ob-title" id="obTitle"></div>
+    <div class="ob-text" id="obText"></div>
+    <div class="ob-dots" id="obDots"></div>
+    <button class="ob-next" id="obNext">Next</button>
+    <div class="ob-skip" onclick="closeOnboard()">Skip</div>
+  </div>
+</div>
+
+<!-- New chat power animation -->
+<div class="nc-overlay" id="ncOverlay">
+  <div class="nc-zolt">ZOLT</div>
+  <div class="nc-sub">New Conversation</div>
+  <div class="nc-bolt">⚡</div>
+</div>
+
+<div class="topbar">
+  <a href="/" class="back">&larr; Home</a>
+  <div class="logo">ZOLT<span>.AI</span></div>
+  <div class="chat-badge">Chat</div>
+  <div class="top-right">
+    <span class="model-label" id="modelLabel">qwen3:4b</span>
+    <a href="/screener" class="top-btn">⚡ Screener</a>
+    <button class="top-btn" id="themeBtn" onclick="toggleTheme()">☀ Light</button>
+  </div>
+</div>
+
+<!-- Company context bar -->
+<div class="chat-layout">
+  <!-- Sidebar -->
+  <div class="chat-sidebar" id="chatSidebar">
+    <div class="cs-top">
+      <button class="cs-toggle" id="csToggle" onclick="toggleSidebar()" title="Toggle sidebar">☰</button>
+      <div class="cs-top-title">ZOLT.AI</div>
+    </div>
+    <div class="cs-label">Recent</div>
+    <div class="cs-list" id="csList"></div>
+    <div class="cs-bottom">
+      <button class="cs-new-btn" onclick="newChat()"><span class="cs-new-icon">+</span><span class="cs-new-text">New Chat</span></button>
+    </div>
+  </div>
+
+  <div style="flex:1;display:flex;flex-direction:column;overflow:hidden">
+    <div class="ctx-bar">
+  <span class="ctx-label">Context:</span>
+  <div id="ctxPills"></div>
+  <div class="ctx-add" id="ctxAddBtn" onclick="showCtxSearch()">+ Add company</div>
+  <div class="ctx-search" id="ctxSearch">
+    <input type="text" id="ctxInput" placeholder="Search companies…" autocomplete="off">
+    <div class="ctx-dropdown" id="ctxDropdown"></div>
+  </div>
+</div>
+
+<div class="chat-main">
+  <!-- Welcome screen (shown when no messages) -->
+  <div class="welcome" id="welcomeScreen">
+    <div class="zolt-avatar-wrap">
+      <svg class="zolt-avatar" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <!-- Body: Lightning bolt -->
+        <polygon class="bolt" points="55,8 35,45 48,45 40,72 42,72 65,38 52,38 62,8"/>
+        <!-- Eyes -->
+        <circle class="eye-l" cx="45" cy="33" r="2" style="transform-origin:45px 33px"/>
+        <circle class="eye-r" cx="53" cy="33" r="2" style="transform-origin:53px 33px"/>
+        <path d="M46.5,37 Q49,40 51.5,37" fill="none" stroke="var(--bg)" stroke-width="1.2" stroke-linecap="round"/>
+        <!-- Legs -->
+        <rect class="leg-l" x="44" y="72" width="3" height="12" rx="1.5">
+          <animateTransform attributeName="transform" type="rotate" values="-6,45.5,72;6,45.5,72;-6,45.5,72" dur=".8s" repeatCount="indefinite"/>
+        </rect>
+        <rect class="leg-r" x="52" y="70" width="3" height="12" rx="1.5">
+          <animateTransform attributeName="transform" type="rotate" values="6,53.5,70;-6,53.5,70;6,53.5,70" dur=".8s" repeatCount="indefinite"/>
+        </rect>
+        <!-- Glow circle behind -->
+        <circle cx="50" cy="42" r="30" fill="none" stroke="#fbbf24" stroke-width=".5" opacity=".2">
+          <animate attributeName="r" values="28;32;28" dur="2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".15;.3;.15" dur="2s" repeatCount="indefinite"/>
+        </circle>
+      </svg>
+    </div>
+    <div class="welcome-text">
+      <div class="welcome-title">ZOLT.AI</div>
+      <div class="welcome-sub">Operational intelligence from investor presentations.<br>Ask about any company's KPIs — store count, ARPU, margins, growth trends.</div>
+    </div>
+    <div class="welcome-suggestions">
+      <button class="welcome-sug" onclick="askSuggestion(this)">Reliance Retail store count trend</button>
+      <button class="welcome-sug" onclick="askSuggestion(this)">Jubilant FoodWorks Domino's LFL Growth</button>
+      <button class="welcome-sug" onclick="askSuggestion(this)">Compare Domino's vs BK India ADS</button>
+      <button class="welcome-sug" onclick="askSuggestion(this)">TBZ total stores expansion</button>
+    </div>
+  </div>
+
+  <!-- Messages (hidden initially) -->
+  <div class="messages" id="messages" style="display:none"></div>
+
+  <!-- Input -->
+  <div class="input-area">
+    <div class="ac-dropdown" id="acDropdown"></div>
+    <div class="input-row">
+      <textarea class="chat-input" id="chatInput" placeholder="Ask about any company's operational KPIs…" rows="1"></textarea>
+      <button class="send-btn" id="sendBtn" onclick="sendChat()">Send</button>
+    </div>
+    <div class="input-hint">Direct lookup for facts · AI model for analysis · Data from investor presentations</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<script>
+const COMPANIES={{ companies | tojson }};
+let selectedCompanies=new Set();
+let chatHistory=[];
+let streaming=false;
+let acIdx=-1,acItems=[];
+let currentChatId=null;
+
+// ── Multi-session chat history ──
+function getAllChats(){
+  try{return JSON.parse(localStorage.getItem('zolt-chats')||'[]')}catch(e){return[]}
+}
+function saveAllChats(chats){
+  try{localStorage.setItem('zolt-chats',JSON.stringify(chats.slice(0,20)))}catch(e){}
+}
+function loadChatHistory(){
+  const chats=getAllChats();
+  if(chats.length>0&&!currentChatId){
+    // Load most recent chat
+    currentChatId=chats[0].id;
+    chatHistory=chats[0].messages||[];
+    if(chatHistory.length>0){
+      document.getElementById('welcomeScreen').style.display='none';
+      document.getElementById('messages').style.display='flex';
+      chatHistory.forEach(h=>addMsg(h.role==='user'?'user':'ai',h.content,true));
+    }
+  }
+  renderChatList();
+}
+function saveChatHistory(){
+  if(!currentChatId)return;
+  const chats=getAllChats();
+  const idx=chats.findIndex(c=>c.id===currentChatId);
+  const title=chatHistory.find(h=>h.role==='user')?.content?.slice(0,40)||'New chat';
+  const entry={id:currentChatId,title,messages:chatHistory.slice(-30),updated:Date.now()};
+  if(idx>=0)chats[idx]=entry;else chats.unshift(entry);
+  chats.sort((a,b)=>b.updated-a.updated);
+  saveAllChats(chats);
+  renderChatList();
+}
+function newChat(){
+  // Fire animation
+  const overlay=document.getElementById('ncOverlay');
+  overlay.className='nc-overlay';
+  void overlay.offsetWidth;
+  overlay.classList.add('fire');
+  setTimeout(()=>{overlay.className='nc-overlay'},1500);
+  // Reset chat
+  currentChatId='chat_'+Date.now();
+  chatHistory=[];
+  document.getElementById('messages').innerHTML='';
+  document.getElementById('messages').style.display='none';
+  document.getElementById('welcomeScreen').style.display='flex';
+  renderChatList();
+  document.getElementById('chatInput').focus();
+}
+function loadChat(id){
+  const chats=getAllChats();
+  const chat=chats.find(c=>c.id===id);
+  if(!chat)return;
+  currentChatId=id;
+  chatHistory=chat.messages||[];
+  document.getElementById('messages').innerHTML='';
+  if(chatHistory.length>0){
+    document.getElementById('welcomeScreen').style.display='none';
+    document.getElementById('messages').style.display='flex';
+    chatHistory.forEach(h=>addMsg(h.role==='user'?'user':'ai',h.content,true));
+    scrollBottom();
+  }else{
+    document.getElementById('messages').style.display='none';
+    document.getElementById('welcomeScreen').style.display='flex';
+  }
+  renderChatList();
+}
+function deleteChat(id,e){
+  e.stopPropagation();
+  const chats=getAllChats().filter(c=>c.id!==id);
+  saveAllChats(chats);
+  if(currentChatId===id)newChat();
+  renderChatList();
+}
+function renderChatList(){
+  const chats=getAllChats();
+  const list=document.getElementById('csList');
+  list.innerHTML='';
+  chats.forEach(c=>{
+    const div=document.createElement('div');
+    div.className='cs-item'+(c.id===currentChatId?' active':'');
+    div.innerHTML='<span class="cs-item-text">'+escHtml(c.title||'New chat')+'</span><span class="cs-item-del" onclick="deleteChat(\''+c.id+'\',event)" title="Delete">✕</span>';
+    div.onclick=()=>loadChat(c.id);
+    list.appendChild(div);
+  });
+}
+function toggleSidebar(){
+  const sb=document.getElementById('chatSidebar');
+  sb.classList.toggle('collapsed');
+  const btn=document.getElementById('csToggle');
+  btn.textContent=sb.classList.contains('collapsed')?'▸':'☰';
+  try{localStorage.setItem('zolt-sidebar',sb.classList.contains('collapsed')?'collapsed':'open')}catch(e){}
+}
+// Restore sidebar state
+try{if(localStorage.getItem('zolt-sidebar')==='collapsed'){document.getElementById('chatSidebar').classList.add('collapsed');document.getElementById('csToggle').textContent='▸'}}catch(e){}
+// Init
+currentChatId=getAllChats()[0]?.id||('chat_'+Date.now());
+loadChatHistory();
+
+// ── Theme ──
+function toggleTheme(){document.body.classList.toggle('light');const l=document.body.classList.contains('light');document.getElementById('themeBtn').innerHTML=l?'🌙 Dark':'☀ Light';try{localStorage.setItem('zolt-theme',l?'light':'dark')}catch(e){}}
+try{if(localStorage.getItem('zolt-theme')==='light'){document.body.classList.add('light');document.getElementById('themeBtn').innerHTML='🌙 Dark'}}catch(e){}
+
+// ── Company Context ──
+function renderCtxPills(){
+  const div=document.getElementById('ctxPills');
+  div.innerHTML='';
+  selectedCompanies.forEach(c=>{
+    const pill=document.createElement('span');
+    pill.className='ctx-pill';
+    pill.innerHTML=c+'<span class="x">✕</span>';
+    pill.onclick=()=>{selectedCompanies.delete(c);renderCtxPills()};
+    div.appendChild(pill);
+  });
+}
+function showCtxSearch(){
+  const el=document.getElementById('ctxSearch');
+  el.classList.add('open');
+  document.getElementById('ctxInput').focus();
+}
+document.getElementById('ctxInput').addEventListener('input',function(){
+  const q=this.value.toLowerCase().trim();
+  const dd=document.getElementById('ctxDropdown');
+  if(q.length<1){dd.classList.remove('open');return}
+  const matches=COMPANIES.filter(c=>c.name.toLowerCase().includes(q)).slice(0,8);
+  dd.innerHTML='';
+  matches.forEach(c=>{
+    const d=document.createElement('div');
+    d.className='ctx-drop-item';
+    d.textContent=c.name;
+    d.onclick=()=>{
+      selectedCompanies.add(c.name);
+      renderCtxPills();
+      dd.classList.remove('open');
+      document.getElementById('ctxInput').value='';
+      document.getElementById('ctxSearch').classList.remove('open');
+    };
+    dd.appendChild(d);
+  });
+  dd.classList.add('open');
+});
+document.addEventListener('click',function(e){
+  if(!e.target.closest('.ctx-search')&&!e.target.closest('.ctx-add')){
+    document.getElementById('ctxDropdown').classList.remove('open');
+    document.getElementById('ctxSearch').classList.remove('open');
+  }
+});
+
+// ── Autocomplete ──
+let acTimer=null;
+const chatInput=document.getElementById('chatInput');
+chatInput.addEventListener('input',function(){
+  clearTimeout(acTimer);
+  const q=this.value.trim();
+  if(!q){closeAc();return}
+  const words=q.split(/\s+/);
+  const last=words[words.length-1];
+  // Always try to fetch after 1 char if we already have company/segment context
+  if(last.length<1){closeAc();return}
+  acTimer=setTimeout(()=>fetchAc(last),250);
+});
+chatInput.addEventListener('keydown',function(e){
+  const dd=document.getElementById('acDropdown');
+  const isOpen=dd.classList.contains('open');
+  if(isOpen&&acItems.length>0){
+    if(e.key==='ArrowDown'){
+      e.preventDefault();
+      acIdx=Math.min(acIdx+1,acItems.length-1);
+      highlightAc();
+      return;
+    }
+    if(e.key==='ArrowUp'){
+      e.preventDefault();
+      acIdx=Math.max(acIdx-1,0);
+      highlightAc();
+      return;
+    }
+    if(e.key==='Tab'){
+      e.preventDefault();
+      // If nothing highlighted, select first item
+      if(acIdx<0)acIdx=0;
+      const items2=document.querySelectorAll('.ac-item');
+      const type=items2[acIdx]?.querySelector('.ac-icon')?.textContent==='🏢'?'company':'other';
+      applyAc(acItems[acIdx],type);
+      return;
+    }
+    if(e.key==='Enter'&&acIdx>=0){
+      e.preventDefault();
+      const items2=document.querySelectorAll('.ac-item');
+      const type=items2[acIdx]?.querySelector('.ac-icon')?.textContent==='🏢'?'company':'other';
+      applyAc(acItems[acIdx],type);
+      return;
+    }
+    if(e.key==='Escape'){closeAc();return}
+  }
+  if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();closeAc();sendChat()}
+});
+
+function closeAc(){document.getElementById('acDropdown').classList.remove('open');document.getElementById('acDropdown').innerHTML='';acIdx=-1;acItems=[]}
+function highlightAc(){document.querySelectorAll('.ac-item').forEach((el,i)=>el.classList.toggle('active',i===acIdx))}
+function applyAc(text,type){
+  if(type==='company'){
+    // Replace everything up to current word with company name
+    const val=chatInput.value.trim();
+    const words=val.split(/\s+/);
+    // Find if any existing words are part of this company name
+    const compWords=text.toLowerCase().split(/\s+/);
+    let startIdx=words.length;
+    for(let i=0;i<words.length;i++){
+      if(compWords.some(cw=>cw.startsWith(words[i].toLowerCase()))){
+        startIdx=i;break;
+      }
+    }
+    const before=words.slice(0,startIdx).join(' ');
+    chatInput.value=(before?before+' ':'')+text+' ';
+  }else{
+    // For segments/metrics, append after current text
+    const words=chatInput.value.split(/\s+/);
+    words[words.length-1]=text;
+    chatInput.value=words.join(' ')+' ';
+  }
+  closeAc();chatInput.focus();
+  // Trigger another suggestion fetch after selection
+  clearTimeout(acTimer);
+  acTimer=setTimeout(()=>{
+    const w=chatInput.value.trim().split(/\s+/);
+    const last=w[w.length-1];
+    if(last.length>=2)fetchAc(last);
+  },100);
+}
+async function fetchAc(q){
+  try{
+    const resp=await fetch('/api/chat/suggest',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({query:q,full_input:chatInput.value.trim(),selected_companies:[...selectedCompanies]})});
+    const data=await resp.json();
+    const items=data.suggestions||[];
+    if(!items.length){closeAc();return}
+    acItems=items.map(i=>typeof i==='string'?i:i.text);
+    const acTypes=items.map(i=>typeof i==='string'?'':i.type);
+    acIdx=-1;
+    const dd=document.getElementById('acDropdown');
+    dd.innerHTML='';
+    items.forEach((item,i)=>{
+      const s=typeof item==='string'?item:item.text;
+      const type=typeof item==='string'?'':item.type;
+      const hint=item.hint||'';
+      const icon=type==='company'?'🏢':type==='segment'?'📂':type==='metric'?'📊':'⚡';
+      const d=document.createElement('div');
+      d.className='ac-item';
+      let html='<span class="ac-icon">'+icon+'</span>'+escHtml(s);
+      if(hint)html+='<span style="margin-left:auto;font-size:.55rem;color:var(--muted);padding-left:1rem">'+escHtml(hint)+'</span>';
+      d.innerHTML=html;
+      d.style.display='flex';
+      d.addEventListener('mousedown',e=>{e.preventDefault();applyAc(s,type)});
+      d.addEventListener('mouseenter',()=>{acIdx=i;highlightAc()});
+      dd.appendChild(d);
+    });
+    dd.classList.add('open');
+  }catch(e){closeAc()}
+}
+
+// ── Send Chat ──
+async function sendChat(){
+  const query=chatInput.value.trim();
+  if(!query||streaming)return;
+  chatInput.value='';
+  closeAc();
+
+  // Hide welcome, show messages
+  document.getElementById('welcomeScreen').style.display='none';
+  document.getElementById('messages').style.display='flex';
+
+  // Ensure we have a chat session
+  if(!currentChatId)currentChatId='chat_'+Date.now();
+
+  addMsg('user',query);
+  chatHistory.push({role:'user',content:query});
+  saveChatHistory();
+
+  streaming=true;
+  document.getElementById('sendBtn').disabled=true;
+  const aiDiv=addMsg('ai','');
+
+  try{
+    const resp=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({query,selected_companies:[...selectedCompanies],history:chatHistory.slice(-4)})});
+    const reader=resp.body.getReader();
+    const decoder=new TextDecoder();
+    let fullText='',buffer='';
+    while(true){
+      const{done,value}=await reader.read();
+      if(done)break;
+      buffer+=decoder.decode(value,{stream:true});
+      const lines=buffer.split('\n');
+      buffer=lines.pop()||'';
+      for(const line of lines){
+        if(!line.startsWith('data: '))continue;
+        try{
+          const d=JSON.parse(line.slice(6));
+          if(d.token){fullText+=d.token;aiDiv.innerHTML=renderMd(fullText);scrollBottom()}
+          if(d.error){fullText+='\n\n⚠️ '+d.error;aiDiv.innerHTML=renderMd(fullText)}
+          if(d.done){chatHistory.push({role:'assistant',content:fullText});saveChatHistory()}
+        }catch(e){}
+      }
+    }
+  }catch(e){
+    aiDiv.innerHTML='<span style="color:#f87171">Connection error — is Ollama running?</span>';
+  }
+  streaming=false;
+  document.getElementById('sendBtn').disabled=false;
+}
+
+function askSuggestion(btn){chatInput.value=btn.textContent;sendChat()}
+
+function addMsg(role,content,skipScroll){
+  const msgs=document.getElementById('messages');
+  const div=document.createElement('div');
+  div.className='msg '+role;
+  div.innerHTML=role==='user'?escHtml(content):renderMd(content);
+  msgs.appendChild(div);
+  if(!skipScroll)scrollBottom();
+  return div;
+}
+function scrollBottom(){const m=document.getElementById('messages');m.scrollTop=m.scrollHeight}
+function escHtml(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+
+function renderMd(text){
+  // Extract bar chart markers before escaping
+  const charts={};
+  let chartIdx=0;
+  let processed=text.replace(/<!--BARCHART:(.*?)-->/g,function(_,json){
+    const key='__CHART'+chartIdx+'__';
+    charts[key]=json;
+    chartIdx++;
+    return key;
+  });
+  let h=escHtml(processed);
+  h=h.replace(/```([\s\S]*?)```/g,'<pre>$1</pre>');
+  h=h.replace(/`([^`]+)`/g,'<code>$1</code>');
+  h=h.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+  h=h.replace(/\*(.+?)\*/g,'<em>$1</em>');
+  // Restore bar charts
+  for(const[key,json] of Object.entries(charts)){
+    try{
+      const data=JSON.parse(json);
+      h=h.replace(key,buildBarChart(data));
+    }catch(e){h=h.replace(key,'')}
+  }
+  // Clean up empty lines
+  const lines=h.split('\n').filter(l=>l.trim()!=='');
+  return lines.join('<br>');
+}
+
+function buildBarChart(data){
+  const w=320,barH=18,gap=3,padL=70,padR=45;
+  const chartH=data.length*(barH+gap)+8;
+  const vals=data.map(d=>d.v);
+  const maxV=Math.max(...vals);
+  const minV=Math.min(0,...vals);// handle negatives
+  const range=maxV-minV||1;
+  const barArea=w-padL-padR;
+
+  let svg='<div class="msg-chart"><svg width="'+w+'" height="'+chartH+'" viewBox="0 0 '+w+' '+chartH+'">';
+
+  data.forEach((d,i)=>{
+    const y=i*(barH+gap)+4;
+    const barW=Math.max(2,((d.v-minV)/range)*barArea);
+    const isLast=i===data.length-1;
+    const isFirst=i===0;
+    const color=d.v>=data[0].v?'#34d399':'#f87171';
+    const barColor=isLast?color:'rgba(0,255,170,0.3)';
+
+    // Period label
+    svg+='<text x="'+(padL-4)+'" y="'+(y+barH/2+4)+'" text-anchor="end" fill="#6b7a8d" font-size="9" font-family="\'Space Mono\',monospace">'+d.p+'</text>';
+    // Bar
+    svg+='<rect x="'+padL+'" y="'+y+'" width="'+barW+'" height="'+barH+'" rx="3" fill="'+barColor+'"/>';
+    // Value label
+    svg+='<text x="'+(padL+barW+4)+'" y="'+(y+barH/2+4)+'" fill="'+(isLast?color:'#dde3ed')+'" font-size="9" font-weight="'+(isLast?'700':'400')+'" font-family="\'Space Mono\',monospace">'+d.label+'</text>';
+  });
+
+  svg+='</svg></div>';
+  return svg;
+}
+
+// ── Onboarding ──
+const obSlides=[
+  {icon:'⚡',title:'Welcome to ZOLT.AI Chat',text:`
+    <div class="ob-step"><span class="ob-step-num">1</span><span class="ob-step-text">Type a <strong>company name</strong> — suggestions appear instantly</span></div>
+    <div class="ob-step"><span class="ob-step-num">2</span><span class="ob-step-text">Press <kbd>Tab</kbd> or click to select, then segments appear</span></div>
+    <div class="ob-step"><span class="ob-step-num">3</span><span class="ob-step-text">Select a segment, then pick a metric — data loads instantly</span></div>
+  `},
+  {icon:'⌨️',title:'Keyboard Shortcuts',text:`
+    <div class="ob-step"><span class="ob-step-num">↑↓</span><span class="ob-step-text">Navigate through suggestions</span></div>
+    <div class="ob-step"><span class="ob-step-num">Tab</span><span class="ob-step-text">Accept the highlighted suggestion (or first one)</span></div>
+    <div class="ob-step"><span class="ob-step-num">Enter</span><span class="ob-step-text">Send your query</span></div>
+    <div class="ob-step"><span class="ob-step-num">Esc</span><span class="ob-step-text">Close suggestions</span></div>
+  `},
+  {icon:'🔍',title:'Smart Search Patterns',text:`
+    <div class="ob-step"><span class="ob-step-num">A</span><span class="ob-step-text"><strong>Company → Segment → Metric</strong><br>Reliance → Reliance Retail → Store Count</span></div>
+    <div class="ob-step"><span class="ob-step-num">B</span><span class="ob-step-text"><strong>Company + Metric directly</strong><br>"Reliance Industries Limited ARPU" — skips segment</span></div>
+    <div class="ob-step"><span class="ob-step-num">C</span><span class="ob-step-text"><strong>Just a metric name</strong><br>"ARPU" — shows all companies with that metric</span></div>
+  `},
+  {icon:'📊',title:'What You Get',text:`
+    <div class="ob-step"><span class="ob-step-num">⚡</span><span class="ob-step-text"><strong>Instant lookup</strong> — factual queries answered directly from data, no AI model, no hallucination</span></div>
+    <div class="ob-step"><span class="ob-step-num">🤖</span><span class="ob-step-text"><strong>AI analysis</strong> — "compare" or "explain" queries use the AI model for deeper reasoning</span></div>
+    <div class="ob-step"><span class="ob-step-num">📈</span><span class="ob-step-text"><strong>Auto charts</strong> — sparkline graphs appear automatically for trend data</span></div>
+  `}
+];
+let obIdx=0;
+function showOnboard(){document.getElementById('onboard').style.display='flex';renderOb()}
+function renderOb(){
+  const s=obSlides[obIdx];
+  document.getElementById('obIcon').textContent=s.icon;
+  document.getElementById('obTitle').textContent=s.title;
+  document.getElementById('obText').innerHTML=s.text;
+  document.getElementById('obNext').textContent=obIdx===obSlides.length-1?'Get Started':'Next';
+  const dots=document.getElementById('obDots');dots.innerHTML='';
+  obSlides.forEach((_,i)=>{const d=document.createElement('div');d.className='ob-dot'+(i===obIdx?' active':'');dots.appendChild(d)});
+}
+document.getElementById('obNext').addEventListener('click',()=>{obIdx++;if(obIdx>=obSlides.length){closeOnboard();return}renderOb()});
+function closeOnboard(){document.getElementById('onboard').style.display='none';try{localStorage.setItem('zolt-chat-onboard','done')}catch(e){}}
+try{if(!localStorage.getItem('zolt-chat-onboard'))showOnboard()}catch(e){showOnboard()}
+</script>
+</body>
+</html>

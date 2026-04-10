@@ -1,0 +1,434 @@
+{
+  "company_name": "Laurus Labs Limited",
+  "documents_scanned": "11",
+  "time_range": "Q1 FY24 to Q3 FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Quality Audits & Inspections (cumulative since inception)", "unit": "count", "metric_type": "periodic", "periods_available": ["static", "Q1 FY25", "H1 FY25", "Q1 FY26", "9M FY26"]},
+        {"metric": "Regulatory Audits (period)", "unit": "count", "metric_type": "periodic", "periods_available": ["Q1 FY25", "H1 FY25", "Q1 FY26", "9M FY26"]},
+        {"metric": "Customer Audits (period)", "unit": "count", "metric_type": "periodic", "periods_available": ["Q1 FY25", "H1 FY25", "Q1 FY26", "9M FY26"]},
+        {"metric": "US FDA Inspections Passed (cumulative since inception)", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Total Regulatory Inspections Passed (cumulative since inception)", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "CAPEX", "unit": "₹ Crore", "metric_type": "periodic", "periods_available": ["Q1 FY25", "H1 FY25", "9M FY25", "Q1 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "CAPEX as % of Revenues", "unit": "%", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q1 FY26", "9M FY26"]},
+        {"metric": "Growth CAPEX % of total CAPEX", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "R&D Spends", "unit": "₹ Crore", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "H1 FY25", "Q3 FY25", "9M FY25", "Q1 FY26", "Q2 FY26", "H1 FY26", "Q3 FY26", "9M FY26"]},
+        {"metric": "R&D Spends as % of Revenues", "unit": "%", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "H1 FY25", "Q3 FY25", "9M FY25", "Q1 FY26", "Q2 FY26", "H1 FY26", "Q3 FY26", "9M FY26"]},
+        {"metric": "Employees", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Scientists", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Manufacturing Sites", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "US FDA Approved Sites", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Reactor Volume", "unit": "KL", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Fermentation Capacity", "unit": "KL", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Oral Solid Dosage Capacity", "unit": "Bn units", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "NexCAR19 Infusions (cumulative)", "unit": "count", "metric_type": "periodic", "periods_available": ["Q1 FY26", "Q3 FY26"]},
+        {"metric": "S&P Global ESG Score", "unit": "points", "metric_type": "periodic", "periods_available": ["FY25", "9M FY26"]},
+        {"metric": "MSCI ESG Rating", "unit": "rating", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "CDMO",
+      "metrics_found": [
+        {"metric": "Active Pipeline Projects", "unit": "count", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q3 FY25", "9M FY25", "Q1 FY26", "Q2 FY26", "9M FY26"]},
+        {"metric": "Active Projects - Human Health", "unit": "count", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q1 FY26", "Q2 FY26"]},
+        {"metric": "Active Projects - Animal Health/Crop Science", "unit": "count", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q1 FY26", "Q2 FY26"]},
+        {"metric": "R&D Projects Supported (FY25)", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Generics",
+      "metrics_found": [
+        {"metric": "DMF Filings (cumulative)", "unit": "count", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q3 FY25", "9M FY25", "Q1 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "Global FDF Filings (cumulative)", "unit": "count", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q3 FY25", "9M FY25", "Q1 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "Global FDF Approvals (cumulative)", "unit": "count", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q3 FY25", "9M FY25", "Q1 FY26", "H1 FY26", "9M FY26"]},
+        {"metric": "US FDF Filings (cumulative)", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "EU FDF Filings (cumulative)", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Canada FDF Filings (cumulative)", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "US FDF Approvals (cumulative)", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "EU FDF Approvals (cumulative)", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Canada FDF Approvals (cumulative)", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "US Tentative Approvals (cumulative)", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Great Place to Work Certification", "unit": "boolean", "metric_type": "static_descriptor", "periods_available": ["static"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Quality Audits & Inspections (cumulative since inception)",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "static": {"v": "1300+", "ref": "1300+ Quality audits & Inspection Global Customers, Regulatory Authorities since inception", "src": "Jul-2025_724ecf4e-219c-4603-840f-8cdcd8936daa_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q1 FY25": {"v": "1140+", "ref": "1140+ Quality audits & Inspection Global Customers, Regulatory Authorities since inception", "src": "Jul-2024_10885408-f7f3-430f-9719-a4294560e7c7_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "H1 FY25": {"v": "1180+", "ref": "1180+ Quality audits & Inspection Global Customers, Regulatory Authorities since inception", "src": "Oct-2024_9cad10ba-dc78-423f-8227-acf2e8478806_IP.pdf", "pg": "26", "conf": "HIGH"},
+            "9M FY26": {"v": "1380+", "ref": "1380+ Quality audits & Inspection Global Customers, Regulatory Authorities since inception", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf", "pg": "22", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Regulatory Audits (period)",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "4", "ref": "32 Quality audits in Q1: Regulatory # 4 & Customer # 28", "src": "Jul-2024_10885408-f7f3-430f-9719-a4294560e7c7_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "H1 FY25": {"v": "6", "ref": "76 Quality audit in H1: Regulatory # 6 & Customer # 70", "src": "Oct-2024_9cad10ba-dc78-423f-8227-acf2e8478806_IP.pdf", "pg": "26", "conf": "HIGH"},
+            "Q1 FY26": {"v": "0", "ref": "39 Quality audit in Q1: Regulatory # 0 & Customer # 39", "src": "Jul-2025_724ecf4e-219c-4603-840f-8cdcd8936daa_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "H1 FY26": {"v": "0", "ref": "65 Quality audit in H1: Regulatory # 0 & Customer # 65", "src": "Oct-2025_7e3fd55b-03fd-49b5-9b0b-664609c37d92_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "9M FY26": {"v": "4", "ref": "109 Quality audit in 9M: Regulatory # 4 & Customer # 105", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf", "pg": "22", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Customer Audits (period)",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "28", "ref": "32 Quality audits in Q1: Regulatory # 4 & Customer # 28", "src": "Jul-2024_10885408-f7f3-430f-9719-a4294560e7c7_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "H1 FY25": {"v": "70", "ref": "76 Quality audit in H1: Regulatory # 6 & Customer # 70", "src": "Oct-2024_9cad10ba-dc78-423f-8227-acf2e8478806_IP.pdf", "pg": "26", "conf": "HIGH"},
+            "Q1 FY26": {"v": "39", "ref": "39 Quality audit in Q1: Regulatory # 0 & Customer # 39", "src": "Jul-2025_724ecf4e-219c-4603-840f-8cdcd8936daa_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "H1 FY26": {"v": "65", "ref": "65 Quality audit in H1: Regulatory # 0 & Customer # 65", "src": "Oct-2025_7e3fd55b-03fd-49b5-9b0b-664609c37d92_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "9M FY26": {"v": "105", "ref": "109 Quality audit in 9M: Regulatory # 4 & Customer # 105", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf", "pg": "22", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "US FDA Inspections Passed (cumulative since inception)",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "54",
+          "ref": "54 Inspection passed by major Regulators (US FDA, WHO, EU EMA, and Japan PMDA)",
+          "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+          "pg": "22",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Total Regulatory Inspections Passed (cumulative since inception)",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "54",
+          "ref": "54 Inspection passed by major Regulators (US FDA, WHO, EU EMA, and Japan PMDA)",
+          "src": "Jul-2025_724ecf4e-219c-4603-840f-8cdcd8936daa_IP.pdf",
+          "pg": "21",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "CAPEX",
+          "unit": "₹ Crore",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY25": {"v": "262", "ref": "H1 CAPEX reported at 262 Cr; 11% of Revenues", "src": "Oct-2024_9cad10ba-dc78-423f-8227-acf2e8478806_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "9M FY25": {"v": "448", "ref": "9M CAPEX reported at 448 Cr; 12% of Revenues", "src": "Jan-2025_e0b23002-a557-4284-ad80-f02cff3cf8a8_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "H1 FY26": {"v": "489", "ref": "Capex 489 Cr", "src": "Oct-2025_7e3fd55b-03fd-49b5-9b0b-664609c37d92_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "9M FY26": {"v": "735", "ref": "9M CAPEX reported at ₹ 735 Cr; 15% of Revenues", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf", "pg": "8", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "CAPEX as % of Revenues",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": "17%", "ref": "CAPEX at 17% of sales", "src": "Jul-2025_724ecf4e-219c-4603-840f-8cdcd8936daa_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "9M FY26": {"v": "15%", "ref": "9M CAPEX reported at ₹ 735 Cr; 15% of Revenues", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf", "pg": "8", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Growth CAPEX % of total CAPEX",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": ">85%",
+          "ref": ">85% in Growth CAPEX",
+          "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+          "pg": "8",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "R&D Spends",
+          "unit": "₹ Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "64", "ref": "R & D spends reported at ₹ 64 crs (5.4% of Revenues) including CGT spends", "src": "Jul-2024_10885408-f7f3-430f-9719-a4294560e7c7_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "H1 FY25": {"v": "131", "ref": "R & D spends reported at 131 Cr (5.4% of Revenues) including CGT spends", "src": "Oct-2024_9cad10ba-dc78-423f-8227-acf2e8478806_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "9M FY25": {"v": "191", "ref": "R & D spends reported at ₹ 191 Cr (5.0% of Revenues) including CGT spends", "src": "Jan-2025_e0b23002-a557-4284-ad80-f02cff3cf8a8_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1 FY26": {"v": "68", "ref": "R & D spends reported at ₹68 Cr (4.3% of Revenues) including CGT spends", "src": "Jul-2025_724ecf4e-219c-4603-840f-8cdcd8936daa_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "H1 FY26": {"v": "137", "ref": "R & D spends reported at ₹ 137 Cr (4.3% of Revenues)", "src": "Oct-2025_7e3fd55b-03fd-49b5-9b0b-664609c37d92_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "9M FY26": {"v": "206", "ref": "R & D spends reported at ₹ 206 Cr (4.1% of Revenues)", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "R&D Spends as % of Revenues",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "5.4%", "ref": "R & D spends reported at ₹ 64 crs (5.4% of Revenues) including CGT spends", "src": "Jul-2024_10885408-f7f3-430f-9719-a4294560e7c7_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "H1 FY25": {"v": "5.4%", "ref": "R & D spends reported at 131 Cr (5.4% of Revenues) including CGT spends", "src": "Oct-2024_9cad10ba-dc78-423f-8227-acf2e8478806_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "9M FY25": {"v": "5.0%", "ref": "R & D spends reported at ₹ 191 Cr (5.0% of Revenues) including CGT spends", "src": "Jan-2025_e0b23002-a557-4284-ad80-f02cff3cf8a8_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1 FY26": {"v": "4.3%", "ref": "R & D spends reported at ₹68 Cr (4.3% of Revenues) including CGT spends", "src": "Jul-2025_724ecf4e-219c-4603-840f-8cdcd8936daa_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "H1 FY26": {"v": "4.3%", "ref": "R & D spends reported at ₹ 137 Cr (4.3% of Revenues)", "src": "Oct-2025_7e3fd55b-03fd-49b5-9b0b-664609c37d92_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "9M FY26": {"v": "4.1%", "ref": "R & D spends reported at ₹ 206 Cr (4.1% of Revenues)", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Employees",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "7,042+",
+          "ref": "Laurus employs over 7,042 people, including 2,632+ scientists, and operates 15 facilities",
+          "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+          "pg": "26",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Scientists",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "2,632+",
+          "ref": "Laurus employs over 7,042 people, including 2,632+ scientists",
+          "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+          "pg": "26",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Manufacturing Sites",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "15",
+          "ref": "operates 15 facilities approved by global regulators like the USFDA, WHO, EMA, and more",
+          "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+          "pg": "26",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "US FDA Approved Sites",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "7",
+          "ref": "15# (7 FDA approved)", "src": "Sep-2025_3146483d-2e4c-4a3a-b6df-9695d22569a5_IP.pdf",
+          "pg": "4",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Reactor Volume",
+          "unit": "KL",
+          "metric_type": "static_descriptor",
+          "value": "7800",
+          "ref": "7800 KL Reactors volumes", "src": "Apr-2025_e2d7249f-f4c2-4781-a1c6-83671b2e7809_IP.pdf",
+          "pg": "13",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Fermentation Capacity",
+          "unit": "KL",
+          "metric_type": "static_descriptor",
+          "value": "240",
+          "ref": "240 KL Fermentation", "src": "Apr-2025_e2d7249f-f4c2-4781-a1c6-83671b2e7809_IP.pdf",
+          "pg": "13",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Oral Solid Dosage Capacity",
+          "unit": "Bn units",
+          "metric_type": "static_descriptor",
+          "value": "10",
+          "ref": "10 billion Drug Product", "src": "Apr-2025_e2d7249f-f4c2-4781-a1c6-83671b2e7809_IP.pdf",
+          "pg": "13",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "NexCAR19 Infusions (cumulative)",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": ">350", "ref": "NexCAR19 Continued demand > 350 infusions as on June'25", "src": "Jul-2025_724ecf4e-219c-4603-840f-8cdcd8936daa_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q3 FY26": {"v": ">550", "ref": "NexCAR19: Sustained demand > 550 infusions as on Dec'25", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "S&P Global ESG Score",
+          "unit": "points",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "71+", "ref": "Improved S&P DJSI ESG Score to 71+ (+12 pts over LY)", "src": "Jan-2025_e0b23002-a557-4284-ad80-f02cff3cf8a8_IP.pdf", "pg": "6", "conf": "MEDIUM"},
+            "9M FY26": {"v": "81", "ref": "Laurus achieved a 2025* S&P Global ESG score of 81 out of 100 points, an impressive 10% pts increase over 2024", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "MSCI ESG Rating",
+          "unit": "rating",
+          "metric_type": "static_descriptor",
+          "value": "BBB",
+          "ref": "holds a \"BBB\" MSCI ESG rating",
+          "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+          "pg": "26",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "CDMO",
+      "data": [
+        {
+          "particulars": "Active Pipeline Projects",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "70+", "ref": "Over 70 active projects, ongoing commercial supplies for about 10 products, including APIs, as well as several intermediates", "src": "Jul-2024_10885408-f7f3-430f-9719-a4294560e7c7_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2 FY25": {"v": "70+", "ref": "Working on +70 active projects including several breakthrough designated molecules (10 commercial incl. APIs + intermediates)", "src": "Oct-2024_9cad10ba-dc78-423f-8227-acf2e8478806_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q1 FY26": {"v": "110+", "ref": ">110 Active pipeline projects (>90 Human health & 20 Animal health/Crop science)", "src": "Jul-2025_724ecf4e-219c-4603-840f-8cdcd8936daa_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q2 FY26": {"v": "110+", "ref": ">110 Active pipeline projects (>90 Human health & 20 Animal health/Crop science)", "src": "Oct-2025_7e3fd55b-03fd-49b5-9b0b-664609c37d92_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "9M FY26": {"v": "110+", "ref": ">110 Active pipeline projects", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Active Projects - Human Health",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": ">90", "ref": ">110 Active pipeline projects (>90 Human health & 20 Animal health/Crop science)", "src": "Jul-2025_724ecf4e-219c-4603-840f-8cdcd8936daa_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q2 FY26": {"v": ">90", "ref": ">110 Active pipeline projects (>90 Human health & 20 Animal health/Crop science)", "src": "Oct-2025_7e3fd55b-03fd-49b5-9b0b-664609c37d92_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Active Projects - Animal Health/Crop Science",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": "20", "ref": ">110 Active pipeline projects (>90 Human health & 20 Animal health/Crop science)", "src": "Jul-2025_724ecf4e-219c-4603-840f-8cdcd8936daa_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q2 FY26": {"v": "20", "ref": ">110 Active pipeline projects (>90 Human health & 20 Animal health/Crop science)", "src": "Oct-2025_7e3fd55b-03fd-49b5-9b0b-664609c37d92_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "R&D Projects Supported (FY25)",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": ">75",
+          "ref": ">75 R&D project* supported in FY25",
+          "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+          "pg": "21",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "Generics",
+      "data": [
+        {
+          "particulars": "DMF Filings (cumulative)",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "90", "ref": "DMF filings - Cumulatively, 90 filed till date", "src": "Jul-2024_10885408-f7f3-430f-9719-a4294560e7c7_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q2 FY25": {"v": "90", "ref": "DMF filings - Cumulatively, 90 filed till date", "src": "Oct-2024_9cad10ba-dc78-423f-8227-acf2e8478806_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q3 FY25": {"v": "90", "ref": "DMF filings - Cumulatively, 90 filed till date", "src": "Jan-2025_e0b23002-a557-4284-ad80-f02cff3cf8a8_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "9M FY25": {"v": "90", "ref": "DMF filings: 7 filed in FY25. Cumulatively, 90 filed till date", "src": "Apr-2025_e2d7249f-f4c2-4781-a1c6-83671b2e7809_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q1 FY26": {"v": "90", "ref": "DMF filings - Cumulatively, 90 filed till date", "src": "Jul-2025_724ecf4e-219c-4603-840f-8cdcd8936daa_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "H1 FY26": {"v": "91", "ref": "DMF filings - Cumulatively, 91 filed till date", "src": "Oct-2025_7e3fd55b-03fd-49b5-9b0b-664609c37d92_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "9M FY26": {"v": "92", "ref": "DMF filings - Cumulatively, 92 filed till date", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Global FDF Filings (cumulative)",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "88", "ref": "Cumulatively, 88 product filed till date", "src": "Jul-2024_10885408-f7f3-430f-9719-a4294560e7c7_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q2 FY25": {"v": "88", "ref": "Cumulatively, 88 product filed till date", "src": "Oct-2024_9cad10ba-dc78-423f-8227-acf2e8478806_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q3 FY25": {"v": "87", "ref": "Cumulatively, 87 product filed till date", "src": "Apr-2025_e2d7249f-f4c2-4781-a1c6-83671b2e7809_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q1 FY26": {"v": "88", "ref": "Cumulatively, 88 product filed till date", "src": "Jul-2025_724ecf4e-219c-4603-840f-8cdcd8936daa_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "H1 FY26": {"v": "90", "ref": "Cumulatively, 90 product filed till date", "src": "Oct-2025_7e3fd55b-03fd-49b5-9b0b-664609c37d92_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "9M FY26": {"v": "91", "ref": "Cumulatively, 91 product filed till date", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf", "pg": "19", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Global FDF Approvals (cumulative)",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "65+", "ref": "Diverse pipeline with 80 product filings and 65+ approvals across US, Canada and EU", "src": "Jul-2024_10885408-f7f3-430f-9719-a4294560e7c7_IP.pdf", "pg": "26", "conf": "HIGH"},
+            "Q2 FY25": {"v": "65*", "ref": "Diverse pipeline with 82 product filings and 65* approvals across US, Canada and EU", "src": "Oct-2024_9cad10ba-dc78-423f-8227-acf2e8478806_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q3 FY25": {"v": "61^", "ref": "Diverse pipeline with 80 product filings and 61^ approvals across US, Canada and EU", "src": "Apr-2024_4e755946-4a16-48a4-bfb4-4ffc5f5ac6e5_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "H1 FY26": {"v": "65+", "ref": "Diverse pipeline with 83 product filings and 65+ approvals across US, Canada and EU", "src": "Jan-2025_e0b23002-a557-4284-ad80-f02cff3cf8a8_IP.pdf", "pg": "25", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "US FDF Filings (cumulative)",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "46",
+          "ref": "US: Approved 37* / Pending 9 / Total 46", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+          "pg": "19",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "EU FDF Filings (cumulative)",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "22",
+          "ref": "EU: Approved 2 / Pending 2 / Total 4", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+          "pg": "19",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Canada FDF Filings (cumulative)",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "23",
+          "ref": "Canada: Approved 16 / Pending 7 / Total 23", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+          "pg": "19",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "US FDF Approvals (cumulative)",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "37",
+          "ref": "US: Approved 37* / Pending 9 / Total 46", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+          "pg": "19",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "EU FDF Approvals (cumulative)",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "2",
+          "ref": "EU: Approved 2 / Pending 2 / Total 4", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+          "pg": "19",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Canada FDF Approvals (cumulative)",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "16",
+          "ref": "Canada: Approved 16 / Pending 7 / Total 23", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+          "pg": "19",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "US Tentative Approvals (cumulative)",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "15",
+          "ref": "*Includes 15 Tentative approvals in US", "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+          "pg": "19",
+          "conf": "HIGH"
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Great Place to Work Certification",
+      "unit": "boolean",
+      "metric_type": "static_descriptor",
+      "value": "Certified",
+      "ref": "certified Great Place to Work",
+      "src": "Jan-2026_b8dd00f6-ba6a-437c-b95c-dc648f332cbd_IP.pdf",
+      "pg": "26",
+      "conf": "HIGH"
+    }
+  ]
+}

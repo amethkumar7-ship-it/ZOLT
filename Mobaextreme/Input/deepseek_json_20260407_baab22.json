@@ -1,0 +1,507 @@
+{
+  "company_name": "Aarti Drugs Limited",
+  "documents_scanned": "7",
+  "time_range": "FY21 to Q3 FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Manufacturing Facilities", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Finished Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Employees", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Plant Area", "unit": "Sq.m.", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Monthly Capacity", "unit": "MT", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "API Molecules", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Export Revenue", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Presence across countries", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Installed Capacity", "unit": "MTPA", "metric_type": "periodic", "periods_available": ["FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Production", "unit": "MT", "metric_type": "periodic", "periods_available": ["FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Captive", "unit": "MT", "metric_type": "periodic", "periods_available": ["FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Net Production", "unit": "MT", "metric_type": "periodic", "periods_available": ["FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "R&D Spends", "unit": "Rs. Crores", "metric_type": "periodic", "periods_available": ["FY25"]},
+        {"metric": "APIs developed (new and existing) in last 5 years", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "CSR Spend", "unit": "lakhs", "metric_type": "periodic", "periods_available": ["FY25"]},
+        {"metric": "Total Lives Impacted", "unit": "count", "metric_type": "periodic", "periods_available": ["FY25"]},
+        {"metric": "Total Trees Planted", "unit": "count", "metric_type": "periodic", "periods_available": ["static"]},
+        {"metric": "Registrations filed across geographies", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Total reaction capacity", "unit": "KL", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Sayakha plant capacity utilization", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26"]},
+        {"metric": "Target Sayakha plant capacity utilization", "unit": "%", "metric_type": "periodic", "periods_available": ["Mar/Apr 2026"]},
+        {"metric": "Captive Metformin requirements fulfilled by Sayakha", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26"]},
+        {"metric": "Target captive Metformin self-reliance timeline", "unit": "months", "metric_type": "periodic", "periods_available": ["static"]},
+        {"metric": "Salicylic Acid plant monthly output", "unit": "tonnes", "metric_type": "periodic", "periods_available": ["Q3 FY26"]},
+        {"metric": "Target Salicylic Acid plant monthly capacity", "unit": "tonnes", "metric_type": "periodic", "periods_available": ["FY26"]},
+        {"metric": "Metformin manufacturing capacity", "unit": "TPM", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Future planned Metformin brownfield expansion", "unit": "TPM", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Antiprotozoals brownfield expansion capacity increase", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Anti-inflammatory enhanced capacity expected annual revenue", "unit": "Rs. Crores", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Formulation plant tablet capacity", "unit": "billions", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Formulation plant capsule capacity", "unit": "millions", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "API",
+      "metrics_found": [
+        {"metric": "Largest producer of Nimesulide in the world", "unit": "rank", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Largest producer of Ketoconazole in the world", "unit": "rank", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Largest producer of Metronidazole Benzoate in the world", "unit": "rank", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Largest producer of Tinidazole in the world", "unit": "rank", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Largest producer in Fluoroquinolones group in the world", "unit": "rank", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "One of the leading producers of Metformin in the world", "unit": "rank", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Largest producer of Metronidazole in India", "unit": "rank", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "R&D",
+      "metrics_found": [
+        {"metric": "Doctorates", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Master Graduated (M.Sc.)", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Technicians", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Graduates (B.Sc.) & Engineers", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "EcoVadis assessment score", "unit": "score", "metric_type": "periodic", "periods_available": ["2024"]},
+    {"metric": "EcoVadis medal", "unit": "level", "metric_type": "periodic", "periods_available": ["2024"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Manufacturing Facilities",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "14",
+          "ref": "14 Manufacturing Facilities",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Finished Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "80+",
+          "ref": "80+ Finished Products",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Employees",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "~2,067",
+          "ref": "~2,067 Employees",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Plant Area",
+          "unit": "Sq.m.",
+          "metric_type": "static_descriptor",
+          "value": "1,26,642",
+          "ref": "1,26,642 Sq.m. Plant Area",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Monthly Capacity",
+          "unit": "MT",
+          "metric_type": "static_descriptor",
+          "value": "5,088",
+          "ref": "5,088 MT/Monthly Capacity",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "API Molecules",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "50+",
+          "ref": "50+ API Molecules",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Export Revenue",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "~35%",
+          "ref": "~35% Export Revenue",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Presence across countries",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "100+",
+          "ref": "100+ Presence across countries",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Installed Capacity",
+          "unit": "MTPA",
+          "metric_type": "periodic",
+          "values": {
+            "FY22": {"v": "51,126", "ref": "Capacities (MT) 2022-23 51,126", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY23": {"v": "51,126", "ref": "Capacities (MT) 2022-23 51,126", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY24": {"v": "57,179", "ref": "2023-24 57,179", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY25": {"v": "61,053", "ref": "2024-25 61,053", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Production",
+          "unit": "MT",
+          "metric_type": "periodic",
+          "values": {
+            "FY22": {"v": "38,215", "ref": "Production 38,215 2022-23", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY23": {"v": "38,215", "ref": "Production 38,215 2022-23", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY24": {"v": "41,116", "ref": "2023-24 41,116", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY25": {"v": "44,915", "ref": "2024-25 44,915", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Captive",
+          "unit": "MT",
+          "metric_type": "periodic",
+          "values": {
+            "FY22": {"v": "9,382", "ref": "Captive 9,382 2022-23", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY23": {"v": "9,382", "ref": "Captive 9,382 2022-23", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY24": {"v": "9,864", "ref": "2023-24 9,864", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY25": {"v": "11,621", "ref": "2024-25 11,621", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Net Production",
+          "unit": "MT",
+          "metric_type": "periodic",
+          "values": {
+            "FY22": {"v": "28,834", "ref": "Net Production 28,834 2022-23", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY23": {"v": "28,834", "ref": "Net Production 28,834 2022-23", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY24": {"v": "31,251", "ref": "2023-24 31,251", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY25": {"v": "33,294", "ref": "2024-25 33,294", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "R&D Spends",
+          "unit": "Rs. Crores",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "46", "ref": "Rs. 46 Crores R&D Spends (FY25)", "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "APIs developed (new and existing) in last 5 years",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "30+",
+          "ref": "Developed 30+ APIs (new and existing) in last 5 years",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "31",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "CSR Spend",
+          "unit": "lakhs",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "443.45", "ref": "443.45 lakhs Total CSR Spend for FY 2024-25", "src": "Sep-2025_8408530c-9a97-4c86-85e6-fe7ffbfdb4e9_IP.pdf", "pg": "13", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total Lives Impacted",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "50,000+", "ref": "50,000+ Total Lives Impacted", "src": "Sep-2025_8408530c-9a97-4c86-85e6-fe7ffbfdb4e9_IP.pdf", "pg": "13", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total Trees Planted",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "static": {"v": "3,000+", "ref": "3,000+ Total Trees Planted", "src": "Sep-2025_8408530c-9a97-4c86-85e6-fe7ffbfdb4e9_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Registrations filed across geographies",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "~330",
+          "ref": "Filed ~330 registrations across 16 geographies",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "29",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Total reaction capacity",
+          "unit": "KL",
+          "metric_type": "static_descriptor",
+          "value": "1300+",
+          "ref": "Total reaction capacity in excess of 1300 KL",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "15",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Sayakha plant capacity utilization",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "30", "ref": "it achieved 30% capacity utilization", "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Target Sayakha plant capacity utilization",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Mar/Apr 2026": {"v": "50", "ref": "ramp this up to 50% by March or April 2026", "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Captive Metformin requirements fulfilled by Sayakha",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "10-15", "ref": "currently fulfilling 10 - 15% of our captive Metformin requirements", "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Target captive Metformin self-reliance timeline",
+          "unit": "months",
+          "metric_type": "periodic",
+          "values": {
+            "static": {"v": "6 to 8", "ref": "expect to be 100% self-reliant for this key intermediate within the next 6 to 8 months", "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Salicylic Acid plant monthly output",
+          "unit": "tonnes",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "~300", "ref": "Salicylic Acid plant in Tarapur has hit a significant milestone, scaling to above ~300 tonnes per month recently", "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Target Salicylic Acid plant monthly capacity",
+          "unit": "tonnes",
+          "metric_type": "periodic",
+          "values": {
+            "FY26": {"v": "~1,600", "ref": "targeting a cumulative capacity of ~1,600 tonnes per month by the end of 2025-26", "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf", "pg": "29", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Metformin manufacturing capacity",
+          "unit": "TPM",
+          "metric_type": "static_descriptor",
+          "value": "1,450+",
+          "ref": "manufacturing capacity exceeding 1,450 TPM",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "29",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Future planned Metformin brownfield expansion",
+          "unit": "TPM",
+          "metric_type": "static_descriptor",
+          "value": "350",
+          "ref": "planning for additional 350 TPM of brownfield expansion",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "29",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Antiprotozoals brownfield expansion capacity increase",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "40",
+          "ref": "increase production capacity by approximately 40%",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "29",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Anti-inflammatory enhanced capacity expected annual revenue",
+          "unit": "Rs. Crores",
+          "metric_type": "static_descriptor",
+          "value": "35-50",
+          "ref": "yield revenues of ~Rs.35-50 Crores annually",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "29",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Formulation plant tablet capacity",
+          "unit": "billions",
+          "metric_type": "static_descriptor",
+          "value": "3",
+          "ref": "Installed capacity: 3 billion tablets",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "12",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Formulation plant capsule capacity",
+          "unit": "millions",
+          "metric_type": "static_descriptor",
+          "value": "300",
+          "ref": "300 million capsules",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "12",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "API",
+      "data": [
+        {
+          "particulars": "Largest producer of Nimesulide in the world",
+          "unit": "rank",
+          "metric_type": "static_descriptor",
+          "value": "1",
+          "ref": "Largest producer of Nimesulide in the world",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Largest producer of Ketoconazole in the world",
+          "unit": "rank",
+          "metric_type": "static_descriptor",
+          "value": "1",
+          "ref": "Largest producer of Ketoconazole in the world",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Largest producer of Metronidazole Benzoate in the world",
+          "unit": "rank",
+          "metric_type": "static_descriptor",
+          "value": "1",
+          "ref": "Largest producer of Metronidazole Benzoate in the world",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Largest producer of Tinidazole in the world",
+          "unit": "rank",
+          "metric_type": "static_descriptor",
+          "value": "1",
+          "ref": "Largest producer of Tinidazole in the world",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Largest producer in Fluoroquinolones group in the world",
+          "unit": "rank",
+          "metric_type": "static_descriptor",
+          "value": "1",
+          "ref": "Largest producer in Fluoroquinolones group in the world",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "One of the leading producers of Metformin in the world",
+          "unit": "rank",
+          "metric_type": "static_descriptor",
+          "value": "leading",
+          "ref": "One of the leading producers of Metformin in the world",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Largest producer of Metronidazole in India",
+          "unit": "rank",
+          "metric_type": "static_descriptor",
+          "value": "1",
+          "ref": "Largest producer of Metronidazole in India",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "R&D",
+      "data": [
+        {
+          "particulars": "Doctorates",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "2",
+          "ref": "2 Doctorates",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "31",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Master Graduated (M.Sc.)",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "79",
+          "ref": "79 Master Graduated (M.Sc.)",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "31",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Technicians",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "6",
+          "ref": "6 Technicians",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "31",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Graduates (B.Sc.) & Engineers",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "50",
+          "ref": "50 Graduates (B.Sc.) & Engineers",
+          "src": "Feb-2026_5a8d8db7-2785-4ce0-82c9-154468f69abb_IP.pdf",
+          "pg": "31",
+          "conf": "HIGH"
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "EcoVadis assessment score",
+      "unit": "score",
+      "metric_type": "periodic",
+      "values": {
+        "2024": {"v": "69", "ref": "EcoVadis assessment score is 69, secured the Silver Medal", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "24", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "EcoVadis medal",
+      "unit": "level",
+      "metric_type": "periodic",
+      "values": {
+        "2024": {"v": "Silver", "ref": "secured the Silver Medal", "src": "Nov-2025_d2f24fc5-1403-4507-8511-5a45fb18ff06_IP.pdf", "pg": "24", "conf": "HIGH"}
+      }
+    }
+  ]
+}

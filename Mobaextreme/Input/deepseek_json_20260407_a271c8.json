@@ -1,0 +1,550 @@
+{
+  "company_name": "Aadhar Housing Finance Limited",
+  "documents_scanned": "9",
+  "time_range": "FY21 to Q3 FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Assets Under Management", "unit": "INR Mn", "metric_type": "periodic", "periods_available": ["FY21", "FY22", "FY23", "FY24", "FY25", "Q1 FY24", "Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "9M FY26", "H1 FY25", "H1 FY26"]},
+        {"metric": "Disbursements", "unit": "INR Mn", "metric_type": "periodic", "periods_available": ["FY21", "FY22", "FY23", "FY24", "FY25", "Q1 FY25", "Q1 FY26", "Q2 FY26", "H1 FY25", "H1 FY26", "9M FY25", "9M FY26"]},
+        {"metric": "Gross Non Performing Assets to AUM", "unit": "%", "metric_type": "periodic", "periods_available": ["FY21", "FY22", "FY23", "FY24", "FY25", "Q1 FY24", "Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "9M FY22", "9M FY23", "9M FY24", "9M FY25", "Q3 FY22", "Q3 FY23", "Q3 FY24", "Q3 FY25", "H1 FY25", "H1 FY26"]},
+        {"metric": "Net Non Performing Assets to AUM", "unit": "%", "metric_type": "periodic", "periods_available": ["FY21", "FY22", "FY23", "FY24", "FY25", "Q1 FY24", "Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "9M FY22", "9M FY23", "9M FY24", "9M FY25", "Q3 FY22", "Q3 FY23", "Q3 FY24", "Q3 FY25"]},
+        {"metric": "Portfolio Yield", "unit": "%", "metric_type": "periodic", "periods_available": ["FY21", "FY22", "FY23", "FY24", "FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "9M FY26", "Q4 FY23", "Q1 FY24", "Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25"]},
+        {"metric": "Cost of Borrowings", "unit": "%", "metric_type": "periodic", "periods_available": ["FY21", "FY22", "FY23", "FY24", "FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "9M FY26", "Q4 FY23", "Q1 FY24", "Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25"]},
+        {"metric": "Spread", "unit": "%", "metric_type": "periodic", "periods_available": ["FY21", "FY22", "FY23", "FY24", "FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "9M FY26", "Q4 FY23", "Q1 FY24", "Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25"]},
+        {"metric": "Cost to Income", "unit": "%", "metric_type": "periodic", "periods_available": ["FY22", "FY23", "FY24", "FY25", "9M FY24", "9M FY25", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "H1 FY25", "H1 FY26"]},
+        {"metric": "Number of Branches", "unit": "count", "metric_type": "periodic", "periods_available": ["Q1 FY26", "Q2 FY26", "Sep-25"]},
+        {"metric": "Number of Districts Covered", "unit": "count", "metric_type": "periodic", "periods_available": ["Jun-25", "Sep-25"]},
+        {"metric": "Number of Live Accounts", "unit": "count", "metric_type": "periodic", "periods_available": ["Jun-24", "Mar-25", "Jun-25", "Sep-25"]},
+        {"metric": "Average Ticket Size", "unit": "INR Mn", "metric_type": "periodic", "periods_available": ["Jun-25", "Sep-25", "Dec-25"]},
+        {"metric": "Number of Lender Relationships", "unit": "count", "metric_type": "periodic", "periods_available": ["Mar-24", "Jun-25", "Sep-25"]},
+        {"metric": "Gross Stage 1 AUM", "unit": "INR Mn", "metric_type": "periodic", "periods_available": ["Jun-23", "Mar-24", "Jun-24", "Sep-24", "Dec-24", "Mar-25", "Jun-25", "Sep-25", "Dec-25"]},
+        {"metric": "Gross Stage 2 AUM", "unit": "INR Mn", "metric_type": "periodic", "periods_available": ["Jun-23", "Mar-24", "Jun-24", "Sep-24", "Dec-24", "Mar-25", "Jun-25", "Sep-25", "Dec-25"]},
+        {"metric": "Gross Stage 3 b AUM", "unit": "INR Mn", "metric_type": "periodic", "periods_available": ["Jun-23", "Mar-24", "Jun-24", "Sep-24", "Dec-24", "Mar-25", "Jun-25", "Sep-25", "Dec-25"]},
+        {"metric": "Gross Stage 1,2,3 AUM", "unit": "INR Mn", "metric_type": "periodic", "periods_available": ["Jun-23", "Mar-24", "Jun-24", "Sep-24", "Dec-24", "Mar-25", "Jun-25", "Sep-25", "Dec-25"]},
+        {"metric": "ECL Provision Total", "unit": "INR Mn", "metric_type": "periodic", "periods_available": ["Jun-23", "Mar-24", "Jun-24", "Sep-24", "Dec-24", "Mar-25", "Jun-25", "Sep-25", "Dec-25"]},
+        {"metric": "Total ECL Provision %", "unit": "%", "metric_type": "periodic", "periods_available": ["Jun-23", "Mar-24", "Jun-24", "Sep-24", "Dec-24", "Mar-25", "Jun-25", "Sep-25", "Dec-25"]},
+        {"metric": "EWS/LIG Customers AUM share", "unit": "%", "metric_type": "periodic", "periods_available": ["FY21", "FY22", "FY23", "FY24", "Q1 FY25"]},
+        {"metric": "Secured retail loan book share", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Gross AUM with floating interest rates", "unit": "%", "metric_type": "periodic", "periods_available": ["Sep-25", "Dec-25", "Mar-25"]},
+        {"metric": "Borrowings with floating interest rates", "unit": "%", "metric_type": "periodic", "periods_available": ["Sep-25", "Dec-25", "Mar-25"]},
+        {"metric": "NACH Conversion Rate", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Door-to-Login Time", "unit": "minutes", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Paper-less Onboarding share", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Customer App Logins", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Company-wide - Shareholding",
+      "metrics_found": [
+        {"metric": "Promoter Holding (Blackstone)", "unit": "%", "metric_type": "periodic", "periods_available": ["May-24"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Credit Rating - Long Term - Care Ratings", "unit": "rating", "metric_type": "periodic", "periods_available": ["Sep-25"]},
+    {"metric": "Credit Rating - Long Term - India Ratings", "unit": "rating", "metric_type": "periodic", "periods_available": ["Sep-25"]},
+    {"metric": "Credit Rating - Long Term - ICRA", "unit": "rating", "metric_type": "periodic", "periods_available": ["Sep-25"]},
+    {"metric": "Credit Rating - Long Term - Brickworks", "unit": "rating", "metric_type": "periodic", "periods_available": ["Sep-25"]},
+    {"metric": "Credit Rating - Short Term - Care Ratings", "unit": "rating", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "PMAY allocation (Central government)", "unit": "INR Cr", "metric_type": "periodic", "periods_available": ["FY2024-2025"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Assets Under Management",
+          "unit": "INR Mn",
+          "metric_type": "periodic",
+          "values": {
+            "FY21": {"v": "34,010", "ref": "AUM of pre-merger AHFPL reached ~INR10bn AUM crossed INR100bn Raised c.INR7bn through a maiden public offering of NCDs Customer base crossed 1,50,000 Acquired by the Blackstone Group1 in June 2019 Customer base crossed 2,00,000 Reached ~INR148bnAUM Branches crossed 520+ Reached ~INR211bn AUM", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "4", "conf": "MEDIUM"},
+            "FY22": {"v": "34,010", "ref": "AUM crossed INR100bn Raised c.INR7bn through a maiden public offering of NCDs Customer base crossed 1,50,000 Acquired by the Blackstone Group1 in June 2019 Customer base crossed 2,00,000 Reached ~INR148bnAUM Branches crossed 520+ Reached ~INR211bn AUM", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "4", "conf": "MEDIUM"},
+            "FY23": {"v": "148,000", "ref": "Reached ~INR148bnAUM Branches crossed 520+ Reached ~INR211bn AUM", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "4", "conf": "MEDIUM"},
+            "FY24": {"v": "211,000", "ref": "Reached ~INR211bn AUM Aadhar Housing Finance – Milestones", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "4", "conf": "MEDIUM"},
+            "FY25": {"v": "255,307", "ref": "AUM £ 255,307 Mn +21%", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Q1 FY24": {"v": "148,000", "ref": "Reached ~INR148bnAUM", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "4", "conf": "MEDIUM"},
+            "Q4 FY24": {"v": "211,000", "ref": "Reached ~INR211bn AUM", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "4", "conf": "MEDIUM"},
+            "Q1 FY25": {"v": "173,856", "ref": "Loan Assets 1,73,856", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q2 FY25": {"v": "182,528", "ref": "Loan Assets 1,82,528", "src": "Nov-2024_709f0813-29d4-4ac6-a079-19a363cb0f3b_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q3 FY25": {"v": "194,460", "ref": "Gross Stage 1, 2 & 3 1,94,460", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Q4 FY25": {"v": "204,841", "ref": "Loan Assets 204,841", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "40", "conf": "HIGH"},
+            "Q1 FY26": {"v": "214,201", "ref": "Loan Assets 214,201", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Q2 FY26": {"v": "222,606", "ref": "Loan Assets 222,606", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "40", "conf": "HIGH"},
+            "Q3 FY26": {"v": "233,122", "ref": "Loan Assets 2,33,122", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "9M FY26": {"v": "287,900", "ref": "AUM 287,900 Mn +20%", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Disbursements",
+          "unit": "INR Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "19,786", "ref": "Disbursements ₹ 19,786 Mn +32%", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Q1 FY26": {"v": "19,786", "ref": "Disbursements ₹ 19,786 Mn +32%", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Q2 FY26": {"v": "21,104", "ref": "Disbursements 21,104", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "5", "conf": "MEDIUM"},
+            "H1 FY26": {"v": "40,890", "ref": "Disbursements 40,890 Mn +16%", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "9M FY26": {"v": "64,691", "ref": "Disbursements 64,691 Mn +15%", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Gross Non Performing Assets to AUM",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY21": {"v": "0.7", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY22": {"v": "1.1", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY23": {"v": "0.8", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY24": {"v": "0.7", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY25": {"v": "1.05", "ref": "GNPA1.05% -3bps", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Q1 FY24": {"v": "1.1", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q2 FY24": {"v": "0.9", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q3 FY24": {"v": "1.0", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q4 FY24": {"v": "0.7", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q1 FY25": {"v": "0.9", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q2 FY25": {"v": "1.1", "ref": "1.5% 1.1% 0.9% 1.0% *Includes 0.27% (Mar-22), 0.43% (June-22) and 0.04% (Mar-23 and June-23) NPA <= 90 DPD which have been classified as per the RBI circular dated 12th November 2021 respectively.", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "10", "conf": "MEDIUM"},
+            "Q3 FY25": {"v": "1.4", "ref": "1.4% 1.4% 9M FY22 9M FY23 9M FY24 9M FY25 1.8% 1.3% 1.0% 0.9% 2.2%* 1.8%* 1.4% 1.4% Q3 FY22 Q3 FY23 Q3 FY24 Q3 FY25 1.8% 1.3% 1.0% 0.9% GNPA to AUM NNPA to AUM", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q4 FY25": {"v": "1.1", "ref": "1.5%* 1.2%* 1.1% 1.1% FY22 FY23 FY24 FY25 1.5%* 1.2%* 1.1% 1.1% Q4 FY22 Q4 FY23 Q4 FY24 Q4 FY25 1.1% 0.8% 0.7% 0.7% GNPA to AUM NNPA to AUM", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q1 FY26": {"v": "1.34", "ref": "GNPA 1.34% +3bps", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Q2 FY26": {"v": "1.4", "ref": "GNPA 1.4% +13bps", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Q3 FY26": {"v": "1.4", "ref": "GNPA 1.4% +2bps", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "9M FY22": {"v": "2.2", "ref": "2.2%* 1.8%* 1.4% 1.4% 9M FY22 9M FY23 9M FY24 9M FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "9M FY23": {"v": "1.8", "ref": "2.2%* 1.8%* 1.4% 1.4% 9M FY22 9M FY23 9M FY24 9M FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "9M FY24": {"v": "1.4", "ref": "2.2%* 1.8%* 1.4% 1.4% 9M FY22 9M FY23 9M FY24 9M FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "9M FY25": {"v": "1.4", "ref": "2.2%* 1.8%* 1.4% 1.4% 9M FY22 9M FY23 9M FY24 9M FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q3 FY22": {"v": "2.2", "ref": "2.2%* 1.8%* 1.4% 1.4% Q3 FY22 Q3 FY23 Q3 FY24 Q3 FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q3 FY23": {"v": "1.8", "ref": "2.2%* 1.8%* 1.4% 1.4% Q3 FY22 Q3 FY23 Q3 FY24 Q3 FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q3 FY24": {"v": "1.4", "ref": "2.2%* 1.8%* 1.4% 1.4% Q3 FY22 Q3 FY23 Q3 FY24 Q3 FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q3 FY25": {"v": "1.4", "ref": "2.2%* 1.8%* 1.4% 1.4% Q3 FY22 Q3 FY23 Q3 FY24 Q3 FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "H1 FY25": {"v": "1.1", "ref": "Asset Quality Metrics - GNPA Improved by 6bps in H1 FY25 on a YoY basis", "src": "Nov-2024_709f0813-29d4-4ac6-a079-19a363cb0f3b_IP.pdf", "pg": "10", "conf": "MEDIUM"},
+            "H1 FY26": {"v": "1.4", "ref": "GNPA 1.4% +13bps", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Net Non Performing Assets to AUM",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY21": {"v": "1.1", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY22": {"v": "0.8", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY23": {"v": "0.7", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY24": {"v": "1.1", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY25": {"v": "0.7", "ref": "1.5%* 1.2%* 1.1% 1.1% FY22 FY23 FY24 FY25 1.5%* 1.2%* 1.1% 1.1% Q4 FY22 Q4 FY23 Q4 FY24 Q4 FY25 1.1% 0.8% 0.7% 0.7% GNPA to AUM NNPA to AUM", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q1 FY24": {"v": "1.2", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q2 FY24": {"v": "1.5", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q3 FY24": {"v": "1.5", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q4 FY24": {"v": "1.4", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q1 FY25": {"v": "1.4", "ref": "0.7% 1.1% 0.8% 0.7% 1.1% 0.9% 1.0% 0.7% 0.9% 1.5% 1.5% 1.4% 1.4% 1.3% 1.1% 1.2% 1.1% 1.1% FY21 FY22 FY23 FY24 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Q1 FY25 GNPA to AUM NNPA to AUM", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q2 FY25": {"v": "1.0", "ref": "1.5% 1.1% 0.9% 1.0%", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "10", "conf": "MEDIUM"},
+            "Q3 FY25": {"v": "0.9", "ref": "2.2%* 1.8%* 1.4% 1.4% Q3 FY22 Q3 FY23 Q3 FY24 Q3 FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q4 FY25": {"v": "0.7", "ref": "1.5%* 1.2%* 1.1% 1.1% Q4 FY22 Q4 FY23 Q4 FY24 Q4 FY25 1.1% 0.8% 0.7% 0.7%", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q1 FY26": {"v": "1.0", "ref": "1.5% 1.1% 0.9% 1.0%", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "10", "conf": "MEDIUM"},
+            "Q2 FY26": {"v": "0.9", "ref": "1.4% 1.4% 9M FY22 9M FY23 9M FY24 9M FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "MEDIUM"},
+            "Q3 FY26": {"v": "0.7", "ref": "1.5% 1.1% 0.9% 1.0%", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "10", "conf": "MEDIUM"},
+            "9M FY22": {"v": "1.8", "ref": "2.2%* 1.8%* 1.4% 1.4% 9M FY22 9M FY23 9M FY24 9M FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "9M FY23": {"v": "1.3", "ref": "2.2%* 1.8%* 1.4% 1.4% 9M FY22 9M FY23 9M FY24 9M FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "9M FY24": {"v": "1.0", "ref": "2.2%* 1.8%* 1.4% 1.4% 9M FY22 9M FY23 9M FY24 9M FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "9M FY25": {"v": "0.9", "ref": "2.2%* 1.8%* 1.4% 1.4% 9M FY22 9M FY23 9M FY24 9M FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q3 FY22": {"v": "1.8", "ref": "2.2%* 1.8%* 1.4% 1.4% Q3 FY22 Q3 FY23 Q3 FY24 Q3 FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q3 FY23": {"v": "1.3", "ref": "2.2%* 1.8%* 1.4% 1.4% Q3 FY22 Q3 FY23 Q3 FY24 Q3 FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q3 FY24": {"v": "1.0", "ref": "2.2%* 1.8%* 1.4% 1.4% Q3 FY22 Q3 FY23 Q3 FY24 Q3 FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q3 FY25": {"v": "0.9", "ref": "2.2%* 1.8%* 1.4% 1.4% Q3 FY22 Q3 FY23 Q3 FY24 Q3 FY25 1.8% 1.3% 1.0% 0.9%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Portfolio Yield",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY21": {"v": "13.2", "ref": "13.2% 12.8% 12.8% 13.8% 8.2% 7.2% 7.0% 7.6% 5.0% 5.6% 5.8% 6.2% FY21 FY22 FY23 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "FY22": {"v": "12.8", "ref": "13.2% 12.8% 12.8% 13.8% 8.2% 7.2% 7.0% 7.6% 5.0% 5.6% 5.8% 6.2% FY21 FY22 FY23 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "FY23": {"v": "12.8", "ref": "13.2% 12.8% 12.8% 13.8% 8.2% 7.2% 7.0% 7.6% 5.0% 5.6% 5.8% 6.2% FY21 FY22 FY23 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "FY24": {"v": "13.8", "ref": "13.2% 12.8% 12.8% 13.8% 8.2% 7.2% 7.0% 7.6% 5.0% 5.6% 5.8% 6.2% FY21 FY22 FY23 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "FY25": {"v": "13.9", "ref": "13.0% 13.4% 13.9% 13.9% 13.7% 7.0% 7.6% 8.0% 8.2% 7.7% 6.0% 5.8% 5.9% 5.7% 6.0% FY22 FY23 FY24 FY25 9M FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY25": {"v": "13.9", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY25": {"v": "13.9", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY26": {"v": "13.8", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY26": {"v": "13.8", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY26": {"v": "13.7", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "9M FY26": {"v": "13.7", "ref": "13.0% 13.4% 13.9% 13.9% 13.7% 7.0% 7.6% 8.0% 8.2% 7.7% 6.0% 5.8% 5.9% 5.7% 6.0% FY22 FY23 FY24 FY25 9M FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY23": {"v": "12.8", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q1 FY24": {"v": "13.8", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q2 FY24": {"v": "14.1", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q3 FY24": {"v": "14.0", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q4 FY24": {"v": "13.7", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q1 FY25": {"v": "13.8", "ref": "13.0% 13.4% 13.9% 13.9% 13.7% 7.0% 7.6% 8.0% 8.2% 7.7% 6.0% 5.8% 5.9% 5.7% 6.0% FY22 FY23 FY24 FY25 9M FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY25": {"v": "13.8", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY25": {"v": "13.9", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Cost of Borrowings",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY21": {"v": "8.2", "ref": "13.2% 12.8% 12.8% 13.8% 8.2% 7.2% 7.0% 7.6% 5.0% 5.6% 5.8% 6.2% FY21 FY22 FY23 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "FY22": {"v": "7.2", "ref": "13.2% 12.8% 12.8% 13.8% 8.2% 7.2% 7.0% 7.6% 5.0% 5.6% 5.8% 6.2% FY21 FY22 FY23 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "FY23": {"v": "7.0", "ref": "13.2% 12.8% 12.8% 13.8% 8.2% 7.2% 7.0% 7.6% 5.0% 5.6% 5.8% 6.2% FY21 FY22 FY23 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "FY24": {"v": "7.6", "ref": "13.2% 12.8% 12.8% 13.8% 8.2% 7.2% 7.0% 7.6% 5.0% 5.6% 5.8% 6.2% FY21 FY22 FY23 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "FY25": {"v": "8.2", "ref": "13.0% 13.4% 13.9% 13.9% 13.7% 7.0% 7.6% 8.0% 8.2% 7.7% 6.0% 5.8% 5.9% 5.7% 6.0% FY22 FY23 FY24 FY25 9M FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY25": {"v": "8.1", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY25": {"v": "8.2", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY26": {"v": "8.0", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY26": {"v": "7.9", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY26": {"v": "7.7", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "9M FY26": {"v": "7.7", "ref": "13.0% 13.4% 13.9% 13.9% 13.7% 7.0% 7.6% 8.0% 8.2% 7.7% 6.0% 5.8% 5.9% 5.7% 6.0% FY22 FY23 FY24 FY25 9M FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY23": {"v": "7.2", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q1 FY24": {"v": "7.7", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q2 FY24": {"v": "7.6", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q3 FY24": {"v": "7.8", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q4 FY24": {"v": "7.7", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q1 FY25": {"v": "8.2", "ref": "13.0% 13.4% 13.9% 13.9% 13.7% 7.0% 7.6% 8.0% 8.2% 7.7% 6.0% 5.8% 5.9% 5.7% 6.0% FY22 FY23 FY24 FY25 9M FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY25": {"v": "8.0", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY25": {"v": "8.1", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Spread",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY21": {"v": "5.0", "ref": "13.2% 12.8% 12.8% 13.8% 8.2% 7.2% 7.0% 7.6% 5.0% 5.6% 5.8% 6.2% FY21 FY22 FY23 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "FY22": {"v": "5.6", "ref": "13.2% 12.8% 12.8% 13.8% 8.2% 7.2% 7.0% 7.6% 5.0% 5.6% 5.8% 6.2% FY21 FY22 FY23 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "FY23": {"v": "5.8", "ref": "13.2% 12.8% 12.8% 13.8% 8.2% 7.2% 7.0% 7.6% 5.0% 5.6% 5.8% 6.2% FY21 FY22 FY23 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "FY24": {"v": "6.2", "ref": "13.2% 12.8% 12.8% 13.8% 8.2% 7.2% 7.0% 7.6% 5.0% 5.6% 5.8% 6.2% FY21 FY22 FY23 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "FY25": {"v": "5.7", "ref": "13.0% 13.4% 13.9% 13.9% 13.7% 7.0% 7.6% 8.0% 8.2% 7.7% 6.0% 5.8% 5.9% 5.7% 6.0% FY22 FY23 FY24 FY25 9M FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY25": {"v": "5.8", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY25": {"v": "5.7", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY26": {"v": "5.8", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY26": {"v": "5.9", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY26": {"v": "6.0", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "9M FY26": {"v": "6.0", "ref": "13.0% 13.4% 13.9% 13.9% 13.7% 7.0% 7.6% 8.0% 8.2% 7.7% 6.0% 5.8% 5.9% 5.7% 6.0% FY22 FY23 FY24 FY25 9M FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY23": {"v": "5.6", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q1 FY24": {"v": "6.1", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q2 FY24": {"v": "6.4", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q3 FY24": {"v": "6.2", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q4 FY24": {"v": "6.0", "ref": "12.8% 13.8% 14.1% 14.0% 13.7% 7.2% 7.7% 7.6% 7.8% 7.7% 5.6% 6.1% 6.4% 6.2% 6.0% Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 Avg. Yield on Loan Book Cost of borrowings Spread", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q1 FY25": {"v": "5.9", "ref": "13.0% 13.4% 13.9% 13.9% 13.7% 7.0% 7.6% 8.0% 8.2% 7.7% 6.0% 5.8% 5.9% 5.7% 6.0% FY22 FY23 FY24 FY25 9M FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY25": {"v": "5.8", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY25": {"v": "5.8", "ref": "13.9% 13.9% 13.8% 13.8% 13.7% 8.1% 8.2% 8.0% 7.9% 7.7% 5.8% 5.7% 5.8% 5.9% 6.0% Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Portfolio Yield Cost of borrowings Spread", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Cost to Income",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY22": {"v": "36.3", "ref": "36.3% 38.1% 37.5% 36.2% 35.9% FY22 FY23 FY24 9M FY24 9M FY25 35.4% 40.8% 36.7% 36.2% 34.8% Q3 FY24 Q4 FY24 Q1 FY25 Q2 FY25 Q3 FY25", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY23": {"v": "38.1", "ref": "36.3% 38.1% 37.5% 36.2% 35.9% FY22 FY23 FY24 9M FY24 9M FY25 35.4% 40.8% 36.7% 36.2% 34.8% Q3 FY24 Q4 FY24 Q1 FY25 Q2 FY25 Q3 FY25", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY24": {"v": "37.5", "ref": "36.3% 38.1% 37.5% 36.2% 35.9% FY22 FY23 FY24 9M FY24 9M FY25 35.4% 40.8% 36.7% 36.2% 34.8% Q3 FY24 Q4 FY24 Q1 FY25 Q2 FY25 Q3 FY25", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY25": {"v": "36.4", "ref": "36.3% 38.1% 37.5% 36.4% FY22 FY23 FY24 FY25", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "9M FY24": {"v": "36.2", "ref": "36.3% 38.1% 37.5% 36.2% 35.9% FY22 FY23 FY24 9M FY24 9M FY25", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "9M FY25": {"v": "35.9", "ref": "36.3% 38.1% 37.5% 36.2% 35.9% FY22 FY23 FY24 9M FY24 9M FY25", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q3 FY24": {"v": "35.4", "ref": "36.3% 38.1% 37.5% 36.2% 35.9% FY22 FY23 FY24 9M FY24 9M FY25 35.4% 40.8% 36.7% 36.2% 34.8% Q3 FY24 Q4 FY24 Q1 FY25 Q2 FY25 Q3 FY25", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q4 FY24": {"v": "40.8", "ref": "36.3% 38.1% 37.5% 36.2% 35.9% FY22 FY23 FY24 9M FY24 9M FY25 35.4% 40.8% 36.7% 36.2% 34.8% Q3 FY24 Q4 FY24 Q1 FY25 Q2 FY25 Q3 FY25", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q1 FY25": {"v": "36.7", "ref": "36.3% 38.1% 37.5% 36.2% 35.9% FY22 FY23 FY24 9M FY24 9M FY25 35.4% 40.8% 36.7% 36.2% 34.8% Q3 FY24 Q4 FY24 Q1 FY25 Q2 FY25 Q3 FY25", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q2 FY25": {"v": "36.2", "ref": "36.3% 38.1% 37.5% 36.2% 35.9% FY22 FY23 FY24 9M FY24 9M FY25 35.4% 40.8% 36.7% 36.2% 34.8% Q3 FY24 Q4 FY24 Q1 FY25 Q2 FY25 Q3 FY25", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q3 FY25": {"v": "34.8", "ref": "36.3% 38.1% 37.5% 36.2% 35.9% FY22 FY23 FY24 9M FY24 9M FY25 35.4% 40.8% 36.7% 36.2% 34.8% Q3 FY24 Q4 FY24 Q1 FY25 Q2 FY25 Q3 FY25", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q4 FY25": {"v": "37.9", "ref": "36.7% 36.2% 34.8% 37.9% 36.1% Q1 FY25 Q2 FY25 Q3 FY25 Q4 FY25 Q1 FY26", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q1 FY26": {"v": "36.1", "ref": "36.7% 36.2% 34.8% 37.9% 36.1% Q1 FY25 Q2 FY25 Q3 FY25 Q4 FY25 Q1 FY26", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "H1 FY25": {"v": "37.5", "ref": "Cost to Income - H1 FY25 Improved by 100bps compared to FY24", "src": "Nov-2024_709f0813-29d4-4ac6-a079-19a363cb0f3b_IP.pdf", "pg": "10", "conf": "MEDIUM"},
+            "H1 FY26": {"v": "36.3", "ref": "Cost to Income – Improved by 64bps in Q1 FY26 on YoY basis", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "10", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Number of Branches",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY26": {"v": "591", "ref": "Pan- India presence with 591 branches covering 547 districts across 22 states and union territories; serving c.306k live accounts", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Sep-25": {"v": "611", "ref": "Pan- India presence with 611 branches covering 549 districts across 22 states and union territories; serving c.315k live accounts", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "13", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of Districts Covered",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Jun-25": {"v": "547", "ref": "Pan- India presence with 591 branches covering 547 districts across 22 states and union territories", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Sep-25": {"v": "549", "ref": "Pan- India presence with 611 branches covering 549 districts across 22 states and union territories; serving c.315k live accounts", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "13", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of Live Accounts",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Jun-24": {"v": "266,000", "ref": "Pan- India presence with 523 branches covering 534 districts across 20 states and union territories; serving c.266k live accounts", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Mar-25": {"v": "299,000", "ref": "Pan- India presence with 580 branches covering 545 districts across 21 states and union territories; serving c.299k live accounts", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Jun-25": {"v": "306,000", "ref": "Pan- India presence with 591 branches covering 547 districts across 22 states and union territories; serving c.306k live accounts", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Sep-25": {"v": "315,000", "ref": "Pan- India presence with 611 branches covering 549 districts across 22 states and union territories; serving c.315k live accounts", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "13", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Average Ticket Size",
+          "unit": "INR Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Jun-25": {"v": "1.0", "ref": "Granular portfolio skewed towards Salaried customers; Average ticket size of INR1.0mn", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Sep-25": {"v": "1.1", "ref": "Granular portfolio skewed towards Salaried customers; Average ticket size of INR1.1mn", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Dec-25": {"v": "1.1", "ref": "Granular portfolio skewed towards Salaried customers; Average ticket size of INR1.1mn", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "13", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of Lender Relationships",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Mar-24": {"v": "38", "ref": "38 lender relationships with a diversified borrowing base", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Jun-25": {"v": "43", "ref": "43 lender relationships with a diversified borrowing base", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Sep-25": {"v": "44", "ref": "44 lender relationships with a diversified borrowing base", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "13", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Gross Stage 1 AUM",
+          "unit": "INR Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Jun-23": {"v": "138,581", "ref": "Gross Stage 1 1,38,581", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Mar-24": {"v": "163,054", "ref": "Gross Stage 1 1,63,054", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Jun-24": {"v": "167,231", "ref": "Gross Stage 1 1,67,231", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Sep-24": {"v": "175,466", "ref": "Gross Stage 1 1,75,466", "src": "Nov-2024_709f0813-29d4-4ac6-a079-19a363cb0f3b_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Dec-24": {"v": "184,284", "ref": "Gross Stage 1 1,84,284", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Mar-25": {"v": "196,774", "ref": "Gross Stage 1 196,774", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Jun-25": {"v": "205,903", "ref": "Gross Stage 1 205,903", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "42", "conf": "HIGH"},
+            "Sep-25": {"v": "214,226", "ref": "Gross Stage 1 214,226", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Dec-25": {"v": "224,781", "ref": "Gross Stage 1 224,781", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "42", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Gross Stage 2 AUM",
+          "unit": "INR Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Jun-23": {"v": "6,205", "ref": "Gross Stage 2 6,205", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Mar-24": {"v": "6,189", "ref": "Gross Stage 2 6,189", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Jun-24": {"v": "6,437", "ref": "Gross Stage 2 6,437", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Sep-24": {"v": "6,812", "ref": "Gross Stage 2 6,812", "src": "Nov-2024_709f0813-29d4-4ac6-a079-19a363cb0f3b_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Dec-24": {"v": "7,406", "ref": "Gross Stage 2 7,406", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Mar-25": {"v": "8,269", "ref": "Gross Stage 2 8,269", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Jun-25": {"v": "7,922", "ref": "Gross Stage 2 7,922", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "42", "conf": "HIGH"},
+            "Sep-25": {"v": "7,883", "ref": "Gross Stage 2 7,883", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Dec-25": {"v": "7,796", "ref": "Gross Stage 2 7,796", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "42", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Gross Stage 3 b AUM",
+          "unit": "INR Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Jun-23": {"v": "2,118", "ref": "Gross Stage 3 b (DPD > 90) 2,118", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Mar-24": {"v": "1,852", "ref": "Gross Stage 3 b (DPD > 90) 1,852", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Jun-24": {"v": "2,317", "ref": "Gross Stage 3 b (DPD > 90) 2,317", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Sep-24": {"v": "2,476", "ref": "Gross Stage 3 b (DPD > 90) 2,476", "src": "Nov-2024_709f0813-29d4-4ac6-a079-19a363cb0f3b_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Dec-24": {"v": "2,737", "ref": "Gross Stage 3 b (DPD > 90) 2,737", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Mar-25": {"v": "2,213", "ref": "Gross Stage 3 b (DPD > 90) 2,213", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Jun-25": {"v": "2,985", "ref": "Gross Stage 3 b (DPD > 90) 2,985", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "42", "conf": "HIGH"},
+            "Sep-25": {"v": "3,305", "ref": "Gross Stage 3 b (DPD > 90) 3,305", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Dec-25": {"v": "3,340", "ref": "Gross Stage 3 b (DPD > 90) 3,340", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "42", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Gross Stage 1,2,3 AUM",
+          "unit": "INR Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Jun-23": {"v": "146,963", "ref": "Gross Stage 1, 2 & 3 1,46,963", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Mar-24": {"v": "171,112", "ref": "Gross Stage 1, 2 & 3 1,71,112", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Jun-24": {"v": "176,040", "ref": "Gross Stage 1, 2 & 3 1,76,040", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Sep-24": {"v": "184,778", "ref": "Gross Stage 1, 2 & 3 1,84,778", "src": "Nov-2024_709f0813-29d4-4ac6-a079-19a363cb0f3b_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Dec-24": {"v": "194,460", "ref": "Gross Stage 1, 2 & 3 1,94,460", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Mar-25": {"v": "207,272", "ref": "Gross Stage 1, 2 & 3 207,272", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Jun-25": {"v": "216,832", "ref": "Gross Stage 1, 2 & 3 216,832", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "42", "conf": "HIGH"},
+            "Sep-25": {"v": "225,432", "ref": "Gross Stage 1, 2 & 3 225,432", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Dec-25": {"v": "235,930", "ref": "Gross Stage 1, 2 & 3 235,930", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "42", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "ECL Provision Total",
+          "unit": "INR Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Jun-23": {"v": "2,074", "ref": "ECL Provision Stage 1, 2 & 3 2,074", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Mar-24": {"v": "2,081", "ref": "ECL Provision Stage 1, 2 & 3 2,081", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Jun-24": {"v": "2,185", "ref": "ECL Provision Stage 1, 2 & 3 2,185", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Sep-24": {"v": "2,250", "ref": "ECL Provision Stage 1, 2 & 3 2,250", "src": "Nov-2024_709f0813-29d4-4ac6-a079-19a363cb0f3b_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Dec-24": {"v": "2,418", "ref": "ECL Provision Stage 1, 2 & 3 2,418", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Mar-25": {"v": "2,430", "ref": "ECL Provision Stage 1, 2 & 3 2,430", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Jun-25": {"v": "2,632", "ref": "ECL Provision Stage 1, 2 & 3 2,632", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "42", "conf": "HIGH"},
+            "Sep-25": {"v": "2,825", "ref": "ECL Provision Stage 1, 2 & 3 2,825", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Dec-25": {"v": "2,808", "ref": "ECL Provision Stage 1, 2 & 3 2,808", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "42", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total ECL Provision %",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Jun-23": {"v": "1.4", "ref": "Total ECL Provision % 1.4%", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Mar-24": {"v": "1.2", "ref": "Total ECL Provision % 1.2%", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Jun-24": {"v": "1.2", "ref": "Total ECL Provision % 1.2%", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Sep-24": {"v": "1.2", "ref": "Total ECL Provision % 1.2%", "src": "Nov-2024_709f0813-29d4-4ac6-a079-19a363cb0f3b_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Dec-24": {"v": "1.2", "ref": "Total ECL Provision % 1.2%", "src": "Feb-2025_f2e22bdc-30b4-414b-9eb6-506f6acec2d2_IP.pdf", "pg": "31", "conf": "HIGH"},
+            "Mar-25": {"v": "1.2", "ref": "Total ECL Provision % 1.2%", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Jun-25": {"v": "1.2", "ref": "Total ECL Provision % 1.2%", "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf", "pg": "42", "conf": "HIGH"},
+            "Sep-25": {"v": "1.3", "ref": "Total ECL Provision % 1.3%", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Dec-25": {"v": "1.2", "ref": "Total ECL Provision % 1.2%", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "42", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "EWS/LIG Customers AUM share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY21": {"v": "81", "ref": "81% 80% 76% 71% 70% FY21 FY22 FY23 FY24 Q1 FY25 70% Gross AUM with EWS/LIG customers", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "FY22": {"v": "80", "ref": "81% 80% 76% 71% 70% FY21 FY22 FY23 FY24 Q1 FY25 70% Gross AUM with EWS/LIG customers", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "FY23": {"v": "76", "ref": "81% 80% 76% 71% 70% FY21 FY22 FY23 FY24 Q1 FY25 70% Gross AUM with EWS/LIG customers", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "FY24": {"v": "71", "ref": "81% 80% 76% 71% 70% FY21 FY22 FY23 FY24 Q1 FY25 70% Gross AUM with EWS/LIG customers", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Q1 FY25": {"v": "70", "ref": "81% 80% 76% 71% 70% FY21 FY22 FY23 FY24 Q1 FY25 70% Gross AUM with EWS/LIG customers", "src": "Aug-2024_6a1f81b1-04f7-4f92-902f-ecf1dc726242_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Secured retail loan book share",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "100",
+          "ref": "100% secured retail loan book",
+          "src": "Jul-2025_85e2ec0e-d432-4540-b23f-d8ca2fe8bb05_IP.pdf",
+          "pg": "13",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Gross AUM with floating interest rates",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Mar-25": {"v": "76", "ref": "76% of Gross AUM and 79% of borrowings have floating interest rates", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Sep-25": {"v": "75", "ref": "75% of Gross AUM and 73% of borrowings have floating interest rates", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Dec-25": {"v": "74", "ref": "74% of Gross AUM and 74% of borrowings have floating interest rates", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Borrowings with floating interest rates",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Mar-25": {"v": "79", "ref": "76% of Gross AUM and 79% of borrowings have floating interest rates", "src": "May-2025_38da5889-599d-4428-80bd-64d9c8849cf3_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Sep-25": {"v": "73", "ref": "75% of Gross AUM and 73% of borrowings have floating interest rates", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Dec-25": {"v": "74", "ref": "74% of Gross AUM and 74% of borrowings have floating interest rates", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "NACH Conversion Rate",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "97",
+          "ref": "Digital Collections 97% NACH Conversion",
+          "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf",
+          "pg": "27",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Door-to-Login Time",
+          "unit": "minutes",
+          "metric_type": "static_descriptor",
+          "value": "25-35",
+          "ref": "Digital Acquisition 25-35 mins Door-to-Login Time",
+          "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf",
+          "pg": "27",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Paper-less Onboarding share",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "100",
+          "ref": "Digital Processing 100% Paper-less Onboarding",
+          "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf",
+          "pg": "27",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Customer App Logins",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "129,000+",
+          "ref": "Digital Servicing 129,000+ Customer App Logins",
+          "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf",
+          "pg": "27",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "Company-wide - Shareholding",
+      "data": [
+        {
+          "particulars": "Promoter Holding (Blackstone)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "May-24": {"v": "76.5", "ref": "Promoter (Blackstone¹) 76.5%", "src": "Jun-2024_a85454f1-14d0-4027-b041-a9fb3894f1ed_IP.pdf", "pg": "10", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Credit Rating - Long Term - Care Ratings",
+      "unit": "rating",
+      "metric_type": "periodic",
+      "values": {
+        "Sep-25": {"v": "AA+ / Stable", "ref": "Care Ratings Long Term AA+ / Stable", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "24", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Credit Rating - Long Term - India Ratings",
+      "unit": "rating",
+      "metric_type": "periodic",
+      "values": {
+        "Sep-25": {"v": "AA / Positive", "ref": "India Ratings Long Term AA / Positive", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "24", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Credit Rating - Long Term - ICRA",
+      "unit": "rating",
+      "metric_type": "periodic",
+      "values": {
+        "Sep-25": {"v": "AA / Stable", "ref": "ICRA Long Term AA / Stable", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "24", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Credit Rating - Long Term - Brickworks",
+      "unit": "rating",
+      "metric_type": "periodic",
+      "values": {
+        "Sep-25": {"v": "AA / Stable", "ref": "Brickworks Long Term AA / Stable", "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf", "pg": "24", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Credit Rating - Short Term - Care Ratings",
+      "unit": "rating",
+      "metric_type": "static_descriptor",
+      "value": "A1+",
+      "ref": "Care Ratings Short Term A1+",
+      "src": "Nov-2025_b52fa763-2e86-4596-8f86-966c41771e37_IP.pdf",
+      "pg": "24",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "PMAY allocation (Central government)",
+      "unit": "INR Cr",
+      "metric_type": "periodic",
+      "values": {
+        "FY2024-2025": {"v": "30,170", "ref": "The Union Budget for 2024–2025 provided INR 30,170 Cr for the Pradhan Mantri Awas Yojana-Urban (PMAY-U), a 20.19% increase over the preceding year’s amount.", "src": "Feb-2026_fc74b4c5-e7f6-4e76-9715-36fefffeb0fd_IP.pdf", "pg": "37", "conf": "HIGH"}
+      }
+    }
+  ]
+}
