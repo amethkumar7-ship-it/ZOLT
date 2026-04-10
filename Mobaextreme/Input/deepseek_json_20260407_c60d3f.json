@@ -1,0 +1,463 @@
+{
+  "company_name": "Aarti Pharmalabs Limited",
+  "documents_scanned": "9",
+  "time_range": "FY22 to Q3-FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Years of Pharmaceutical Excellence", "unit": "years", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Global Clients", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Export Countries", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Manufacturing Units", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "USFDA Units", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Employees", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "US DMF", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "CEP", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Global Market Share in Xanthine", "unit": "percentage", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Global Market Share Target in Xanthine (Post Expansion)", "unit": "percentage", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Patents Filed", "unit": "count", "metric_type": "periodic", "periods_available": ["FY25", "FY24"]},
+        {"metric": "Patents Granted", "unit": "count", "metric_type": "periodic", "periods_available": ["FY25", "FY24", "FY23"]},
+        {"metric": "R&D Centers", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "PhD", "unit": "count", "metric_type": "periodic", "periods_available": ["FY25", "FY24"]},
+        {"metric": "R&D Process Scientists", "unit": "count", "metric_type": "periodic", "periods_available": ["FY25", "FY24", "FY23"]},
+        {"metric": "R&D Spend in FY25", "unit": "INR Cr", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "APIs commercialized", "unit": "count", "metric_type": "periodic", "periods_available": ["FY25", "FY24", "FY23"]},
+        {"metric": "Cryogenic reactors temperature range", "unit": "°C", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Total reactor capacity", "unit": "kL+", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "API finished lines", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Xanthine current capacity", "unit": "MTPA", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Xanthine expanded capacity target", "unit": "MTPA", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "CDMO Customers", "unit": "count", "metric_type": "periodic", "periods_available": ["Q3-FY26", "Q2-FY26", "Q1-FY26", "FY25", "Nov-2024", "Feb-2025"]},
+        {"metric": "CDMO Active Projects", "unit": "count", "metric_type": "periodic", "periods_available": ["Q3-FY26", "Q2-FY26", "Q1-FY26", "FY25", "Nov-2024", "Feb-2025"]},
+        {"metric": "CDMO Commercial Stage Projects", "unit": "count", "metric_type": "periodic", "periods_available": ["Q3-FY26", "Q2-FY26", "Q1-FY26", "FY25", "Nov-2024", "Feb-2025"]},
+        {"metric": "CDMO Development Stage Projects", "unit": "count", "metric_type": "periodic", "periods_available": ["Q3-FY26", "Q2-FY26", "Q1-FY26", "FY25", "Nov-2024", "Feb-2025"]},
+        {"metric": "New products launched at plant scale in FY25", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Products developed on kilo-lab scale in FY25", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Atali Phase 1 Capacity", "unit": "KL", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Atali Land Acquired", "unit": "acres", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Atali Project Estimated Investment", "unit": "INR crores", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Tarapur Brownfield Estimated Investment", "unit": "INR crores", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Tarapur Xanthine Installed Capacity (Post Expansion)", "unit": "MTPA", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Tarapur Current Utilization", "unit": "percentage", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "CDMO/CMO",
+      "metrics_found": [
+        {"metric": "Goods in transit (as of 31-Dec-25)", "unit": "INR Cr", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Credit rating", "unit": "rating", "metric_type": "periodic", "periods_available": ["FY25", "FY24", "Aug-2024"]},
+    {"metric": "Net Debt to Equity", "unit": "x", "metric_type": "periodic", "periods_available": ["FY25", "FY24", "FY23", "H1-FY26", "FY22"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Years of Pharmaceutical Excellence",
+          "unit": "years",
+          "metric_type": "static_descriptor",
+          "value": "25",
+          "ref": "25 Years of Pharmaceutical Excellence",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "3",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "220+",
+          "ref": "220+ Products",
+          "src": "Aug-2025_d4a5587f-7ee8-4fb7-8ee5-07d93610c2a8_IP.pdf",
+          "pg": "3",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Global Clients",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "500+",
+          "ref": "500+ Global Clients",
+          "src": "Aug-2025_d4a5587f-7ee8-4fb7-8ee5-07d93610c2a8_IP.pdf",
+          "pg": "3",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Export Countries",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "50+",
+          "ref": "50+ Export Countries",
+          "src": "Aug-2025_d4a5587f-7ee8-4fb7-8ee5-07d93610c2a8_IP.pdf",
+          "pg": "3",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Manufacturing Units",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "6",
+          "ref": "6 Manufacturing Units",
+          "src": "Aug-2025_d4a5587f-7ee8-4fb7-8ee5-07d93610c2a8_IP.pdf",
+          "pg": "3",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "USFDA Units",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "3",
+          "ref": "3 USFDA Units",
+          "src": "Aug-2025_d4a5587f-7ee8-4fb7-8ee5-07d93610c2a8_IP.pdf",
+          "pg": "3",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Employees",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "2200+",
+          "ref": "2,200+ Employees",
+          "src": "Aug-2025_d4a5587f-7ee8-4fb7-8ee5-07d93610c2a8_IP.pdf",
+          "pg": "3",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "US DMF",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "35",
+          "ref": "US DMF 35",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "3",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "CEP",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "29",
+          "ref": "Patents Granted 29",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "9",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Global Market Share in Xanthine",
+          "unit": "percentage",
+          "metric_type": "static_descriptor",
+          "value": "15-20%",
+          "ref": "global market share of currently 15-20%",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Global Market Share Target in Xanthine (Post Expansion)",
+          "unit": "percentage",
+          "metric_type": "static_descriptor",
+          "value": "20-25%",
+          "ref": "target to take our global market share ... to 20-25%",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Patents Filed",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "62", "ref": "62 Process Patents Filed", "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "FY24": {"v": "58", "ref": "58 Process Patents Filed", "src": "Feb-2025_9ded98d2-7458-423b-ba41-f7de69b66199_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Patents Granted",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "29", "ref": "Patents Granted 29", "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "FY24": {"v": "28", "ref": "Patents Granted 28", "src": "Feb-2025_9ded98d2-7458-423b-ba41-f7de69b66199_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "FY23": {"v": "27", "ref": "Patents Granted 27", "src": "Nov-2024_ed8a6d03-5e28-4ac8-87d2-29bddedd0ad6_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "R&D Centers",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "3",
+          "ref": "3 State of the art R&D Centers",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "9",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "PhD",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "21", "ref": "21 PhD", "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "FY24": {"v": "18", "ref": "18 PhD", "src": "Aug-2025_d4a5587f-7ee8-4fb7-8ee5-07d93610c2a8_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "R&D Process Scientists",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "116", "ref": "116 R&D Process Scientists", "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "FY24": {"v": "115", "ref": "115 R&D Process Scientists", "src": "Nov-2025_46d58674-e6a3-408b-8347-9ef5132efe9b_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "FY23": {"v": "108", "ref": "108 R&D Process Scientists", "src": "Aug-2025_d4a5587f-7ee8-4fb7-8ee5-07d93610c2a8_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "R&D Spend in FY25",
+          "unit": "INR Cr",
+          "metric_type": "static_descriptor",
+          "value": "42 Cr",
+          "ref": "42 Cr R&D Spend in FY25",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "9",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "APIs commercialized",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "60", "ref": "60 APIs commercialized", "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "FY24": {"v": "58", "ref": "58 APIs commercialized", "src": "Feb-2025_9ded98d2-7458-423b-ba41-f7de69b66199_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "FY23": {"v": "56", "ref": "APIs commercialized 56", "src": "Nov-2024_ed8a6d03-5e28-4ac8-87d2-29bddedd0ad6_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Cryogenic reactors temperature range",
+          "unit": "°C",
+          "metric_type": "static_descriptor",
+          "value": "-100°C to +150°C",
+          "ref": "Cryogenic reactors operating within a temperature range of - 100°C to +150°C",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "8",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Total reactor capacity",
+          "unit": "kL+",
+          "metric_type": "static_descriptor",
+          "value": "1,100 KL+",
+          "ref": "1,100 KL+ multipurpose reactor capacity",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "12",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "API finished lines",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "14",
+          "ref": "14 API finished lines",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "12",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Xanthine current capacity",
+          "unit": "MTPA",
+          "metric_type": "static_descriptor",
+          "value": "5,000+",
+          "ref": "combined capacity of 5,000+ MTPA",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Xanthine expanded capacity target",
+          "unit": "MTPA",
+          "metric_type": "static_descriptor",
+          "value": "9,000+",
+          "ref": "take total capacity to 9,000+ MTPA",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "CDMO Customers",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q3-FY26": {"v": "21", "ref": "Presently working with 21 customers", "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q2-FY26": {"v": "21", "ref": "Presently working with 21 customers", "src": "Nov-2025_46d58674-e6a3-408b-8347-9ef5132efe9b_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q1-FY26": {"v": "21", "ref": "Presently working with 21 customers", "src": "Aug-2025_d4a5587f-7ee8-4fb7-8ee5-07d93610c2a8_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "21", "ref": "Presently working with 21 customers", "src": "May-2025_df45d866-44c7-4002-af15-877424037137_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Feb-2025": {"v": "21", "ref": "Presently working with 21 customers", "src": "Feb-2025_9ded98d2-7458-423b-ba41-f7de69b66199_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Nov-2024": {"v": "19", "ref": "Presently working with 19 customers", "src": "Nov-2024_ed8a6d03-5e28-4ac8-87d2-29bddedd0ad6_IP.pdf", "pg": "16", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "CDMO Active Projects",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q3-FY26": {"v": "59", "ref": "59 active projects", "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q2-FY26": {"v": "59", "ref": "59 active projects", "src": "Nov-2025_46d58674-e6a3-408b-8347-9ef5132efe9b_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q1-FY26": {"v": "60", "ref": "60 active projects", "src": "Aug-2025_d4a5587f-7ee8-4fb7-8ee5-07d93610c2a8_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "60", "ref": "60 active projects", "src": "May-2025_df45d866-44c7-4002-af15-877424037137_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Feb-2025": {"v": "56", "ref": "56 active projects", "src": "Feb-2025_9ded98d2-7458-423b-ba41-f7de69b66199_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Nov-2024": {"v": "55", "ref": "55 projects", "src": "Nov-2024_ed8a6d03-5e28-4ac8-87d2-29bddedd0ad6_IP.pdf", "pg": "16", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "CDMO Commercial Stage Projects",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q3-FY26": {"v": "40", "ref": "40 are in the commercial stage", "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q2-FY26": {"v": "39", "ref": "39 are in the commercial stage", "src": "Nov-2025_46d58674-e6a3-408b-8347-9ef5132efe9b_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q1-FY26": {"v": "33", "ref": "33 are in the commercial stage", "src": "Aug-2025_d4a5587f-7ee8-4fb7-8ee5-07d93610c2a8_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "33", "ref": "33 are in the commercial stage", "src": "May-2025_df45d866-44c7-4002-af15-877424037137_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Feb-2025": {"v": "28", "ref": "28 are in the commercial stage", "src": "Feb-2025_9ded98d2-7458-423b-ba41-f7de69b66199_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Nov-2024": {"v": "28", "ref": "28 are in the commercial stage", "src": "Nov-2024_ed8a6d03-5e28-4ac8-87d2-29bddedd0ad6_IP.pdf", "pg": "16", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "CDMO Development Stage Projects",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q3-FY26": {"v": "19", "ref": "19 are under different stages of development", "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q2-FY26": {"v": "20", "ref": "20 are under different stages of development", "src": "Nov-2025_46d58674-e6a3-408b-8347-9ef5132efe9b_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q1-FY26": {"v": "27", "ref": "27 are under different stages of development", "src": "Aug-2025_d4a5587f-7ee8-4fb7-8ee5-07d93610c2a8_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "27", "ref": "27 are under different stages of development", "src": "May-2025_df45d866-44c7-4002-af15-877424037137_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Feb-2025": {"v": "28", "ref": "28 are under different stages of development", "src": "Feb-2025_9ded98d2-7458-423b-ba41-f7de69b66199_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Nov-2024": {"v": "27", "ref": "27 are under different stages of development", "src": "Nov-2024_ed8a6d03-5e28-4ac8-87d2-29bddedd0ad6_IP.pdf", "pg": "16", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "New products launched at plant scale in FY25",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "25+",
+          "ref": "New products launched at plant scale in FY25 25+",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "9",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Products developed on kilo-lab scale in FY25",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "25+",
+          "ref": "Products developed and manufactured on kilo- lab scale in FY25 25+",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "9",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Atali Phase 1 Capacity",
+          "unit": "KL",
+          "metric_type": "static_descriptor",
+          "value": "450",
+          "ref": "Capacity ~450 KL (Phase 1)",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "16",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Atali Land Acquired",
+          "unit": "acres",
+          "metric_type": "static_descriptor",
+          "value": "80",
+          "ref": "Land Acquired 80 acres",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "16",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Atali Project Estimated Investment",
+          "unit": "INR crores",
+          "metric_type": "static_descriptor",
+          "value": "400",
+          "ref": "Estimated Investment INR 400 crores",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "16",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Tarapur Brownfield Estimated Investment",
+          "unit": "INR crores",
+          "metric_type": "static_descriptor",
+          "value": "150",
+          "ref": "Estimated Investment INR 150 crores",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "16",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Tarapur Xanthine Installed Capacity (Post Expansion)",
+          "unit": "MTPA",
+          "metric_type": "static_descriptor",
+          "value": "9,000",
+          "ref": "Installed Capacity 9,000 MTPA",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "16",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Tarapur Current Utilization",
+          "unit": "percentage",
+          "metric_type": "static_descriptor",
+          "value": "Almost 100%",
+          "ref": "Current Utilization Almost 100%",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "16",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "CDMO/CMO",
+      "data": [
+        {
+          "particulars": "Goods in transit (as of 31-Dec-25)",
+          "unit": "INR Cr",
+          "metric_type": "static_descriptor",
+          "value": "49",
+          "ref": "Rs. 49 cr worth of goods were in transit as of 31-Dec-25",
+          "src": "Feb-2026_c371bec7-ba30-43fc-831f-cf12647c167a_IP.pdf",
+          "pg": "14",
+          "conf": "HIGH"
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Credit rating",
+      "unit": "rating",
+      "metric_type": "periodic",
+      "values": {
+        "FY25": {"v": "AA-", "ref": "AA- Credit rating", "src": "Aug-2025_d4a5587f-7ee8-4fb7-8ee5-07d93610c2a8_IP.pdf", "pg": "3", "conf": "HIGH"},
+        "FY24": {"v": "A+", "ref": "A+ Credit rating", "src": "Feb-2025_9ded98d2-7458-423b-ba41-f7de69b66199_IP.pdf", "pg": "3", "conf": "HIGH"},
+        "Aug-2024": {"v": "A+/Positive", "ref": "CRISIL Credit rating A+/Positive", "src": "Aug-2024_a24dcd5f-351c-4b14-9722-b5d8b340a486_IP.pdf", "pg": "3", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Net Debt to Equity",
+      "unit": "x",
+      "metric_type": "periodic",
+      "values": {
+        "FY25": {"v": "0.19x", "ref": "0.19x Net Debt/Equity", "src": "Aug-2025_d4a5587f-7ee8-4fb7-8ee5-07d93610c2a8_IP.pdf", "pg": "3", "conf": "HIGH"},
+        "FY24": {"v": "0.18x", "ref": "Net Debt/Equity 0.18x", "src": "Feb-2025_9ded98d2-7458-423b-ba41-f7de69b66199_IP.pdf", "pg": "3", "conf": "HIGH"},
+        "FY23": {"v": "0.18x", "ref": "Net Debt/Equity 0.18x", "src": "Nov-2024_ed8a6d03-5e28-4ac8-87d2-29bddedd0ad6_IP.pdf", "pg": "3", "conf": "HIGH"},
+        "H1-FY26": {"v": "0.19x", "ref": "Net Debt/Equity 0.19x", "src": "Nov-2025_46d58674-e6a3-408b-8347-9ef5132efe9b_IP.pdf", "pg": "27", "conf": "HIGH"},
+        "FY22": {"v": "0.14x", "ref": "0.14x Net Debt/Equity", "src": "Aug-2024_a24dcd5f-351c-4b14-9722-b5d8b340a486_IP.pdf", "pg": "3", "conf": "HIGH"}
+      }
+    }
+  ]
+}

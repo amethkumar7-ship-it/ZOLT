@@ -1,0 +1,708 @@
+{
+  "company_name": "3i Infotech Limited",
+  "documents_scanned": "11",
+  "time_range": "Q3 FY24 to Q3 FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Client Renewals", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26"]},
+        {"metric": "Revenue Contribution from Client Renewals", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26"]},
+        {"metric": "Workforce (Employees)", "unit": "count", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q1 FY25", "Q3 FY24"]},
+        {"metric": "Voluntary Attrition Rate", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26"]},
+        {"metric": "Rights Issue Raised", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY26"]},
+        {"metric": "Number of Countries", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Continents", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Man Hours of Experience", "unit": "Mn+", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Happy Customers", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Return Clients", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Active Clients", "unit": "count", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q2 FY24", "Q3 FY23"]},
+        {"metric": "Debt Free", "unit": "binary", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "New Clients Added", "unit": "count", "metric_type": "periodic", "periods_available": ["Q2 FY26", "Q1 FY25"]},
+        {"metric": "Net Cash", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY24"]},
+        {"metric": "New Contracts Signed", "unit": "count", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q1 FY25"]},
+        {"metric": "DSO (Days Sales Outstanding)", "unit": "days", "metric_type": "periodic", "periods_available": ["Q2 FY26", "Q1 FY26", "Q2 FY25"]}
+      ]
+    },
+    {
+      "segment_name": "Application-Automation-Analytics (AAA)",
+      "metrics_found": [
+        {"metric": "Revenue", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q3 FY25", "Q2 FY25", "Q3 FY24", "Q2 FY24", "Q3 FY23"]},
+        {"metric": "Revenue Share", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q1 FY25", "Q3 FY24", "Q2 FY24", "Q3 FY23"]}
+      ]
+    },
+    {
+      "segment_name": "Infrastructure Services (IS)",
+      "metrics_found": [
+        {"metric": "Revenue", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q3 FY24", "Q2 FY24", "Q3 FY23"]},
+        {"metric": "Revenue Share", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q1 FY25", "Q3 FY24", "Q2 FY24", "Q3 FY23"]}
+      ]
+    },
+    {
+      "segment_name": "Digital Business Process Services (Digital BPS)",
+      "metrics_found": [
+        {"metric": "Revenue", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q3 FY24", "Q2 FY24", "Q3 FY23"]},
+        {"metric": "Revenue Share", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q1 FY25", "Q3 FY24", "Q2 FY24", "Q3 FY23"]}
+      ]
+    },
+    {
+      "segment_name": "CloudFirst",
+      "metrics_found": [
+        {"metric": "Revenue", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q2 FY24", "Q3 FY23"]},
+        {"metric": "Revenue Growth (YoY)", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY24"]}
+      ]
+    },
+    {
+      "segment_name": "US Region",
+      "metrics_found": [
+        {"metric": "Revenue Contribution", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q1 FY25", "Q3 FY24", "Q2 FY24", "Q3 FY23"]},
+        {"metric": "Revenue", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q2 FY24", "Q3 FY23"]}
+      ]
+    },
+    {
+      "segment_name": "India Region",
+      "metrics_found": [
+        {"metric": "Revenue Contribution", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26", "Q2 FY26", "Q1 FY25", "Q3 FY24", "Q2 FY24", "Q3 FY23"]},
+        {"metric": "Revenue", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q2 FY24", "Q3 FY23"]},
+        {"metric": "Revenue Growth (YoY)", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY24"]}
+      ]
+    },
+    {
+      "segment_name": "EMEA Region",
+      "metrics_found": [
+        {"metric": "Revenue", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q2 FY24", "Q3 FY23"]}
+      ]
+    },
+    {
+      "segment_name": "APAC Region",
+      "metrics_found": [
+        {"metric": "Revenue", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q2 FY24", "Q3 FY23"]},
+        {"metric": "Revenue Growth (YoY)", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY24"]},
+        {"metric": "Revenue Growth (QoQ)", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY24"]}
+      ]
+    },
+    {
+      "segment_name": "BFSI Industry",
+      "metrics_found": [
+        {"metric": "Revenue Contribution", "unit": "%", "metric_type": "periodic", "periods_available": ["Q2 FY26", "Q1 FY25", "Q3 FY24", "Q2 FY24", "Q3 FY23"]},
+        {"metric": "Revenue", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q2 FY24", "Q3 FY23"]}
+      ]
+    },
+    {
+      "segment_name": "IT/Technology Industry",
+      "metrics_found": [
+        {"metric": "Revenue Contribution", "unit": "%", "metric_type": "periodic", "periods_available": ["Q2 FY26", "Q3 FY24", "Q2 FY24", "Q3 FY23"]},
+        {"metric": "Revenue", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q2 FY24", "Q3 FY23"]}
+      ]
+    },
+    {
+      "segment_name": "Government Industry",
+      "metrics_found": [
+        {"metric": "Revenue", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q2 FY24", "Q3 FY23"]}
+      ]
+    },
+    {
+      "segment_name": "Insurance Industry",
+      "metrics_found": [
+        {"metric": "Revenue", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q2 FY24", "Q3 FY23"]}
+      ]
+    },
+    {
+      "segment_name": "Manufacturing Industry",
+      "metrics_found": [
+        {"metric": "Revenue", "unit": "Crore", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q2 FY24", "Q3 FY23"]}
+      ]
+    },
+    {
+      "segment_name": "NuRe Bharat Network (RailTel)",
+      "metrics_found": [
+        {"metric": "Monthly Active WiFi Users", "unit": "Mn", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Monthly Sessions", "unit": "Mn", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Monthly Data Consumption", "unit": "TB", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Railway Stations Covered", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Railway Network Length", "unit": "Kms", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Everest Group PEAK Matrix Rating - BFSI IT Services", "unit": "rating", "metric_type": "periodic", "periods_available": ["2025"]},
+    {"metric": "Everest Group PEAK Matrix Rating - Quality Engineering Services", "unit": "rating", "metric_type": "periodic", "periods_available": ["2024"]},
+    {"metric": "Everest Group PEAK Matrix Rating - Talent Readiness for Data Analytics & AI Services", "unit": "rating", "metric_type": "periodic", "periods_available": ["2025"]},
+    {"metric": "Everest Group PEAK Matrix Rating - Application Management Services", "unit": "rating", "metric_type": "periodic", "periods_available": ["2025", "2024"]},
+    {"metric": "Everest Group PEAK Matrix Rating - Digital Transformation Services", "unit": "rating", "metric_type": "periodic", "periods_available": ["2024"]},
+    {"metric": "Gartner Market Guide Inclusion - Flexib+", "unit": "text", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Gartner Market Guide Inclusion - NuRe Campus", "unit": "text", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Oracle Cloud Infrastructure Partner Status", "unit": "text", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Best Innovative IT Company of the Year", "unit": "award", "metric_type": "periodic", "periods_available": ["2016-2020"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Workforce (Employees)",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "3,700+", "ref": "The Company closed the quarter with a workforce of over 3,700 employees", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q2 FY26": {"v": "4,000+", "ref": "The company closed the quarter with over 4,000 employees", "src": "Nov-2025_16fdbc56-b1fe-4ab7-8f1c-1e25902313e2_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q1 FY25": {"v": "5,500+", "ref": "The Company has over 5500 employees and over 250+ clients across globally.", "src": "Aug-2024_d737dae7-55c1-4caf-8c89-91c495a80c09_IP.pdf", "pg": "4", "conf": "HIGH"},
+            "Q3 FY24": {"v": "6,000+", "ref": "6000+ Employees", "src": "Apr-2024_9cd14ab0-6d25-4f0b-b4b1-72d972b96d4a_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Voluntary Attrition Rate",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "8%", "ref": "voluntary attrition rate of 8% , aligned with industry trends", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q2 FY26": {"v": "16%", "ref": "attrition rate of 16%, aligned with industry norms", "src": "Nov-2025_16fdbc56-b1fe-4ab7-8f1c-1e25902313e2_IP.pdf", "pg": "2", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Client Renewals",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "80%", "ref": "recorded more than 80% of key client renewals (balance is under renewal process)", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "2", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenue Contribution from Client Renewals",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "87%", "ref": "contributing 87% of revenue, across its service lines", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "2", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Rights Issue Raised",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "64.1", "ref": "company raised, 64.1 crores from rights issue", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "2", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of Countries",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "15+",
+          "ref": "15+ Countries", "src": "Apr-2024_9cd14ab0-6d25-4f0b-b4b1-72d972b96d4a_IP.pdf", "pg": "5", "conf": "HIGH"
+        },
+        {
+          "particulars": "Continents",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "4",
+          "ref": "4 Continents", "src": "Apr-2024_9cd14ab0-6d25-4f0b-b4b1-72d972b96d4a_IP.pdf", "pg": "6", "conf": "HIGH"
+        },
+        {
+          "particulars": "Man Hours of Experience",
+          "unit": "Mn+",
+          "metric_type": "static_descriptor",
+          "value": "83",
+          "ref": "83 Mn+ Man hours of Experience", "src": "Apr-2024_9cd14ab0-6d25-4f0b-b4b1-72d972b96d4a_IP.pdf", "pg": "6", "conf": "HIGH"
+        },
+        {
+          "particulars": "Happy Customers",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "1300",
+          "ref": "1300 Happy Customers", "src": "Apr-2024_9cd14ab0-6d25-4f0b-b4b1-72d972b96d4a_IP.pdf", "pg": "6", "conf": "HIGH"
+        },
+        {
+          "particulars": "Return Clients",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "75%+",
+          "ref": "75%+ Return Clients", "src": "Apr-2024_9cd14ab0-6d25-4f0b-b4b1-72d972b96d4a_IP.pdf", "pg": "6", "conf": "HIGH"
+        },
+        {
+          "particulars": "Active Clients",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "440", "ref": "# of Clients 440", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q2 FY24": {"v": "409", "ref": "# of Clients 409", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q3 FY23": {"v": "485", "ref": "# of Clients 485", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Debt Free",
+          "unit": "binary",
+          "metric_type": "static_descriptor",
+          "value": "Yes",
+          "ref": "100% Debt Free", "src": "Apr-2024_9cd14ab0-6d25-4f0b-b4b1-72d972b96d4a_IP.pdf", "pg": "6", "conf": "HIGH"
+        },
+        {
+          "particulars": "New Clients Added",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY26": {"v": "14", "ref": "onboarding 14 new clients across key industries and mostly from US", "src": "Nov-2025_16fdbc56-b1fe-4ab7-8f1c-1e25902313e2_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q1 FY25": {"v": "6", "ref": "6 new customers added during the quarter", "src": "Aug-2024_d737dae7-55c1-4caf-8c89-91c495a80c09_IP.pdf", "pg": "2", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Net Cash",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "48.8", "ref": "Net cash stood at Rs 48.8 crore as of Q3 FY24", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "14", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "New Contracts Signed",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "26", "ref": "During the quarter, we signed 26 new contracts from new and existing customers", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Q1 FY25": {"v": "20+", "ref": "During the quarter, we secured 20+ new contracts from both new and existing customers", "src": "Aug-2024_d737dae7-55c1-4caf-8c89-91c495a80c09_IP.pdf", "pg": "2", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "DSO (Days Sales Outstanding)",
+          "unit": "days",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY26": {"v": "56.0", "ref": "DSO (Days) 56.0", "src": "Nov-2025_16fdbc56-b1fe-4ab7-8f1c-1e25902313e2_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Q1 FY26": {"v": "55.0", "ref": "DSO (Days) 55.0", "src": "Nov-2025_16fdbc56-b1fe-4ab7-8f1c-1e25902313e2_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Q2 FY25": {"v": "78.0", "ref": "DSO (Days) 78.0", "src": "Nov-2025_16fdbc56-b1fe-4ab7-8f1c-1e25902313e2_IP.pdf", "pg": "23", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Application-Automation-Analytics (AAA)",
+      "data": [
+        {
+          "particulars": "Revenue",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "121.2", "ref": "AAA vertical remained the primary growth delivering 121.2 crore in revenue", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q2 FY26": {"v": "123.0", "ref": "AAA vertical remained the primary growth driver, delivering ₹123 crore in revenue", "src": "Nov-2025_16fdbc56-b1fe-4ab7-8f1c-1e25902313e2_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q3 FY25": {"v": "121.2", "ref": "Application, Automation, Analytics (AAA) vertical remained the primary growth delivering 121.2 crore in revenue", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q3 FY24": {"v": "132.6", "ref": "AAA 132.6", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2 FY24": {"v": "132.3", "ref": "AAA 132.3", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY23": {"v": "129.8", "ref": "AAA 129.8", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenue Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "70.4%", "ref": "Revenue mix remains stable with AAA continuing to be the highest contributor", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Q1 FY25": {"v": "63.4%", "ref": "Application-Automation-Analytics (AAA) continue to remain highest revenue contributor with Rs 113.9 crore (63.4%)", "src": "Aug-2024_d737dae7-55c1-4caf-8c89-91c495a80c09_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "Q3 FY24": {"v": "62.5%", "ref": "AAA 132.6 Cr (62.5% of total 212.1)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2 FY24": {"v": "62.9%", "ref": "AAA 132.3 Cr (62.9% of total 210.3)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY23": {"v": "71.2%", "ref": "AAA 129.8 Cr (71.2% of total 182.3)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Infrastructure Services (IS)",
+      "data": [
+        {
+          "particulars": "Revenue",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "34.8", "ref": "Infrastructure Services (IS) with revenue of 34.8 crores", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q2 FY26": {"v": "34.6", "ref": "Infrastructure Services (IS) at ₹34.6 crore", "src": "Nov-2025_16fdbc56-b1fe-4ab7-8f1c-1e25902313e2_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q3 FY24": {"v": "40.1", "ref": "IMS 40.1", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2 FY24": {"v": "36.4", "ref": "IMS 36.4", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY23": {"v": "23.7", "ref": "IMS 23.7", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenue Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "20.2%", "ref": "Revenue mix remains stable with AAA continuing to be the highest contributor", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Q1 FY25": {"v": "20.7%", "ref": "Infrastructure Management Services (IMS) revenue of Rs 37.2 crore (20.7%)", "src": "Aug-2024_d737dae7-55c1-4caf-8c89-91c495a80c09_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "Q3 FY24": {"v": "18.9%", "ref": "IMS 40.1 Cr (18.9% of total 212.1)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2 FY24": {"v": "17.3%", "ref": "IMS 36.4 Cr (17.3% of total 210.3)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY23": {"v": "13.0%", "ref": "IMS 23.7 Cr (13.0% of total 182.3)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Digital Business Process Services (Digital BPS)",
+      "data": [
+        {
+          "particulars": "Revenue",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "15.5", "ref": "Digital Business Process Services (Digital BPS) with revenue of 15.5 crores", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q2 FY26": {"v": "16.8", "ref": "Digital Business Process Services (Digital BPS) at ₹16.8 crore", "src": "Nov-2025_16fdbc56-b1fe-4ab7-8f1c-1e25902313e2_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q3 FY24": {"v": "26.6", "ref": "BPS 26.6", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2 FY24": {"v": "27.8", "ref": "BPS 27.8", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY23": {"v": "22.3", "ref": "BPS 22.3", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenue Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "9.0%", "ref": "Revenue mix remains stable with AAA continuing to be the highest contributor", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Q1 FY25": {"v": "13.9%", "ref": "BPS revenue of Rs 24.9 crore (13.9%)", "src": "Aug-2024_d737dae7-55c1-4caf-8c89-91c495a80c09_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "Q3 FY24": {"v": "12.5%", "ref": "BPS 26.6 Cr (12.5% of total 212.1)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2 FY24": {"v": "13.2%", "ref": "BPS 27.8 Cr (13.2% of total 210.3)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY23": {"v": "12.2%", "ref": "BPS 22.3 Cr (12.2% of total 182.3)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "CloudFirst",
+      "data": [
+        {
+          "particulars": "Revenue",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "10.9", "ref": "CloudFirst 10.9", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2 FY24": {"v": "11.7", "ref": "CloudFirst 11.7", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3 FY23": {"v": "4.9", "ref": "CloudFirst 4.9", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenue Growth (YoY)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "122%", "ref": "Cloudfirst revenue has grown by 122% YoY", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "US Region",
+      "data": [
+        {
+          "particulars": "Revenue Contribution",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "50%", "ref": "United States and India remained the company's key markets, contributing approximately 50% and 40% of the total revenue respectively", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q2 FY26": {"v": "46%", "ref": "U.S. and India emerged as the top-performing regions, contributing 46% and 43% respectively of the total revenue", "src": "Nov-2025_16fdbc56-b1fe-4ab7-8f1c-1e25902313e2_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q1 FY25": {"v": "36.2%", "ref": "US revenue of Rs 65 crore (36.2%)", "src": "Aug-2024_d737dae7-55c1-4caf-8c89-91c495a80c09_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "Q3 FY24": {"v": "43.4%", "ref": "US 92.1 (43.4% of total 212.1)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q2 FY24": {"v": "45.4%", "ref": "US 95.4 (45.4% of total 210.3)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q3 FY23": {"v": "50.3%", "ref": "US 91.6 (50.3% of total 182.3)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenue",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "92.1", "ref": "US 92.1", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q2 FY24": {"v": "95.4", "ref": "US 95.4", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q3 FY23": {"v": "91.6", "ref": "US 91.6", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "India Region",
+      "data": [
+        {
+          "particulars": "Revenue Contribution",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "40%", "ref": "United States and India remained the company's key markets, contributing approximately 50% and 40% of the total revenue respectively", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q2 FY26": {"v": "43%", "ref": "U.S. and India emerged as the top-performing regions, contributing 46% and 43% respectively of the total revenue", "src": "Nov-2025_16fdbc56-b1fe-4ab7-8f1c-1e25902313e2_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q1 FY25": {"v": "49.1%", "ref": "Revenue from India was Rs 88.2 crore (49.1%)", "src": "Aug-2024_d737dae7-55c1-4caf-8c89-91c495a80c09_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "Q3 FY24": {"v": "44.0%", "ref": "INDIA 93.4 (44.0% of total 212.1)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q2 FY24": {"v": "42.2%", "ref": "INDIA 88.7 (42.2% of total 210.3)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q3 FY23": {"v": "36.9%", "ref": "INDIA 67.3 (36.9% of total 182.3)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenue",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "93.4", "ref": "INDIA 93.4", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q2 FY24": {"v": "88.7", "ref": "INDIA 88.7", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q3 FY23": {"v": "67.3", "ref": "INDIA 67.3", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenue Growth (YoY)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "38.8%", "ref": "India revenue has grown by 38.8% YoY from Q3 FY23 revenues of Rs.67.3 Cr to Q3 FY24 revenues of Rs.93.4 Cr", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "EMEA Region",
+      "data": [
+        {
+          "particulars": "Revenue",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "18.5", "ref": "EMEA 18.5", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q2 FY24": {"v": "19.2", "ref": "EMEA 19.2", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q3 FY23": {"v": "18.2", "ref": "EMEA 18.2", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "APAC Region",
+      "data": [
+        {
+          "particulars": "Revenue",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "8.1", "ref": "APAC 8.1", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q2 FY24": {"v": "6.9", "ref": "APAC 6.9", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q3 FY23": {"v": "5.1", "ref": "APAC 5.1", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenue Growth (YoY)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "57.2%", "ref": "APAC region has the highest revenue growth of 57.2% YoY", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "16", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenue Growth (QoQ)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "17.3%", "ref": "APAC region has contributed to highest revenue growth of 57.2% YoY & 17.3% QoQ", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "17", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "BFSI Industry",
+      "data": [
+        {
+          "particulars": "Revenue Contribution",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY26": {"v": "37%", "ref": "BFSI with 37% contribution", "src": "Nov-2025_16fdbc56-b1fe-4ab7-8f1c-1e25902313e2_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q1 FY25": {"v": "44.3%", "ref": "Banking & Financial Services (BFS) is a major contributor in total revenue with a 44.3% revenue share", "src": "Aug-2024_d737dae7-55c1-4caf-8c89-91c495a80c09_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "Q3 FY24": {"v": "37.1%", "ref": "BFS industry has contributed highest revenues of Rs. 78.7 Cr with 37.1% share", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q2 FY24": {"v": "36.1%", "ref": "BFS 76.0 (36.1% of total 210.3)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q3 FY23": {"v": "34.6%", "ref": "BFS 63.0 (34.6% of total 182.3)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenue",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "78.7", "ref": "BFS 78.7", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q2 FY24": {"v": "76.0", "ref": "BFS 76.0", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q3 FY23": {"v": "63.0", "ref": "BFS 63.0", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "IT/Technology Industry",
+      "data": [
+        {
+          "particulars": "Revenue Contribution",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY26": {"v": "46%", "ref": "Information Technology (IT) sector contributed the highest revenue with 46% contribution", "src": "Nov-2025_16fdbc56-b1fe-4ab7-8f1c-1e25902313e2_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q3 FY24": {"v": "27.1%", "ref": "27.1% by IT Sector", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q2 FY24": {"v": "30.1%", "ref": "Technology 63.3 (30.1% of total 210.3)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q3 FY23": {"v": "32.6%", "ref": "Technology 59.4 (32.6% of total 182.3)", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Revenue",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "57.6", "ref": "Technology 57.6", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q2 FY24": {"v": "63.3", "ref": "Technology 63.3", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q3 FY23": {"v": "59.4", "ref": "Technology 59.4", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Government Industry",
+      "data": [
+        {
+          "particulars": "Revenue",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "19.9", "ref": "Government 19.9", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q2 FY24": {"v": "19.1", "ref": "Government 19.1", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q3 FY23": {"v": "13.8", "ref": "Government 13.8", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Insurance Industry",
+      "data": [
+        {
+          "particulars": "Revenue",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "12.6", "ref": "Insurance 12.6", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q2 FY24": {"v": "12.6", "ref": "Insurance 12.6", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q3 FY23": {"v": "10.1", "ref": "Insurance 10.1", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Manufacturing Industry",
+      "data": [
+        {
+          "particulars": "Revenue",
+          "unit": "Crore",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "18.4", "ref": "Manufacturing 18.4", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q2 FY24": {"v": "19.1", "ref": "Manufacturing 19.1", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Q3 FY23": {"v": "9.5", "ref": "Manufacturing 9.5", "src": "Feb-2024_a9652c35-8a5b-469b-9d54-a0dce1e117f0_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "NuRe Bharat Network (RailTel)",
+      "data": [
+        {
+          "particulars": "Monthly Active WiFi Users",
+          "unit": "Mn",
+          "metric_type": "static_descriptor",
+          "value": "54",
+          "ref": "54 Mn Monthly active wifi users", "src": "Apr-2024_9cd14ab0-6d25-4f0b-b4b1-72d972b96d4a_IP.pdf", "pg": "28", "conf": "HIGH"
+        },
+        {
+          "particulars": "Monthly Sessions",
+          "unit": "Mn",
+          "metric_type": "static_descriptor",
+          "value": "85",
+          "ref": "85 Mn sessions monthly", "src": "Apr-2024_9cd14ab0-6d25-4f0b-b4b1-72d972b96d4a_IP.pdf", "pg": "28", "conf": "HIGH"
+        },
+        {
+          "particulars": "Monthly Data Consumption",
+          "unit": "TB",
+          "metric_type": "static_descriptor",
+          "value": "4028",
+          "ref": "4028 TB of data consumed monthly", "src": "Apr-2024_9cd14ab0-6d25-4f0b-b4b1-72d972b96d4a_IP.pdf", "pg": "28", "conf": "HIGH"
+        },
+        {
+          "particulars": "Railway Stations Covered",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "6109",
+          "ref": "6109 Railway Stations", "src": "Apr-2024_9cd14ab0-6d25-4f0b-b4b1-72d972b96d4a_IP.pdf", "pg": "28", "conf": "HIGH"
+        },
+        {
+          "particulars": "Railway Network Length",
+          "unit": "Kms",
+          "metric_type": "static_descriptor",
+          "value": "68,103",
+          "ref": "Covers 68,103 Kms", "src": "Apr-2024_9cd14ab0-6d25-4f0b-b4b1-72d972b96d4a_IP.pdf", "pg": "28", "conf": "HIGH"
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Everest Group PEAK Matrix Rating - BFSI IT Services",
+      "unit": "rating",
+      "metric_type": "periodic",
+      "values": {
+        "2025": {"v": "Major Contender", "ref": "Major Contender by Everest Group in its PEAK Matrix in Banking, Financial Services, and Insurance (BFSI) IT Services 2025", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "9", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Everest Group PEAK Matrix Rating - Quality Engineering Services",
+      "unit": "rating",
+      "metric_type": "periodic",
+      "values": {
+        "2024": {"v": "Major Contender", "ref": "Next-Generation Quality Engineering Services 2024 Major Contender", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "9", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Everest Group PEAK Matrix Rating - Talent Readiness for Data Analytics & AI Services",
+      "unit": "rating",
+      "metric_type": "periodic",
+      "values": {
+        "2025": {"v": "Aspirant", "ref": "Aspirant by Everest Group in its PEAK Matrix in Talent Readiness for Next-Gen Data, Analytics, and AI Services 2025", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "9", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Everest Group PEAK Matrix Rating - Application Management Services",
+      "unit": "rating",
+      "metric_type": "periodic",
+      "values": {
+        "2025": {"v": "Aspirant", "ref": "Talent Readiness for Next-Gen Application Services 2025 Application Management Services 2025, 2024", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "9", "conf": "HIGH"},
+        "2024": {"v": "Aspirant", "ref": "Talent Readiness for Next-Gen Application Services 2025 Application Management Services 2025, 2024", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "9", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Everest Group PEAK Matrix Rating - Digital Transformation Services",
+      "unit": "rating",
+      "metric_type": "periodic",
+      "values": {
+        "2024": {"v": "Aspirant", "ref": "Digital Transformation Services for Mid-market Enterprises 2024 Aspirant", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "9", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Gartner Market Guide Inclusion - Flexib+",
+      "unit": "text",
+      "metric_type": "static_descriptor",
+      "value": "Leveraging Latest Technologies to Automate Applications Testing",
+      "ref": "Featured in Gartner's Market Guide, 2023 for Leveraging Latest Technologies to Automate Applications Testing - Flexib+", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "9", "conf": "HIGH"
+    },
+    {
+      "particulars": "Gartner Market Guide Inclusion - NuRe Campus",
+      "unit": "text",
+      "metric_type": "static_descriptor",
+      "value": "Representative Vendor for Higher Education Student Information Systems",
+      "ref": "Representative Vendor for Higher Education Student Information Systems - NuRe Campus", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "9", "conf": "HIGH"
+    },
+    {
+      "particulars": "Oracle Cloud Infrastructure Partner Status",
+      "unit": "text",
+      "metric_type": "static_descriptor",
+      "value": "Professional and Managed Services Vendor",
+      "ref": "Oracle Cloud Infrastructure Professional and Managed Services Vendor Identification Toolkit for Cloud ERP, CRM, and HCM Implementation Service Providers", "src": "Feb-2026_f0935cb7-77ae-4b04-9772-70ff15ff0511_IP.pdf", "pg": "9", "conf": "HIGH"
+    },
+    {
+      "particulars": "Best Innovative IT Company of the Year",
+      "unit": "award",
+      "metric_type": "periodic",
+      "values": {
+        "2016-2020": {"v": "Bagged the Best Innovative IT Company of the Year award", "ref": "Bagged the Best Innovative IT Company of the Year award", "src": "Nov-2025_16fdbc56-b1fe-4ab7-8f1c-1e25902313e2_IP.pdf", "pg": "12", "conf": "HIGH"}
+      }
+    }
+  ]
+}

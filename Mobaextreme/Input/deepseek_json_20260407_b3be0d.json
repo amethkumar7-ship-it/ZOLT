@@ -1,0 +1,201 @@
+{
+  "company_name": "Aarti Surfactants Limited",
+  "documents_scanned": "2",
+  "time_range": "FY24 to FY25",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Operational Revenue", "unit": "Rs in Lakhs", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "EBITDA (Excl Other Income)", "unit": "Rs in Lakhs", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "EBITDA Margin (%)", "unit": "%", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "Depreciation", "unit": "Rs in Lakhs", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "Finance Cost", "unit": "Rs in Lakhs", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "PBT", "unit": "Rs in Lakhs", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "Tax", "unit": "Rs in Lakhs", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "PAT", "unit": "Rs in Lakhs", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "PAT Margin (%)", "unit": "%", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "Other Comprehensive Income", "unit": "Rs in Lakhs", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "Total Comprehensive Income", "unit": "Rs in Lakhs", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "Diluted EPS", "unit": "Rs", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]}
+      ]
+    },
+    {
+      "segment_name": "Geographical",
+      "metrics_found": [
+        {"metric": "Domestic sales share", "unit": "%", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "International sales share", "unit": "%", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Credit Rating - Long term bank facilities", "unit": "", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+    {"metric": "Credit Rating - Long-term instruments - Preference shares - Redeemable", "unit": "", "metric_type": "periodic", "periods_available": ["FY24"]},
+    {"metric": "Credit Rating - Long-Term Instruments", "unit": "", "metric_type": "periodic", "periods_available": ["FY25"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Operational Revenue",
+          "unit": "Rs in Lakhs",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "58,985.74", "ref": "Operational Revenue 58,985.74", "src": "Aug-2024_93b5e366-6ee0-4226-a1e3-2ad70ccbae7e_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "FY25": {"v": "65,908.54", "ref": "Operational Revenue 65,908.54", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "EBITDA (Excl Other Income)",
+          "unit": "Rs in Lakhs",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "6,212.69", "ref": "EBITDA (Excl Other Income) 6,212.69", "src": "Aug-2024_93b5e366-6ee0-4226-a1e3-2ad70ccbae7e_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "FY25": {"v": "4,959.96", "ref": "EBITDA 4,959.96", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "EBITDA Margin (%)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "10.53%", "ref": "EBITDA Margin (%) 10.53%", "src": "Aug-2024_93b5e366-6ee0-4226-a1e3-2ad70ccbae7e_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "FY25": {"v": "7.53%", "ref": "EBITDA Margin (%) 7.53%", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Depreciation",
+          "unit": "Rs in Lakhs",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "1,603.75", "ref": "Depreciation 1,603.75", "src": "Aug-2024_93b5e366-6ee0-4226-a1e3-2ad70ccbae7e_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "FY25": {"v": "1,734.60", "ref": "Depreciation 1,734.60", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Finance Cost",
+          "unit": "Rs in Lakhs",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "1,403.36", "ref": "Finance Cost 1,403.36", "src": "Aug-2024_93b5e366-6ee0-4226-a1e3-2ad70ccbae7e_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "FY25": {"v": "1,155.15", "ref": "Finance Cost 1,155.15", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "PBT",
+          "unit": "Rs in Lakhs",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "3,218.89", "ref": "PBT 3,218.89", "src": "Aug-2024_93b5e366-6ee0-4226-a1e3-2ad70ccbae7e_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "FY25": {"v": "2,070.21", "ref": "PBT 2,070.21", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Tax",
+          "unit": "Rs in Lakhs",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "1,086.19", "ref": "Tax 1,086.19", "src": "Aug-2024_93b5e366-6ee0-4226-a1e3-2ad70ccbae7e_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "FY25": {"v": "615.74", "ref": "Tax 615.74", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "PAT",
+          "unit": "Rs in Lakhs",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "2,132.70", "ref": "PAT 2,132.70", "src": "Aug-2024_93b5e366-6ee0-4226-a1e3-2ad70ccbae7e_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "FY25": {"v": "1,454.47", "ref": "PAT 1,454.47", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "PAT Margin (%)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "3.62%", "ref": "PAT Margin (%) 3.62%", "src": "Aug-2024_93b5e366-6ee0-4226-a1e3-2ad70ccbae7e_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "FY25": {"v": "2.21%", "ref": "PAT Margin (%) 2.21%", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Other Comprehensive Income",
+          "unit": "Rs in Lakhs",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "-11.37", "ref": "Other Comprehensive Income -11.37", "src": "Aug-2024_93b5e366-6ee0-4226-a1e3-2ad70ccbae7e_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "FY25": {"v": "-21.05", "ref": "Other Comprehensive Income -21.05", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total Comprehensive Income",
+          "unit": "Rs in Lakhs",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "2,121.33", "ref": "Total Comprehensive Income 2,121.33", "src": "Aug-2024_93b5e366-6ee0-4226-a1e3-2ad70ccbae7e_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "FY25": {"v": "1,433.42", "ref": "Total Comprehensive Income 1,433.42", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Diluted EPS",
+          "unit": "Rs",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "25.16", "ref": "Diluted EPS 25.16", "src": "Aug-2024_93b5e366-6ee0-4226-a1e3-2ad70ccbae7e_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "FY25": {"v": "17.19", "ref": "Diluted EPS 171925.16", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "7", "conf": "MEDIUM"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Geographical",
+      "data": [
+        {
+          "particulars": "Domestic sales share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "20%", "ref": "Domestic sales 20%", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "6", "conf": "MEDIUM"},
+            "FY25": {"v": "80%", "ref": "Domestic sales 80%", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "International sales share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "80%", "ref": "International sales 80%", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "6", "conf": "MEDIUM"},
+            "FY25": {"v": "20%", "ref": "International sales 20%", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Credit Rating - Long term bank facilities",
+      "unit": "",
+      "metric_type": "periodic",
+      "values": {
+        "FY24": {"v": "CARE A-; Stable", "ref": "Long term bank facilities CARE A-; Stable Revised from CARE BBB+; Stable", "src": "Aug-2024_93b5e366-6ee0-4226-a1e3-2ad70ccbae7e_IP.pdf", "pg": "9", "conf": "HIGH"},
+        "FY25": {"v": "CARE A-; Stable", "ref": "Long-Term Bank Facilities CARE A-; Stable Reaffirmed", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "8", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Credit Rating - Long-term instruments - Preference shares - Redeemable",
+      "unit": "",
+      "metric_type": "periodic",
+      "values": {
+        "FY24": {"v": "CARE BBB+; Stable", "ref": "Long-term instruments - Preference shares - Redeemable CARE BBB+; Stable Revised from CARE BBB; Stable", "src": "Aug-2024_93b5e366-6ee0-4226-a1e3-2ad70ccbae7e_IP.pdf", "pg": "9", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Credit Rating - Long-Term Instruments",
+      "unit": "",
+      "metric_type": "periodic",
+      "values": {
+        "FY25": {"v": "CARE BBB+; Stable", "ref": "Long-Term Instruments CARE BBB+; Stable Reaffirmed", "src": "Sep-2025_5fcf47de-02bc-4ff2-8f3a-fbfbf0a51835_IP.pdf", "pg": "8", "conf": "HIGH"}
+      }
+    }
+  ]
+}

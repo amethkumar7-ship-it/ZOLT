@@ -1,0 +1,935 @@
+{
+  "company_name": "360 ONE WAM LIMITED (formerly known as IIFL Wealth Management Limited)",
+  "documents_scanned": "11",
+  "time_range": "FY21 to Q3 FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Total Assets Under Management (AUM)", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["FY20", "FY21", "FY22", "FY23", "FY24", "FY25", "Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Annual Recurring Revenue (ARR) AUM", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "H1 FY24", "H1 FY25", "9M FY24", "9M FY25", "FY23", "FY24", "FY25"]},
+        {"metric": "Total ARR Net Flows", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "H1 FY24", "H1 FY25", "9M FY25", "9M FY26", "FY23", "FY24", "FY25"]},
+        {"metric": "Number of Folios", "unit": "Number", "metric_type": "periodic", "periods_available": ["FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Number of Investment Professionals", "unit": "Number", "metric_type": "periodic", "periods_available": ["FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Cost to Income Ratio", "unit": "%", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "9M FY24", "9M FY25", "FY20", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Return on Equity (ROE) Excluding Goodwill & Intangibles", "unit": "%", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "H1 FY24", "H1 FY25", "9M FY24", "9M FY25", "FY20", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Tangible Net Worth", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY24"]},
+        {"metric": "Number of Partners", "unit": "Number", "metric_type": "periodic", "periods_available": ["H1 FY24"]},
+        {"metric": "Attrition Rate (annualized)", "unit": "%", "metric_type": "periodic", "periods_available": ["H1 FY24", "9M FY24", "FY24", "FY25"]},
+        {"metric": "Average tenure at Partner and above levels", "unit": "Years", "metric_type": "periodic", "periods_available": ["9M FY24", "FY24"]},
+        {"metric": "Average number of training hours per employee", "unit": "Hours", "metric_type": "periodic", "periods_available": ["FY24"]},
+        {"metric": "Percentage of employees provided with skill upgradation training", "unit": "%", "metric_type": "periodic", "periods_available": ["FY24"]},
+        {"metric": "Gender diversity", "unit": "%", "metric_type": "periodic", "periods_available": ["FY24"]},
+        {"metric": "Client query response TAT (average)", "unit": "Days", "metric_type": "periodic", "periods_available": ["FY24"]},
+        {"metric": "Green energy procurement for Mumbai Corporate Office", "unit": "%", "metric_type": "periodic", "periods_available": ["FY24"]},
+        {"metric": "AUM under Private Credit asset class focused towards ESG positive sectors", "unit": "%", "metric_type": "periodic", "periods_available": ["FY24"]},
+        {"metric": "Percentage of clients onboarded digitally", "unit": "%", "metric_type": "periodic", "periods_available": ["FY24"]},
+        {"metric": "Number of cities addressable", "unit": "Number", "metric_type": "periodic", "periods_available": ["H1 FY24", "FY24"]},
+        {"metric": "Market share in UHNI and HNI segments", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Rejection rate by Product Approval Committee (PAC)", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of employees", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q1 FY26"]},
+        {"metric": "Number of offices", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q1 FY26"]},
+        {"metric": "Number of industry awards", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q1 FY26"]},
+        {"metric": "Market capitalization", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25"]},
+        {"metric": "Number of relevant families/clients", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY24", "FY25"]},
+        {"metric": "Number of clients with AUM > INR 10 Crs", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Number of Team Leaders", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY25", "FY21", "FY22", "FY23", "FY24"]},
+        {"metric": "Number of Relationship Managers", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY25", "FY21", "FY22", "FY23", "FY24"]}
+      ]
+    },
+    {
+      "segment_name": "Wealth Management",
+      "metrics_found": [
+        {"metric": "Wealth Management AUM", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY20", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Wealth ARR AUM", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "360 ONE Plus AUM", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Distribution Assets Earning Trail Fees AUM", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Lending Book AUM", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Transaction & Broking (TBR) AUM (ex-custody)", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Average ARR AUM (Wealth)", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "ARR Retention (Wealth)", "unit": "%", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "ARR Net Flows (Wealth)", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Custody AUM", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Number of relevant clients (Wealth)", "unit": "Number", "metric_type": "periodic", "periods_available": ["FY21", "FY22", "FY23", "FY24", "FY25"]}
+      ]
+    },
+    {
+      "segment_name": "Asset Management",
+      "metrics_found": [
+        {"metric": "Asset Management AUM", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY20", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Alternative Investment Fund (AIF) AUM", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY20", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Discretionary PMS AUM", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY20", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Mutual Fund AUM", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY20", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Average ARR AUM (Asset Management)", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "ARR Retention (Asset Management)", "unit": "%", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "ARR Net Flows (Asset Management)", "unit": "INR Crs", "metric_type": "periodic", "periods_available": ["Q2 FY24", "Q3 FY24", "Q4 FY24", "Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Number of empanelled partners", "unit": "Number", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "Number of institutional broking clients (B&K)", "unit": "Number", "metric_type": "periodic", "periods_available": ["FY25", "Q1 FY26"]},
+        {"metric": "Number of mid and small cap companies under coverage (B&K)", "unit": "Number", "metric_type": "periodic", "periods_available": ["FY25", "Q1 FY26"]},
+        {"metric": "Share of cash segment in broking revenue (B&K)", "unit": "%", "metric_type": "periodic", "periods_available": ["FY25", "Q1 FY26"]},
+        {"metric": "Equity turnover (cash segment) (B&K)", "unit": "INR Billion", "metric_type": "periodic", "periods_available": ["FY25"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Number of industry awards", "unit": "Number", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q2 FY25", "Q1 FY26"]},
+    {"metric": "CRISIL ESG rating", "unit": "Descriptor", "metric_type": "periodic", "periods_available": ["Q3 FY25"]},
+    {"metric": "Great Place to Work certification", "unit": "Descriptor", "metric_type": "periodic", "periods_available": ["Q1 FY25", "Q1 FY26"]},
+    {"metric": "LEED certification for Bengaluru office", "unit": "Descriptor", "metric_type": "static_descriptor", "periods_available": ["static"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Total Assets Under Management (AUM)",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "FY20": {"v": "178140", "ref": "Total AUM 1,78,140", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY21": {"v": "246083", "ref": "Total AUM 2,46,083", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY22": {"v": "327237", "ref": "Total AUM 3,27,237", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY23": {"v": "340834", "ref": "Total AUM 3,40,834", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY24": {"v": "466909", "ref": "Total AUM 4,66,909", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "FY25": {"v": "581498", "ref": "Total AUM 5,81,498", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q2 FY24": {"v": "412549", "ref": "Total AUM up 23.8% YoY at Rs 4,12,549 Crs", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "Q3 FY24": {"v": "453886", "ref": "Total AUM up 31.7% YoY at Rs 4,53,886 Crs", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "Q4 FY24": {"v": "466909", "ref": "Total AUM 4,66,909", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY25": {"v": "521208", "ref": "Total AUM 5,21,208", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Q2 FY25": {"v": "569372", "ref": "Total AUM 5,69,372", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q3 FY25": {"v": "579222", "ref": "Total AUM 5,79,222", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q4 FY25": {"v": "581498", "ref": "Total AUM 5,81,498", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q1 FY26": {"v": "663924", "ref": "Total AUM 6,63,924", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q2 FY26": {"v": "671625", "ref": "Total AUM 6,71,625", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q3 FY26": {"v": "711398", "ref": "Total AUM 7,11,398", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Annual Recurring Revenue (ARR) AUM",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "202536", "ref": "ARR AUM at Rs 2,02,536 - up 30.7% YoY and 6.4% QoQ", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q3 FY24": {"v": "220768", "ref": "ARR AUM at Rs 2,20,768 - up 32.6% YoY and 9.0% QoQ", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q4 FY24": {"v": "227879", "ref": "ANNUAL RECURRING REVENUE (ARR) AUM AT RS 2,27,879 CRORE - UP 36.3% YoY AND 3.2% QoQ", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q1 FY25": {"v": "221287", "ref": "ANNUAL RECURRING REVENUE (ARR) AUM AT RS 2,21,287 CRORE - UP 33.5% YoY AND 10.4% QoQ", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q2 FY25": {"v": "242619", "ref": "ANNUAL RECURRING REVENUE (ARR) AUM AT RS 2,42,619 CRORE - UP 40.6% YoY AND 9.6% QoQ", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q3 FY25": {"v": "247999", "ref": "ANNUAL RECURRING REVENUE (ARR) AUM AT RS 2,47,999 CRORE - UP 32.9% YoY AND 2.2% QoQ", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q4 FY25": {"v": "246828", "ref": "ANNUAL RECURRING REVENUE (ARR) AUM AT RS 2,46,828 CRORE - UP 23.2% YoY", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q1 FY26": {"v": "287317", "ref": "ANNUAL RECURRING REVENUE (ARR) AUM AT RS 2,87,317 CRORE - UP 29.8% YoY", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q2 FY26": {"v": "295324", "ref": "ANNUAL RECURRING REVENUE (ARR) AUM AT RS 2,95,324 CRORE - UP 21.7% YoY", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "Q3 FY26": {"v": "317906", "ref": "ANNUAL RECURRING REVENUE (ARR) AUM AT RS 3,17,906 CRORE - UP 28.2% YoY", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "2", "conf": "HIGH"},
+            "H1 FY24": {"v": "202536", "ref": "ANNUAL RECURRING REVENUE ASSETS 1,90,390 2,02,536 30.7%", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "H1 FY25": {"v": "242619", "ref": "ANNUAL RECURRING REVENUE ASSETS 2,42,619", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "35", "conf": "HIGH"},
+            "9M FY24": {"v": "220768", "ref": "ANNUAL RECURRING REVENUE ASSETS 2,20,768", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "9M FY25": {"v": "247999", "ref": "ANNUAL RECURRING REVENUE ASSETS 2,47,999", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "FY23": {"v": "154000", "ref": "Closing ARR AUM 1,54,000", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "FY24": {"v": "200419", "ref": "Closing ARR AUM 2,00,419", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "FY25": {"v": "246828", "ref": "Closing ARR AUM 2,46,828", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "13", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total ARR Net Flows",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "5743", "ref": "ARR Netflows for Q2FY24 were Rs 5,743 Crs", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "Q3 FY24": {"v": "8865", "ref": "ARR Net flows at Rs 8,865 Crs for the quarter", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "Q4 FY24": {"v": "-668", "ref": "ARR AUM Build up - Q4 FY24 Opening AUM 2,20,768 Net Flows -668", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "56", "conf": "HIGH"},
+            "Q1 FY25": {"v": "5549", "ref": "ARR Net flows at INR 5,549 Crs for Q1 FY25 up 70.1% YoY", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Q2 FY25": {"v": "9786", "ref": "ARR Net flows at 9,786 Crs for the quarter", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Q3 FY25": {"v": "6643", "ref": "ARR Net flows for Q3 FY25 were INR 6,643 Crs", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q4 FY25": {"v": "3995", "ref": "ARR Net Flows 3,995", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q1 FY26": {"v": "20950", "ref": "ARR Net flows were INR 20,950 Crs", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q2 FY26": {"v": "11182", "ref": "ARR Net flows were INR 11,182 Crs", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q3 FY26": {"v": "14758", "ref": "ARR Net flows were INR 14,758 Crs", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "H1 FY24": {"v": "18718", "ref": "ARR Netflows for Q2 FY24 were Rs 5,743 Crs totaling to Rs 18,718 Crs for H1 FY24", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "H1 FY25": {"v": "15335", "ref": "ARR Net flows 15,335", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "35", "conf": "HIGH"},
+            "9M FY25": {"v": "21979", "ref": "ARR Net flows for 9M FY25 were INR 21,979 Crs", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "9M FY26": {"v": "46890", "ref": "9M net flows of INR 46,890 Crs", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "FY23": {"v": "21884", "ref": "ARR Net Flows 21,884", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "FY24": {"v": "16136", "ref": "ARR Net Flows 16,136", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "FY25": {"v": "25974", "ref": "ARR Net Flows 25,974", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "31", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of Folios",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "FY21": {"v": "84009", "ref": "No. of Folios 84,009", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY22": {"v": "165063", "ref": "No. of Folios 1,65,063", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY23": {"v": "167832", "ref": "No. of Folios 1,67,832", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY24": {"v": "189366", "ref": "No. of Folios 1,89,366", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY25": {"v": "229360", "ref": "No. of Folios 2,29,360", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of Investment Professionals",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "FY21": {"v": "36", "ref": "No. of Investment Professionals 36", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY22": {"v": "34", "ref": "No. of Investment Professionals 34", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY23": {"v": "46", "ref": "No. of Investment Professionals 46", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY24": {"v": "47", "ref": "No. of Investment Professionals 47", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY25": {"v": "62", "ref": "No. of Investment Professionals 62", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Cost to Income Ratio",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "48.6", "ref": "Cost to Income Ratio 48.6%", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY24": {"v": "49.6", "ref": "Cost to Income Ratio 49.6%", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q4 FY24": {"v": "48.2", "ref": "Cost to Income 48.2%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY25": {"v": "38.0", "ref": "Cost to Income ratio stood at 38.0% in Q1 FY25", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "37", "conf": "HIGH"},
+            "Q2 FY25": {"v": "48.4", "ref": "Cost to Income ratio stood at 48.4% in Q2 FY25", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q3 FY25": {"v": "47.1", "ref": "Cost to Income ratio stood at 47.1% in Q3 FY25", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q4 FY25": {"v": "50.7", "ref": "Cost to Income Ratio 50.7%", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q1 FY26": {"v": "48.4", "ref": "Cost to Income ratio stood at 48.4%", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q2 FY26": {"v": "49.2", "ref": "Cost to Income Ratio 49.2%", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "30", "conf": "HIGH"},
+            "Q3 FY26": {"v": "48.3", "ref": "Cost to Income ratio stood at 48.3%", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "9M FY24": {"v": "48.9", "ref": "Cost to Income Ratio 48.9%", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "9M FY25": {"v": "44.3", "ref": "Cost to Income Ratio 44.3%", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "FY20": {"v": "61.4", "ref": "Cost to Income 61.4%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY21": {"v": "53.9", "ref": "Cost to Income 53.9%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY22": {"v": "51.1", "ref": "Cost to Income 51.1%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY23": {"v": "45.8", "ref": "Cost to Income 45.8%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY24": {"v": "48.7", "ref": "Cost to Income 48.7%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY25": {"v": "45.9", "ref": "Cost to Income 45.9%", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Return on Equity (ROE) Excluding Goodwill & Intangibles",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "28.3", "ref": "Tangible RoE is at 28.3%", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "Q3 FY24": {"v": "28.9", "ref": "Tangible RoE is at 28.9% vis-à-vis 28.6% in Q3 FY23", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY24": {"v": "35.2", "ref": "ROE Ex Goodwill & Intangibles 35.2%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY25": {"v": "33.5", "ref": "Tangible RoE is at 33.5% in Q1 FY25", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "37", "conf": "HIGH"},
+            "Q2 FY25": {"v": "31.2", "ref": "Tangible RoE is at 31.2%", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q3 FY25": {"v": "24.1", "ref": "Tangible RoE is at 24.1% in Q3 FY25", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Q4 FY25": {"v": "17.1", "ref": "ROE Ex Goodwill & Intangibles 17.1%", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q1 FY26": {"v": "19.6", "ref": "Tangible RoE at 19.6%", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q2 FY26": {"v": "20.6", "ref": "Tangible RoE at 20.6%", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q3 FY26": {"v": "21.0", "ref": "Tangible RoE at 21.0%", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "H1 FY24": {"v": "28.4", "ref": "ROE Ex Goodwill & Intangibles 28.4%", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "35", "conf": "HIGH"},
+            "H1 FY25": {"v": "32.3", "ref": "ROE Ex Goodwill & Intangibles 32.3%", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "35", "conf": "HIGH"},
+            "9M FY24": {"v": "28.7", "ref": "ROE Ex Goodwill & Intangibles 28.7%", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "9M FY25": {"v": "27.3", "ref": "ROE Ex Goodwill & Intangibles 27.3%", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "FY20": {"v": "7.7", "ref": "ROE Ex Goodwill & Intangibles 7.7%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY21": {"v": "15.0", "ref": "ROE Ex Goodwill & Intangibles 15.0%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY22": {"v": "24.7", "ref": "ROE Ex Goodwill & Intangibles 24.7%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY23": {"v": "26.7", "ref": "ROE Ex Goodwill & Intangibles 26.7%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY24": {"v": "30.1", "ref": "ROE Ex Goodwill & Intangibles 30.1%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY25": {"v": "24.3", "ref": "Tangible RoE was at 24.3% in FY25", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "29", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Tangible Net Worth",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY24": {"v": "2703", "ref": "Tangible 2,703 Crs", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q4 FY24": {"v": "2803", "ref": "Tangible 2,803 Crs", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "Q1 FY25": {"v": "3031", "ref": "Tangible net worth of Rs 3,031 Crs", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "Q2 FY25": {"v": "3251", "ref": "Tangible net worth stood at Rs 3,251 Crs", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "Q4 FY25": {"v": "6045", "ref": "Tangible net worth stood at Rs 6,045 Crs", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "Q1 FY26": {"v": "5693", "ref": "Tangible net worth stood at Rs 5,693 Crs", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "Q2 FY26": {"v": "6195", "ref": "Tangible net worth stood at Rs 6,195 Crs", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "Q3 FY26": {"v": "6327", "ref": "Tangible net worth stood at Rs 6,327 Crs", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "FY24": {"v": "2803", "ref": "Tangible Net Worth 2,803 Crs", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "65", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of Partners",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY24": {"v": "235", "ref": "We have now expanded our team to have over 235 Partners - comprising 150 Client Relationship Partners, 44 Investment Partners and 41 Operating Partners", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "3", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Attrition Rate (annualized)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY24": {"v": "4.0", "ref": "Our overall attrition rate continues to remain low at < 4% annualised for FY24", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "9M FY24": {"v": "4.5", "ref": "attrition at < 4.5% (annualized)", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "FY24": {"v": "4.5", "ref": "attrition at <4.5% (annualized)", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "49", "conf": "HIGH"},
+            "FY25": {"v": "1.7", "ref": "Overall client attrition rate was 1.7%", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "3", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Average tenure at Partner and above levels",
+          "unit": "Years",
+          "metric_type": "periodic",
+          "values": {
+            "9M FY24": {"v": "8", "ref": "average tenure at Partner and above levels stands at an impressive 8+ years", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "FY24": {"v": "7", "ref": "average tenure at this level remains high at 7+ years", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "49", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Average number of training hours per employee",
+          "unit": "Hours",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "15.9", "ref": "Average no. of training hours per employee at 15.9 hours during FY24", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "45", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Percentage of employees provided with skill upgradation training",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "86", "ref": "Over 86% employees were provided with skill upgradation training during FY24", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "45", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Gender diversity",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "32", "ref": "Gender diversity as on Mar 2024 at 32%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "45", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Client query response TAT (average)",
+          "unit": "Days",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "3.87", "ref": "Client query response TAT (average) reduced to 3.87 days in Mar 2024", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "45", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Green energy procurement for Mumbai Corporate Office",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "80", "ref": "80% of total electricity consumed during FY24 is green power", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "45", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "AUM under Private Credit asset class focused towards ESG positive sectors",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "30.14", "ref": "30.14% AUM under Private Credit asset class focused towards ESG positive sectors as on Mar 2024", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "45", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Percentage of clients onboarded digitally",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "98", "ref": "Around 98% of clients in FY24 (up from 21% in FY23) on-boarded digitally", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "45", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of cities addressable",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY24": {"v": "20", "ref": "We expect the number of addressable cities for us to increase from 20 to 50 in the next 5 years", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "FY24": {"v": "20", "ref": "We expect the number of addressable cities to increase from 20 to 70", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "27", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Market share in UHNI and HNI segments",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "4-5",
+          "ref": "Our market share estimation, which includes both the UHNI and HNI segments, stands at approximately 4% - 5%", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "3", "conf": "HIGH"
+        },
+        {
+          "particulars": "Rejection rate by Product Approval Committee (PAC)",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "90",
+          "ref": ">90% Rejection rate Strengten Screening by the Product Approval Committee (PAC)", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "24", "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of employees",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "1200", "ref": "Employee Team 1,200+ Employee strength", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY25": {"v": "1200", "ref": "Employee Team 1,200+ Employee strength", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY26": {"v": "1600", "ref": "Employee Team 1,600+ Employee Strength", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "10", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of offices",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "28", "ref": "28 Offices India + International", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY25": {"v": "28", "ref": "28 Offices India + International", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY26": {"v": "32", "ref": "32 Offices India + International", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "10", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of industry awards",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "170", "ref": "170+ Industry awards", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY25": {"v": "170", "ref": "170+ Industry awards", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY26": {"v": "175", "ref": "175+ Industry Awards", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "10", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Market capitalization",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "35000", "ref": "Market cap: ~Rs 35,000 crs (June '24)", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY25": {"v": "37000", "ref": "Market cap: ~Rs 37,000 crs (Sept. '24)", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of relevant families/clients",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "6900", "ref": "6,900+ Relevant Families", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "7", "conf": "HIGH"},
+            "Q1 FY25": {"v": "7400", "ref": "7,400+ HNI + UHNI client families", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q2 FY25": {"v": "7500", "ref": "7,500+ HNI + UHNI client families", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY25": {"v": "7500", "ref": "~7,500+ HNI + UHNI client families", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY25": {"v": "7500", "ref": "7,500+ HNI + UHNI client families", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q1 FY26": {"v": "8400", "ref": "8,400+ Families and corporates", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q2 FY26": {"v": "8500", "ref": "8,500+ relevant families and corporates", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "Q3 FY26": {"v": "8500", "ref": "8,500+ relevant families and corporates", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "FY24": {"v": "7195", "ref": "No. of relevant clients 7,195", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "7527", "ref": "No. of relevant clients 7,527", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of clients with AUM > INR 10 Crs",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "2990", "ref": "Clients, having total AUM of 10 Crs+, stand at 2,990", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Q2 FY25": {"v": "2990", "ref": "Clients, having total AUM of 10 Crs+, stand at 2,990", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Q3 FY25": {"v": "3218", "ref": "Clients, having total AUM of 10 Crs+, stand at 3,218", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Q4 FY25": {"v": "3324", "ref": "clients, having total AUM of Rs 10 Crs+, stand at 3,324", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "Q1 FY26": {"v": "4200", "ref": "clients, having AUM of INR 10 Crs+, stood at 4,200+", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "FY21": {"v": "1825", "ref": "No. of clients (AUM > INR 10 Crs) 1,825", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY22": {"v": "2222", "ref": "No. of clients (AUM > INR 10 Crs) 2,222", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY23": {"v": "2314", "ref": "No. of clients (AUM > INR 10 Crs) 2,314", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY24": {"v": "2750", "ref": "No. of clients (AUM & INR 10 Crs) 2,750", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "3324", "ref": "No. of clients (AUM & INR 10 Crs) 3,324", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of Team Leaders",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "65", "ref": "No. of Team Leaders 65", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "FY21": {"v": "61", "ref": "No. of Team Leaders 61", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY22": {"v": "64", "ref": "No. of Team Leaders 64", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY23": {"v": "65", "ref": "No. of Team Leaders 65", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY24": {"v": "94", "ref": "No. of Team Leaders 94", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of Relationship Managers",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "152", "ref": "No. of Relationship Managers 152", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "FY21": {"v": "188", "ref": "No. of Relationship Managers 188", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY22": {"v": "164", "ref": "No. of Relationship Managers 164", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY23": {"v": "141", "ref": "No. of Relationship Managers 141", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY24": {"v": "152", "ref": "No. of Relationship Managers 152", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Wealth Management",
+      "data": [
+        {
+          "particulars": "Wealth Management AUM",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "348256", "ref": "Wealth Mgmt. AUM 3,48,256", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY24": {"v": "384732", "ref": "Wealth Management AUM 3,84,732", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY24": {"v": "394661", "ref": "Wealth Mgmt. AUM 3,94,661", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY25": {"v": "441556", "ref": "Wealth Management AUM 4,41,556", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Q2 FY25": {"v": "483602", "ref": "Wealth Management AUM 4,83,602", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q3 FY25": {"v": "493972", "ref": "Wealth Management AUM 4,93,972", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q4 FY25": {"v": "497104", "ref": "Wealth Management AUM 4,97,104", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q1 FY26": {"v": "571380", "ref": "Wealth: INR 5,71,380 Crs", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q2 FY26": {"v": "579509", "ref": "Wealth Management AUM 5,79,509", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q3 FY26": {"v": "612449", "ref": "Wealth Management AUM 6,12,449", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "FY20": {"v": "156200", "ref": "Wealth Mgmt. AUM 1,56,200", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY21": {"v": "208711", "ref": "Wealth Mgmt. AUM 2,08,711", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY22": {"v": "271663", "ref": "Wealth Mgmt. AUM 2,71,663", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY23": {"v": "282536", "ref": "Wealth Mgmt. AUM 2,82,536", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY24": {"v": "394661", "ref": "Wealth Management AUM 3,94,661", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "FY25": {"v": "497104", "ref": "Wealth Management AUM 4,97,104", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Wealth ARR AUM",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "108216", "ref": "Wealth ARR AUM 1,08,216", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY24": {"v": "117504", "ref": "Wealth ARR AUM 1,17,504", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q4 FY24": {"v": "128171", "ref": "Wealth ARR AUM 1,28,171", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "57", "conf": "HIGH"},
+            "Q1 FY25": {"v": "141635", "ref": "Wealth ARR AUM 1,41,635", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "42", "conf": "HIGH"},
+            "Q2 FY25": {"v": "156849", "ref": "Wealth ARR AUM 1,56,849", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q3 FY25": {"v": "162749", "ref": "Wealth ARR AUM 1,62,749", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q4 FY25": {"v": "162433", "ref": "Wealth ARR AUM 1,62,433", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q1 FY26": {"v": "194773", "ref": "Wealth ARR AUM 1,94,773", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "44", "conf": "HIGH"},
+            "Q2 FY26": {"v": "203208", "ref": "Wealth ARR AUM 2,03,208", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "Q3 FY26": {"v": "218957", "ref": "Wealth ARR AUM 2,18,957", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "FY21": {"v": "58280", "ref": "Wealth ARR AUM 58,280", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY22": {"v": "82733", "ref": "Wealth ARR AUM 82,733", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY23": {"v": "95702", "ref": "Wealth ARR AUM 95,702", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY24": {"v": "128171", "ref": "Wealth ARR AUM 1,28,171", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "162433", "ref": "Wealth ARR AUM 1,62,433", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "360 ONE Plus AUM",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "62668", "ref": "360 ONE Plus 62,668", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY24": {"v": "73625", "ref": "360 ONE Plus 73,625", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q4 FY24": {"v": "72240", "ref": "360 ONE Plus 72,240", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "57", "conf": "HIGH"},
+            "Q1 FY25": {"v": "50819", "ref": "360 ONE Plus* (DPMS / NDPMS-RIA) 50,819", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "42", "conf": "HIGH"},
+            "Q2 FY25": {"v": "55993", "ref": "360 ONE Plus 55,993", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q3 FY25": {"v": "59053", "ref": "360 ONE Plus (DPMS / NDPMS-RIA) 59,053", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q4 FY25": {"v": "62212", "ref": "360 ONE Plus (DPMS / NDPMS-RIA) 62,212", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q1 FY26": {"v": "71073", "ref": "360 ONE Plus (DPMS / NDPMS-RIA) 71,073", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "45", "conf": "HIGH"},
+            "Q2 FY26": {"v": "74108", "ref": "360 ONE Plus 74,108", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "Q3 FY26": {"v": "83676", "ref": "360 ONE Plus 83,676", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "FY21": {"v": "21622", "ref": "360 ONE Plus (DPMS / NDPMS-RIA) 21,622", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY22": {"v": "26600", "ref": "360 ONE Plus (DPMS / NDPMS-RIA) 26,600", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY23": {"v": "29132", "ref": "360 ONE Plus (DPMS / NDPMS-RIA) 29,132", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY24": {"v": "44781", "ref": "360 ONE Plus (DPMS / NDPMS-RIA) 44,781", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "62212", "ref": "360 ONE Plus (DPMS / NDPMS-RIA) 62,212", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Distribution Assets Earning Trail Fees AUM",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "70265", "ref": "Distribution Assets Earning Trail Fees 70,265", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY24": {"v": "72225", "ref": "Distribution Assets Earning Trail Fees 72,225", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q4 FY24": {"v": "76960", "ref": "Distribution Assets Earning Trail Fees 76,960", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "57", "conf": "HIGH"},
+            "Q1 FY25": {"v": "84331", "ref": "Distribution Assets Earning Trail Fees 84,331", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "42", "conf": "HIGH"},
+            "Q2 FY25": {"v": "94055", "ref": "Distribution Assets Earning Trail Fees 94,055", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q3 FY25": {"v": "95646", "ref": "Distribution Assets Earning Trail Fees 95,646", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q4 FY25": {"v": "91448", "ref": "Distribution Assets Earning Trail Fees 91,448", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q1 FY26": {"v": "115988", "ref": "Distribution Assets Earning Trail Fees 1,15,988", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "45", "conf": "HIGH"},
+            "Q2 FY26": {"v": "118757", "ref": "Distribution Assets Earning Trail Fees 1,18,757", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "Q3 FY26": {"v": "124653", "ref": "Distribution Assets Earning Trail Fees 1,24,653", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "FY21": {"v": "33038", "ref": "Distribution Assets 33,038", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY22": {"v": "51815", "ref": "Distribution Assets 51,815", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY23": {"v": "61203", "ref": "Distribution Assets 61,203", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY24": {"v": "76960", "ref": "Distribution Assets 76,960", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "91448", "ref": "Distribution Assets 91,448", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Lending Book AUM",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "5310", "ref": "Lending Book 5,310", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY24": {"v": "5764", "ref": "Lending Book 5,764", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q4 FY24": {"v": "6430", "ref": "Lending Book 6,430", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "57", "conf": "HIGH"},
+            "Q1 FY25": {"v": "6485", "ref": "Lending Book 6,485", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "42", "conf": "HIGH"},
+            "Q2 FY25": {"v": "6800", "ref": "Lending Book 6,800", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q3 FY25": {"v": "8050", "ref": "Lending Book 8,050", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q4 FY25": {"v": "8773", "ref": "Lending Book 8,773", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q1 FY26": {"v": "7711", "ref": "Lending Book 7,711", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "45", "conf": "HIGH"},
+            "Q2 FY26": {"v": "10342", "ref": "Lending Book 10,342", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "Q3 FY26": {"v": "10628", "ref": "Lending Book 10,628", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "FY21": {"v": "3620", "ref": "Lending Book 3,620", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY22": {"v": "4318", "ref": "Lending Book 4,318", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY23": {"v": "5367", "ref": "Lending Book 5,367", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY24": {"v": "6430", "ref": "Lending Book 6,430", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "8773", "ref": "Lending Book 8,773", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Transaction & Broking (TBR) AUM (ex-custody)",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "126268", "ref": "Transaction & Broking (TBR ex-custody) 1,26,268", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q3 FY24": {"v": "140587", "ref": "Transaction & Broking (TBR ex-custody) 1,40,587", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q4 FY24": {"v": "138720", "ref": "Transaction & Broking (TBR ex-custody) 1,38,720", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q1 FY25": {"v": "154807", "ref": "Transaction & Broking (TBR ex-custody) 1,54,807", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q2 FY25": {"v": "161976", "ref": "Transaction & Broking (TBR ex-custody) 1,61,976", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q3 FY25": {"v": "158856", "ref": "Transaction & Broking (TBR ex-custody) 1,58,856", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q4 FY25": {"v": "188888", "ref": "Transaction & Broking (TBR ex-custody) 1,88,888", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q1 FY26": {"v": "211222", "ref": "Transaction & Broking (TBR ex-custody) 2,11,222", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q2 FY26": {"v": "217690", "ref": "Transaction & Broking (TBR ex-custody) 2,17,690", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q3 FY26": {"v": "217740", "ref": "Transaction & Broking (TBR ex-custody) 2,17,740", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "FY21": {"v": "111392", "ref": "Transaction & Broking (TBR ex-custody) 1,11,392", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY22": {"v": "123437", "ref": "Transaction & Broking (TBR ex-custody) 1,23,437", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY23": {"v": "120343", "ref": "Transaction & Broking (TBR ex-custody) 1,20,343", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY24": {"v": "138720", "ref": "Transaction & Broking (TBR ex-custody) 1,38,720", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "188888", "ref": "Transaction & Broking (TBR ex-custody) 1,88,888", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Average ARR AUM (Wealth)",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "103983", "ref": "Average AUM 1,03,983", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q3 FY24": {"v": "114623", "ref": "Average AUM 1,14,623", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q4 FY24": {"v": "108609", "ref": "Average ARR AUM 1,08,609", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "63", "conf": "HIGH"},
+            "Q1 FY25": {"v": "132932", "ref": "Average ARR AUM 1,32,932", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "42", "conf": "HIGH"},
+            "Q2 FY25": {"v": "150074", "ref": "Average ARR AUM 1,50,074", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q3 FY25": {"v": "157573", "ref": "Average ARR AUM 1,57,573", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "Q4 FY25": {"v": "159861", "ref": "Average ARR AUM 1,59,861", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "37", "conf": "HIGH"},
+            "Q1 FY26": {"v": "173204", "ref": "Average ARR AUM 1,73,204", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "45", "conf": "HIGH"},
+            "Q2 FY26": {"v": "196880", "ref": "Average ARR AUM 1,96,880", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "Q3 FY26": {"v": "206990", "ref": "Average ARR AUM 2,06,990", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "FY21": {"v": "46105", "ref": "Average ARR AUM 46,105", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY22": {"v": "70899", "ref": "Average ARR AUM 70,899", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY23": {"v": "84697", "ref": "Average ARR AUM 84,697", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY24": {"v": "108609", "ref": "Average ARR AUM 1,08,609", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "150110", "ref": "Average ARR AUM 1,50,110", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "ARR Retention (Wealth)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "0.71", "ref": "Retentions 0.71%", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q3 FY24": {"v": "0.71", "ref": "Retentions 0.71%", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q4 FY24": {"v": "0.72", "ref": "Retentions 0.72%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "63", "conf": "HIGH"},
+            "Q1 FY25": {"v": "0.71", "ref": "ARR Retention 0.71%", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "42", "conf": "HIGH"},
+            "Q2 FY25": {"v": "0.68", "ref": "ARR Retention 0.68%", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q3 FY25": {"v": "0.73", "ref": "ARR Retention 0.73%", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "Q4 FY25": {"v": "0.80", "ref": "ARR Retention 0.80%", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "37", "conf": "HIGH"},
+            "Q1 FY26": {"v": "0.78", "ref": "ARR Retention 0.78%", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "45", "conf": "HIGH"},
+            "Q2 FY26": {"v": "0.72", "ref": "ARR Retention 0.72%", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "Q3 FY26": {"v": "0.79", "ref": "ARR Retention 0.79%", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "FY21": {"v": "0.83", "ref": "ARR Retention 0.83%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY22": {"v": "0.79", "ref": "ARR Retention 0.79%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY23": {"v": "0.84", "ref": "ARR Retention 0.84%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY24": {"v": "0.78", "ref": "ARR Retention 0.78%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "0.73", "ref": "ARR Retention 0.73%", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "ARR Net Flows (Wealth)",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "7896", "ref": "Net Flows 7,896", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY24": {"v": "7724", "ref": "Net Flows 7,724", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q4 FY24": {"v": "-857", "ref": "Net Flows -857", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "58", "conf": "HIGH"},
+            "Q1 FY25": {"v": "4678", "ref": "Net Flows 4,678", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "42", "conf": "HIGH"},
+            "Q2 FY25": {"v": "8391", "ref": "Net Flows 8,391", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q3 FY25": {"v": "5940", "ref": "Net Flows 5,940", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Q4 FY25": {"v": "3324", "ref": "ARR Net Flows 3,324", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q1 FY26": {"v": "19977", "ref": "Net Flows 19,977", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "45", "conf": "HIGH"},
+            "Q2 FY26": {"v": "9322", "ref": "ARR Net Flows 9,322", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q3 FY26": {"v": "10321", "ref": "ARR Net Flows 10,321", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "FY21": {"v": "21028", "ref": "ARR Net Flows 21,028", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY22": {"v": "16449", "ref": "ARR Net Flows 16,449", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY23": {"v": "15714", "ref": "ARR Net Flows 15,714", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY24": {"v": "15714", "ref": "ARR Net Flows 15,714", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "22334", "ref": "ARR Net Flows 22,334", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Custody AUM",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "113773", "ref": "Custody AUM 1,13,773", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q3 FY24": {"v": "126641", "ref": "Custody AUM 1,26,641", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q4 FY24": {"v": "127769", "ref": "Custody AUM 1,27,769", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q1 FY25": {"v": "145114", "ref": "Custody AUM 1,45,114", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q2 FY25": {"v": "164777", "ref": "Custody AUM 1,64,777", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q3 FY25": {"v": "172368", "ref": "Custody AUM 1,72,368", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q4 FY25": {"v": "145782", "ref": "Custody AUM 1,45,782", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q1 FY26": {"v": "165385", "ref": "Custody AUM 1,65,385", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "29", "conf": "HIGH"},
+            "Q2 FY26": {"v": "158611", "ref": "Custody AUM 1,58,611", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q3 FY26": {"v": "175752", "ref": "Custody AUM 1,75,752", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "FY21": {"v": "39039", "ref": "Custody AUM 39,039", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY22": {"v": "65493", "ref": "Custody AUM 65,493", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY23": {"v": "66491", "ref": "Custody AUM 66,491", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY24": {"v": "127769", "ref": "Custody AUM 1,27,769", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "145782", "ref": "Custody AUM 1,45,782", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of relevant clients (Wealth)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "FY21": {"v": "6707", "ref": "No. of relevant clients 6,707", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY22": {"v": "6833", "ref": "No. of relevant clients 6,833", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY23": {"v": "6850", "ref": "No. of relevant clients 6,850", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY24": {"v": "7195", "ref": "No. of relevant clients 7,195", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "FY25": {"v": "7527", "ref": "No. of relevant clients 7,527", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Asset Management",
+      "data": [
+        {
+          "particulars": "Asset Management AUM",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "64293", "ref": "Asset Mgmt. AUM 64,293", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q3 FY24": {"v": "69154", "ref": "Asset Mgmt. AUM 69,154", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4 FY24": {"v": "72248", "ref": "Asset Mgmt. AUM 72,248", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1 FY25": {"v": "79652", "ref": "Asset Management AUM 79,652", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Q2 FY25": {"v": "85770", "ref": "Asset Management AUM 85,770", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q3 FY25": {"v": "85250", "ref": "Asset Management AUM 85,250", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q4 FY25": {"v": "84395", "ref": "Asset Management AUM 84,395", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q1 FY26": {"v": "92544", "ref": "AMC: INR 92,544 Crs", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q2 FY26": {"v": "92116", "ref": "Asset Management AUM 92,116", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q3 FY26": {"v": "98949", "ref": "Asset Management AUM 98,949", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "FY20": {"v": "21940", "ref": "Asset Mgmt. AUM 21,940", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY21": {"v": "37372", "ref": "Asset Mgmt. AUM 37,372", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY22": {"v": "55574", "ref": "Asset Mgmt. AUM 55,574", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY23": {"v": "58298", "ref": "Asset Mgmt. AUM 58,298", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY24": {"v": "72248", "ref": "Asset Management AUM 72,248", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "3", "conf": "HIGH"},
+            "FY25": {"v": "84395", "ref": "Asset Management AUM 84,395", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Alternative Investment Fund (AIF) AUM",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "35633", "ref": "Alternate Investment Manager 35,633", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY24": {"v": "35845", "ref": "Alternate Investment Manager 35,845", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Q4 FY24": {"v": "38313", "ref": "Alternate Investment Fund 38,313", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "59", "conf": "HIGH"},
+            "Q1 FY25": {"v": "40118", "ref": "Alternative Investment Fund 40,118", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "43", "conf": "HIGH"},
+            "Q2 FY25": {"v": "40180", "ref": "Alternative Investment Fund 40,180", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "40", "conf": "HIGH"},
+            "Q3 FY25": {"v": "41701", "ref": "Alternative Investment Fund 41,701", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q4 FY25": {"v": "41613", "ref": "Alternative Investment Fund 41,613", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q1 FY26": {"v": "45141", "ref": "Alternative Investment Fund 45,141", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "46", "conf": "HIGH"},
+            "Q2 FY26": {"v": "45473", "ref": "Alternative Investment Fund 45,473", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Q3 FY26": {"v": "50934", "ref": "Alternative Investment Fund 50,934", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "FY20": {"v": "16599", "ref": "Alternative Investment Fund 16,599", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY21": {"v": "23700", "ref": "Alternative Investment Fund 23,700", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY22": {"v": "32550", "ref": "Alternative Investment Fund 32,550", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY23": {"v": "34770", "ref": "Alternative Investment Fund 34,770", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY24": {"v": "38313", "ref": "Alternative Investment Fund 38,313", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY25": {"v": "41613", "ref": "Alternative Investment Fund 41,613", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Discretionary PMS AUM",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "20929", "ref": "Discretionary Portfolio Manager 20,929", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY24": {"v": "21792", "ref": "Discretionary Portfolio Manager 21,792", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Q4 FY24": {"v": "24355", "ref": "Discretionary Portfolio Manager 24,355", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "59", "conf": "HIGH"},
+            "Q1 FY25": {"v": "28258", "ref": "Discretionary Portfolio Manager 28,258", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "43", "conf": "HIGH"},
+            "Q2 FY25": {"v": "33247", "ref": "Discretionary PMS 33,247", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "40", "conf": "HIGH"},
+            "Q3 FY25": {"v": "31952", "ref": "Discretionary PMS 31,952", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q4 FY25": {"v": "31296", "ref": "Discretionary Portfolio Manager 31,296", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q1 FY26": {"v": "34644", "ref": "Discretionary Portfolio Manager 34,644", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "46", "conf": "HIGH"},
+            "Q2 FY26": {"v": "33572", "ref": "Discretionary PMS 33,572", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Q3 FY26": {"v": "34536", "ref": "Discretionary PMS 34,536", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "FY20": {"v": "4040", "ref": "Discretionary PMS 4,040", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY21": {"v": "11196", "ref": "Discretionary PMS 11,196", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY22": {"v": "18505", "ref": "Discretionary PMS 18,505", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY23": {"v": "18642", "ref": "Discretionary PMS 18,642", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY24": {"v": "24355", "ref": "Discretionary PMS 24,355", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY25": {"v": "31296", "ref": "Discretionary PMS 31,296", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Mutual Fund AUM",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "6045", "ref": "Mutual Fund Manager 6,045", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY24": {"v": "6869", "ref": "Mutual Fund Manager 6,869", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Q4 FY24": {"v": "9580", "ref": "Mutual Fund 9,580", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "59", "conf": "HIGH"},
+            "Q1 FY25": {"v": "11276", "ref": "Mutual Fund 11,276", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "43", "conf": "HIGH"},
+            "Q2 FY25": {"v": "12343", "ref": "Mutual Fund 12,343", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "40", "conf": "HIGH"},
+            "Q3 FY25": {"v": "11597", "ref": "Mutual Fund 11,597", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q4 FY25": {"v": "11486", "ref": "Mutual Fund 11,486", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q1 FY26": {"v": "12759", "ref": "Mutual Fund 12,759", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "46", "conf": "HIGH"},
+            "Q2 FY26": {"v": "13071", "ref": "Mutual Fund 13,071", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Q3 FY26": {"v": "13480", "ref": "Mutual Fund 13,480", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "FY20": {"v": "1300", "ref": "Mutual Fund 1,300", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY21": {"v": "2476", "ref": "Mutual Fund 2,476", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY22": {"v": "4519", "ref": "Mutual Fund 4,519", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY23": {"v": "4886", "ref": "Mutual Fund 4,886", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY24": {"v": "9580", "ref": "Mutual Fund 9,580", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY25": {"v": "11486", "ref": "Mutual Fund 11,486", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Average ARR AUM (Asset Management)",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "63952", "ref": "Average AUM 63,952", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY24": {"v": "66342", "ref": "Average AUM 66,342", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Q4 FY24": {"v": "65336", "ref": "Average ARR AUM 65,336", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "59", "conf": "HIGH"},
+            "Q1 FY25": {"v": "75530", "ref": "Average ARR AUM 75,530", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "43", "conf": "HIGH"},
+            "Q2 FY25": {"v": "82708", "ref": "Average ARR AUM 82,708", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "40", "conf": "HIGH"},
+            "Q3 FY25": {"v": "84211", "ref": "Average ARR AUM 84,211", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q4 FY25": {"v": "83552", "ref": "Average ARR AUM 83,552", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q1 FY26": {"v": "86993", "ref": "Average ARR AUM 86,993", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "46", "conf": "HIGH"},
+            "Q2 FY26": {"v": "93828", "ref": "Average ARR AUM 93,828", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Q3 FY26": {"v": "95612", "ref": "Average ARR AUM 95,612", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "35", "conf": "HIGH"},
+            "FY21": {"v": "28437", "ref": "Average ARR AUM 28,437", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY22": {"v": "49211", "ref": "Average ARR AUM 49,211", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY23": {"v": "56629", "ref": "Average ARR AUM 56,629", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY24": {"v": "65336", "ref": "Average ARR AUM 65,336", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY25": {"v": "81500", "ref": "Average ARR AUM 81,500", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "ARR Retention (Asset Management)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "0.71", "ref": "Retentions 0.71%", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY24": {"v": "0.72", "ref": "Retentions 0.72%", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Q4 FY24": {"v": "0.74", "ref": "ARR Retention 0.74%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "59", "conf": "HIGH"},
+            "Q1 FY25": {"v": "0.74", "ref": "ARR Retention 0.74%", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "43", "conf": "HIGH"},
+            "Q2 FY25": {"v": "0.67", "ref": "ARR Retention 0.67%", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "40", "conf": "HIGH"},
+            "Q3 FY25": {"v": "0.65", "ref": "ARR Retention 0.65%", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q4 FY25": {"v": "0.90", "ref": "ARR Retention 0.90%", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "39", "conf": "HIGH"},
+            "Q1 FY26": {"v": "0.79", "ref": "ARR Retention 0.79%", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "46", "conf": "HIGH"},
+            "Q2 FY26": {"v": "0.83", "ref": "ARR Retention 0.83%", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Q3 FY26": {"v": "0.85", "ref": "ARR Retention 0.85%", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "FY21": {"v": "0.70", "ref": "ARR Retention 0.70%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY22": {"v": "0.73", "ref": "ARR Retention 0.73%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY23": {"v": "0.80", "ref": "ARR Retention 0.80%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY24": {"v": "0.74", "ref": "ARR Retention 0.74%", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY25": {"v": "0.74", "ref": "ARR Retention 0.74%", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "ARR Net Flows (Asset Management)",
+          "unit": "INR Crs",
+          "metric_type": "periodic",
+          "values": {
+            "Q2 FY24": {"v": "-2153", "ref": "Net Flows -2,153", "src": "Nov-2023_82873ad9-14cf-4acc-99ed-d577b1231e4f_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3 FY24": {"v": "1141", "ref": "Net Flows 1,141", "src": "Jan-2024_2c7a8a05-6f0b-41d9-ae29-02c4c2faa7df_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Q4 FY24": {"v": "189", "ref": "Net Flows 189", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "60", "conf": "HIGH"},
+            "Q1 FY25": {"v": "871", "ref": "Net Flows 871", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "43", "conf": "HIGH"},
+            "Q2 FY25": {"v": "1395", "ref": "ARR Net Flows 1,395", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Q3 FY25": {"v": "703", "ref": "ARR Net Flows 703", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q4 FY25": {"v": "671", "ref": "ARR Net Flows 671", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Q1 FY26": {"v": "973", "ref": "ARR Net Flows 973", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "46", "conf": "HIGH"},
+            "Q2 FY26": {"v": "1860", "ref": "ARR Net Flows 1,860", "src": "Oct-2025_418b214d-1ce6-4ada-898d-cbcccd5821c4_IP.pdf", "pg": "26", "conf": "HIGH"},
+            "Q3 FY26": {"v": "4437", "ref": "ARR Net Flows 4,437", "src": "Jan-2026_2cc919e8-0ee3-434d-a44f-3dcfb7b680ae_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "FY21": {"v": "8957", "ref": "ARR Net Flows 8,957", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY22": {"v": "11957", "ref": "ARR Net Flows 11,957", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY23": {"v": "5435", "ref": "ARR Net Flows 5,435", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY24": {"v": "421", "ref": "ARR Net Flows 421", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "FY25": {"v": "3640", "ref": "ARR Net Flows 3,640", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of empanelled partners",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "FY24": {"v": "33000", "ref": "33K+ empanelled partners (added 2,000+ partners in FY24)", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY25": {"v": "37000", "ref": "~37K empanelled partners (added 3,400+ partners in FY25)", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "22", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of institutional broking clients (B&K)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "300", "ref": "300+ institutional broking clients across DII and FIIs", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Q1 FY26": {"v": "250", "ref": "250+ institutional broking clients across DII and FIIs", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "26", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Number of mid and small cap companies under coverage (B&K)",
+          "unit": "Number",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "450", "ref": "450+ mid and small cap companies under coverage", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Q1 FY26": {"v": "500", "ref": "~500 mid and small cap companies under coverage", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "26", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Share of cash segment in broking revenue (B&K)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "90", "ref": "90%+ share of cash segment in broking revenue", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "41", "conf": "HIGH"},
+            "Q1 FY26": {"v": "90", "ref": "90%+ share of cash segment in broking revenue", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "26", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Equity turnover (cash segment) (B&K)",
+          "unit": "INR Billion",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "2448", "ref": "Equity turnover (cash segment) at INR 2,448 billion (+76% YoY) in FY25", "src": "Apr-2025_6af50098-8649-4c2d-bb07-693134b07f33_IP.pdf", "pg": "41", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Number of industry awards",
+      "unit": "Number",
+      "metric_type": "periodic",
+      "values": {
+        "Q1 FY25": {"v": "170", "ref": "170+ Industry awards", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "9", "conf": "HIGH"},
+        "Q2 FY25": {"v": "170", "ref": "170+ Industry awards", "src": "Oct-2024_e5981898-847a-4611-86fe-0c3d6d7b815e_IP.pdf", "pg": "9", "conf": "HIGH"},
+        "Q1 FY26": {"v": "175", "ref": "175+ Industry Awards", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "10", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "CRISIL ESG rating",
+      "unit": "Descriptor",
+      "metric_type": "periodic",
+      "values": {
+        "Q3 FY25": {"v": "Strong (CRISIL ESG 65)", "ref": "CRISIL assigned a \"Strong\" rating (CRISIL ESG 65) to 360 ONE", "src": "Jan-2025_f8f6b911-8f03-4a52-a99b-d1b12a2ffffc_IP.pdf", "pg": "3", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Great Place to Work certification",
+      "unit": "Descriptor",
+      "metric_type": "periodic",
+      "values": {
+        "Q1 FY25": {"v": "Great Place to Work 2024", "ref": "360 ONE was recognized as \"Great Place to Work 2024\"", "src": "Aug-2024_be2b34af-6b82-4ec7-ba57-1748e0ff5efb_IP.pdf", "pg": "3", "conf": "HIGH"},
+        "Q1 FY26": {"v": "Great Place To Work - India certification", "ref": "coveted Great Place To Work - India certification", "src": "Jul-2025_8e07f3c1-8975-4d37-a0e6-85be623ee4e8_IP.pdf", "pg": "3", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "LEED certification for Bengaluru office",
+      "unit": "Descriptor",
+      "metric_type": "static_descriptor",
+      "value": "LEED certification (Zero Carbon)",
+      "ref": "360 ONE's Bengaluru office at One Trade Tower received LEED certification (Zero Carbon)", "src": "Apr-2024_7aacd266-cd34-469b-94a9-d8ae4b10f168_IP.pdf", "pg": "45", "conf": "HIGH"
+    }
+  ]
+}

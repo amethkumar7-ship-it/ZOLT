@@ -1,0 +1,441 @@
+{
+  "company_name": "Aditya Birla Fashion and Retail Limited (ABFRL)",
+  "documents_scanned": "7",
+  "time_range": "Q3 FY25 to Q3 FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Total Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2024", "Dec 2025", "Sep 2025", "Jun 2025", "Mar 2025", "Mar 2024"]},
+        {"metric": "Total Footprint", "unit": "million sq. ft.", "metric_type": "periodic", "periods_available": ["Dec 2024", "Dec 2025", "Jun 2025", "Jun 2024", "Mar 2025", "Mar 2024"]},
+        {"metric": "Masstige & Value Retail Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2025", "Jun 2025", "Mar 2025"]},
+        {"metric": "Ethnic Brand Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2025", "Jun 2025", "Mar 2025", "Mar 2024"]},
+        {"metric": "Luxury Retail Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2025", "Jun 2025", "Mar 2025", "Mar 2024"]},
+        {"metric": "TMRW Brand Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2025", "Sep 2025", "Jun 2025", "Mar 2025"]},
+        {"metric": "Style Up Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2025", "Sep 2025", "Jun 2025", "Mar 2025", "Dec 2024", "Sep 2024"]},
+        {"metric": "Ethnic Business Annual Run Rate", "unit": "Rs. Cr", "metric_type": "periodic", "periods_available": ["Q3 FY26"]},
+        {"metric": "TMRW Annual Revenue Run Rate", "unit": "Rs. Cr", "metric_type": "periodic", "periods_available": ["Q3 FY26"]},
+        {"metric": "Sabyasachi Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2025", "Sep 2025", "Mar 2025", "Dec 2024"]},
+        {"metric": "Shantnu & Nikhil Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2025", "Sep 2025", "Mar 2025", "Dec 2024"]},
+        {"metric": "Tarun Tahiliani Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2025", "Sep 2025", "Mar 2025", "Dec 2024"]},
+        {"metric": "House of Masaba Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2025", "Sep 2025", "Mar 2025"]},
+        {"metric": "Jaypore Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2025", "Sep 2025", "Mar 2025", "Dec 2024"]},
+        {"metric": "TASVA Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2025", "Sep 2025", "Mar 2025"]},
+        {"metric": "The Collective & Mono Brands Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2025", "Sep 2025", "Jun 2025", "Mar 2025", "Dec 2024"]},
+        {"metric": "TCNS Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2024", "Sep 2024"]},
+        {"metric": "Consumer Loyalty Members", "unit": "million", "metric_type": "periodic", "periods_available": ["2024"]},
+        {"metric": "Re-Earth S&P CSA Score", "unit": "score", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "International Stores", "unit": "stores", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Pantaloons Segment",
+      "metrics_found": [
+        {"metric": "Pantaloons Retail Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Dec 2025", "Dec 2024", "Sep 2025", "Sep 2024", "Jun 2025", "Jun 2024", "Mar 2025", "Mar 2024"]},
+        {"metric": "Pantaloons Retail Area", "unit": "000's sq. ft.", "metric_type": "periodic", "periods_available": ["Dec 2025", "Dec 2024", "Sep 2025", "Sep 2024", "Jun 2025", "Jun 2024", "Mar 2025", "Mar 2024"]}
+      ]
+    },
+    {
+      "segment_name": "ABLBL (Aditya Birla Lifestyle Brands Limited)",
+      "metrics_found": [
+        {"metric": "Lifestyle Brands Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Mar 2025", "Mar 2024"]},
+        {"metric": "Lifestyle Brands Area", "unit": "000's sq. ft.", "metric_type": "periodic", "periods_available": ["Mar 2025", "Mar 2024"]},
+        {"metric": "Retail LTL", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY25", "Q4 FY25", "FY25", "Q4 FY24", "Q3 FY24"]},
+        {"metric": "American Eagle Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Mar 2025", "Dec 2024"]},
+        {"metric": "Reebok Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Mar 2025"]},
+        {"metric": "Van Heusen Innerwear Trade Outlets", "unit": "outlets", "metric_type": "periodic", "periods_available": ["Mar 2025", "Dec 2024"]},
+        {"metric": "Van Heusen Innerwear Exclusive Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Mar 2025"]}
+      ]
+    },
+    {
+      "segment_name": "Ethnic Businesses",
+      "metrics_found": [
+        {"metric": "TCNS Exclusive Brand Outlets", "unit": "outlets", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "TCNS Shop-in-Shops", "unit": "counters", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "TCNS Multi Brand Outlets", "unit": "outlets", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Luxury Retail",
+      "metrics_found": [
+        {"metric": "The Collective E-commerce Contribution", "unit": "%", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "TMRW",
+      "metrics_found": [
+        {"metric": "TMRW Exclusive Stores", "unit": "stores", "metric_type": "periodic", "periods_available": ["Sep 2025", "Jun 2025", "Mar 2025", "Dec 2024"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "S&P CSA Score", "unit": "score", "metric_type": "static_descriptor", "periods_available": ["static"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Total Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "1226", "ref": "ABFRL NETWORK Q3 FY26 ADITYA BIRLA FASHION & RETAIL Masstige & Value Retail Stores 473, Ethnic Brand Stores 665, Luxury Retail Stores 50, TMRW Brand Stores 38", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Sep 2025": {"v": "1121", "ref": "ABFRL Network Q 2 FY 2 6 A D I T Y A B I R L A F A S H I O N & R E T A I L 454 Masstige & Value Retail Stores 25 TMRW Brand Stores 44 Luxury Retail Stores 645 Ethnic Brand Stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Jun 2025": {"v": "1168", "ref": "ABFRL Network Q 1 FY2 6 A D I T Y A B I R L A F A S H I O N & R E T A I L 454 Masstige & Value Retail Stores 25 TMRW Brand Stores 44 Luxury Retail Stores 645 Ethnic Brand Stores", "src": "Aug-2025_5f6c4068-6b52-4456-8104-32405826abe2_IP.pdf", "pg": "6", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total Footprint",
+          "unit": "million sq. ft.",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "7.7", "ref": "Footprint (million sq. ft.) Dec'24 7.2, Dec'25 7.7", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Dec 2024": {"v": "7.2", "ref": "Footprint (million sq. ft.) Dec'24 7.2, Dec'25 7.7", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Jun 2025": {"v": "7.4", "ref": "Footprint (million sq. ft.) June'24 7.1, June'25 7.4", "src": "Aug-2025_5f6c4068-6b52-4456-8104-32405826abe2_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Jun 2024": {"v": "7.1", "ref": "Footprint (million sq. ft.) June'24 7.1, June'25 7.4", "src": "Aug-2025_5f6c4068-6b52-4456-8104-32405826abe2_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Mar 2025": {"v": "7.1", "ref": "Footprint (million sq. ft.) 7.1 Mar'24 Mar'25", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "24", "conf": "MEDIUM"},
+            "Mar 2024": {"v": "7.1", "ref": "Footprint (million sq. ft.) 7.1 Mar'24 Mar'25", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "24", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Masstige & Value Retail Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "473", "ref": "ABFRL NETWORK Q3 FY26 ADITYA BIRLA FASHION & RETAIL Masstige & Value Retail Stores 473", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Sep 2025": {"v": "454", "ref": "ABFRL Network Q 2 FY 2 6 A D I T Y A B I R L A F A S H I O N & R E T A I L 454 Masstige & Value Retail Stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Jun 2025": {"v": "454", "ref": "ABFRL Network Q 1 FY2 6 A D I T Y A B I R L A F A S H I O N & R E T A I L 454 Masstige & Value Retail Stores", "src": "Aug-2025_5f6c4068-6b52-4456-8104-32405826abe2_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Mar 2025": {"v": "451", "ref": "451 Massstige & Value Retail Stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Ethnic Brand Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "665", "ref": "ABFRL NETWORK Q3 FY26 ADITYA BIRLA FASHION & RETAIL Ethnic Brand Stores 665", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Sep 2025": {"v": "645", "ref": "ABFRL Network Q 2 FY 2 6 A D I T Y A B I R L A F A S H I O N & R E T A I L 645 Ethnic Brand Stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Jun 2025": {"v": "645", "ref": "ABFRL Network Q 1 FY2 6 A D I T Y A B I R L A F A S H I O N & R E T A I L 645 Ethnic Brand Stores", "src": "Aug-2025_5f6c4068-6b52-4456-8104-32405826abe2_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Mar 2025": {"v": "659", "ref": "659 Ethnic Brand Stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Mar 2024": {"v": "559", "ref": "659 Ethnic Brand Stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "24", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Luxury Retail Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "50", "ref": "ABFRL NETWORK Q3 FY26 ADITYA BIRLA FASHION & RETAIL Luxury Retail Stores 50", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Sep 2025": {"v": "44", "ref": "ABFRL Network Q 2 FY 2 6 A D I T Y A B I R L A F A S H I O N & R E T A I L 44 Luxury Retail Stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Jun 2025": {"v": "44", "ref": "ABFRL Network Q 1 FY2 6 A D I T Y A B I R L A F A S H I O N & R E T A I L 44 Luxury Retail Stores", "src": "Aug-2025_5f6c4068-6b52-4456-8104-32405826abe2_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Mar 2025": {"v": "41", "ref": "41 Luxury Retail Stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "24", "conf": "HIGH"},
+            "Mar 2024": {"v": "32", "ref": "41 Luxury Retail Stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "24", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "TMRW Brand Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "38", "ref": "ABFRL NETWORK Q3 FY26 ADITYA BIRLA FASHION & RETAIL 38 TMRW Brand Stores", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Sep 2025": {"v": "25", "ref": "ABFRL Network Q 2 FY 2 6 A D I T Y A B I R L A F A S H I O N & R E T A I L 25 TMRW Brand Stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Jun 2025": {"v": "25", "ref": "ABFRL Network Q 1 FY2 6 A D I T Y A B I R L A F A S H I O N & R E T A I L 25 TMRW Brand Stores", "src": "Aug-2025_5f6c4068-6b52-4456-8104-32405826abe2_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Mar 2025": {"v": "16", "ref": "16 TMRW Brand Stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "24", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Style Up Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "67", "ref": "Added 9 new stores in Q3 - Total network of 67 stores", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Sep 2025": {"v": "59", "ref": "Brand presence at 59 stores Plan to exit FY26 with ~95 stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Jun 2025": {"v": "49", "ref": "Style Up network now at 49 stores", "src": "Aug-2025_5f6c4068-6b52-4456-8104-32405826abe2_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Mar 2025": {"v": "46", "ref": "Style Up added 7 stores in Q4, now available at 46 stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "30", "conf": "HIGH"},
+            "Dec 2024": {"v": "39", "ref": "Style Up expands its footprint Now present across 39 stores", "src": "Feb-2025_24f3af4f-b590-4d25-bda9-1dcfe3aa2a80_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Sep 2024": {"v": "30", "ref": "Plan to exit FY26 with ~95 stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "15", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Ethnic Business Annual Run Rate",
+          "unit": "Rs. Cr",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "2200", "ref": "Ethnic business at ~ Rs. 2200 Cr ARR", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "TMRW Annual Revenue Run Rate",
+          "unit": "Rs. Cr",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "1100", "ref": "~1100 Cr annual revenue run- rate with WROGN", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "26", "conf": "HIGH"},
+            "Q3 FY25": {"v": "1000", "ref": "TMRW now at ~1000 Cr. annual run- rate (ARR)#", "src": "Feb-2025_24f3af4f-b590-4d25-bda9-1dcfe3aa2a80_IP.pdf", "pg": "32", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Sabyasachi Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "22", "ref": "Now available at 22 exclusive stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Sep 2025": {"v": "21", "ref": "Exited the quarter with 21 stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Mar 2025": {"v": "20", "ref": "Added 5 new stores in FY25 - Ended year with 20 stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "Dec 2024": {"v": "19", "ref": "Added 2 new stores this quarter - Ended Q3 with 19 stores", "src": "Feb-2025_24f3af4f-b590-4d25-bda9-1dcfe3aa2a80_IP.pdf", "pg": "26", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Shantnu & Nikhil Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "21", "ref": "Exited the quarter with 21 stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Sep 2025": {"v": "20", "ref": "Exited the quarter with 21 stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "21", "conf": "MEDIUM"},
+            "Mar 2025": {"v": "21", "ref": "Exited the year with 21 stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "Dec 2024": {"v": "20", "ref": "Exited the quarter with 20 stores", "src": "Feb-2025_24f3af4f-b590-4d25-bda9-1dcfe3aa2a80_IP.pdf", "pg": "26", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Tarun Tahiliani Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "21", "ref": "Exited the quarter with 21 stores", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Sep 2025": {"v": "21", "ref": "Exited the quarter with 21 stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Mar 2025": {"v": "21", "ref": "Exited the year with 21 stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "Dec 2024": {"v": "6", "ref": "Available at 6 stores", "src": "Feb-2025_24f3af4f-b590-4d25-bda9-1dcfe3aa2a80_IP.pdf", "pg": "26", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "House of Masaba Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "19", "ref": "Current Footprint : 19 stores", "src": "Apr-2025_a50072b8-f593-45b4-9684-c28089e31118_IP.pdf", "pg": "130", "conf": "HIGH"},
+            "Sep 2025": {"v": "22", "ref": "Now available at 22 exclusive stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Mar 2025": {"v": "20", "ref": "Added 5 new stores in FY25 - Ended year with 20 stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "33", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Jaypore Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "85", "ref": "Available across 85 stores", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Sep 2025": {"v": "78", "ref": "Opened 8 new stores in Q2 Available across 78 stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Mar 2025": {"v": "67", "ref": "Available across 67 stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "Dec 2024": {"v": "64", "ref": "Jaypore Stores count not explicitly stated, but 25+ stores planned", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "36", "conf": "LOW"}
+          }
+        },
+        {
+          "particulars": "TASVA Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "38", "ref": "Brand now available at 38 stores", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Sep 2025": {"v": "36", "ref": "Brand now available at 36 stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Mar 2025": {"v": "29", "ref": "Now available at 29 stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "36", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "The Collective & Mono Brands Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "49", "ref": "Total network, including Mono brands, now at 49 stores", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Sep 2025": {"v": "46", "ref": "Total network, including Mono brands, spans across 46 stores", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Jun 2025": {"v": "44", "ref": "Total network, including Mono brands, spans across 44 stores", "src": "Aug-2025_5f6c4068-6b52-4456-8104-32405826abe2_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Mar 2025": {"v": "41", "ref": "Total network, including Mono brands; spans across 41 stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "38", "conf": "HIGH"},
+            "Dec 2024": {"v": "41", "ref": "Total network, including Mono brands, spans across 41 stores", "src": "Feb-2025_24f3af4f-b590-4d25-bda9-1dcfe3aa2a80_IP.pdf", "pg": "30", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Consumer Loyalty Members",
+          "unit": "million",
+          "metric_type": "periodic",
+          "values": {
+            "2024": {"v": "40", "ref": "40 Mn+ loyal members across core brands", "src": "Apr-2025_a50072b8-f593-45b4-9684-c28089e31118_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "International Stores",
+          "unit": "stores",
+          "metric_type": "static_descriptor",
+          "value": "11",
+          "ref": "*Includes 11 international stores", 
+          "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", 
+          "pg": "6", 
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "TCNS Exclusive Brand Outlets",
+          "unit": "outlets",
+          "metric_type": "static_descriptor",
+          "value": "475",
+          "ref": "~475 Exclusive Brand Outlets across 150 Cities", 
+          "src": "Apr-2025_a50072b8-f593-45b4-9684-c28089e31118_IP.pdf", 
+          "pg": "158", 
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "TCNS Shop-in-Shops",
+          "unit": "counters",
+          "metric_type": "static_descriptor",
+          "value": "1400",
+          "ref": "~1400 SIS across all leading LFS chains", 
+          "src": "Apr-2025_a50072b8-f593-45b4-9684-c28089e31118_IP.pdf", 
+          "pg": "158", 
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "TCNS Multi Brand Outlets",
+          "unit": "outlets",
+          "metric_type": "static_descriptor",
+          "value": "250",
+          "ref": "~250 Multi Brand Outlets", 
+          "src": "Apr-2025_a50072b8-f593-45b4-9684-c28089e31118_IP.pdf", 
+          "pg": "158", 
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "The Collective E-commerce Contribution",
+          "unit": "%",
+          "metric_type": "static_descriptor",
+          "value": "20",
+          "ref": "20%+ e- com contribution", 
+          "src": "Apr-2025_a50072b8-f593-45b4-9684-c28089e31118_IP.pdf", 
+          "pg": "185", 
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "TMRW Exclusive Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Sep 2025": {"v": "29", "ref": "now available at 29 exclusive stores* across 10+ cities", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "28", "conf": "HIGH"},
+            "Jun 2025": {"v": "25", "ref": "brands now available at 25 exclusive stores* across 9 cities", "src": "Aug-2025_5f6c4068-6b52-4456-8104-32405826abe2_IP.pdf", "pg": "27", "conf": "HIGH"},
+            "Mar 2025": {"v": "16", "ref": "Exited the year with 16 stores* across 7 cities", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "40", "conf": "HIGH"},
+            "Dec 2024": {"v": "7", "ref": "Exited quarter with 3 TIGC and 4 Bewakoof stores", "src": "Feb-2025_24f3af4f-b590-4d25-bda9-1dcfe3aa2a80_IP.pdf", "pg": "32", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Pantaloons Segment",
+      "data": [
+        {
+          "particulars": "Pantaloons Retail Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "406", "ref": "PANTALOONS RETAIL NETWORK AREA (000's SQ. FT.) STORES Dec 2025 5,823 406", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Dec 2024": {"v": "417", "ref": "PANTALOONS RETAIL NETWORK AREA (000's SQ. FT.) STORES Dec 2024 5,721 417", "src": "Feb-2025_24f3af4f-b590-4d25-bda9-1dcfe3aa2a80_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Sep 2025": {"v": "403", "ref": "PANTALOONS RETAIL NETWORK Area (000s sq. ft.) Stores Sept 2025 5,745 403", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Sep 2024": {"v": "417", "ref": "PANTALOONS RETAIL NETWORK Area (000s sq. ft.) Stores Sept 2024 5,754 417", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Jun 2025": {"v": "405", "ref": "PANTALOONS RETAIL NETWORK Area (000s sq. ft.) Stores June 2025 5,725 405", "src": "Aug-2025_5f6c4068-6b52-4456-8104-32405826abe2_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Jun 2024": {"v": "417", "ref": "PANTALOONS RETAIL NETWORK Area (000s sq. ft.) Stores June 2024 5,741 417", "src": "Aug-2025_5f6c4068-6b52-4456-8104-32405826abe2_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Mar 2025": {"v": "406", "ref": "PANTALOONS RETAIL NETWORK Area (000s sq. ft.) Stores Mar 2025 5,713", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "30", "conf": "MEDIUM"},
+            "Mar 2024": {"v": "417", "ref": "PANTALOONS RETAIL NETWORK Area (000s sq. ft.) Stores Mar 2024 5,722", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "30", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Pantaloons Retail Area",
+          "unit": "000's sq. ft.",
+          "metric_type": "periodic",
+          "values": {
+            "Dec 2025": {"v": "5823", "ref": "PANTALOONS RETAIL NETWORK AREA (000's SQ. FT.) STORES Dec 2025 5,823 406", "src": "Feb-2026_a7d56c81-55c7-4acb-bd14-92225f5040d4_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Dec 2024": {"v": "5721", "ref": "PANTALOONS RETAIL NETWORK AREA (000's SQ. FT.) STORES Dec 2024 5,721 417", "src": "Feb-2025_24f3af4f-b590-4d25-bda9-1dcfe3aa2a80_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Sep 2025": {"v": "5745", "ref": "PANTALOONS RETAIL NETWORK Area (000s sq. ft.) Stores Sept 2025 5,745 403", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Sep 2024": {"v": "5754", "ref": "PANTALOONS RETAIL NETWORK Area (000s sq. ft.) Stores Sept 2024 5,754 417", "src": "Nov-2025_6019978b-45a3-4e09-8469-af541d0b349b_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Jun 2025": {"v": "5725", "ref": "PANTALOONS RETAIL NETWORK Area (000s sq. ft.) Stores June 2025 5,725 405", "src": "Aug-2025_5f6c4068-6b52-4456-8104-32405826abe2_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Jun 2024": {"v": "5741", "ref": "PANTALOONS RETAIL NETWORK Area (000s sq. ft.) Stores June 2024 5,741 417", "src": "Aug-2025_5f6c4068-6b52-4456-8104-32405826abe2_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Mar 2025": {"v": "5713", "ref": "PANTALOONS RETAIL NETWORK Area (000s sq. ft.) Stores Mar 2025 5,713", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "30", "conf": "MEDIUM"},
+            "Mar 2024": {"v": "5722", "ref": "PANTALOONS RETAIL NETWORK Area (000s sq. ft.) Stores Mar 2024 5,722", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "30", "conf": "MEDIUM"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "ABLBL (Aditya Birla Lifestyle Brands Limited)",
+      "data": [
+        {
+          "particulars": "Lifestyle Brands Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Mar 2025": {"v": "3497", "ref": "RETAIL NETWORK (Excl. value stores) Area (000s sq. ft.) Stores Mar 2025 3,497", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "16", "conf": "MEDIUM"},
+            "Mar 2024": {"v": "3728", "ref": "RETAIL NETWORK (Excl. value stores) Area (000s sq. ft.) Stores Mar 2024 3,728", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "16", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Lifestyle Brands Area",
+          "unit": "000's sq. ft.",
+          "metric_type": "periodic",
+          "values": {
+            "Mar 2025": {"v": "3497", "ref": "RETAIL NETWORK (Excl. value stores) Area (000s sq. ft.) Stores Mar 2025 3,497", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "16", "conf": "MEDIUM"},
+            "Mar 2024": {"v": "3728", "ref": "RETAIL NETWORK (Excl. value stores) Area (000s sq. ft.) Stores Mar 2024 3,728", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "16", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Retail LTL",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY25": {"v": "12", "ref": "LTL @12% in Q3 FY25", "src": "Feb-2025_24f3af4f-b590-4d25-bda9-1dcfe3aa2a80_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q4 FY25": {"v": "9", "ref": "Third consecutive quarter of positive retail LTL Lifestyle Brands Q4 LTL @9%", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "FY25": {"v": "4", "ref": "4% in FY25", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q4 FY24": {"v": "9", "ref": "Retail LTL @9%", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "16", "conf": "MEDIUM"},
+            "Q3 FY24": {"v": "11", "ref": "LTL @11%", "src": "Feb-2025_24f3af4f-b590-4d25-bda9-1dcfe3aa2a80_IP.pdf", "pg": "16", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "American Eagle Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Mar 2025": {"v": "68", "ref": "Exited the year at 68 stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Dec 2024": {"v": "66", "ref": "Exited the quarter at 66 stores", "src": "Feb-2025_24f3af4f-b590-4d25-bda9-1dcfe3aa2a80_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Reebok Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Mar 2025": {"v": "170", "ref": "Available at 170+ stores & 850+ offline touchpoints", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "20", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Van Heusen Innerwear Trade Outlets",
+          "unit": "outlets",
+          "metric_type": "periodic",
+          "values": {
+            "Mar 2025": {"v": "36500", "ref": "Present across 36500+ trade outlets & 100+ exclusive stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Dec 2024": {"v": "36000", "ref": "Brand present across 36000+ trade outlets", "src": "Feb-2025_24f3af4f-b590-4d25-bda9-1dcfe3aa2a80_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Van Heusen Innerwear Exclusive Stores",
+          "unit": "stores",
+          "metric_type": "periodic",
+          "values": {
+            "Mar 2025": {"v": "100", "ref": "Present across 36500+ trade outlets & 100+ exclusive stores", "src": "May-2025_79557001-4a7d-4688-b9c2-fe08ebc83aa6_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "S&P CSA Score",
+      "unit": "score",
+      "metric_type": "static_descriptor",
+      "value": "82",
+      "ref": "ABFRL secured S&P CSA* Score of 82 in 2024 Highest score in India and Fourth highest score globally in Retail sector",
+      "src": "Apr-2025_a50072b8-f593-45b4-9684-c28089e31118_IP.pdf",
+      "pg": "26",
+      "conf": "HIGH"
+    }
+  ]
+}

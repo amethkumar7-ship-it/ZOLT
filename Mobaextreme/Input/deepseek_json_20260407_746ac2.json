@@ -1,0 +1,380 @@
+{
+  "company_name": "3M India Limited",
+  "documents_scanned": "5",
+  "time_range": "FY2021-22 to FY2025-26 YTD Q3",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Number of Manufacturing Facilities", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of R&D Centers", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Innovation/Customer Technical Centers", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Number of Employees", "unit": "count", "metric_type": "periodic", "periods_available": ["FY2022-23", "FY2024-25"]},
+        {"metric": "Year of Incorporation", "unit": "year", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Year of Public Listing", "unit": "year", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Customer Interactions at R&D Center", "unit": "count", "metric_type": "periodic", "periods_available": ["CY2023"]},
+        {"metric": "Unique Customers Served", "unit": "count", "metric_type": "periodic", "periods_available": ["CY2023"]},
+        {"metric": "Patents Filed", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "CTC Visitors (Jan-Dec)", "unit": "count", "metric_type": "periodic", "periods_available": ["CY2025"]}
+      ]
+    },
+    {
+      "segment_name": "Safety & Industrial",
+      "metrics_found": [
+        {"metric": "Sales", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["FY2021-22", "FY2022-23", "FY2023-24"]},
+        {"metric": "Sales Mix", "unit": "%", "metric_type": "periodic", "periods_available": ["FY2021-22", "FY2022-23", "FY2023-24"]},
+        {"metric": "Sales Growth", "unit": "%", "metric_type": "periodic", "periods_available": ["FY2022-23", "FY2023-24"]}
+      ]
+    },
+    {
+      "segment_name": "Transportation & Electronics",
+      "metrics_found": [
+        {"metric": "Sales", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["FY2021-22", "FY2022-23", "FY2023-24"]},
+        {"metric": "Sales Mix", "unit": "%", "metric_type": "periodic", "periods_available": ["FY2021-22", "FY2022-23", "FY2023-24"]},
+        {"metric": "Sales Growth", "unit": "%", "metric_type": "periodic", "periods_available": ["FY2022-23", "FY2023-24"]}
+      ]
+    },
+    {
+      "segment_name": "Health Care",
+      "metrics_found": [
+        {"metric": "Sales", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["FY2021-22", "FY2022-23", "FY2023-24"]},
+        {"metric": "Sales Mix", "unit": "%", "metric_type": "periodic", "periods_available": ["FY2021-22", "FY2022-23", "FY2023-24"]},
+        {"metric": "Sales Growth", "unit": "%", "metric_type": "periodic", "periods_available": ["FY2022-23", "FY2023-24"]}
+      ]
+    },
+    {
+      "segment_name": "Consumer",
+      "metrics_found": [
+        {"metric": "Sales", "unit": "INR crore", "metric_type": "periodic", "periods_available": ["FY2021-22", "FY2022-23", "FY2023-24"]},
+        {"metric": "Sales Mix", "unit": "%", "metric_type": "periodic", "periods_available": ["FY2021-22", "FY2022-23", "FY2023-24"]},
+        {"metric": "Sales Growth", "unit": "%", "metric_type": "periodic", "periods_available": ["FY2022-23", "FY2023-24"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Supplier Award - Tata Power DDL", "unit": "text", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Supplier Award - Asahi Glass", "unit": "text", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Supplier Award - Tenneco", "unit": "text", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "In-House Diversity Champion Award", "unit": "text", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Zero Defect Award - Suzuki Motors Gujarat", "unit": "text", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "Great Place to Work - Top 10 for COVID support", "unit": "text", "metric_type": "static_descriptor", "periods_available": ["static"]},
+    {"metric": "100 Best Companies for Women", "unit": "text", "metric_type": "periodic", "periods_available": ["2021"]},
+    {"metric": "State Level Safety Award - Electronics City Plant", "unit": "text", "metric_type": "static_descriptor", "periods_available": ["static"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Number of Manufacturing Facilities",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "3",
+          "ref": "3 Manufacturing sites from page 6 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf",
+          "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of R&D Centers",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "1",
+          "ref": "1 R&D Center from page 6 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf",
+          "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Innovation/Customer Technical Centers",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "2",
+          "ref": "2 Innovation Centers from page 6 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf",
+          "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Number of Employees",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "FY2022-23": {"v": "1200+", "ref": "1200+ Employees from page 6 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "FY2024-25": {"v": "~1255", "ref": "~1255 employees from page 7 of Mar-2026_80fbe3a0-abef-4273-93b0-587c619d9714_IP.pdf", "src": "Mar-2026_80fbe3a0-abef-4273-93b0-587c619d9714_IP.pdf", "pg": "7", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Year of Incorporation",
+          "unit": "year",
+          "metric_type": "static_descriptor",
+          "value": "1987",
+          "ref": "Incorporated in 1987 from page 6 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf",
+          "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Year of Public Listing",
+          "unit": "year",
+          "metric_type": "static_descriptor",
+          "value": "1991",
+          "ref": "Publicly listed since 1991 from page 6 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf",
+          "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Customer Interactions at R&D Center",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "CY2023": {"v": ">2500", "ref": ">2500 customer interactions from page 13 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "pg": "13", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Unique Customers Served",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "CY2023": {"v": ">24K", "ref": ">24K unique customers in 2023 from page 13 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "pg": "13", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Patents Filed",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "173",
+          "ref": "Patents Filed 173 from page 11 of Mar-2026_80fbe3a0-abef-4273-93b0-587c619d9714_IP.pdf",
+          "src": "Mar-2026_80fbe3a0-abef-4273-93b0-587c619d9714_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "CTC Visitors (Jan-Dec)",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "CY2025": {"v": "5365", "ref": "CTC Visitors Jan-Dec 2025 5365 from page 11 of Mar-2026_80fbe3a0-abef-4273-93b0-587c619d9714_IP.pdf", "src": "Mar-2026_80fbe3a0-abef-4273-93b0-587c619d9714_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Safety & Industrial",
+      "data": [
+        {
+          "particulars": "Sales",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "FY2021-22": {"v": "1194", "ref": "1194 cr. 36% mix from page 10 of Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "src": "Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY2022-23": {"v": "1301", "ref": "1301 cr. 33% mix + 9.0% growth from page 8 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY2023-24": {"v": "1333", "ref": "1333 cr. 32% mix + 2.5% growth from page 5 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Sales Mix",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY2021-22": {"v": "36", "ref": "36% mix from page 10 of Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "src": "Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY2022-23": {"v": "33", "ref": "33% mix from page 8 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY2023-24": {"v": "32", "ref": "32% mix from page 5 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Sales Growth",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY2022-23": {"v": "9.0", "ref": "+9.0% growth from page 8 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY2023-24": {"v": "2.5", "ref": "+2.5% growth from page 5 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Transportation & Electronics",
+      "data": [
+        {
+          "particulars": "Sales",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "FY2021-22": {"v": "1174", "ref": "1174 cr. 35% mix from page 10 of Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "src": "Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY2022-23": {"v": "1569", "ref": "1569 cr. 40% mix +33.6% growth from page 8 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY2023-24": {"v": "1649", "ref": "1649 cr. 39% mix +5.1% growth from page 5 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Sales Mix",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY2021-22": {"v": "35", "ref": "35% mix from page 10 of Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "src": "Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY2022-23": {"v": "40", "ref": "40% mix from page 8 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY2023-24": {"v": "39", "ref": "39% mix from page 5 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Sales Growth",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY2022-23": {"v": "33.6", "ref": "+33.6% growth from page 8 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY2023-24": {"v": "5.1", "ref": "+5.1% growth from page 5 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Health Care",
+      "data": [
+        {
+          "particulars": "Sales",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "FY2021-22": {"v": "552", "ref": "552 cr. 17% mix from page 10 of Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "src": "Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY2022-23": {"v": "655", "ref": "655 cr. 17% mix +18.6% growth from page 8 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY2023-24": {"v": "761", "ref": "761 cr. 18% mix +16.2% growth from page 5 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Sales Mix",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY2021-22": {"v": "17", "ref": "17% mix from page 10 of Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "src": "Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY2022-23": {"v": "17", "ref": "17% mix from page 8 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY2023-24": {"v": "18", "ref": "18% mix from page 5 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Sales Growth",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY2022-23": {"v": "18.6", "ref": "+18.6% growth from page 8 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY2023-24": {"v": "16.2", "ref": "+16.2% growth from page 5 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Consumer",
+      "data": [
+        {
+          "particulars": "Sales",
+          "unit": "INR crore",
+          "metric_type": "periodic",
+          "values": {
+            "FY2021-22": {"v": "388", "ref": "388 cr. 12% mix from page 10 of Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "src": "Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY2022-23": {"v": "410", "ref": "410 cr. 10% mix +5.7% growth from page 8 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY2023-24": {"v": "428", "ref": "428 cr. 10% mix +4.5% growth from page 5 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Sales Mix",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY2021-22": {"v": "12", "ref": "12% mix from page 10 of Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "src": "Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "FY2022-23": {"v": "10", "ref": "10% mix from page 8 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY2023-24": {"v": "10", "ref": "10% mix from page 5 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Sales Growth",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY2022-23": {"v": "5.7", "ref": "+5.7% growth from page 8 of Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "src": "Jun-2023_2ec88d36-db5c-4bd7-895d-55967b2a2721_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "FY2023-24": {"v": "4.5", "ref": "+4.5% growth from page 5 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Supplier Award - Tata Power DDL",
+      "unit": "text",
+      "metric_type": "static_descriptor",
+      "value": "Recognized as trusted supplier of cable accessories under sustainability category for FY2023-24",
+      "ref": "3M's Electrical Market Division in India has been recognized by Tata Power-DDL for its significant contribution as a trusted supplier of cable accessories during FY-2023-24. This award was received under the sustainability category from page 6 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf",
+      "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf",
+      "pg": "6",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Supplier Award - Asahi Glass",
+      "unit": "text",
+      "metric_type": "static_descriptor",
+      "value": "Overall supply, cost, development, delivery, quality, best supplier award",
+      "ref": "AASD Team received \"Overall supply, cost, development, delivery, quality, best supplier award\" from Asahi Glass from page 7 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf",
+      "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf",
+      "pg": "7",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Supplier Award - Tenneco",
+      "unit": "text",
+      "metric_type": "static_descriptor",
+      "value": "Special recognition award for good overall support",
+      "ref": "AASD Team received \"Special recognition award\" from Tenneco as good overall support from page 7 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf",
+      "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf",
+      "pg": "7",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "In-House Diversity Champion Award",
+      "unit": "text",
+      "metric_type": "static_descriptor",
+      "value": "In-House Diversity Champion award for 2024 from Legal 500",
+      "ref": "3M India Legal team received the In-House Diversity Champion award for 2024 from Legal 500 from page 8 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf",
+      "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf",
+      "pg": "8",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Zero Defect Award - Suzuki Motors Gujarat",
+      "unit": "text",
+      "metric_type": "static_descriptor",
+      "value": "Zero defect award (2023-24)",
+      "ref": "Electronics City Plant received zero defect award (2023-24) from Suzuki Motors Gujarat from page 8 of Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf",
+      "src": "Jul-2024_e7dd78cf-1a5a-4ee8-9257-0c7501da7ea2_IP.pdf",
+      "pg": "8",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "Great Place to Work - Top 10 for COVID support",
+      "unit": "text",
+      "metric_type": "static_descriptor",
+      "value": "Amongst the Top 10 companies for COVID support 2021",
+      "ref": "Great Place to Work Amongst the Top 10 companies for COVID support 2021 from page 24 of Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf",
+      "src": "Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf",
+      "pg": "24",
+      "conf": "HIGH"
+    },
+    {
+      "particulars": "100 Best Companies for Women",
+      "unit": "text",
+      "metric_type": "periodic",
+      "values": {
+        "2021": {"v": "Amongst 100 Best Companies for Women in India 2021 & 2019", "ref": "Working Mother & AVTAR Best Companies for Women in India Amongst 100 Best Companies for Women in India 2021 & 2019 from page 24 of Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "src": "Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf", "pg": "24", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "State Level Safety Award - Electronics City Plant",
+      "unit": "text",
+      "metric_type": "static_descriptor",
+      "value": "State Level Safety award under Large Category Industries by Department of Factories, Boilers, Industrial Safety and Health, Govt. of Karnataka (2022)",
+      "ref": "3M Electronics City plant awarded the State Level Safety award under Large Category Industries by Department of Factories, Boilers, Industrial Safety and Health, Govt. of Karnataka. 2022 from page 24 of Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf",
+      "src": "Jun-2022_674d248c-6886-4d32-aeec-fb249d141ece_IP.pdf",
+      "pg": "24",
+      "conf": "HIGH"
+    }
+  ]
+}

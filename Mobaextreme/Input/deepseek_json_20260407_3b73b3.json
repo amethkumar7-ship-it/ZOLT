@@ -1,0 +1,316 @@
+{
+  "company_name": "5paisa Capital Limited",
+  "documents_scanned": "11",
+  "time_range": "Q4FY22 to Q3FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Demat Accounts Base", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q4FY25", "Q3FY25", "Q2FY25", "Q1FY25", "Q4FY24", "Q3FY24", "9MFY25", "H1FY25", "FY25", "FY24"]},
+        {"metric": "Derivative ADTO - Notional", "unit": "Tn", "metric_type": "periodic", "periods_available": ["Q3FY26", "Q2FY25", "Q1FY25", "Q4FY25", "Q3FY25", "Q2FY24", "Dec-24", "Nov-25", "Sep-24"]},
+        {"metric": "Active Clients", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Nov-25", "Aug-25", "Dec-24", "Mar-25", "Sep-24", "Jun-24"]},
+        {"metric": "Client Acquisition", "unit": "Lakhs", "metric_type": "periodic", "periods_available": ["Q3FY26", "Q2FY26", "Q1FY26", "Q4FY25", "Q3FY25", "Q2FY25", "Q1FY25", "Q4FY24", "Q3FY24", "H1FY25"]},
+        {"metric": "DIY Acquisition", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3FY26", "Q2FY26", "Q1FY26", "Q4FY25", "Q3FY25", "Q2FY25", "Q1FY25", "Q4FY24", "Q3FY24"]},
+        {"metric": "Avg. Daily Turnover - Total", "unit": "Tn", "metric_type": "periodic", "periods_available": ["Q3FY26", "Q2FY26", "Q1FY26", "Q4FY25", "Q3FY25", "Q2FY25", "Q1FY25", "Q4FY24", "Q3FY24", "Q2FY24"]},
+        {"metric": "Total Orders", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q3FY26", "Q2FY26", "Q1FY26", "Q4FY25", "Q3FY25", "Q2FY25", "Q1FY25", "Q4FY24", "Q3FY24"]},
+        {"metric": "Avg Client Funding Book Size", "unit": "Cr", "metric_type": "periodic", "periods_available": ["Q3FY26", "Q2FY26", "Q1FY26", "Q4FY25", "Q3FY25", "Q2FY25", "Q1FY25", "Q4FY24", "Q3FY24"]},
+        {"metric": "MTF Book", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q3FY26"]},
+        {"metric": "Client Funding Limit", "unit": "Cr", "metric_type": "periodic", "periods_available": ["Q3FY26", "Q2FY25"]},
+        {"metric": "Approved Securities for MTF", "unit": "count", "metric_type": "periodic", "periods_available": ["Q3FY26", "Q2FY25"]},
+        {"metric": "CSAT Score", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3FY26", "Q4FY25", "Q3FY25", "Q2FY25", "Q1FY25"]},
+        {"metric": "FTR Rate", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3FY26", "Q4FY25", "Q3FY25"]},
+        {"metric": "Play Store Rating", "unit": "stars", "metric_type": "periodic", "periods_available": ["Q3FY26", "Q4FY25", "Q3FY25", "Q2FY25", "Q1FY25"]},
+        {"metric": "App Store Rating", "unit": "stars", "metric_type": "periodic", "periods_available": ["Q3FY26", "Q4FY25", "Q3FY25", "Q2FY25", "Q1FY25"]},
+        {"metric": "Customer Base", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q3FY25", "Q2FY25", "Q1FY25", "Q4FY24", "Q3FY24", "Jun-24", "Mar-24"]},
+        {"metric": "App Users", "unit": "Mn", "metric_type": "periodic", "periods_available": ["Q3FY25", "Q2FY25", "Q1FY25", "Q4FY24", "Q3FY24"]},
+        {"metric": "Market Share", "unit": "%", "metric_type": "periodic", "periods_available": ["Q4FY24", "Q3FY24", "Q2FY24", "Q1FY25"]},
+        {"metric": "Mutual Fund AUM", "unit": "Cr", "metric_type": "periodic", "periods_available": ["Q2FY25", "Q3FY24"]},
+        {"metric": "Tech & Product Workforce", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3FY25", "Q2FY25"]},
+        {"metric": "NPS Score", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3FY24"]},
+        {"metric": "ISO Certification", "unit": "standard", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "Awards", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Demat Accounts Base",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "41", "ref": "41 Mn demat accounts opened in FY25 (27% increase YoY)", "src": "May-2025_87ce663f-a1d9-4d6a-a595-d7f5c82439d8_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "9MFY26": {"v": "23.5", "ref": "23.5 Mn demat accounts have been opened in 9MFY26", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "H1FY25": {"v": "24+", "ref": "24+ Mn demat accounts opened in H1FY25", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "9MFY24": {"v": "25", "ref": "25 Mn demat accounts open in 9MFY24", "src": "Jan-2024_ee752043-116f-46ae-9c33-dad7d32ab865_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "FY24": {"v": "37", "ref": "37 Mn demat account opened in FY24.", "src": "May-2024_bff89324-9446-4f4a-b5d5-d20b3f83a140_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1FY25": {"v": "11", "ref": "11 Mn demat accounts opened in Q1FY25", "src": "Jul-2024_5397c823-0862-4018-bfba-d7ad8ecbb102_IP.pdf", "pg": "5", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Derivative ADTO - Notional",
+          "unit": "Tn",
+          "metric_type": "periodic",
+          "values": {
+            "Nov-25": {"v": "64%", "ref": "rising 64% from February to December 2025", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "13", "conf": "MEDIUM"},
+            "Sep-25": {"v": "43%", "ref": "rising over 43% by September 2025", "src": "Oct-2025_7fedb5f1-2563-449c-be97-08b219b65683_IP.pdf", "pg": "12", "conf": "MEDIUM"},
+            "Sep-24": {"v": "peak", "ref": "Exchange ADTO peaked in Sep'24", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "8", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Active Clients",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Nov-25": {"v": "44.8", "ref": "active NSE clients has surged to 44.8 million in Nov'25", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Aug-25": {"v": "46.2", "ref": "active NSE clients has surged to 46.2 million in Aug'25", "src": "Oct-2025_7fedb5f1-2563-449c-be97-08b219b65683_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Mar-25": {"v": "49.2", "ref": "active NSE clients has surged to 49.2 million in Mar'25", "src": "May-2025_87ce663f-a1d9-4d6a-a595-d7f5c82439d8_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Dec-24": {"v": "50.2", "ref": "active NSE clients has surged to 50.2 million in Dec'24", "src": "Jan-2025_2f8b34ff-e3c9-4172-a13f-43bbb2f04c12_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Sep-24": {"v": "16.3", "ref": "Investor participation in the Cash Market segment was the highest ever in Sep'24 at 16.3 Mn", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "6", "conf": "HIGH"},
+            "Jun-24": {"v": "4.47", "ref": "Total Client base (as on 30th Jun 24): 4.47 Mn", "src": "Jul-2024_5397c823-0862-4018-bfba-d7ad8ecbb102_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Client Acquisition",
+          "unit": "Lakhs",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY26": {"v": "0.78", "ref": "Total Client Acquisition: 0.78 lakh for Q3FY26", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2FY26": {"v": "1.01", "ref": "Total Client Acquisition: 1.01 lakh for Q2FY26", "src": "Oct-2025_7fedb5f1-2563-449c-be97-08b219b65683_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q1FY26": {"v": "0.80", "ref": "Total Client Acquisition: 0.80 lakh for Q1FY26", "src": "Jul-2025_aac0e854-e562-46cd-8d8a-e6146a06491e_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q4FY25": {"v": "0.91", "ref": "Total Client Acquisition: 0.91 lakh for Q4FY25", "src": "May-2025_87ce663f-a1d9-4d6a-a595-d7f5c82439d8_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q3FY25": {"v": "1.11", "ref": "Total Client Acquisition: 1.11 Lakhs for Q3FY25", "src": "Jan-2025_2f8b34ff-e3c9-4172-a13f-43bbb2f04c12_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q2FY25": {"v": "1.62", "ref": "Total Client Acquisition: 1.62 Lakhs for Q2FY25", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q1FY25": {"v": "2.35", "ref": "Total Client Acquisition: 2.35 lakhs for Q1FY25", "src": "Jul-2024_5397c823-0862-4018-bfba-d7ad8ecbb102_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q4FY24": {"v": "2.67", "ref": "Total Client Acquisition - 2.67 Lakhs for Q4FY24", "src": "May-2024_bff89324-9446-4f4a-b5d5-d20b3f83a140_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3FY24": {"v": "2.32", "ref": "Total Client Acquisition - 2.32 Lakhs for Q3FY24", "src": "Jan-2024_ee752043-116f-46ae-9c33-dad7d32ab865_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "DIY Acquisition",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY26": {"v": "93.1", "ref": "DIY Acquisition: 93.1% for Q3FY26", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2FY26": {"v": "89", "ref": "DIY (in %age) 89%", "src": "Oct-2025_7fedb5f1-2563-449c-be97-08b219b65683_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q1FY26": {"v": "85", "ref": "STP - Acquisitions 85%", "src": "Jul-2025_aac0e854-e562-46cd-8d8a-e6146a06491e_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q4FY25": {"v": "86", "ref": "STP Acquisition: 86% for Q4FY25", "src": "May-2025_87ce663f-a1d9-4d6a-a595-d7f5c82439d8_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q3FY25": {"v": "85", "ref": "STP Acquisition: 85% for Q3FY25", "src": "Jan-2025_2f8b34ff-e3c9-4172-a13f-43bbb2f04c12_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q2FY25": {"v": "86", "ref": "STP Acquisition: 86% for Q2FY25", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q1FY25": {"v": "88", "ref": "STP Acquisition: 88% for Q1FY25", "src": "Jul-2024_5397c823-0862-4018-bfba-d7ad8ecbb102_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q4FY24": {"v": "87", "ref": "STP Acquisition - 87% for Q4FY24", "src": "May-2024_bff89324-9446-4f4a-b5d5-d20b3f83a140_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q3FY24": {"v": "89", "ref": "STP Acquisition - 89% for Q3FY24", "src": "Jan-2024_ee752043-116f-46ae-9c33-dad7d32ab865_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Avg. Daily Turnover - Total",
+          "unit": "Tn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY26": {"v": "3.31", "ref": "ADTO: 3.31 Tn for Q3FY26", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2FY26": {"v": "2.68", "ref": "ADTO: 2.68 Tn for Q2FY26", "src": "Oct-2025_7fedb5f1-2563-449c-be97-08b219b65683_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q1FY26": {"v": "2.99", "ref": "ADTO: 2.99 Tn for Q1FY26", "src": "Jul-2025_aac0e854-e562-46cd-8d8a-e6146a06491e_IP.pdf", "pg": "5", "conf": "HIGH"},
+            "Q4FY25": {"v": "1.93", "ref": "ADTO: 1.93 Tn for Q4FY25", "src": "May-2025_87ce663f-a1d9-4d6a-a595-d7f5c82439d8_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q3FY25": {"v": "3.03", "ref": "ADTO: 3.03 Tn for Q3FY25", "src": "Jan-2025_2f8b34ff-e3c9-4172-a13f-43bbb2f04c12_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q2FY25": {"v": "3.78", "ref": "ADTO: 3.78 Tn for Q2FY25", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1FY25": {"v": "3.67", "ref": "ADTO: 3.67 Tn for Q1FY25", "src": "Jul-2024_5397c823-0862-4018-bfba-d7ad8ecbb102_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4FY24": {"v": "3.82", "ref": "ADTO - 3,82,170 Cr for Q4FY24", "src": "May-2024_bff89324-9446-4f4a-b5d5-d20b3f83a140_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Q3FY24": {"v": "3.70", "ref": "ADTO 3.70+ Tn", "src": "Jan-2024_ee752043-116f-46ae-9c33-dad7d32ab865_IP.pdf", "pg": "4", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Total Orders",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY26": {"v": "22.2", "ref": "Total Orders: 22.2 Mn for Q3FY26", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q2FY26": {"v": "21.1", "ref": "Total Orders: 21.1 Mn for Q2FY26", "src": "Oct-2025_7fedb5f1-2563-449c-be97-08b219b65683_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q1FY26": {"v": "21.2", "ref": "Total Orders: 21.2 Mn for Q1FY26", "src": "Jul-2025_aac0e854-e562-46cd-8d8a-e6146a06491e_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q4FY25": {"v": "21.8", "ref": "Total Orders: 21.8 Mn for Q4FY25", "src": "May-2025_87ce663f-a1d9-4d6a-a595-d7f5c82439d8_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q3FY25": {"v": "35.3", "ref": "Total Orders: 35.3 Mn for Q3FY25", "src": "Jan-2025_2f8b34ff-e3c9-4172-a13f-43bbb2f04c12_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q2FY25": {"v": "45.0", "ref": "Total Orders: 45.0 Mn for Q2FY25", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1FY25": {"v": "44.8", "ref": "Total Orders: 44.8 Mn for Q1FY25", "src": "Jul-2024_5397c823-0862-4018-bfba-d7ad8ecbb102_IP.pdf", "pg": "8", "conf": "HIGH"},
+            "Q4FY24": {"v": "51.0", "ref": "Total Orders - 51.0 Mn for Q4FY24", "src": "May-2024_bff89324-9446-4f4a-b5d5-d20b3f83a140_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q3FY24": {"v": "46.6", "ref": "Total Orders – 46.6 Mn for Q3FY24", "src": "Jan-2024_ee752043-116f-46ae-9c33-dad7d32ab865_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Avg Client Funding Book Size",
+          "unit": "Cr",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY26": {"v": "380", "ref": "Avg Client Funding Book Size (in Mn) 380", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "22", "conf": "HIGH"},
+            "Q2FY26": {"v": "363", "ref": "Avg Client Funding Book Size (in Mn) 363", "src": "Oct-2025_7fedb5f1-2563-449c-be97-08b219b65683_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q1FY26": {"v": "349", "ref": "Avg Client Funding Book Size (in Mn) 349", "src": "Jul-2025_aac0e854-e562-46cd-8d8a-e6146a06491e_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q4FY25": {"v": "317", "ref": "Avg Client Funding Book Size (in Mn) 317", "src": "May-2025_87ce663f-a1d9-4d6a-a595-d7f5c82439d8_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Q3FY25": {"v": "324", "ref": "Avg Client Funding Book Size (in Mn) 324", "src": "Jan-2025_2f8b34ff-e3c9-4172-a13f-43bbb2f04c12_IP.pdf", "pg": "21", "conf": "HIGH"},
+            "Q2FY25": {"v": "245", "ref": "Average Client Funding Book 245 Cr", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "4", "conf": "HIGH"},
+            "Q1FY25": {"v": "229", "ref": "Avg Client Funding Book Size (in Mn) 229", "src": "Jul-2024_5397c823-0862-4018-bfba-d7ad8ecbb102_IP.pdf", "pg": "19", "conf": "HIGH"},
+            "Q4FY24": {"v": "292", "ref": "292 Cr Avg. Funding Book", "src": "May-2024_bff89324-9446-4f4a-b5d5-d20b3f83a140_IP.pdf", "pg": "4", "conf": "HIGH"},
+            "Q3FY24": {"v": "317", "ref": "Average Funding Book 317 Cr", "src": "Jan-2024_ee752043-116f-46ae-9c33-dad7d32ab865_IP.pdf", "pg": "4", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "MTF Book",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY26": {"v": "3,527", "ref": "Loans 3,527", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "25", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Client Funding Limit",
+          "unit": "Cr",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY26": {"v": "3", "ref": "Client Funding limit of 3Cr", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q2FY25": {"v": "1", "ref": "Client Funding limit of ₹ 1Cr", "src": "Oct-2025_7fedb5f1-2563-449c-be97-08b219b65683_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Approved Securities for MTF",
+          "unit": "count",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY26": {"v": "1200+", "ref": "1200+ approved securities", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q2FY25": {"v": "1200+", "ref": "1200+ approved securities", "src": "Oct-2025_7fedb5f1-2563-449c-be97-08b219b65683_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "CSAT Score",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY26": {"v": "94", "ref": "CSAT improved to an overall score of 94% in Q3FY26", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q4FY25": {"v": "93", "ref": "CSAT improved to an overall score of 93% in Q4FY25", "src": "May-2025_87ce663f-a1d9-4d6a-a595-d7f5c82439d8_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3FY25": {"v": "91", "ref": "CSAT maintained at a healthy score of 91% in Q3FY25", "src": "Jan-2025_2f8b34ff-e3c9-4172-a13f-43bbb2f04c12_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q2FY25": {"v": "91", "ref": "CSAT increased to 91% in Q2FY25", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q1FY25": {"v": "87", "ref": "CSAT increased to 91% in Q2FY25 (from 87% in Q1FY25)", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "FTR Rate",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY26": {"v": "above industry standards", "ref": "FTR rate stands is above industry standards", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "17", "conf": "MEDIUM"},
+            "Q4FY25": {"v": "above industry standards", "ref": "FTR rate stands is above industry standards", "src": "May-2025_87ce663f-a1d9-4d6a-a595-d7f5c82439d8_IP.pdf", "pg": "18", "conf": "MEDIUM"},
+            "Q3FY25": {"v": "85", "ref": "FTR rate stands at 85% (best in industry)", "src": "Jan-2025_2f8b34ff-e3c9-4172-a13f-43bbb2f04c12_IP.pdf", "pg": "16", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Play Store Rating",
+          "unit": "stars",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY26": {"v": "4.2", "ref": "Play Store & App Store ratings have remained stable at 4.2 star", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q4FY25": {"v": "4.3", "ref": "Play Store & App Store ratings have risen to 4.3 star", "src": "May-2025_87ce663f-a1d9-4d6a-a595-d7f5c82439d8_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3FY25": {"v": "4.3", "ref": "Play Store & App Store ratings have risen to 4.3 stars", "src": "Jan-2025_2f8b34ff-e3c9-4172-a13f-43bbb2f04c12_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q2FY25": {"v": "4.3", "ref": "Play Store & App Store ratings have risen to 4.3 stars", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q1FY25": {"v": "4.3", "ref": "21.7+ Mn App installs with 4.3- star rating", "src": "May-2025_87ce663f-a1d9-4d6a-a595-d7f5c82439d8_IP.pdf", "pg": "13", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "App Store Rating",
+          "unit": "stars",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY26": {"v": "4.2", "ref": "Play Store & App Store ratings have remained stable at 4.2 star", "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf", "pg": "17", "conf": "HIGH"},
+            "Q4FY25": {"v": "4.3", "ref": "Play Store & App Store ratings have risen to 4.3 star", "src": "May-2025_87ce663f-a1d9-4d6a-a595-d7f5c82439d8_IP.pdf", "pg": "18", "conf": "HIGH"},
+            "Q3FY25": {"v": "4.3", "ref": "Play Store & App Store ratings have risen to 4.3 stars", "src": "Jan-2025_2f8b34ff-e3c9-4172-a13f-43bbb2f04c12_IP.pdf", "pg": "16", "conf": "HIGH"},
+            "Q2FY25": {"v": "4.3", "ref": "Play Store & App Store ratings have risen to 4.3 stars", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Customer Base",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY25": {"v": "4.74+", "ref": "Serving a customer base of 4.74+ Mn", "src": "Jan-2025_2f8b34ff-e3c9-4172-a13f-43bbb2f04c12_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q2FY25": {"v": "4.62+", "ref": "Serving a customer base of 4.62+ Mn", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1FY25": {"v": "4.47", "ref": "Total Client base (as on 30th Jun 24): 4.47 Mn", "src": "Jul-2024_5397c823-0862-4018-bfba-d7ad8ecbb102_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4FY24": {"v": "4.23", "ref": "Total Client base as on Mar 24 - 4.23 Mn", "src": "May-2024_bff89324-9446-4f4a-b5d5-d20b3f83a140_IP.pdf", "pg": "14", "conf": "HIGH"},
+            "Q3FY24": {"v": "3.96+", "ref": "Total Client base as on Dec 23 – 3.96 Mn", "src": "Jan-2024_ee752043-116f-46ae-9c33-dad7d32ab865_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Jun-24": {"v": "4.47", "ref": "Total Client base (as on 30th Jun 24): 4.47 Mn", "src": "Jul-2024_5397c823-0862-4018-bfba-d7ad8ecbb102_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Mar-24": {"v": "4.23", "ref": "Total Client base as on Mar 24 - 4.23 Mn", "src": "May-2024_bff89324-9446-4f4a-b5d5-d20b3f83a140_IP.pdf", "pg": "14", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "App Users",
+          "unit": "Mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY25": {"v": "21.2+", "ref": "21.2+ Mn App installs with 4.3- star rating", "src": "Jan-2025_2f8b34ff-e3c9-4172-a13f-43bbb2f04c12_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q2FY25": {"v": "20.6+", "ref": "20.6+ Mn App installs with 4.3- star rating", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q1FY25": {"v": "20.6+", "ref": "20.6+ Mn App installs", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "9", "conf": "HIGH"},
+            "Q4FY24": {"v": "17.4+", "ref": "App User 17.4+ Mn", "src": "Jan-2024_ee752043-116f-46ae-9c33-dad7d32ab865_IP.pdf", "pg": "4", "conf": "HIGH"},
+            "Q3FY24": {"v": "17.4", "ref": "17.4 Mn App downloads with 4.3- star rating", "src": "Jan-2024_ee752043-116f-46ae-9c33-dad7d32ab865_IP.pdf", "pg": "10", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Market Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q4FY24": {"v": "2.36", "ref": "Retail Market Share - 2.36% for Q4FY24", "src": "May-2024_bff89324-9446-4f4a-b5d5-d20b3f83a140_IP.pdf", "pg": "13", "conf": "HIGH"},
+            "Q3FY24": {"v": "2.81", "ref": "Retail Market Share 2.81%", "src": "Jan-2024_ee752043-116f-46ae-9c33-dad7d32ab865_IP.pdf", "pg": "4", "conf": "HIGH"},
+            "Q2FY24": {"v": "3.23", "ref": "Retail Market Share 3.23%", "src": "Jan-2024_ee752043-116f-46ae-9c33-dad7d32ab865_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1FY25": {"v": "2.1", "ref": "Market Share: 2.1% for Q1FY25", "src": "Jul-2024_5397c823-0862-4018-bfba-d7ad8ecbb102_IP.pdf", "pg": "8", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Mutual Fund AUM",
+          "unit": "Cr",
+          "metric_type": "periodic",
+          "values": {
+            "Q2FY25": {"v": "1,333+", "ref": "Mutual Fund AUM 1,333+ Cr 19% QoQ ↑", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "4", "conf": "HIGH"},
+            "Q3FY24": {"v": "801", "ref": "Mutual fund AUM reaches to 801 Cr.", "src": "Jan-2024_ee752043-116f-46ae-9c33-dad7d32ab865_IP.pdf", "pg": "10", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Tech & Product Workforce",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY25": {"v": "33+", "ref": "Over 33% of workforce in Tech and Product", "src": "Jan-2025_2f8b34ff-e3c9-4172-a13f-43bbb2f04c12_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q2FY25": {"v": "33+", "ref": "Over 33% of workforce in Tech and Product", "src": "Oct-2024_fc15f12e-171c-41c5-906f-be41ac0e8c89_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "NPS Score",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3FY24": {"v": "80", "ref": "High customer satisfaction with 80% NPS Score", "src": "Jan-2024_ee752043-116f-46ae-9c33-dad7d32ab865_IP.pdf", "pg": "10", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "ISO Certification",
+          "unit": "standard",
+          "metric_type": "static_descriptor",
+          "value": "ISO 27001:2013",
+          "ref": "Organization is ISO 27001:2013 Certified",
+          "src": "Jan-2026_e88cd42e-8380-4081-8a7f-aae7f5eb7195_IP.pdf",
+          "pg": "27",
+          "conf": "HIGH"
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "Awards",
+      "unit": "count",
+      "metric_type": "static_descriptor",
+      "value": "Multiple awards including India Content Leadership Awards 2023, BFSI SEO Awards 2023, The Great Indian BFSI CEO of The Year, The Great Indian BFSI fastest growing company of the year, NAYA BHARAT BUSINESS CONCLAVE 2022, Masters of Modern Marketing 2023, Excellence in Online Share Trading, Silver Digixx Awards 2022, Best Integration of Digital Content with TV",
+      "ref": "India Content Leadership Awards 2023 - Best Content - fin APP; BFSI SEO Awards 2023; The Great Indian BFSI CEO of The Year - Prakash Gagdani; The Great Indian BFSI fastest growing company of the year; NAYA BHARAT BUSINESS CONCLAVE 2022; Masters of Modern Marketing,2 023; Excellence in Online Share Trading; Won Silver Digixx Awards 2022; Best Integration of Digital Content with TV",
+      "src": "Jan-2024_ee752043-116f-46ae-9c33-dad7d32ab865_IP.pdf",
+      "pg": "25",
+      "conf": "HIGH"
+    }
+  ]
+}

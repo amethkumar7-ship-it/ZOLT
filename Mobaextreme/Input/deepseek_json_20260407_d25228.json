@@ -1,0 +1,486 @@
+{
+  "company_name": "AARTI INDUSTRIES LIMITED",
+  "documents_scanned": "8",
+  "time_range": "Q1 FY25 to Q3 FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Products", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Domestic & Global Customers", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Exporting Countries", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Manufacturing Plants", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Zero Liquid Discharge Plants", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Co-generation Power Plants", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "State-of-the art R&D Centers", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Employees", "unit": "count", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "CSA Score", "unit": "score", "metric_type": "periodic", "periods_available": ["2025"]}
+      ]
+    },
+    {
+      "segment_name": "NCB",
+      "metrics_found": [
+        {"metric": "Capacity", "unit": "KTPA", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Production", "unit": "kT", "metric_type": "periodic", "periods_available": ["FY25", "Q3 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Utilization", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "DCB",
+      "metrics_found": [
+        {"metric": "Capacity", "unit": "KTPA", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Production", "unit": "kT", "metric_type": "periodic", "periods_available": ["FY25", "Q3 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Utilization", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "Hydrogenation",
+      "metrics_found": [
+        {"metric": "Capacity", "unit": "KTPA", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Production", "unit": "kT", "metric_type": "periodic", "periods_available": ["FY25", "Q3 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Utilization", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "PDA",
+      "metrics_found": [
+        {"metric": "Capacity", "unit": "KTPA", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Production", "unit": "kT", "metric_type": "periodic", "periods_available": ["FY25", "Q3 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Utilization", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "NT",
+      "metrics_found": [
+        {"metric": "Capacity", "unit": "KTPA", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Production", "unit": "kT", "metric_type": "periodic", "periods_available": ["FY25", "Q3 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Utilization", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "Ethylation",
+      "metrics_found": [
+        {"metric": "Capacity", "unit": "KTPA", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Production", "unit": "kT", "metric_type": "periodic", "periods_available": ["FY25", "Q3 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Utilization", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "MMA",
+      "metrics_found": [
+        {"metric": "Capacity", "unit": "KTPA", "metric_type": "periodic", "periods_available": ["FY25", "Q1 FY26", "Q3 FY26"]},
+        {"metric": "Production", "unit": "kT", "metric_type": "periodic", "periods_available": ["FY25", "Q3 FY25", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Utilization", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26"]}
+      ]
+    },
+    {
+      "segment_name": "JV and Partnerships",
+      "metrics_found": [
+        {"metric": "DCA downstream JV - Investment Progress", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26"]},
+        {"metric": "Augene Chemical JV - Investment Progress", "unit": "%", "metric_type": "periodic", "periods_available": ["Q3 FY26"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "S&P Global CSA Score", "unit": "score", "metric_type": "periodic", "periods_available": ["2025"]},
+    {"metric": "CDP Rating", "unit": "band", "metric_type": "periodic", "periods_available": ["2025"]},
+    {"metric": "EcoVadis Rating", "unit": "rating", "metric_type": "periodic", "periods_available": ["2025"]},
+    {"metric": "S&P Global DJSI ESG Score", "unit": "score", "metric_type": "periodic", "periods_available": ["2025"]},
+    {"metric": "Responsible Care Certification", "unit": "duration", "metric_type": "periodic", "periods_available": ["2025"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Products",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "100+",
+          "ref": "100+ Products",
+          "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Domestic & Global Customers",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "1,100+",
+          "ref": "1,100+ Domestic & Global Customers",
+          "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Exporting Countries",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "60",
+          "ref": "60 Exporting Countries",
+          "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Manufacturing Plants",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "16",
+          "ref": "16 Manufacturing Plants",
+          "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Zero Liquid Discharge Plants",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "11",
+          "ref": "11 Zero Liquid Discharge Plants",
+          "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Co-generation Power Plants",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "5",
+          "ref": "5 Co-generation Power Plants",
+          "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "State-of-the art R&D Centers",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "2",
+          "ref": "2 State-of-the art R&D Centers",
+          "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Employees",
+          "unit": "count",
+          "metric_type": "static_descriptor",
+          "value": "6000+",
+          "ref": "6000+ Employees",
+          "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf",
+          "pg": "6",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "CSA Score",
+          "unit": "score",
+          "metric_type": "periodic",
+          "values": {
+            "2025": {"v": "78", "ref": "Achieved CSA score of 78 in the S&P Global Corporate Sustainability Assessment 2025; placing AIL among the top 2% of over 500 chemical companies assessed globally", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "9", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "NCB",
+      "data": [
+        {
+          "particulars": "Capacity",
+          "unit": "KTPA",
+          "metric_type": "static_descriptor",
+          "value": "108",
+          "ref": "NCB Capacity 108 (in KTPA)",
+          "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Production",
+          "unit": "kT",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "85.3", "ref": "FY25 (kT) 85.3", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY25": {"v": "22.9", "ref": "Q3 FY25 (kT) 22.9", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q1 FY26": {"v": "21.7", "ref": "Q1 FY26 (kT) 21.7", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q2 FY26": {"v": "21.5", "ref": "Q2 FY26 (kT) 21.5", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY26": {"v": "24.6", "ref": "Q3 FY26 (kT) 24.6", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Utilization",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "91%", "ref": "Q3 FY26 Utilization% 91%", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "DCB",
+      "data": [
+        {
+          "particulars": "Capacity",
+          "unit": "KTPA",
+          "metric_type": "static_descriptor",
+          "value": "120",
+          "ref": "DCB Capacity 120 (in KTPA)",
+          "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Production",
+          "unit": "kT",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "88.6", "ref": "FY25 (kT) 88.6", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY25": {"v": "20.8", "ref": "Q3 FY25 (kT) 20.8", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q1 FY26": {"v": "19.3", "ref": "Q1 FY26 (kT) 19.3", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q2 FY26": {"v": "22.0", "ref": "Q2 FY26 (kT) 22.0", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY26": {"v": "25.9", "ref": "Q3 FY26 (kT) 25.9", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Utilization",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "86%", "ref": "Q3 FY26 Utilization% 86%", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Hydrogenation",
+      "data": [
+        {
+          "particulars": "Capacity",
+          "unit": "KTPA",
+          "metric_type": "static_descriptor",
+          "value": "60",
+          "ref": "Hydrogenation Capacity 60 (in KTPA)",
+          "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Production",
+          "unit": "kT",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "44.4", "ref": "FY25 (kT) 44.4", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY25": {"v": "11.3", "ref": "Q3 FY25 (kT) 11.3", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q1 FY26": {"v": "12.3", "ref": "Q1 FY26 (kT) 12.3", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q2 FY26": {"v": "11.3", "ref": "Q2 FY26 (kT) 11.3", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY26": {"v": "12.0", "ref": "Q3 FY26 (kT) 12.0", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Utilization",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "80%", "ref": "Q3 FY26 Utilization% 80%", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "PDA",
+      "data": [
+        {
+          "particulars": "Capacity",
+          "unit": "KTPA",
+          "metric_type": "static_descriptor",
+          "value": "12",
+          "ref": "PDA Capacity 12 (in KTPA)",
+          "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Production",
+          "unit": "kT",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "3.9", "ref": "FY25 (kT) 3.9", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY25": {"v": "1.3", "ref": "Q3 FY25 (kT) 1.3", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q1 FY26": {"v": "2.0", "ref": "Q1 FY26 (kT) 2.0", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q2 FY26": {"v": "1.8", "ref": "Q2 FY26 (kT) 1.8", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY26": {"v": "1.3", "ref": "Q3 FY26 (kT) 1.3", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Utilization",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "43%", "ref": "Q3 FY26 Utilization% 43%", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "NT",
+      "data": [
+        {
+          "particulars": "Capacity",
+          "unit": "KTPA",
+          "metric_type": "static_descriptor",
+          "value": "45",
+          "ref": "NT Capacity 45 (in KTPA)",
+          "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Production",
+          "unit": "kT",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "29.4", "ref": "FY25 (kT) 29.4", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY25": {"v": "6.5", "ref": "Q3 FY25 (kT) 6.5", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q1 FY26": {"v": "8.7", "ref": "Q1 FY26 (kT) 8.7", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q2 FY26": {"v": "8.4", "ref": "Q2 FY26 (kT) 8.4", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY26": {"v": "8.9", "ref": "Q3 FY26 (kT) 8.9", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Utilization",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "79%", "ref": "Q3 FY26 Utilization% 79%", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Ethylation",
+      "data": [
+        {
+          "particulars": "Capacity",
+          "unit": "KTPA",
+          "metric_type": "static_descriptor",
+          "value": "25-30",
+          "ref": "Ethylation Capacity 25-30 (in KTPA)",
+          "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf",
+          "pg": "11",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Production",
+          "unit": "kT",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "14.5", "ref": "FY25 (kT) 14.5", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY25": {"v": "4.1", "ref": "Q3 FY25 (kT) 4.1", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q1 FY26": {"v": "4.6", "ref": "Q1 FY26 (kT) 4.6", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q2 FY26": {"v": "3.8", "ref": "Q2 FY26 (kT) 3.8", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY26": {"v": "5.0", "ref": "Q3 FY26 (kT) 5.0", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Utilization",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "80%", "ref": "Q3 FY26 Utilization% 80%", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "MMA",
+      "data": [
+        {
+          "particulars": "Capacity",
+          "unit": "KTPA",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "200", "ref": "MMA Capacity 200 (From Q3FY25)", "src": "Feb-2025_6af21b62-9219-4f45-94ef-c0acd01652ff_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q1 FY26": {"v": "260", "ref": "MMA Capacity 260 (Expanded from 200 to 260 in Q1FY26)", "src": "Jul-2025_76fdfe1b-314e-40a0-a107-260bbf6c53aa_IP.pdf", "pg": "10", "conf": "HIGH"},
+            "Q3 FY26": {"v": "290+123", "ref": "MMA Capacity 290+123", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Production",
+          "unit": "kT",
+          "metric_type": "periodic",
+          "values": {
+            "FY25": {"v": "123", "ref": "FY25 (kT) 123", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY25": {"v": "36.6", "ref": "Q3 FY25 (kT) 36.6", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q1 FY26": {"v": "38.4", "ref": "Q1 FY26 (kT) 38.4", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q2 FY26": {"v": "63.5", "ref": "Q2 FY26 (kT) 63.5", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"},
+            "Q3 FY26": {"v": "69.0", "ref": "Q3 FY26 (kT) 69.0", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Utilization",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "96%", "ref": "Q3 FY26 Utilization% 96%", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "11", "conf": "HIGH"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "JV and Partnerships",
+      "data": [
+        {
+          "particulars": "DCA downstream JV - Investment Progress",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Q3 FY26": {"v": "66%", "ref": "About 66% of the targeted amount has been invested", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "S&P Global CSA Score",
+      "unit": "score",
+      "metric_type": "periodic",
+      "values": {
+        "2025": {"v": "78", "ref": "Achieved CSA score of 78 in the S&P Global Corporate Sustainability Assessment 2025; placing AIL among the top 2% of over 500 chemical companies assessed globally", "src": "Feb-2026_164a35a2-81d9-41cc-9aff-dd8214e77e43_IP.pdf", "pg": "9", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "CDP Rating",
+      "unit": "band",
+      "metric_type": "periodic",
+      "values": {
+        "2025": {"v": "Leadership band", "ref": "CDP rating us to move to Leadership band in Climate change and Water security", "src": "May-2025_09915645-abb9-44cb-b06d-5aa1ccbdf64a_IP.pdf", "pg": "9", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "EcoVadis Rating",
+      "unit": "rating",
+      "metric_type": "periodic",
+      "values": {
+        "2025": {"v": "Gold", "ref": "Ecovadis Gold rating in Sustainability in 2025", "src": "May-2025_09915645-abb9-44cb-b06d-5aa1ccbdf64a_IP.pdf", "pg": "9", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "S&P Global DJSI ESG Score",
+      "unit": "score",
+      "metric_type": "periodic",
+      "values": {
+        "2025": {"v": "62", "ref": "S&P Global (DJSI) | AIL's ESG score improved from 43 to 62 putting us in the top Decile of global chemical companies", "src": "May-2025_09915645-abb9-44cb-b06d-5aa1ccbdf64a_IP.pdf", "pg": "9", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "Responsible Care Certification",
+      "unit": "duration",
+      "metric_type": "periodic",
+      "values": {
+        "2025": {"v": "3 Years starting April 2025", "ref": "Responsible Care certification for 3 Years starting April 2025", "src": "May-2025_09915645-abb9-44cb-b06d-5aa1ccbdf64a_IP.pdf", "pg": "9", "conf": "HIGH"}
+      }
+    }
+  ]
+}

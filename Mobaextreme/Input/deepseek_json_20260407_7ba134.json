@@ -1,0 +1,622 @@
+{
+  "company_name": "AAVAS FINANCIERS LIMITED",
+  "documents_scanned": "7",
+  "time_range": "FY20 to Q3FY26",
+  "discovery": [
+    {
+      "segment_name": "Company-wide",
+      "metrics_found": [
+        {"metric": "Assets under Management (AUM)", "unit": "₹ bn", "metric_type": "periodic", "periods_available": ["FY20", "FY21", "FY22", "FY23", "FY24", "FY25", "Dec-24", "Mar-25", "Jun-25", "Sep-25", "Dec-25"]},
+        {"metric": "Disbursement", "unit": "₹ bn", "metric_type": "periodic", "periods_available": ["FY20", "FY21", "FY22", "FY23", "FY24", "FY25", "9M FY24", "9M FY25", "9M FY26", "H1 FY25", "H1 FY26", "Q1 FY24", "Q1 FY25", "Q1 FY26", "Q2 FY25", "Q2 FY26", "Q3 FY25", "Q3 FY26"]},
+        {"metric": "No of Branches", "unit": "#", "metric_type": "periodic", "periods_available": ["FY20", "FY21", "FY22", "FY23", "FY24", "FY25", "Dec-24", "Mar-25", "Jun-25", "Sep-25", "Dec-25"]},
+        {"metric": "Average ticket size (ATS) - AUM", "unit": "₹ mn", "metric_type": "periodic", "periods_available": ["Jun-24", "Sep-24", "Dec-24", "Mar-25", "Jun-25", "Sep-25", "Dec-25"]},
+        {"metric": "Average ticket size (ATS) - Disbursement", "unit": "₹ mn", "metric_type": "periodic", "periods_available": ["Q1 FY25", "H1 FY25", "H1 FY26", "Q1 FY26", "Q2 FY26", "Q3 FY26"]},
+        {"metric": "Gross Stage 3", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec-22", "Mar-23", "Jun-23", "Sep-23", "Dec-23", "Mar-24", "Jun-24", "Sep-24", "Dec-24", "Mar-25", "Jun-25", "Sep-25", "Dec-25"]},
+        {"metric": "Net Stage 3", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec-22", "Mar-23", "Jun-23", "Sep-23", "Dec-23", "Mar-24", "Jun-24", "Sep-24", "Dec-24", "Mar-25", "Jun-25", "Sep-25", "Dec-25"]},
+        {"metric": "1+DPD", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec-22", "Mar-23", "Jun-23", "Sep-23", "Dec-23", "Mar-24", "Jun-24", "Sep-24", "Dec-24", "Mar-25", "Jun-25", "Sep-25", "Dec-25"]},
+        {"metric": "Spread", "unit": "%", "metric_type": "periodic", "periods_available": ["FY20", "FY21", "FY22", "FY23", "FY24", "FY25", "Q3FY26", "Sep-25", "Jun-25", "Mar-25", "Dec-24", "Sep-24", "Jun-24"]},
+        {"metric": "Net Interest Margin (NIM)", "unit": "%", "metric_type": "periodic", "periods_available": ["FY20", "FY21", "FY22", "FY23", "FY24", "FY25", "Q1FY24", "Q1FY25", "Q1FY26", "Q3FY26"]},
+        {"metric": "Cost to Income", "unit": "%", "metric_type": "periodic", "periods_available": ["FY20", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Opex to Asset", "unit": "%", "metric_type": "periodic", "periods_available": ["FY20", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Return on Assets (RoA)", "unit": "%", "metric_type": "periodic", "periods_available": ["FY20", "FY21", "FY22", "FY23", "FY24", "FY25", "Q1FY24", "Q1FY25", "Q1FY26"]},
+        {"metric": "Return on Equity (RoE)", "unit": "%", "metric_type": "periodic", "periods_available": ["FY20", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Leverage (Avg Total Assets to Avg Net Worth)", "unit": "x", "metric_type": "periodic", "periods_available": ["FY20", "FY21", "FY22", "FY23", "FY24", "FY25"]},
+        {"metric": "Yield", "unit": "%", "metric_type": "periodic", "periods_available": ["FY20", "FY21", "FY22", "FY23", "FY24", "FY25", "Dec-24", "Mar-25", "Jun-25", "Sep-25"]},
+        {"metric": "Cost of Borrowings (CoB)", "unit": "%", "metric_type": "periodic", "periods_available": ["FY20", "FY21", "FY22", "FY23", "FY24", "FY25", "Dec-24", "Mar-25", "Jun-25", "Sep-25"]},
+        {"metric": "Lifetime write-off", "unit": "bps", "metric_type": "periodic", "periods_available": ["Dec-24", "Sep-25", "Dec-25"]},
+        {"metric": "Average tenor of outstanding borrowings", "unit": "months", "metric_type": "periodic", "periods_available": ["Jun-25", "Sep-25", "Dec-25"]},
+        {"metric": "Login to Sanction TAT", "unit": "days", "metric_type": "periodic", "periods_available": ["FY21", "FY22", "FY23", "FY24", "FY25", "Q1FY26", "H1FY26", "9MFY26"]},
+        {"metric": "Digital Led Business", "unit": "₹ Mn", "metric_type": "periodic", "periods_available": ["9MFY26"]},
+        {"metric": "Unique Customer login in App", "unit": "#", "metric_type": "periodic", "periods_available": ["Q1FY25", "Q1FY26", "9MFY26"]},
+        {"metric": "Gen AI Bot Conversation", "unit": "#", "metric_type": "periodic", "periods_available": ["Q1FY25", "Q1FY26", "9MFY26"]},
+        {"metric": "Requests served via App", "unit": "#", "metric_type": "periodic", "periods_available": ["Q1FY25", "Q1FY26"]},
+        {"metric": "Online disbursal", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec-24"]},
+        {"metric": "Paper usage reduction", "unit": "%", "metric_type": "periodic", "periods_available": ["Dec-24"]},
+        {"metric": "Capital Adequacy Ratio (CRAR)", "unit": "%", "metric_type": "periodic", "periods_available": ["FY23", "FY24", "FY25", "Q1FY26"]},
+        {"metric": "Book Value Per Share (BVPS)", "unit": "₹", "metric_type": "periodic", "periods_available": ["FY24", "FY25"]},
+        {"metric": "Earning Per Share (EPS)", "unit": "₹", "metric_type": "periodic", "periods_available": ["FY24", "FY25", "Q3FY25", "Q4FY25", "H1FY25", "9MFY25"]},
+        {"metric": "Women Directors on Board", "unit": "#", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Independent Directors on Board", "unit": "#", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Separate Chairperson and MD & CEO", "unit": "Yes/No", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Malus and Claw Back Clause", "unit": "Yes/No", "metric_type": "static_descriptor", "periods_available": ["static"]},
+        {"metric": "Board Evaluation through digital mode", "unit": "Yes/No", "metric_type": "static_descriptor", "periods_available": ["static"]}
+      ]
+    },
+    {
+      "segment_name": "Company-wide - AUM Mix",
+      "metrics_found": [
+        {"metric": "AUM - Housing Loan (HL) Share", "unit": "%", "metric_type": "periodic", "periods_available": ["Sep-24", "Sep-25", "Dec-24", "Dec-25", "Mar-25", "Jun-24"]},
+        {"metric": "AUM - MSME Share", "unit": "%", "metric_type": "periodic", "periods_available": ["Sep-24", "Sep-25", "Dec-24", "Dec-25", "Mar-25", "Jun-24"]},
+        {"metric": "AUM - Loan Against Property (LAP) Share", "unit": "%", "metric_type": "periodic", "periods_available": ["Sep-24", "Sep-25", "Dec-24", "Dec-25", "Mar-25", "Jun-24"]},
+        {"metric": "AUM - Self employed Share", "unit": "%", "metric_type": "periodic", "periods_available": ["Sep-24", "Sep-25", "Dec-24", "Dec-25"]},
+        {"metric": "AUM - Salaried Share", "unit": "%", "metric_type": "periodic", "periods_available": ["Sep-24", "Sep-25", "Dec-24", "Dec-25"]}
+      ]
+    },
+    {
+      "segment_name": "Company-wide - Disbursement Mix",
+      "metrics_found": [
+        {"metric": "Disbursement - HL Share", "unit": "%", "metric_type": "periodic", "periods_available": ["H1 FY25", "H1 FY26", "9M FY25", "9M FY26"]},
+        {"metric": "Disbursement - MSME Share", "unit": "%", "metric_type": "periodic", "periods_available": ["H1 FY25", "H1 FY26", "9M FY25", "9M FY26"]},
+        {"metric": "Disbursement - LAP Share", "unit": "%", "metric_type": "periodic", "periods_available": ["H1 FY25", "H1 FY26", "9M FY25", "9M FY26"]},
+        {"metric": "Disbursement - Self employed Share", "unit": "%", "metric_type": "periodic", "periods_available": ["Sep-24", "Sep-25", "9M FY25", "9M FY26"]},
+        {"metric": "Disbursement - Salaried Share", "unit": "%", "metric_type": "periodic", "periods_available": ["Sep-24", "Sep-25", "9M FY25", "9M FY26"]}
+      ]
+    },
+    {
+      "segment_name": "Company-wide - Geography",
+      "metrics_found": [
+        {"metric": "States/UTs present", "unit": "#", "metric_type": "periodic", "periods_available": ["Mar-25", "Dec-25"]}
+      ]
+    }
+  ],
+  "discovery_accolades": [
+    {"metric": "CRISIL Rating", "unit": "Scale", "metric_type": "periodic", "periods_available": ["Dec-24", "Mar-25", "Sep-25", "Dec-25"]},
+    {"metric": "ESG Risk Assessment", "unit": "Scale", "metric_type": "periodic", "periods_available": ["Dec-24", "Mar-25", "Sep-25", "Dec-25"]},
+    {"metric": "MORNINGSTAR Sustainability Rating", "unit": "Scale", "metric_type": "periodic", "periods_available": ["Dec-24", "Mar-25", "Sep-25", "Dec-25"]},
+    {"metric": "NSE Sustainability Rating", "unit": "Scale", "metric_type": "periodic", "periods_available": ["Sep-25", "Dec-25"]},
+    {"metric": "S&P Global ESG Score", "unit": "Scale", "metric_type": "periodic", "periods_available": ["Dec-25"]},
+    {"metric": "SES ESG Research", "unit": "Scale", "metric_type": "periodic", "periods_available": ["Dec-25"]},
+    {"metric": "CFC Finlease Private Limited Rating", "unit": "Scale", "metric_type": "periodic", "periods_available": ["Dec-25"]}
+  ],
+  "operational_scorecard": [
+    {
+      "segment_name": "Company-wide",
+      "data": [
+        {
+          "particulars": "Assets under Management (AUM)",
+          "unit": "₹ bn",
+          "metric_type": "periodic",
+          "values": {
+            "FY20": {"v": "78.09", "ref": "AUM 78.0", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY21": {"v": "94.5", "ref": "AUM 94.5", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY22": {"v": "113.5", "ref": "AUM 113.5", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY23": {"v": "141.7", "ref": "AUM 141.7", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY24": {"v": "173.1", "ref": "AUM 173.1", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY25": {"v": "204.2", "ref": "AUM 204.2", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Disbursement",
+          "unit": "₹ bn",
+          "metric_type": "periodic",
+          "values": {
+            "FY20": {"v": "29.3", "ref": "Disbursement 29.3", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY21": {"v": "26.6", "ref": "Disbursement 26.6", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY22": {"v": "36.0", "ref": "Disbursement 36.0", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY23": {"v": "50.2", "ref": "Disbursement 50.2", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY24": {"v": "55.8", "ref": "Disbursement 55.8", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY25": {"v": "61.2", "ref": "Disbursement 61.2", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "9M FY24": {"v": "36.4", "ref": "9M FY24 disbursement 36,410 Mn", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "17", "conf": "MEDIUM"},
+            "9M FY25": {"v": "40.8", "ref": "9M FY25 disbursement 40,758 Mn", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "17", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "No of Branches",
+          "unit": "#",
+          "metric_type": "periodic",
+          "values": {
+            "FY20": {"v": "250", "ref": "No of Branches (#) 250", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY21": {"v": "280", "ref": "No of Branches (#) 280", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY22": {"v": "314", "ref": "No of Branches (#) 314", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY23": {"v": "346", "ref": "No of Branches (#) 346", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY24": {"v": "367", "ref": "No of Branches (#) 367", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"},
+            "FY25": {"v": "397", "ref": "No of Branches (#) 397", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "36", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Average ticket size (ATS) - AUM",
+          "unit": "₹ mn",
+          "metric_type": "periodic",
+          "values": {
+            "Jun-24": {"v": "0.93", "ref": "Average Amount^ per Active Loan Account as on Jun-24 ₹ 0.93 Mn", "src": "Jul-2024_112f74f4-bd86-44dd-8720-dc88e8d4dbfe_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Dec-24": {"v": "0.94", "ref": "Average ticket size 0.94", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "19", "conf": "MEDIUM"},
+            "Mar-25": {"v": "0.95", "ref": "Average ticket size 0.95", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "18", "conf": "MEDIUM"},
+            "Sep-25": {"v": "1.02", "ref": "Average ticket size ₹1.02 mn", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "18", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Average ticket size (ATS) - Disbursement",
+          "unit": "₹ mn",
+          "metric_type": "periodic",
+          "values": {
+            "Q1 FY25": {"v": "1.14", "ref": "Average Amount^ per Disbursed Loan Account in Q1 FY25 ₹ 1.14 Mn", "src": "Jul-2024_112f74f4-bd86-44dd-8720-dc88e8d4dbfe_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "H1 FY25": {"v": "1.11", "ref": "Average ticket size ₹1.11 mn", "src": "Nov-2024_47caa6c8-92e4-4a5a-b044-d4a23726118c_IP.pdf", "pg": "18", "conf": "MEDIUM"},
+            "H1 FY26": {"v": "1.17", "ref": "Average ticket size ₹1.17 mn", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "18", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Gross Stage 3",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec-22": {"v": "1.13", "ref": "Gross Stage 3 (%) 1.13%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Mar-23": {"v": "0.92", "ref": "Gross Stage 3 (%) 0.92%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Jun-23": {"v": "1.00", "ref": "Gross Stage 3 (%) 1.00%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Sep-23": {"v": "1.04", "ref": "Gross Stage 3 (%) 1.04%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Dec-23": {"v": "1.09", "ref": "Gross Stage 3 (%) 1.09%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Mar-24": {"v": "0.94", "ref": "Gross Stage 3 (%) 0.94%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Jun-24": {"v": "1.01", "ref": "Gross Stage 3 (%) 1.01%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Sep-24": {"v": "1.08", "ref": "Gross Stage 3 (%) 1.08%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Dec-24": {"v": "1.14", "ref": "Gross Stage 3 (%) 1.14%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Mar-25": {"v": "1.08", "ref": "Gross Stage 3 (%) 1.08%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "Sep-25": {"v": "1.24", "ref": "Gross Stage 3* 1.24%", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Dec-25": {"v": "1.19", "ref": "Stage 3 1.19%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "33", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Net Stage 3",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec-22": {"v": "0.87", "ref": "Net Stage 3 (%) 0.87%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Mar-23": {"v": "0.68", "ref": "Net Stage 3 (%) 0.68%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Jun-23": {"v": "0.73", "ref": "Net Stage 3 (%) 0.73%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Sep-23": {"v": "0.76", "ref": "Net Stage 3 (%) 0.76%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Dec-23": {"v": "0.79", "ref": "Net Stage 3 (%) 0.79%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Mar-24": {"v": "0.67", "ref": "Net Stage 3 (%) 0.67%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Jun-24": {"v": "0.72", "ref": "Net Stage 3 (%) 0.72%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Sep-24": {"v": "0.78", "ref": "Net Stage 3 (%) 0.78%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Dec-24": {"v": "0.81", "ref": "Net Stage 3 (%) 0.81%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Mar-25": {"v": "0.66", "ref": "ECL Provision 0.66%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "33", "conf": "HIGH"},
+            "Sep-25": {"v": "0.72", "ref": "ECL Provision 0.72%", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "32", "conf": "HIGH"},
+            "Dec-25": {"v": "0.73", "ref": "ECL Provision % 0.73%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "33", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "1+DPD",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec-22": {"v": "4.05", "ref": "1+DPD (%) 4.05%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Mar-23": {"v": "3.30", "ref": "1+DPD (%) 3.30%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Jun-23": {"v": "3.68", "ref": "1+DPD (%) 3.68%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Sep-23": {"v": "3.58", "ref": "1+DPD (%) 3.58%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Dec-23": {"v": "3.75", "ref": "1+DPD (%) 3.75%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Mar-24": {"v": "3.12", "ref": "1+DPD (%) 3.12%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Jun-24": {"v": "3.65", "ref": "1+DPD (%) 3.65%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Sep-24": {"v": "3.97", "ref": "1+DPD (%) 3.97%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"},
+            "Dec-24": {"v": "3.85", "ref": "1+DPD (%) 3.85%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "23", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Spread",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY20": {"v": "6.40", "ref": "Spread 6.40%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "21", "conf": "MEDIUM"},
+            "FY21": {"v": "6.98", "ref": "Spread 6.98%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "21", "conf": "MEDIUM"},
+            "FY22": {"v": "7.27", "ref": "Spread 7.27%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "21", "conf": "MEDIUM"},
+            "FY23": {"v": "7.38", "ref": "Spread 7.38%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "21", "conf": "MEDIUM"},
+            "FY24": {"v": "6.92", "ref": "Spread 6.92%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "21", "conf": "MEDIUM"},
+            "FY25": {"v": "6.62", "ref": "Spread 6.62%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "21", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "Net Interest Margin (NIM)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY20": {"v": "6.41", "ref": "Net Interest Income (NII) 6.41%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY21": {"v": "6.98", "ref": "Net Interest Income (NII) 6.98%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY22": {"v": "7.27", "ref": "Net Interest Income (NII) 7.27%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY23": {"v": "7.38", "ref": "Net Interest Income (NII) 7.38%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY24": {"v": "6.92", "ref": "Net Interest Income (NII) 6.92%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY25": {"v": "6.62", "ref": "Net Interest Income (NII) 6.62%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q1FY24": {"v": "8.00", "ref": "NIM (%) 8.00%", "src": "Jul-2024_112f74f4-bd86-44dd-8720-dc88e8d4dbfe_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q1FY25": {"v": "7.31", "ref": "NIM (%) 7.31%", "src": "Jul-2024_112f74f4-bd86-44dd-8720-dc88e8d4dbfe_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Return on Assets (RoA)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY20": {"v": "3.75", "ref": "Profit After Tax 3.75%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY21": {"v": "3.48", "ref": "Profit After Tax 3.48%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY22": {"v": "3.57", "ref": "Profit After Tax 3.57%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY23": {"v": "3.52", "ref": "Profit After Tax 3.52%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY24": {"v": "3.28", "ref": "Profit After Tax 3.28%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY25": {"v": "3.27", "ref": "Profit After Tax 3.27%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "Q1FY24": {"v": "3.16", "ref": "ROA (%) 3.16%", "src": "Jul-2024_112f74f4-bd86-44dd-8720-dc88e8d4dbfe_IP.pdf", "pg": "15", "conf": "HIGH"},
+            "Q1FY25": {"v": "3.01", "ref": "ROA (%) 3.01%", "src": "Jul-2024_112f74f4-bd86-44dd-8720-dc88e8d4dbfe_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Return on Equity (RoE)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY20": {"v": "12.66", "ref": "ROE 12.66%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY21": {"v": "12.87", "ref": "ROE 12.87%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY22": {"v": "13.70", "ref": "ROE 13.70%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY23": {"v": "14.15", "ref": "ROE 14.15%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY24": {"v": "13.93", "ref": "ROE 13.93%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY25": {"v": "14.12", "ref": "ROE 14.12%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Leverage (Avg Total Assets to Avg Net Worth)",
+          "unit": "x",
+          "metric_type": "periodic",
+          "values": {
+            "FY20": {"v": "3.38", "ref": "Leverage (Avg Total Assets to Avg Net Worth) (x) 3.38", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY21": {"v": "3.69", "ref": "Leverage (Avg Total Assets to Avg Net Worth) (x) 3.69", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY22": {"v": "3.83", "ref": "Leverage (Avg Total Assets to Avg Net Worth) (x) 3.83", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY23": {"v": "4.02", "ref": "Leverage (Avg Total Assets to Avg Net Worth) (x) 4.02", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY24": {"v": "4.25", "ref": "Leverage (Avg Total Assets to Avg Net Worth) (x) 4.25", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"},
+            "FY25": {"v": "4.32", "ref": "Leverage (Avg Total Assets to Avg Net Worth) (x) 4.32", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "34", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Lifetime write-off",
+          "unit": "bps",
+          "metric_type": "periodic",
+          "values": {
+            "Dec-24": {"v": "11", "ref": "Lifetime write-off of ~π 385 mn against lifetime disbursement of ~π 352 bn", "src": "Aug-2025_eed6b348-fed2-452c-8b5c-c9c738bfddfb_IP.pdf", "pg": "23", "conf": "LOW"},
+            "Sep-25": {"v": "11", "ref": "Lifetime write-off of 11 bps against lifetime disbursement of ~π 368 bn", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "23", "conf": "LOW"},
+            "Dec-25": {"v": "11", "ref": "Lifetime write-off of 11 bps against lifetime disbursement of ~π 385 bn", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "26", "conf": "LOW"}
+          }
+        },
+        {
+          "particulars": "Average tenor of outstanding borrowings",
+          "unit": "months",
+          "metric_type": "periodic",
+          "values": {
+            "Jun-25": {"v": "126", "ref": "Average tenor of outstanding borrowings is 126 months as on June 25", "src": "Aug-2025_eed6b348-fed2-452c-8b5c-c9c738bfddfb_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Sep-25": {"v": "126", "ref": "Average tenor of outstanding borrowings is 126 months as on Sep 25", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "25", "conf": "HIGH"},
+            "Dec-25": {"v": "126", "ref": "Average tenor of outstanding borrowings is 126 months as on Sep 25", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "28", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Login to Sanction TAT",
+          "unit": "days",
+          "metric_type": "periodic",
+          "values": {
+            "FY21": {"v": "13", "ref": "Login to Sanction TAT (days) 13", "src": "Aug-2025_eed6b348-fed2-452c-8b5c-c9c738bfddfb_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "FY22": {"v": "10", "ref": "Login to Sanction TAT (days) 10", "src": "Aug-2025_eed6b348-fed2-452c-8b5c-c9c738bfddfb_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "FY23": {"v": "11", "ref": "Login to Sanction TAT (days) 11", "src": "Aug-2025_eed6b348-fed2-452c-8b5c-c9c738bfddfb_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "FY24": {"v": "9", "ref": "Login to Sanction TAT (days) 9", "src": "Aug-2025_eed6b348-fed2-452c-8b5c-c9c738bfddfb_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "FY25": {"v": "7", "ref": "Login to Sanction TAT (days) 7", "src": "Aug-2025_eed6b348-fed2-452c-8b5c-c9c738bfddfb_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1FY26": {"v": "6", "ref": "Login to Sanction TAT (days) 6", "src": "Aug-2025_eed6b348-fed2-452c-8b5c-c9c738bfddfb_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Digital Led Business",
+          "unit": "₹ Mn",
+          "metric_type": "periodic",
+          "values": {
+            "9MFY26": {"v": "14,600", "ref": "Digital Led Business (Rs. In Mn) 14,600", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Unique Customer login in App",
+          "unit": "#",
+          "metric_type": "periodic",
+          "values": {
+            "Q1FY25": {"v": "40,000+", "ref": "Unique Customer login in App 40,000+", "src": "Aug-2025_eed6b348-fed2-452c-8b5c-c9c738bfddfb_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1FY26": {"v": "65,000+", "ref": "Unique Customer login in App 65,000+", "src": "Aug-2025_eed6b348-fed2-452c-8b5c-c9c738bfddfb_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "9MFY26": {"v": "65,000+", "ref": "Unique Customer login in App 65,000+", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Gen AI Bot Conversation",
+          "unit": "#",
+          "metric_type": "periodic",
+          "values": {
+            "Q1FY25": {"v": "4,800", "ref": "Gen AI Bot Conversation ~4,800", "src": "Aug-2025_eed6b348-fed2-452c-8b5c-c9c738bfddfb_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "Q1FY26": {"v": "29,000", "ref": "Gen AI Bot Conversation ~29,000", "src": "Aug-2025_eed6b348-fed2-452c-8b5c-c9c738bfddfb_IP.pdf", "pg": "12", "conf": "HIGH"},
+            "9MFY26": {"v": "29,000", "ref": "Gen AI Bot Conversation 29,000", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "15", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Requests served via App",
+          "unit": "#",
+          "metric_type": "periodic",
+          "values": {
+            "Q1FY25": {"v": "47%", "ref": "47%", "src": "Aug-2025_eed6b348-fed2-452c-8b5c-c9c738bfddfb_IP.pdf", "pg": "12", "conf": "LOW"},
+            "Q1FY26": {"v": "71%", "ref": "71%", "src": "Aug-2025_eed6b348-fed2-452c-8b5c-c9c738bfddfb_IP.pdf", "pg": "12", "conf": "LOW"}
+          }
+        },
+        {
+          "particulars": "Online disbursal",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec-24": {"v": "70", "ref": "increased Online disbursal to 70%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Paper usage reduction",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Dec-24": {"v": "47", "ref": "cut the paper usage by 47%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "12", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Capital Adequacy Ratio (CRAR)",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "FY23": {"v": "24.4", "ref": "Capital Adequacy Ratio (%) 24.4", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "28", "conf": "MEDIUM"},
+            "FY24": {"v": "23.6", "ref": "Capital Adequacy Ratio (%) 23.6", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "28", "conf": "MEDIUM"},
+            "FY25": {"v": "25.3", "ref": "Capital Adequacy Ratio (%) 25.3", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "28", "conf": "MEDIUM"}
+          }
+        },
+        {
+          "particulars": "States/UTs present",
+          "unit": "#",
+          "metric_type": "periodic",
+          "values": {
+            "Mar-25": {"v": "14", "ref": "14 States/UTs", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "20", "conf": "HIGH"},
+            "Dec-25": {"v": "14", "ref": "14 States/UTs", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "20", "conf": "HIGH"}
+          }
+        },
+        {
+          "particulars": "Women Directors on Board",
+          "unit": "#",
+          "metric_type": "static_descriptor",
+          "value": "3",
+          "ref": "3 women Directors of the Board",
+          "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf",
+          "pg": "38",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Independent Directors on Board",
+          "unit": "#",
+          "metric_type": "static_descriptor",
+          "value": "3",
+          "ref": "3 out of 9 Independent Directors on the board",
+          "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf",
+          "pg": "38",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Separate Chairperson and MD & CEO",
+          "unit": "Yes/No",
+          "metric_type": "static_descriptor",
+          "value": "Yes",
+          "ref": "Different role of Chairperson and MD & CEO",
+          "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf",
+          "pg": "38",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Malus and Claw Back Clause",
+          "unit": "Yes/No",
+          "metric_type": "static_descriptor",
+          "value": "Yes",
+          "ref": "Executive Remuneration is bound by Malus and Claw Back Clause",
+          "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf",
+          "pg": "38",
+          "conf": "HIGH"
+        },
+        {
+          "particulars": "Board Evaluation through digital mode",
+          "unit": "Yes/No",
+          "metric_type": "static_descriptor",
+          "value": "Yes",
+          "ref": "Board Evaluation through digital mode",
+          "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf",
+          "pg": "38",
+          "conf": "HIGH"
+        }
+      ]
+    },
+    {
+      "segment_name": "Company-wide - AUM Mix",
+      "data": [
+        {
+          "particulars": "AUM - Housing Loan (HL) Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Jun-24": {"v": "69", "ref": "69%", "src": "Jul-2024_112f74f4-bd86-44dd-8720-dc88e8d4dbfe_IP.pdf", "pg": "17", "conf": "LOW"},
+            "Sep-24": {"v": "69", "ref": "69%", "src": "Nov-2024_47caa6c8-92e4-4a5a-b044-d4a23726118c_IP.pdf", "pg": "17", "conf": "LOW"},
+            "Dec-24": {"v": "69", "ref": "69%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Mar-25": {"v": "69", "ref": "69%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Sep-25": {"v": "67", "ref": "67%", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Dec-25": {"v": "66", "ref": "66%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"}
+          }
+        },
+        {
+          "particulars": "AUM - MSME Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Jun-24": {"v": "18", "ref": "18%", "src": "Jul-2024_112f74f4-bd86-44dd-8720-dc88e8d4dbfe_IP.pdf", "pg": "17", "conf": "LOW"},
+            "Sep-24": {"v": "18", "ref": "18%", "src": "Nov-2024_47caa6c8-92e4-4a5a-b044-d4a23726118c_IP.pdf", "pg": "17", "conf": "LOW"},
+            "Dec-24": {"v": "18", "ref": "18%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Mar-25": {"v": "18", "ref": "18%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Sep-25": {"v": "20", "ref": "20%", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Dec-25": {"v": "21", "ref": "21%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"}
+          }
+        },
+        {
+          "particulars": "AUM - Loan Against Property (LAP) Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Jun-24": {"v": "13", "ref": "13%", "src": "Jul-2024_112f74f4-bd86-44dd-8720-dc88e8d4dbfe_IP.pdf", "pg": "17", "conf": "LOW"},
+            "Sep-24": {"v": "13", "ref": "13%", "src": "Nov-2024_47caa6c8-92e4-4a5a-b044-d4a23726118c_IP.pdf", "pg": "17", "conf": "LOW"},
+            "Dec-24": {"v": "13", "ref": "13%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Mar-25": {"v": "13", "ref": "13%", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Sep-25": {"v": "13", "ref": "13%", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Dec-25": {"v": "13", "ref": "13%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"}
+          }
+        },
+        {
+          "particulars": "AUM - Self employed Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Sep-24": {"v": "60", "ref": "60%", "src": "Nov-2024_47caa6c8-92e4-4a5a-b044-d4a23726118c_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Dec-24": {"v": "60", "ref": "60%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Sep-25": {"v": "61", "ref": "61%", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Dec-25": {"v": "61", "ref": "61%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"}
+          }
+        },
+        {
+          "particulars": "AUM - Salaried Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Sep-24": {"v": "40", "ref": "40%", "src": "Nov-2024_47caa6c8-92e4-4a5a-b044-d4a23726118c_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Dec-24": {"v": "40", "ref": "40%", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Sep-25": {"v": "39", "ref": "39%", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Dec-25": {"v": "39", "ref": "39%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"}
+          }
+        }
+      ]
+    },
+    {
+      "segment_name": "Company-wide - Disbursement Mix",
+      "data": [
+        {
+          "particulars": "Disbursement - HL Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY25": {"v": "58", "ref": "58%", "src": "Nov-2024_47caa6c8-92e4-4a5a-b044-d4a23726118c_IP.pdf", "pg": "18", "conf": "LOW"},
+            "H1 FY26": {"v": "66", "ref": "66%", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "18", "conf": "LOW"},
+            "9M FY25": {"v": "60", "ref": "60%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"},
+            "9M FY26": {"v": "69", "ref": "69%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"}
+          }
+        },
+        {
+          "particulars": "Disbursement - MSME Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY25": {"v": "23", "ref": "23%", "src": "Nov-2024_47caa6c8-92e4-4a5a-b044-d4a23726118c_IP.pdf", "pg": "18", "conf": "LOW"},
+            "H1 FY26": {"v": "30", "ref": "30%", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "18", "conf": "LOW"},
+            "9M FY25": {"v": "18", "ref": "18%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"},
+            "9M FY26": {"v": "13", "ref": "13%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"}
+          }
+        },
+        {
+          "particulars": "Disbursement - LAP Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "H1 FY25": {"v": "19", "ref": "19%", "src": "Nov-2024_47caa6c8-92e4-4a5a-b044-d4a23726118c_IP.pdf", "pg": "18", "conf": "LOW"},
+            "H1 FY26": {"v": "11", "ref": "11%", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "18", "conf": "LOW"},
+            "9M FY25": {"v": "12", "ref": "12%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"},
+            "9M FY26": {"v": "11", "ref": "11%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"}
+          }
+        },
+        {
+          "particulars": "Disbursement - Self employed Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Sep-24": {"v": "63", "ref": "63%", "src": "Nov-2024_47caa6c8-92e4-4a5a-b044-d4a23726118c_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Sep-25": {"v": "66", "ref": "66%", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "18", "conf": "LOW"},
+            "9M FY25": {"v": "60", "ref": "60%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"},
+            "9M FY26": {"v": "61", "ref": "61%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"}
+          }
+        },
+        {
+          "particulars": "Disbursement - Salaried Share",
+          "unit": "%",
+          "metric_type": "periodic",
+          "values": {
+            "Sep-24": {"v": "37", "ref": "37%", "src": "Nov-2024_47caa6c8-92e4-4a5a-b044-d4a23726118c_IP.pdf", "pg": "18", "conf": "LOW"},
+            "Sep-25": {"v": "34", "ref": "34%", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "18", "conf": "LOW"},
+            "9M FY25": {"v": "40", "ref": "40%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"},
+            "9M FY26": {"v": "39", "ref": "39%", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "21", "conf": "LOW"}
+          }
+        }
+      ]
+    }
+  ],
+  "accolades": [
+    {
+      "particulars": "CRISIL Rating",
+      "unit": "Scale",
+      "metric_type": "periodic",
+      "values": {
+        "Dec-24": {"v": "61 – Strong", "ref": "CRISIL 61 – Strong", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "36", "conf": "HIGH"},
+        "Mar-25": {"v": "63 – Strong", "ref": "CRISIL 63 – Strong", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "36", "conf": "HIGH"},
+        "Sep-25": {"v": "64 (Strong)", "ref": "CRISIL 64 (Strong)", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "35", "conf": "HIGH"},
+        "Dec-25": {"v": "64 (Strong)", "ref": "CRISIL 64 (Strong)", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "38", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "ESG Risk Assessment",
+      "unit": "Scale",
+      "metric_type": "periodic",
+      "values": {
+        "Dec-24": {"v": "70.62 – Strong", "ref": "ESG RISK ASSESSMENT 70.62 – Strong", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "36", "conf": "HIGH"},
+        "Mar-25": {"v": "70.62 – Strong", "ref": "ESG RISK ASSESSMENT 70.62 – Strong", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "36", "conf": "HIGH"},
+        "Sep-25": {"v": "70.62 (Excellent)", "ref": "ESG RISK ASSESSMENT 70.62 (Excellent)", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "35", "conf": "HIGH"},
+        "Dec-25": {"v": "67 (Strong)", "ref": "ESG RISK ASSESSMENT 67 (Strong)", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "38", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "MORNINGSTAR Sustainability Rating",
+      "unit": "Scale",
+      "metric_type": "periodic",
+      "values": {
+        "Dec-24": {"v": "23.94 – Medium Risk", "ref": "MORNINGSTAR* (Sustainability) 23.94 – Medium Risk", "src": "Feb-2025_3f170277-4be9-40f6-81d0-072c0156f00a_IP.pdf", "pg": "36", "conf": "HIGH"},
+        "Mar-25": {"v": "23.94 – Medium Risk", "ref": "MORNINGSTAR* (Sustainability) 23.94 – Medium Risk", "src": "Apr-2025_4b3f9386-0455-4d25-af4d-1135709948a7_IP.pdf", "pg": "36", "conf": "HIGH"},
+        "Sep-25": {"v": "23.9 (Medium Risk)", "ref": "MORNINGSTAR* (Sustainabilitys) 23.9 (Medium Risk)", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "35", "conf": "HIGH"},
+        "Dec-25": {"v": "23.9 (Medium Risk)", "ref": "MORNINGSTAR* (Sustainability) 23.9 (Medium Risk)", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "38", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "NSE Sustainability Rating",
+      "unit": "Scale",
+      "metric_type": "periodic",
+      "values": {
+        "Sep-25": {"v": "77.8 (Medium Risk)", "ref": "NSE Sustainability 77.8 (Medium Risk)", "src": "Nov-2025_5dc7ff2e-b9b0-4e2e-a493-ea7da1a5dc1b_IP.pdf", "pg": "35", "conf": "HIGH"},
+        "Dec-25": {"v": "67", "ref": "NSE Sustainability 67", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "38", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "S&P Global ESG Score",
+      "unit": "Scale",
+      "metric_type": "periodic",
+      "values": {
+        "Dec-25": {"v": "35", "ref": "S&P Global ESG Score 35", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "38", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "SES ESG Research",
+      "unit": "Scale",
+      "metric_type": "periodic",
+      "values": {
+        "Dec-25": {"v": "77.8-Medium", "ref": "SES ESG Research 77.8-Medium", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "38", "conf": "HIGH"}
+      }
+    },
+    {
+      "particulars": "CFC Finlease Private Limited Rating",
+      "unit": "Scale",
+      "metric_type": "periodic",
+      "values": {
+        "Dec-25": {"v": "82 (Excellent)", "ref": "CFC Finlease Private Limited 82 (Excellent)", "src": "Feb-2026_9d4583aa-b794-4094-8369-4e6e9214043c_IP.pdf", "pg": "38", "conf": "HIGH"}
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZOLT.AI — Core Competency</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#05080e;--surface:#0c1018;--surface2:#121a25;--surface3:#182030;--border:#1a2435;--border2:#243045;--text:#dde3ed;--dim:#6b7a8d;--muted:#3d4a5c;--accent:#0fa;--accent2:#06d6a0;--accent-dim:rgba(0,255,170,.06);--gold:#fbbf24;--font-body:'DM Sans',sans-serif;--font-mono:'Space Mono',monospace;--font-display:'Newsreader',serif}
+body.light{--bg:#f5f7fa;--surface:#fff;--surface2:#f0f2f5;--surface3:#e4e8ee;--border:#dce0e8;--border2:#c8cdd5;--text:#1a1f2e;--dim:#6b7585;--muted:#b0b8c4;--accent:#0d9668;--accent2:#06b57a;--accent-dim:rgba(13,150,104,.06);--gold:#b8860b}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);min-height:100vh;transition:background .3s,color .3s}
+.top{padding:2rem 3rem 1.2rem;display:flex;align-items:center;gap:1rem;border-bottom:1px solid var(--border)}
+.logo{font-family:var(--font-mono);font-size:1.1rem;color:var(--accent);font-weight:700;letter-spacing:.5px}.logo span{color:var(--dim)}
+.tag{font-size:.62rem;color:var(--dim);padding:3px 10px;border:1px solid var(--border);border-radius:4px;text-transform:uppercase;letter-spacing:1.5px}
+.nav-link{font-size:.72rem;color:var(--dim);padding:5px 14px;border:1px solid var(--border);border-radius:6px;text-decoration:none;font-weight:600;transition:.2s}
+.nav-link:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-dim)}
+.top-right{margin-left:auto;display:flex;gap:.8rem;align-items:center}
+.search-box{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:.5rem 1rem;color:var(--text);font-family:var(--font-body);font-size:.78rem;width:240px;outline:none;transition:.2s}
+.search-box:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,255,170,.08)}.search-box::placeholder{color:var(--dim)}
+.theme-btn{background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:5px 12px;cursor:pointer;font-size:.72rem;color:var(--dim);font-family:var(--font-body);transition:.2s}
+.theme-btn:hover{color:var(--accent);border-color:var(--accent)}
+.summary{display:flex;gap:0;padding:0 3rem;border-bottom:1px solid var(--border);background:var(--surface)}
+.sum-item{padding:1rem 1.5rem;border-right:1px solid var(--border);display:flex;flex-direction:column;gap:2px}.sum-item:last-child{border-right:none}
+.sum-val{font-family:var(--font-mono);font-size:1.3rem;color:var(--accent)}.sum-label{font-size:.58rem;color:var(--dim);text-transform:uppercase;letter-spacing:1px}
+.grid{padding:2rem 3rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:1.2rem}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;cursor:pointer;transition:.3s;overflow:hidden}
+.card:hover{border-color:var(--accent);transform:translateY(-3px);box-shadow:0 12px 40px rgba(0,255,170,.06)}
+.card-top{padding:1.5rem 1.5rem 0;display:flex;gap:1rem;align-items:flex-start}
+.card-info{flex:1;min-width:0}.card-name{font-family:var(--font-display);font-size:1.2rem;font-weight:600;margin-bottom:.2rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card-range{font-size:.62rem;color:var(--dim);font-family:var(--font-mono);margin-bottom:.5rem}.card-range b{color:var(--accent)}
+.card-donut{flex-shrink:0;width:68px;height:68px;position:relative}.card-donut canvas{width:68px;height:68px}
+.donut-center{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center}
+.donut-center .dc-val{font-family:var(--font-mono);font-size:.85rem;color:var(--accent);line-height:1}.donut-center .dc-label{font-size:.45rem;color:var(--dim);text-transform:uppercase;letter-spacing:.5px}
+.card-stats{display:flex;gap:0;padding:.8rem 0 0;margin:0 1.5rem;border-top:1px solid var(--border)}
+.cstat{flex:1;padding:.5rem 0;text-align:center;border-right:1px solid var(--border)}.cstat:last-child{border-right:none}
+.cstat-val{font-family:var(--font-mono);font-size:.9rem;color:var(--text)}.cstat-label{font-size:.5rem;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-top:1px}
+.card-coverage{padding:.8rem 1.5rem 0}.cov-label{font-size:.52rem;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;display:flex;justify-content:space-between}
+.cov-bar{height:5px;background:var(--surface3);border-radius:3px;overflow:hidden;display:flex;gap:1px}.cov-fill{height:100%;border-radius:2px}
+.card-segs{display:flex;flex-wrap:wrap;gap:4px;padding:.8rem 1.5rem 1.2rem}
+.seg-pill{font-size:.55rem;color:var(--dim);padding:2px 7px;border:1px solid var(--border);border-radius:4px;white-space:nowrap;max-width:160px;overflow:hidden;text-overflow:ellipsis}
+.disc-badge{font-size:.55rem;color:var(--gold);padding:2px 7px;border:1px solid rgba(251,191,36,.3);border-radius:4px;background:rgba(251,191,36,.06)}
+a{text-decoration:none;color:inherit}
+.card{opacity:0;animation:fadeUp .4s ease forwards}@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:768px){.top,.summary,.grid{padding-left:1rem;padding-right:1rem}.grid{grid-template-columns:1fr}.search-box{width:140px}}
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="logo">ZOLT<span>.AI</span></div>
+  <div class="tag">Core Competency</div>
+  <a href="/screener" class="nav-link">⚡ Screener</a>
+  <div class="top-right">
+    <input type="text" class="search-box" id="searchBox" placeholder="Search companies…" autocomplete="off">
+    <button class="theme-btn" id="themeBtn" onclick="toggleTheme()">☀ Light</button>
+  </div>
+</div>
+{% set ns_g = namespace(total_metrics=0, total_dp=0, total_segs=0) %}
+{% for c in companies %}{% set ns_g.total_metrics = ns_g.total_metrics + c.metrics %}{% set ns_g.total_dp = ns_g.total_dp + c.datapoints %}{% set ns_g.total_segs = ns_g.total_segs + c.segments %}{% endfor %}
+<div class="summary">
+  <div class="sum-item"><span class="sum-val">{{ companies|length }}</span><span class="sum-label">Companies</span></div>
+  <div class="sum-item"><span class="sum-val">{{ ns_g.total_segs }}</span><span class="sum-label">Segments</span></div>
+  <div class="sum-item"><span class="sum-val">{{ ns_g.total_metrics }}</span><span class="sum-label">Metrics</span></div>
+  <div class="sum-item"><span class="sum-val">{{ '{:,}'.format(ns_g.total_dp) }}</span><span class="sum-label">Data Points</span></div>
+</div>
+{% if companies %}
+<div class="grid" id="cardGrid">
+  {% for c in companies %}
+  <a href="/company/{{ c.filename }}" class="card-link">
+  <div class="card" style="animation-delay:{{ loop.index0 * 30 }}ms" data-name="{{ c.name|lower }}">
+    <div class="card-top">
+      <div class="card-info">
+        <div class="card-name">{{ c.name }}</div>
+        <div class="card-range">{% if c.time_range != '—' %}<b>{{ c.time_range }}</b> · {% endif %}{% if c.documents_scanned != '—' %}{{ c.documents_scanned }} docs{% endif %}</div>
+      </div>
+      <div class="card-donut"><canvas width="136" height="136" data-segments="{{ c.segments }}"></canvas><div class="donut-center"><div class="dc-val">{{ c.segments }}</div><div class="dc-label">Segs</div></div></div>
+    </div>
+    <div class="card-stats">
+      <div class="cstat"><span class="cstat-val">{{ c.metrics }}</span><span class="cstat-label">Metrics</span></div>
+      <div class="cstat"><span class="cstat-val">{{ '{:,}'.format(c.datapoints) }}</span><span class="cstat-label">Data Pts</span></div>
+      <div class="cstat"><span class="cstat-val">{{ c.accolades }}</span><span class="cstat-label">Accolades</span></div>
+    </div>
+    <div class="card-coverage"><div class="cov-label"><span>Segment Coverage</span><span>{{ c.segments }} segments</span></div><div class="cov-bar" data-seg-names='{{ c.segment_names | tojson }}'></div></div>
+    <div class="card-segs">
+      {% for s in c.segment_names[:5] %}<span class="seg-pill">{{ s[:28] }}{% if s|length > 28 %}…{% endif %}</span>{% endfor %}
+      {% if c.segment_names|length > 5 %}<span class="seg-pill">+{{ c.segment_names|length - 5 }}</span>{% endif %}
+      {% if c.has_discovery %}<span class="disc-badge">⚡ Discovery</span>{% endif %}
+    </div>
+  </div></a>
+  {% endfor %}
+</div>
+{% endif %}
+<div style="height:2rem"></div>
+<script>
+function toggleTheme(){document.body.classList.toggle('light');const l=document.body.classList.contains('light');document.getElementById('themeBtn').innerHTML=l?'🌙 Dark':'☀ Light';try{localStorage.setItem('zolt-theme',l?'light':'dark')}catch(e){}}
+try{if(localStorage.getItem('zolt-theme')==='light'){document.body.classList.add('light');document.getElementById('themeBtn').innerHTML='🌙 Dark'}}catch(e){}
+const COLORS=['#0fa','#06d6a0','#60a5fa','#a78bfa','#f472b6','#fbbf24','#fb923c','#34d399','#818cf8','#e879f9','#f97316','#22d3ee'];
+document.getElementById('searchBox').addEventListener('input',function(){const q=this.value.toLowerCase();document.querySelectorAll('.card').forEach(c=>{c.closest('.card-link').style.display=c.dataset.name.includes(q)?'':'none'})});
+document.querySelectorAll('.card-donut canvas').forEach(canvas=>{const segs=parseInt(canvas.dataset.segments)||1;const ctx=canvas.getContext('2d');const cx=68,cy=68,r=52;let angle=-Math.PI/2;for(let i=0;i<segs;i++){const slice=(1/segs)*Math.PI*2;ctx.beginPath();ctx.arc(cx,cy,r,angle,angle+slice-0.06);ctx.strokeStyle=COLORS[i%COLORS.length];ctx.lineWidth=10;ctx.lineCap='round';ctx.stroke();angle+=slice}});
+document.querySelectorAll('.cov-bar').forEach(bar=>{try{JSON.parse(bar.dataset.segNames).forEach((_,i)=>{const f=document.createElement('div');f.className='cov-fill';f.style.flex='1';f.style.background=COLORS[i%COLORS.length];f.style.opacity='.7';bar.appendChild(f)})}catch(e){}});
+</script>
+
+<!-- ZOLT.AI Avatar -->
+<style>
+.zolt-float{position:fixed;bottom:1.5rem;right:1.5rem;z-index:200;cursor:pointer;transition:.3s;text-decoration:none}
+.zolt-float:hover{transform:scale(1.15)}
+.zolt-float svg{width:60px;height:60px}
+.zolt-float-pulse{position:absolute;top:50%;left:50%;width:60px;height:60px;border-radius:50%;background:rgba(251,191,36,.15);transform:translate(-50%,-50%);animation:floatPulse 2s ease-in-out infinite;pointer-events:none}
+@keyframes floatPulse{0%,100%{transform:translate(-50%,-50%) scale(1);opacity:.5}50%{transform:translate(-50%,-50%) scale(1.6);opacity:0}}
+.zolt-float-label{position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);font-family:var(--font-mono);font-size:.45rem;color:var(--gold);letter-spacing:1px;white-space:nowrap;opacity:.7}
+</style>
+<a href="/chat" class="zolt-float" title="ZOLT.AI Chat">
+  <div class="zolt-float-pulse"></div>
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Glow ring -->
+    <circle cx="50" cy="42" r="30" fill="none" stroke="#fbbf24" stroke-width=".6" opacity=".25">
+      <animate attributeName="r" values="28;33;28" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".15;.35;.15" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Body: Lightning bolt ⚡ -->
+    <polygon points="55,8 35,45 48,45 40,72 42,72 65,38 52,38 62,8" fill="#fbbf24">
+      <animate attributeName="opacity" values="1;.85;1" dur="1.5s" repeatCount="indefinite"/>
+    </polygon>
+    <!-- Eyes -->
+    <circle cx="45" cy="33" r="2" fill="#05080e"/>
+    <circle cx="53" cy="33" r="2" fill="#05080e"/>
+    <path d="M46.5,37 Q49,40 51.5,37" fill="none" stroke="#05080e" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Left leg -->
+    <rect x="44" y="72" width="3" height="11" rx="1.5" fill="#fbbf24" opacity=".8">
+      <animateTransform attributeName="transform" type="rotate" values="-6,45.5,72;6,45.5,72;-6,45.5,72" dur=".8s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Right leg -->
+    <rect x="52" y="70" width="3" height="11" rx="1.5" fill="#fbbf24" opacity=".8">
+      <animateTransform attributeName="transform" type="rotate" values="6,53.5,70;-6,53.5,70;6,53.5,70" dur=".8s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Glow filter -->
+    <defs>
+      <filter id="boltGlow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    </defs>
+  </svg>
+  <div class="zolt-float-label">CHAT</div>
+</a>
+
+</body>
+</html>
