@@ -12,7 +12,7 @@ from flask import Flask, render_template, jsonify, abort, send_file, request, Re
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_DIR = os.path.join(BASE_DIR, "Input")
 IP_DIR = os.path.join(BASE_DIR, "Investor Presentation")
-PORT = 6533
+PORT = int(os.environ.get("PORT", 6533))
 
 app = Flask(__name__)
 
@@ -818,4 +818,4 @@ if __name__ == "__main__":
         print(f"    • {c['name']} — {c['time_range']} — {c['documents_scanned']} docs")
     print(f"\n  Open: http://localhost:{PORT}")
     print(f"  Screener: http://localhost:{PORT}/screener\n")
-    app.run(host="0.0.0.0", port=PORT, debug=True)
+    app.run(host="0.0.0.0", port=PORT)
